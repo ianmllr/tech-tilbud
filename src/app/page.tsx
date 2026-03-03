@@ -8,9 +8,9 @@ export default function Home() {
     const { filtered, selectedProviders, setSelectedProviders, sortOrder, setSortOrder, hideNegative, setHideNegative, search, setSearch } = useOffers()
 
     return (
-        <main className="min-h-screen bg-[#0a0a0a] p-8">
+        <main className="min-h-screen bg-[#20262f] p-8">
             <div className="max-w-[1200px] mx-auto">
-                <h1 className="mb-6 text-[#ededed]">Mobiltelefoner med abonnement</h1>
+                <h1 className="mb-6 text-[#cdd6e0]">Mobiltelefoner med abonnement</h1>
 
                 <div className="flex gap-4 mb-8 flex-wrap items-center">
                     <ProviderFilter selected={selectedProviders} onChange={setSelectedProviders} />
@@ -19,8 +19,8 @@ export default function Home() {
                         onClick={() => setHideNegative(v => !v)}
                         className={`px-4 py-2 rounded-md border text-sm transition-colors ${
                             hideNegative
-                                ? 'bg-green-700 border-green-600 text-white'
-                                : 'bg-[#1a1a1a] border-gray-600 text-gray-300 hover:border-gray-400'
+                                ? 'bg-[#4a90b8] border-[#4a90b8] text-white'
+                                : 'bg-[#2a3340] border-[#334155] text-[#7d8fa0] hover:border-[#4a90b8]'
                         }`}
                     >
                         {hideNegative ? 'Skjuler tilbud du ikke sparer penge på' : 'Skjul tilbud du ikke sparer penge på'}
@@ -30,7 +30,7 @@ export default function Home() {
                         value={search}
                         onChange={e => setSearch(e.target.value)}
                         placeholder="Søg efter telefon..."
-                        className="px-4 py-2 rounded-md border border-gray-600 bg-[#1a1a1a] text-[#ededed] text-sm placeholder-gray-500 focus:outline-none focus:border-gray-400"
+                        className="px-4 py-2 rounded-md border border-[#334155] bg-[#2a3340] text-[#cdd6e0] text-sm placeholder-[#7d8fa0] focus:outline-none focus:border-[#4a90b8]"
                     />
                 </div>
 

@@ -26,8 +26,8 @@ export default function ProviderFilter({ selected, onChange }: ProviderFilterPro
                 onClick={toggleAll}
                 className={`px-4 py-2 rounded-md border text-sm cursor-pointer transition-colors
                     ${allSelected
-                        ? 'bg-[#ededed] border-[#ededed] text-black'
-                        : 'bg-[#1a1a1a] border-gray-600 text-gray-400 hover:border-gray-400'}`}
+                        ? 'bg-[#4a90b8] border-[#4a90b8] text-white'
+                        : 'bg-[#2a3340] border-[#334155] text-[#7d8fa0] hover:border-[#4a90b8]'}`}
             >
                 Alle
             </button>
@@ -37,8 +37,8 @@ export default function ProviderFilter({ selected, onChange }: ProviderFilterPro
                     onClick={() => toggleOne(p)}
                     className={`px-4 py-2 rounded-md border text-sm cursor-pointer transition-colors
                         ${selected.includes(p)
-                            ? 'bg-[#ededed] border-[#ededed] text-black'
-                            : 'bg-[#1a1a1a] border-gray-600 text-gray-400 hover:border-gray-400'}`}
+                            ? 'bg-[#4a90b8] border-[#4a90b8] text-white'
+                            : 'bg-[#2a3340] border-[#334155] text-[#7d8fa0] hover:border-[#4a90b8]'}`}
                 >
                     {p}
                 </button>
