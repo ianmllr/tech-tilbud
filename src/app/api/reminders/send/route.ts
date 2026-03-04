@@ -21,7 +21,7 @@ export async function POST(req: Request) {
 
     for (const row of due) {
         await resend.emails.send({
-            from: 'onboarding@resend.dev',
+            from: 'reminder@tech-tilbud.com',
             to: row.email,
             subject: `Påmindelse: din 6 måneders binding på dit abonnement er ved at udløbe`,
             html: `

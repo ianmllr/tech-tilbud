@@ -13,7 +13,6 @@ export default function Reminder() {
                 </p>
 
                 <ReminderForm />
-
             </main>
         </>
     )
