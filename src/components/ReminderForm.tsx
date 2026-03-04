@@ -76,9 +76,12 @@ export default function ReminderForm() {
                 placeholder="Personlig note (valgfrit)"
                 value={message}
                 onChange={e => setMessage(e.target.value)}
+                maxLength={50}
                 rows={2}
-                className="px-3 py-2 rounded-md border border-[#334155] bg-[#2a3340] text-[#cdd6e0] text-sm placeholder-[#7d8fa0] focus:outline-none focus:border-[#4a90b8] resize-none"
+                className="..."
             />
+            <p className="text-xs text-[#7d8fa0] text-right m-0">{message.length}/50</p>
+
 
             <div className="flex flex-col gap-2 my-1">
                 <div className="flex items-center gap-2">
