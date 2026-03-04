@@ -17,6 +17,10 @@ const faqs = [
     {
         question: 'Hvordan kører Tech-tilbud så rundt?',
         answer: 'Tech-tilbud får et lille beløb af abonnementudbyderen hvis du klikker på et tilbud og køber det. Det er samme som metode som kendte sider som Pricerunner og Ønskeskyen bruger. Det betyder at det er gratis for dig at bruge, og at Tech-tilbud kan fortsætte med at være gratis i fremtiden.'
+    },
+    {
+        question: 'Hvorfor er der både en "pris uden abonnement" og en "markedspris"?',
+        answer: 'Tech-tilbud scanner pricerunner, prisjagt og lignende for en markedspris fordi førprisen/kontantprisen som telefonudbydere skriver ofte er overdrevet.'
     }
 ]
 

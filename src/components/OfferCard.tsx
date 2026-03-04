@@ -72,10 +72,11 @@ export default function OfferCard({ offer }: OfferCardProps) {
 
                 {offer.min_cost_6_months && (
                     <p className="text-xs text-[#7d8fa0] m-0">
-                        Mindstepris i 6 mdr.: {offer.min_cost_6_months} kr.
+                        Mindstepris i 6 mdr.:{' '}
+                        <span className="underline">{offer.min_cost_6_months} kr.</span>
                     </p>
                 )}
-
+                
                 <hr className="border-none border-t border-[#334155] my-1" />
 
                 <p className="text-[13px] text-[#cdd6e0] m-0 flex items-center gap-1">
