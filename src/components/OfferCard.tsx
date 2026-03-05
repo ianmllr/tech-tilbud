@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import type { Offer } from '@/types/offer'
 import Tooltip from './Tooltip'
 
@@ -14,10 +15,12 @@ export default function OfferCard({ offer }: OfferCardProps) {
     return (
         <div className="border border-[#334155] rounded-xl p-4 flex flex-row items-start gap-2 bg-[#2a3340]">
             {offer.image_url && (
-                <img
+                <Image
                     src={offer.image_url}
                     alt={offer.product_name}
-                    className="w-30 h-30 object-contain flex-shrink-0 self-center"
+                    width={120}
+                    height={120}
+                    className="object-contain flex-shrink-0 self-center"
                 />
             )}
 
