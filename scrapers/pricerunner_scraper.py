@@ -10,7 +10,7 @@ from playwright_stealth import Stealth
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-is_ci = os.environ.get('CI') == 'true'  # GitHub Actions sets this automatically
+is_ci = os.environ.get('CI') == 'true'
 
 
 def clean_search_query(product_name):
@@ -332,6 +332,8 @@ def scrape_pricerunner():
         ('data/elgiganten/elgiganten_offers.json', 'product'),
         ('data/cbb/cbb_offers.json', 'product_name'),
         ('data/3/3_offers.json', 'product_name'),
+        ('data/yousee/yousee_offers.json', 'product_name'),
+        ('data/norlys/norlys_offers.json', 'product_name'),
     ]
 
     products = []

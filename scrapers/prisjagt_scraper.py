@@ -124,17 +124,10 @@ def score_match(query, candidate):
     if q_model and c_model and q_model != c_model:
         q_parts = set(re.findall(r'[a-z]+|\d+', q_model))
         c_parts = set(re.findall(r'[a-z]+|\d+', c_model))
-        # Case 1: one model is purely a number (e.g. '7' from 'Flip 7') and that
-        # number appears as a component of the other model (e.g. 'flip7') → same product
+
         q_digits = {p for p in q_parts if p.isdigit()}
         c_digits = {p for p in c_parts if p.isdigit()}
-        # Allow a pure number ('7') to match a fused token ('flip7') only when
-        # the digit sets match AND the non-digit parts of the longer token are
-        # already present as tier/series words elsewhere (i.e. 'flip' is in the name).
-        # Simpler rule: if one side is purely numeric and the other has extra alpha
-        # parts beyond what the numeric side has, they only match if the numeric
-        # digits are identical AND the candidate has NO extra alpha-only parts
-        # that would change the model identity (like 'e' in '16e').
+
         q_alpha = q_parts - q_digits
         c_alpha = c_parts - c_digits
         if q_digits == c_digits and q_alpha == c_alpha:
@@ -300,6 +293,8 @@ def scrape_prisjagt():
         ('data/elgiganten/elgiganten_offers.json', 'product'),
         ('data/cbb/cbb_offers.json', 'product_name'),
         ('data/3/3_offers.json', 'product_name'),
+        ('data/yousee/yousee_offers.json', 'product_name'),
+        ('data/norlys/norlys_offers.json', 'product_name'),
     ]
 
     products = []
