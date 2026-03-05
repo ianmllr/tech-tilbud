@@ -1,8 +1,8 @@
 [
     {
         "link": "https://www.3.dk/shop/mobiler/apple/iphone-17e/",
-        "product_name": "iPhone 17e",
-        "image_url": "/images/3/iphone_17e.webp",
+        "product_name": "iPhone 17e 256GB",
+        "image_url": "/images/3/iphone_17e_256gb.webp",
         "provider": "3",
         "type": "phone",
         "signup_price": 0,
@@ -12,12 +12,12 @@
         "discount_on_product": 1500,
         "min_cost_6_months": 5619,
         "subscription_price_monthly": 270,
-        "saved_at": "04-03-2026-22:53"
+        "saved_at": "05-03-2026-00:06"
     },
     {
         "link": "https://www.3.dk/shop/mobiler/apple/iphone-17-pro/",
-        "product_name": "iPhone 17 Pro",
-        "image_url": "/images/3/iphone_17_pro.webp",
+        "product_name": "iPhone 17 Pro 256GB",
+        "image_url": "/images/3/iphone_17_pro_256gb.webp",
         "provider": "3",
         "type": "phone",
         "signup_price": 0,
@@ -27,12 +27,12 @@
         "discount_on_product": 1300,
         "min_cost_6_months": 10319,
         "subscription_price_monthly": 270,
-        "saved_at": "04-03-2026-22:53"
+        "saved_at": "05-03-2026-00:06"
     },
     {
         "link": "https://www.3.dk/shop/mobiler/apple/iphone-17-pro-max/",
-        "product_name": "iPhone 17 Pro Max",
-        "image_url": "/images/3/iphone_17_pro_max.webp",
+        "product_name": "iPhone 17 Pro Max 256GB",
+        "image_url": "/images/3/iphone_17_pro_max_256gb.webp",
         "provider": "3",
         "type": "phone",
         "signup_price": 0,
@@ -42,12 +42,12 @@
         "discount_on_product": 1100,
         "min_cost_6_months": 11519,
         "subscription_price_monthly": 270,
-        "saved_at": "04-03-2026-22:53"
+        "saved_at": "05-03-2026-00:06"
     },
     {
         "link": "https://www.3.dk/shop/mobiler/apple/iphone-air/",
-        "product_name": "iPhone Air",
-        "image_url": "/images/3/iphone_air.webp",
+        "product_name": "iPhone Air 256GB",
+        "image_url": "/images/3/iphone_air_256gb.webp",
         "provider": "3",
         "type": "phone",
         "signup_price": 0,
@@ -57,12 +57,12 @@
         "discount_on_product": 2400,
         "min_cost_6_months": 8219,
         "subscription_price_monthly": 270,
-        "saved_at": "04-03-2026-22:53"
+        "saved_at": "05-03-2026-00:06"
     },
     {
         "link": "https://www.3.dk/shop/mobiler/apple/iphone-17/",
-        "product_name": "iPhone 17",
-        "image_url": "/images/3/iphone_17.webp",
+        "product_name": "iPhone 17 256GB",
+        "image_url": "/images/3/iphone_17_256gb.webp",
         "provider": "3",
         "type": "phone",
         "signup_price": 0,
@@ -72,12 +72,12 @@
         "discount_on_product": 1100,
         "min_cost_6_months": 8019,
         "subscription_price_monthly": 270,
-        "saved_at": "04-03-2026-22:53"
+        "saved_at": "05-03-2026-00:06"
     },
     {
         "link": "https://www.3.dk/shop/mobiler/apple/iphone-16e/",
-        "product_name": "iPhone 16e",
-        "image_url": "/images/3/iphone_16e.webp",
+        "product_name": "iPhone 16e 128GB",
+        "image_url": "/images/3/iphone_16e_128gb.webp",
         "provider": "3",
         "type": "phone",
         "signup_price": 0,
@@ -87,12 +87,12 @@
         "discount_on_product": 2099,
         "min_cost_6_months": 5020,
         "subscription_price_monthly": 270,
-        "saved_at": "04-03-2026-22:53"
+        "saved_at": "05-03-2026-00:06"
     },
     {
         "link": "https://www.3.dk/shop/mobiler/apple/iphone-16/",
-        "product_name": "iPhone 16",
-        "image_url": "/images/3/iphone_16.webp",
+        "product_name": "iPhone 16 128GB",
+        "image_url": "/images/3/iphone_16_128gb.webp",
         "provider": "3",
         "type": "phone",
         "signup_price": 0,
@@ -102,12 +102,12 @@
         "discount_on_product": 1600,
         "min_cost_6_months": 6519,
         "subscription_price_monthly": 270,
-        "saved_at": "04-03-2026-22:53"
+        "saved_at": "05-03-2026-00:06"
     },
     {
         "link": "https://www.3.dk/shop/mobiler/apple/iphone-15/",
-        "product_name": "iPhone 15",
-        "image_url": "/images/3/iphone_15.webp",
+        "product_name": "iPhone 15 128GB",
+        "image_url": "/images/3/iphone_15_128gb.webp",
         "provider": "3",
         "type": "phone",
         "signup_price": 0,
@@ -117,7 +117,7 @@
         "discount_on_product": 900,
         "min_cost_6_months": 6319,
         "subscription_price_monthly": 270,
-        "saved_at": "04-03-2026-22:53"
+        "saved_at": "05-03-2026-00:06"
     },
     {
         "link": "https://www.3.dk/shop/mobiler/samsung/",
@@ -132,12 +132,12 @@
         "discount_on_product": 0,
         "min_cost_6_months": 9619,
         "subscription_price_monthly": 19998,
-        "saved_at": "04-03-2026-22:53"
+        "saved_at": "05-03-2026-00:06"
     },
     {
         "link": "https://www.3.dk/shop/mobiler/samsung/samsung-galaxy-s26-ultra/",
-        "product_name": "Samsung Galaxy S26 Ultra",
-        "image_url": "/images/3/samsung_galaxy_s26_ultra.webp",
+        "product_name": "Samsung Galaxy S26 Ultra 256GB",
+        "image_url": "/images/3/samsung_galaxy_s26_ultra_256gb.webp",
         "provider": "3",
         "type": "phone",
         "signup_price": 0,
@@ -147,12 +147,12 @@
         "discount_on_product": 3500,
         "min_cost_6_months": 9619,
         "subscription_price_monthly": 270,
-        "saved_at": "04-03-2026-22:53"
+        "saved_at": "05-03-2026-00:06"
     },
     {
         "link": "https://www.3.dk/shop/mobiler/samsung/samsung-galaxy-s26/",
-        "product_name": "Samsung Galaxy S26",
-        "image_url": "/images/3/samsung_galaxy_s26.webp",
+        "product_name": "Samsung Galaxy S26 256GB",
+        "image_url": "/images/3/samsung_galaxy_s26_256gb.webp",
         "provider": "3",
         "type": "phone",
         "signup_price": 0,
@@ -162,12 +162,12 @@
         "discount_on_product": 2750,
         "min_cost_6_months": 6819,
         "subscription_price_monthly": 270,
-        "saved_at": "04-03-2026-22:53"
+        "saved_at": "05-03-2026-00:06"
     },
     {
         "link": "https://www.3.dk/shop/mobiler/samsung/samsung-galaxy-s26-plus/",
-        "product_name": "Samsung Galaxy S26 Plus",
-        "image_url": "/images/3/samsung_galaxy_s26_plus.webp",
+        "product_name": "Samsung Galaxy S26 Plus 256GB",
+        "image_url": "/images/3/samsung_galaxy_s26_plus_256gb.webp",
         "provider": "3",
         "type": "phone",
         "signup_price": 0,
@@ -177,27 +177,27 @@
         "discount_on_product": 1400,
         "min_cost_6_months": 10119,
         "subscription_price_monthly": 270,
-        "saved_at": "04-03-2026-22:53"
+        "saved_at": "05-03-2026-00:06"
     },
     {
         "link": "https://www.3.dk/shop/mobiler/samsung/samsung-galaxy-z-flip7/",
-        "product_name": "Vovsa.",
-        "image_url": "/images/3/vovsa_.webp",
+        "product_name": "Samsung Galaxy Z Flip7 256GB",
+        "image_url": "/images/3/samsung_galaxy_z_flip7_256gb.webp",
         "provider": "3",
         "type": "phone",
         "signup_price": 0,
         "data_gb": 0,
-        "price_without_subscription": null,
-        "price_with_subscription": null,
-        "discount_on_product": 0,
-        "min_cost_6_months": null,
-        "subscription_price_monthly": null,
-        "saved_at": "04-03-2026-22:53"
+        "price_without_subscription": 8200,
+        "price_with_subscription": 6901,
+        "discount_on_product": 1299,
+        "min_cost_6_months": 9820,
+        "subscription_price_monthly": 270,
+        "saved_at": "05-03-2026-00:06"
     },
     {
         "link": "https://www.3.dk/shop/mobiler/samsung/samsung-galaxy-z-flip7-fe/",
-        "product_name": "Samsung Galaxy Z Flip7 FE",
-        "image_url": "/images/3/samsung_galaxy_z_flip7_fe.webp",
+        "product_name": "Samsung Galaxy Z Flip7 FE 128GB",
+        "image_url": "/images/3/samsung_galaxy_z_flip7_fe_128gb.webp",
         "provider": "3",
         "type": "phone",
         "signup_price": 0,
@@ -207,12 +207,12 @@
         "discount_on_product": 1189,
         "min_cost_6_months": 8380,
         "subscription_price_monthly": 270,
-        "saved_at": "04-03-2026-22:53"
+        "saved_at": "05-03-2026-00:06"
     },
     {
         "link": "https://www.3.dk/shop/mobiler/samsung/samsung-galaxy-z-fold7/",
-        "product_name": "Samsung Galaxy Z Fold7",
-        "image_url": "/images/3/samsung_galaxy_z_fold7.webp",
+        "product_name": "Samsung Galaxy Z Fold7 256GB",
+        "image_url": "/images/3/samsung_galaxy_z_fold7_256gb.webp",
         "provider": "3",
         "type": "phone",
         "signup_price": 0,
@@ -222,12 +222,12 @@
         "discount_on_product": 1550,
         "min_cost_6_months": 13619,
         "subscription_price_monthly": 270,
-        "saved_at": "04-03-2026-22:53"
+        "saved_at": "05-03-2026-00:06"
     },
     {
         "link": "https://www.3.dk/shop/mobiler/samsung/samsung-galaxy-s25-edge/",
-        "product_name": "Samsung Galaxy S25 Edge",
-        "image_url": "/images/3/samsung_galaxy_s25_edge.webp",
+        "product_name": "Samsung Galaxy S25 Edge 256GB",
+        "image_url": "/images/3/samsung_galaxy_s25_edge_256gb.webp",
         "provider": "3",
         "type": "phone",
         "signup_price": 0,
@@ -237,12 +237,12 @@
         "discount_on_product": 1299,
         "min_cost_6_months": 10220,
         "subscription_price_monthly": 270,
-        "saved_at": "04-03-2026-22:53"
+        "saved_at": "05-03-2026-00:06"
     },
     {
         "link": "https://www.3.dk/shop/mobiler/samsung/samsung-galaxy-a26-5g/",
-        "product_name": "Samsung Galaxy A26 5G",
-        "image_url": "/images/3/samsung_galaxy_a26_5g.webp",
+        "product_name": "Samsung Galaxy A26 5G 128GB",
+        "image_url": "/images/3/samsung_galaxy_a26_5g_128gb.webp",
         "provider": "3",
         "type": "phone",
         "signup_price": 0,
@@ -252,12 +252,12 @@
         "discount_on_product": 1800,
         "min_cost_6_months": 2119,
         "subscription_price_monthly": 270,
-        "saved_at": "04-03-2026-22:53"
+        "saved_at": "05-03-2026-00:06"
     },
     {
         "link": "https://www.3.dk/shop/mobiler/samsung/samsung-galaxy-z-fold6/",
-        "product_name": "Samsung Galaxy Z Fold6",
-        "image_url": "/images/3/samsung_galaxy_z_fold6.webp",
+        "product_name": "Samsung Galaxy Z Fold6 256GB",
+        "image_url": "/images/3/samsung_galaxy_z_fold6_256gb.webp",
         "provider": "3",
         "type": "phone",
         "signup_price": 0,
@@ -267,12 +267,12 @@
         "discount_on_product": 1849,
         "min_cost_6_months": 15620,
         "subscription_price_monthly": 270,
-        "saved_at": "04-03-2026-22:53"
+        "saved_at": "05-03-2026-00:06"
     },
     {
         "link": "https://www.3.dk/shop/mobiler/samsung/samsung-galaxy-a35-5g/",
-        "product_name": "Samsung Galaxy A35 5G",
-        "image_url": "/images/3/samsung_galaxy_a35_5g.webp",
+        "product_name": "Samsung Galaxy A35 5G 128GB",
+        "image_url": "/images/3/samsung_galaxy_a35_5g_128gb.webp",
         "provider": "3",
         "type": "phone",
         "signup_price": 0,
@@ -282,12 +282,12 @@
         "discount_on_product": 899,
         "min_cost_6_months": 3720,
         "subscription_price_monthly": 270,
-        "saved_at": "04-03-2026-22:53"
+        "saved_at": "05-03-2026-00:06"
     },
     {
         "link": "https://www.3.dk/shop/mobiler/samsung/samsung-galaxy-s25-ultra/",
-        "product_name": "Samsung Galaxy S25 Ultra",
-        "image_url": "/images/3/samsung_galaxy_s25_ultra.webp",
+        "product_name": "Samsung Galaxy S25 Ultra 256GB",
+        "image_url": "/images/3/samsung_galaxy_s25_ultra_256gb.webp",
         "provider": "3",
         "type": "phone",
         "signup_price": 0,
@@ -297,12 +297,12 @@
         "discount_on_product": 1050,
         "min_cost_6_months": 8219,
         "subscription_price_monthly": 270,
-        "saved_at": "04-03-2026-22:53"
+        "saved_at": "05-03-2026-00:06"
     },
     {
         "link": "https://www.3.dk/shop/mobiler/samsung/samsung-galaxy-s25/",
-        "product_name": "Samsung Galaxy S25",
-        "image_url": "/images/3/samsung_galaxy_s25.webp",
+        "product_name": "Samsung Galaxy S25 128GB",
+        "image_url": "/images/3/samsung_galaxy_s25_128gb.webp",
         "provider": "3",
         "type": "phone",
         "signup_price": 0,
@@ -312,12 +312,12 @@
         "discount_on_product": 900,
         "min_cost_6_months": 5619,
         "subscription_price_monthly": 270,
-        "saved_at": "04-03-2026-22:53"
+        "saved_at": "05-03-2026-00:06"
     },
     {
         "link": "https://www.3.dk/shop/mobiler/samsung/samsung-galaxy-s25-plus/",
-        "product_name": "Samsung Galaxy S25 Plus",
-        "image_url": "/images/3/samsung_galaxy_s25_plus.webp",
+        "product_name": "Samsung Galaxy S25 Plus 512GB",
+        "image_url": "/images/3/samsung_galaxy_s25_plus_512gb.webp",
         "provider": "3",
         "type": "phone",
         "signup_price": 0,
@@ -327,12 +327,12 @@
         "discount_on_product": 1550,
         "min_cost_6_months": 10119,
         "subscription_price_monthly": 270,
-        "saved_at": "04-03-2026-22:53"
+        "saved_at": "05-03-2026-00:06"
     },
     {
         "link": "https://www.3.dk/shop/mobiler/samsung/samsung-galaxy-z-flip6/",
-        "product_name": "Samsung Galaxy Z Flip6",
-        "image_url": "/images/3/samsung_galaxy_z_flip6.webp",
+        "product_name": "Samsung Galaxy Z Flip6 512GB",
+        "image_url": "/images/3/samsung_galaxy_z_flip6_512gb.webp",
         "provider": "3",
         "type": "phone",
         "signup_price": 0,
@@ -342,12 +342,12 @@
         "discount_on_product": 1250,
         "min_cost_6_months": 10819,
         "subscription_price_monthly": 270,
-        "saved_at": "04-03-2026-22:53"
+        "saved_at": "05-03-2026-00:06"
     },
     {
         "link": "https://www.3.dk/shop/mobiler/samsung/samsung-galaxy-s24-ultra/",
-        "product_name": "Samsung Galaxy S24 Ultra",
-        "image_url": "/images/3/samsung_galaxy_s24_ultra.webp",
+        "product_name": "Samsung Galaxy S24 Ultra 256GB",
+        "image_url": "/images/3/samsung_galaxy_s24_ultra_256gb.webp",
         "provider": "3",
         "type": "phone",
         "signup_price": 0,
@@ -357,12 +357,12 @@
         "discount_on_product": 1639,
         "min_cost_6_months": 11480,
         "subscription_price_monthly": 270,
-        "saved_at": "04-03-2026-22:53"
+        "saved_at": "05-03-2026-00:06"
     },
     {
         "link": "https://www.3.dk/shop/mobiler/samsung/samsung-galaxy-s24/",
-        "product_name": "Samsung Galaxy S24",
-        "image_url": "/images/3/samsung_galaxy_s24.webp",
+        "product_name": "Samsung Galaxy S24 128GB",
+        "image_url": "/images/3/samsung_galaxy_s24_128gb.webp",
         "provider": "3",
         "type": "phone",
         "signup_price": 0,
@@ -372,12 +372,12 @@
         "discount_on_product": 1800,
         "min_cost_6_months": 3619,
         "subscription_price_monthly": 270,
-        "saved_at": "04-03-2026-22:53"
+        "saved_at": "05-03-2026-00:06"
     },
     {
         "link": "https://www.3.dk/shop/mobiler/samsung/samsung-galaxy-a16-5g/",
-        "product_name": "Samsung Galaxy A16 5G",
-        "image_url": "/images/3/samsung_galaxy_a16_5g.webp",
+        "product_name": "Samsung Galaxy A16 5G 128GB",
+        "image_url": "/images/3/samsung_galaxy_a16_5g_128gb.webp",
         "provider": "3",
         "type": "phone",
         "signup_price": 0,
@@ -387,12 +387,12 @@
         "discount_on_product": 900,
         "min_cost_6_months": 2919,
         "subscription_price_monthly": 270,
-        "saved_at": "04-03-2026-22:53"
+        "saved_at": "05-03-2026-00:06"
     },
     {
         "link": "https://www.3.dk/shop/mobiler/samsung/samsung-galaxy-xcover-7/",
-        "product_name": "Samsung Galaxy XCover 7",
-        "image_url": "/images/3/samsung_galaxy_xcover_7.webp",
+        "product_name": "Samsung Galaxy XCover 7 128GB",
+        "image_url": "/images/3/samsung_galaxy_xcover_7_128gb.webp",
         "provider": "3",
         "type": "phone",
         "signup_price": 0,
@@ -402,12 +402,12 @@
         "discount_on_product": 919,
         "min_cost_6_months": 3600,
         "subscription_price_monthly": 270,
-        "saved_at": "04-03-2026-22:53"
+        "saved_at": "05-03-2026-00:06"
     },
     {
         "link": "https://www.3.dk/shop/mobiler/motorola/motorola-g56/",
-        "product_name": "Motorola G56",
-        "image_url": "/images/3/motorola_g56.webp",
+        "product_name": "Motorola G56 256GB",
+        "image_url": "/images/3/motorola_g56_256gb.webp",
         "provider": "3",
         "type": "phone",
         "signup_price": 0,
@@ -417,12 +417,12 @@
         "discount_on_product": 1850,
         "min_cost_6_months": 1819,
         "subscription_price_monthly": 270,
-        "saved_at": "04-03-2026-22:53"
+        "saved_at": "05-03-2026-00:06"
     },
     {
         "link": "https://www.3.dk/shop/tablets/apple/ipad-air-11-2026/",
-        "product_name": "iPad Air 11 (2026)",
-        "image_url": "/images/3/ipad_air_11__2026_.webp",
+        "product_name": "iPad Air 11 (2026) 128GB",
+        "image_url": "/images/3/ipad_air_11__2026__128gb.webp",
         "provider": "3",
         "type": "tablet",
         "signup_price": 0,
@@ -432,12 +432,27 @@
         "discount_on_product": 1350,
         "min_cost_6_months": 6559,
         "subscription_price_monthly": 210,
-        "saved_at": "04-03-2026-22:53"
+        "saved_at": "05-03-2026-00:06"
+    },
+    {
+        "link": "https://www.3.dk/shop/tablets/apple/ipad-air-11-2026/",
+        "product_name": "iPad Air 11 (2026) 200GB",
+        "image_url": "/images/3/ipad_air_11__2026__200gb.webp",
+        "provider": "3",
+        "type": "tablet",
+        "signup_price": 0,
+        "data_gb": 0,
+        "price_without_subscription": 1350,
+        "price_with_subscription": 0,
+        "discount_on_product": 1350,
+        "min_cost_6_months": 6559,
+        "subscription_price_monthly": 210,
+        "saved_at": "05-03-2026-00:06"
     },
     {
         "link": "https://www.3.dk/shop/tablets/apple/ipad-air-13-2026/",
-        "product_name": "iPad Air 13 (2026)",
-        "image_url": "/images/3/ipad_air_13__2026_.webp",
+        "product_name": "iPad Air 13 (2026) 128GB",
+        "image_url": "/images/3/ipad_air_13__2026__128gb.webp",
         "provider": "3",
         "type": "tablet",
         "signup_price": 0,
@@ -447,12 +462,27 @@
         "discount_on_product": 1550,
         "min_cost_6_months": 8059,
         "subscription_price_monthly": 210,
-        "saved_at": "04-03-2026-22:53"
+        "saved_at": "05-03-2026-00:06"
+    },
+    {
+        "link": "https://www.3.dk/shop/tablets/apple/ipad-air-13-2026/",
+        "product_name": "iPad Air 13 (2026) 200GB",
+        "image_url": "/images/3/ipad_air_13__2026__200gb.webp",
+        "provider": "3",
+        "type": "tablet",
+        "signup_price": 0,
+        "data_gb": 0,
+        "price_without_subscription": 1550,
+        "price_with_subscription": 0,
+        "discount_on_product": 1550,
+        "min_cost_6_months": 8059,
+        "subscription_price_monthly": 210,
+        "saved_at": "05-03-2026-00:06"
     },
     {
         "link": "https://www.3.dk/shop/tablets/apple/ipad-pro-11-2025/",
-        "product_name": "iPad Pro 11 (2025)",
-        "image_url": "/images/3/ipad_pro_11__2025_.webp",
+        "product_name": "iPad Pro 11 (2025) 256GB",
+        "image_url": "/images/3/ipad_pro_11__2025__256gb.webp",
         "provider": "3",
         "type": "tablet",
         "signup_price": 0,
@@ -462,12 +492,27 @@
         "discount_on_product": 1599,
         "min_cost_6_months": 10260,
         "subscription_price_monthly": 210,
-        "saved_at": "04-03-2026-22:53"
+        "saved_at": "05-03-2026-00:06"
+    },
+    {
+        "link": "https://www.3.dk/shop/tablets/apple/ipad-pro-11-2025/",
+        "product_name": "iPad Pro 11 (2025) 200GB",
+        "image_url": "/images/3/ipad_pro_11__2025__200gb.webp",
+        "provider": "3",
+        "type": "tablet",
+        "signup_price": 0,
+        "data_gb": 0,
+        "price_without_subscription": 1599,
+        "price_with_subscription": 0,
+        "discount_on_product": 1599,
+        "min_cost_6_months": 10260,
+        "subscription_price_monthly": 210,
+        "saved_at": "05-03-2026-00:06"
     },
     {
         "link": "https://www.3.dk/shop/tablets/apple/ipad-pro-13-2025/",
-        "product_name": "iPad Pro 13 (2025)",
-        "image_url": "/images/3/ipad_pro_13__2025_.webp",
+        "product_name": "iPad Pro 13 (2025) 256GB",
+        "image_url": "/images/3/ipad_pro_13__2025__256gb.webp",
         "provider": "3",
         "type": "tablet",
         "signup_price": 0,
@@ -477,12 +522,27 @@
         "discount_on_product": 1849,
         "min_cost_6_months": 12660,
         "subscription_price_monthly": 210,
-        "saved_at": "04-03-2026-22:53"
+        "saved_at": "05-03-2026-00:06"
+    },
+    {
+        "link": "https://www.3.dk/shop/tablets/apple/ipad-pro-13-2025/",
+        "product_name": "iPad Pro 13 (2025) 200GB",
+        "image_url": "/images/3/ipad_pro_13__2025__200gb.webp",
+        "provider": "3",
+        "type": "tablet",
+        "signup_price": 0,
+        "data_gb": 0,
+        "price_without_subscription": 1849,
+        "price_with_subscription": 0,
+        "discount_on_product": 1849,
+        "min_cost_6_months": 12660,
+        "subscription_price_monthly": 210,
+        "saved_at": "05-03-2026-00:06"
     },
     {
         "link": "https://www.3.dk/shop/tablets/apple/ipad-air-11-2025/",
-        "product_name": "iPad Air 11 (2025)",
-        "image_url": "/images/3/ipad_air_11__2025_.webp",
+        "product_name": "iPad Air 11 (2025) 128GB",
+        "image_url": "/images/3/ipad_air_11__2025__128gb.webp",
         "provider": "3",
         "type": "tablet",
         "signup_price": 0,
@@ -492,12 +552,27 @@
         "discount_on_product": 950,
         "min_cost_6_months": 7159,
         "subscription_price_monthly": 210,
-        "saved_at": "04-03-2026-22:53"
+        "saved_at": "05-03-2026-00:06"
+    },
+    {
+        "link": "https://www.3.dk/shop/tablets/apple/ipad-air-11-2025/",
+        "product_name": "iPad Air 11 (2025) 200GB",
+        "image_url": "/images/3/ipad_air_11__2025__200gb.webp",
+        "provider": "3",
+        "type": "tablet",
+        "signup_price": 0,
+        "data_gb": 0,
+        "price_without_subscription": 5899,
+        "price_with_subscription": 4949,
+        "discount_on_product": 950,
+        "min_cost_6_months": 7159,
+        "subscription_price_monthly": 210,
+        "saved_at": "05-03-2026-00:06"
     },
     {
         "link": "https://www.3.dk/shop/tablets/apple/ipad-air-13-2025/",
-        "product_name": "iPad Air 13 (2025)",
-        "image_url": "/images/3/ipad_air_13__2025_.webp",
+        "product_name": "iPad Air 13 (2025) 128GB",
+        "image_url": "/images/3/ipad_air_13__2025__128gb.webp",
         "provider": "3",
         "type": "tablet",
         "signup_price": 0,
@@ -507,12 +582,27 @@
         "discount_on_product": 1150,
         "min_cost_6_months": 8959,
         "subscription_price_monthly": 210,
-        "saved_at": "04-03-2026-22:53"
+        "saved_at": "05-03-2026-00:06"
+    },
+    {
+        "link": "https://www.3.dk/shop/tablets/apple/ipad-air-13-2025/",
+        "product_name": "iPad Air 13 (2025) 200GB",
+        "image_url": "/images/3/ipad_air_13__2025__200gb.webp",
+        "provider": "3",
+        "type": "tablet",
+        "signup_price": 0,
+        "data_gb": 0,
+        "price_without_subscription": 1150,
+        "price_with_subscription": 0,
+        "discount_on_product": 1150,
+        "min_cost_6_months": 8959,
+        "subscription_price_monthly": 210,
+        "saved_at": "05-03-2026-00:06"
     },
     {
         "link": "https://www.3.dk/shop/tablets/apple/ipad-11th-gen/",
-        "product_name": "iPad 11th gen",
-        "image_url": "/images/3/ipad_11th_gen.webp",
+        "product_name": "iPad 11th gen 128GB",
+        "image_url": "/images/3/ipad_11th_gen_128gb.webp",
         "provider": "3",
         "type": "tablet",
         "signup_price": 0,
@@ -522,12 +612,27 @@
         "discount_on_product": 800,
         "min_cost_6_months": 5159,
         "subscription_price_monthly": 210,
-        "saved_at": "04-03-2026-22:53"
+        "saved_at": "05-03-2026-00:06"
+    },
+    {
+        "link": "https://www.3.dk/shop/tablets/apple/ipad-11th-gen/",
+        "product_name": "iPad 11th gen 200GB",
+        "image_url": "/images/3/ipad_11th_gen_200gb.webp",
+        "provider": "3",
+        "type": "tablet",
+        "signup_price": 0,
+        "data_gb": 0,
+        "price_without_subscription": 3899,
+        "price_with_subscription": 3099,
+        "discount_on_product": 800,
+        "min_cost_6_months": 5159,
+        "subscription_price_monthly": 210,
+        "saved_at": "05-03-2026-00:06"
     },
     {
         "link": "https://www.3.dk/shop/tablets/apple/ipad-pro-11-5th-gen/",
-        "product_name": "iPad Pro 11",
-        "image_url": "/images/3/ipad_pro_11.webp",
+        "product_name": "iPad Pro 11 256GB",
+        "image_url": "/images/3/ipad_pro_11_256gb.webp",
         "provider": "3",
         "type": "tablet",
         "signup_price": 0,
@@ -537,12 +642,27 @@
         "discount_on_product": 1139,
         "min_cost_6_months": 10560,
         "subscription_price_monthly": 100,
-        "saved_at": "04-03-2026-22:53"
+        "saved_at": "05-03-2026-00:06"
+    },
+    {
+        "link": "https://www.3.dk/shop/tablets/apple/ipad-pro-11-5th-gen/",
+        "product_name": "iPad Pro 11 20GB",
+        "image_url": "/images/3/ipad_pro_11_20gb.webp",
+        "provider": "3",
+        "type": "tablet",
+        "signup_price": 0,
+        "data_gb": 0,
+        "price_without_subscription": 1139,
+        "price_with_subscription": 0,
+        "discount_on_product": 1139,
+        "min_cost_6_months": 10560,
+        "subscription_price_monthly": 100,
+        "saved_at": "05-03-2026-00:06"
     },
     {
         "link": "https://www.3.dk/shop/tablets/nokia/nokia-t21/",
-        "product_name": "Nokia T21",
-        "image_url": "/images/3/nokia_t21.webp",
+        "product_name": "Nokia T21 128GB",
+        "image_url": "/images/3/nokia_t21_128gb.webp",
         "provider": "3",
         "type": "tablet",
         "signup_price": 0,
@@ -552,12 +672,27 @@
         "discount_on_product": 560,
         "min_cost_6_months": 2239,
         "subscription_price_monthly": 100,
-        "saved_at": "04-03-2026-22:53"
+        "saved_at": "05-03-2026-00:06"
+    },
+    {
+        "link": "https://www.3.dk/shop/tablets/nokia/nokia-t21/",
+        "product_name": "Nokia T21 20GB",
+        "image_url": "/images/3/nokia_t21_20gb.webp",
+        "provider": "3",
+        "type": "tablet",
+        "signup_price": 0,
+        "data_gb": 0,
+        "price_without_subscription": 1639,
+        "price_with_subscription": 1079,
+        "discount_on_product": 560,
+        "min_cost_6_months": 2239,
+        "subscription_price_monthly": 100,
+        "saved_at": "05-03-2026-00:06"
     },
     {
         "link": "https://www.3.dk/shop/tablets/samsung/samsung-galaxy-tab-s11/",
-        "product_name": "Samsung Galaxy Tab S11",
-        "image_url": "/images/3/samsung_galaxy_tab_s11.webp",
+        "product_name": "Samsung Galaxy Tab S11 128GB",
+        "image_url": "/images/3/samsung_galaxy_tab_s11_128gb.webp",
         "provider": "3",
         "type": "tablet",
         "signup_price": 0,
@@ -567,12 +702,27 @@
         "discount_on_product": 4300,
         "min_cost_6_months": 5259,
         "subscription_price_monthly": 210,
-        "saved_at": "04-03-2026-22:53"
+        "saved_at": "05-03-2026-00:06"
+    },
+    {
+        "link": "https://www.3.dk/shop/tablets/samsung/samsung-galaxy-tab-s11/",
+        "product_name": "Samsung Galaxy Tab S11 200GB",
+        "image_url": "/images/3/samsung_galaxy_tab_s11_200gb.webp",
+        "provider": "3",
+        "type": "tablet",
+        "signup_price": 0,
+        "data_gb": 0,
+        "price_without_subscription": 4300,
+        "price_with_subscription": 0,
+        "discount_on_product": 4300,
+        "min_cost_6_months": 5259,
+        "subscription_price_monthly": 210,
+        "saved_at": "05-03-2026-00:06"
     },
     {
         "link": "https://www.3.dk/shop/tablets/samsung/samsung-galaxy-tab-s11-ultra/",
-        "product_name": "Samsung Galaxy Tab S11 Ultra",
-        "image_url": "/images/3/samsung_galaxy_tab_s11_ultra.webp",
+        "product_name": "Samsung Galaxy Tab S11 Ultra 256GB",
+        "image_url": "/images/3/samsung_galaxy_tab_s11_ultra_256gb.webp",
         "provider": "3",
         "type": "tablet",
         "signup_price": 0,
@@ -582,12 +732,27 @@
         "discount_on_product": 6350,
         "min_cost_6_months": 6559,
         "subscription_price_monthly": 210,
-        "saved_at": "04-03-2026-22:53"
+        "saved_at": "05-03-2026-00:06"
+    },
+    {
+        "link": "https://www.3.dk/shop/tablets/samsung/samsung-galaxy-tab-s11-ultra/",
+        "product_name": "Samsung Galaxy Tab S11 Ultra 200GB",
+        "image_url": "/images/3/samsung_galaxy_tab_s11_ultra_200gb.webp",
+        "provider": "3",
+        "type": "tablet",
+        "signup_price": 0,
+        "data_gb": 0,
+        "price_without_subscription": 6350,
+        "price_with_subscription": 0,
+        "discount_on_product": 6350,
+        "min_cost_6_months": 6559,
+        "subscription_price_monthly": 210,
+        "saved_at": "05-03-2026-00:06"
     },
     {
         "link": "https://www.3.dk/shop/tablets/samsung/samsung-galaxy-tab-s10-ultra/",
-        "product_name": "Samsung Galaxy Tab S10 Ultra",
-        "image_url": "/images/3/samsung_galaxy_tab_s10_ultra.webp",
+        "product_name": "Samsung Galaxy Tab S10 Ultra 256GB",
+        "image_url": "/images/3/samsung_galaxy_tab_s10_ultra_256gb.webp",
         "provider": "3",
         "type": "tablet",
         "signup_price": 0,
@@ -597,12 +762,27 @@
         "discount_on_product": 6499,
         "min_cost_6_months": 6660,
         "subscription_price_monthly": 210,
-        "saved_at": "04-03-2026-22:53"
+        "saved_at": "05-03-2026-00:06"
+    },
+    {
+        "link": "https://www.3.dk/shop/tablets/samsung/samsung-galaxy-tab-s10-ultra/",
+        "product_name": "Samsung Galaxy Tab S10 Ultra 200GB",
+        "image_url": "/images/3/samsung_galaxy_tab_s10_ultra_200gb.webp",
+        "provider": "3",
+        "type": "tablet",
+        "signup_price": 0,
+        "data_gb": 0,
+        "price_without_subscription": 6499,
+        "price_with_subscription": 0,
+        "discount_on_product": 6499,
+        "min_cost_6_months": 6660,
+        "subscription_price_monthly": 210,
+        "saved_at": "05-03-2026-00:06"
     },
     {
         "link": "https://www.3.dk/shop/tablets/samsung/samsung-galaxy-tab-s10-plus/",
-        "product_name": "Samsung Galaxy Tab S10 Plus",
-        "image_url": "/images/3/samsung_galaxy_tab_s10_plus.webp",
+        "product_name": "Samsung Galaxy Tab S10 Plus 256GB",
+        "image_url": "/images/3/samsung_galaxy_tab_s10_plus_256gb.webp",
         "provider": "3",
         "type": "tablet",
         "signup_price": 0,
@@ -612,12 +792,27 @@
         "discount_on_product": 1000,
         "min_cost_6_months": 10359,
         "subscription_price_monthly": 210,
-        "saved_at": "04-03-2026-22:53"
+        "saved_at": "05-03-2026-00:06"
+    },
+    {
+        "link": "https://www.3.dk/shop/tablets/samsung/samsung-galaxy-tab-s10-plus/",
+        "product_name": "Samsung Galaxy Tab S10 Plus 200GB",
+        "image_url": "/images/3/samsung_galaxy_tab_s10_plus_200gb.webp",
+        "provider": "3",
+        "type": "tablet",
+        "signup_price": 0,
+        "data_gb": 0,
+        "price_without_subscription": 1000,
+        "price_with_subscription": 0,
+        "discount_on_product": 1000,
+        "min_cost_6_months": 10359,
+        "subscription_price_monthly": 210,
+        "saved_at": "05-03-2026-00:06"
     },
     {
         "link": "https://www.3.dk/shop/tablets/samsung/samsung-galaxy-tab-s9/",
-        "product_name": "Samsung Galaxy Tab S9",
-        "image_url": "/images/3/samsung_galaxy_tab_s9.webp",
+        "product_name": "Samsung Galaxy Tab S9 128GB",
+        "image_url": "/images/3/samsung_galaxy_tab_s9_128gb.webp",
         "provider": "3",
         "type": "tablet",
         "signup_price": 0,
@@ -627,6 +822,21 @@
         "discount_on_product": 709,
         "min_cost_6_months": 2440,
         "subscription_price_monthly": 100,
-        "saved_at": "04-03-2026-22:53"
+        "saved_at": "05-03-2026-00:06"
+    },
+    {
+        "link": "https://www.3.dk/shop/tablets/samsung/samsung-galaxy-tab-s9/",
+        "product_name": "Samsung Galaxy Tab S9 20GB",
+        "image_url": "/images/3/samsung_galaxy_tab_s9_20gb.webp",
+        "provider": "3",
+        "type": "tablet",
+        "signup_price": 0,
+        "data_gb": 0,
+        "price_without_subscription": 1840,
+        "price_with_subscription": 1131,
+        "discount_on_product": 709,
+        "min_cost_6_months": 2440,
+        "subscription_price_monthly": 100,
+        "saved_at": "05-03-2026-00:06"
     }
 ]
