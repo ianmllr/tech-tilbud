@@ -131,7 +131,7 @@ export const allOffers: Offer[] = [
     market_price: lowestMarketPrice(offer.product_name),
 }))
 
-export const PROVIDERS = ['Telmore', 'Oister', 'Elgiganten', 'CBB', '3', 'YouSee', 'Norlys'] as const
+export const PROVIDERS = ['Telmore', 'Oister', 'Elgiganten', 'CBB', '3', 'YouSee', 'Norlys', 'CallMe'] as const
 
 export const CATEGORIES = ['phone', 'tablet', 'sound', 'gaming'] as const
 export type Category = typeof CATEGORIES[number]
