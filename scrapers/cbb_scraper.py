@@ -172,6 +172,7 @@ def build_entry(phone, page, date_time):
         "product_name": product_name,
         "image_url": local_image_path,
         "provider": "CBB",
+        "type": "phone",
         "signup_price": 0,
         "data_gb": 0,
         "price_without_subscription": 0,

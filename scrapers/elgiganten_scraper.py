@@ -43,9 +43,8 @@ CATEGORY_URLS = [
 ]
 
 
-def build_entry(product_link, product_name, local_image_path, sku, raw_data, price_data, date_time, product_type):
+def build_entry(product_link, product_name, local_image_path, raw_data, price_data, date_time, product_type):
     d = raw_data.get('data', {})
-    sub = d.get('subscription', {})
 
     current_price_list = price_data.get('price', {}).get('current', []) if price_data else []
     price_without_subscription = current_price_list[0] if current_price_list else None
@@ -61,19 +60,13 @@ def build_entry(product_link, product_name, local_image_path, sku, raw_data, pri
         "link": product_link,
         "product": product_name,
         "image_url": local_image_path,
-        "sku": sku,
-        "provider": d.get('provider', {}).get('name'),
-        "title": sub.get('name'),
-        "data_gb": sub.get('monthlyDataPlanGB'),
+        "type": product_type,
         "price_without_subscription": price_without_subscription,
         "price_with_subscription": price_with_subscription,
         "min_cost_6_months": d.get('minimalTotalCost'),
         "subscription_price_monthly": d.get('monthlyCost', {}).get('total'),
         "discount_on_product": discount,
-        "benefits": sub.get('bulletPoints', []),
         "saved_at": date_time,
-        "sold_out": "false",
-        "type": product_type,
     }
 
 
@@ -157,7 +150,7 @@ def scrape_elgiganten():
                             raw_image_url = image_el.get_attribute('src') if image_el else None
                             local_image_path = download_image(raw_image_url, clean_name)
 
-                            entry = build_entry(product_link, product_name, local_image_path, sku, raw_data, price_data, date_time, product_type)
+                            entry = build_entry(product_link, product_name, local_image_path, raw_data, price_data, date_time, product_type)
                             cleaned_results.append(entry)
 
                         time.sleep(0.5)
