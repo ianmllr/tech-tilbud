@@ -3,819 +3,480 @@
         "link": "https://www.elgiganten.dk/product/mobil-tablet-smartwatch/mobiltelefon/iphone-17-pro-5g-smartphone-256gb-dybbla/982753?offerId=ZlpETmJzSXdFSVRmeGVla01uOGh6bzBHaEZBTEhOb1hjSnhOc0xSWlIvNVJpNnErTzV1S1E4V0I2M3d6bXQzNUVSc2ZyVUU0cGFFQkx5cWh5dmw2dFJDWk9GQ0lHbkVBaWtkSDhZTFgyb1VvS3BtSjNYZjArZ2wvUk9FdjlVLzl2STdBWFFnNkFGZWRSL0E2V3Vycmk3YkU0Rnh2MzNidmUwWWZ0aWNHOXdEQjE2UnBoTUJXSWtBMmczSERwS1ltR0cvSGFCM3R2VXZqb1dYWUtGbDB5cWg4MXVvaVg2cDFsNnVGS25PekxMdFZNek5TdHVvaC9HcXA1VXBSRmZkUGo5cjMwMW1VRURPeHRjRzRSTk1TTC9MM0JnPT0",
         "product": "iPhone 17 Pro 5G smartphone 256GB Dybblå",
         "image_url": "/images/elgiganten/iphone_17_pro_5g_smartphone_256gb.webp",
-        "sku": "982753",
-        "provider": "YouSee",
-        "title": "Yousee Fri Tale 100GB",
-        "data_gb": 100,
+        "type": "phone",
         "price_without_subscription": 9999,
         "price_with_subscription": 8499,
         "min_cost_6_months": 10092,
         "subscription_price_monthly": 249,
         "discount_on_product": 1500,
-        "benefits": [
-            "Roaming World i 48 lande",
-            "YouSee Musik"
-        ],
-        "saved_at": "09-03-2026-06:46",
-        "sold_out": "false",
-        "type": "phone"
+        "saved_at": "09-03-2026-16:56"
     },
     {
         "link": "https://www.elgiganten.dk/product/mobil-tablet-smartwatch/mobiltelefon/samsung-galaxy-s26-5g-smartphone-12256gb-sort/1039743?offerId=ZlpETmJzSXdFSVRmeGVla2NrdmlrTnhvUUFpMWxBTjlBZU5zZzZYTk92S1BXbFQxM2J0R0hGQVB2YzQzbzluWmI3SHkwUnFFdHpTZHdJdE9QTXBGMjFRTFVZZ2RoYWdSSjZDNGR4VFBlT2xkaUtLVGhkaDhSYS8vNFg5UnVLYnUxUGZMREZ5R29BTncxV0VHcjZPbHNUOXJTd3dPL2ZwbDg3cGxkTFFqTWJnRkNENnpwaEVDVzRrQTJRekdUVmxOcDJDOG5hTjF0UFV1emJ1QllkMkFrUit0S1N0WnE3SmFxcWJVd3hPVVExT3BwV21WYWVzODlqNzhiR25nU3RHcDI5Szk5bU0raXhKaUlkWTJHSmNvZitKQi92d0M",
         "product": "Samsung Galaxy S26 5G smartphone 12/256GB (sort)",
         "image_url": "/images/elgiganten/samsung_galaxy_s26_5g_smartphone_12_256gb.webp",
-        "sku": "1039743",
-        "provider": "YouSee",
-        "title": "Yousee Fri Tale 100GB",
-        "data_gb": 100,
+        "type": "phone",
         "price_without_subscription": 7999,
         "price_with_subscription": 6199,
         "min_cost_6_months": 7792,
         "subscription_price_monthly": 249,
         "discount_on_product": 1800,
-        "benefits": [
-            "Roaming World i 48 lande",
-            "YouSee Musik"
-        ],
-        "saved_at": "09-03-2026-06:46",
-        "sold_out": "false",
-        "type": "phone"
+        "saved_at": "09-03-2026-16:56"
     },
     {
         "link": "https://www.elgiganten.dk/product/mobil-tablet-smartwatch/mobiltelefon/samsung-galaxy-s26-ultra-5g-smartphone-12256gb-sort/1039737?offerId=ZlpETlRzTXdFSVRmeGVjRU9YRWhUVzRscmFvS1NnL3dBbXRuU1MxdDFwRi9CQlhpM1hGUUQ2Z0hydlBOYUhiblMyeDh0SWJ3SlUwYXZlaEVKVlhicUVZVTRzQWhBdEdFSEkrTzQ1a3V2UXRSZExJUXU4L280UjkraThKdjZvLzZkcGt4bHhGQ3dGeDFtdEZEdER6Mlo3Q2N3YW5mUHUyZTl4bTkycEV6dUFZWVB4WU5DRU8yTWlObE14bzNMV3JTd1hnN1IrdDQ3MTJhRDBPRzk5aEtCV3RWdnRleUxWZDZYWmVndENybFVGY0dWMVhUNnVvbS9HaDV5SldpZTdoK2VnUS9MbWR4SWlyRTFnYmpFaTlMM01udkh3PT0",
         "product": "Samsung Galaxy S26 Ultra 5G smartphone 12/256GB (sort)",
         "image_url": "/images/elgiganten/samsung_galaxy_s26_ultra_5g_smartphone_12_256gb.webp",
-        "sku": "1039737",
-        "provider": "YouSee",
-        "title": "Yousee Fri Tale 100GB",
-        "data_gb": 100,
+        "type": "phone",
         "price_without_subscription": 11499,
         "price_with_subscription": 7999,
         "min_cost_6_months": 9592,
         "subscription_price_monthly": 249,
         "discount_on_product": 3500,
-        "benefits": [
-            "Roaming World i 48 lande",
-            "YouSee Musik"
-        ],
-        "saved_at": "09-03-2026-06:46",
-        "sold_out": "false",
-        "type": "phone"
+        "saved_at": "09-03-2026-16:56"
     },
     {
         "link": "https://www.elgiganten.dk/product/mobil-tablet-smartwatch/mobiltelefon/iphone-17-5g-smartphone-256gb-sort/982749?offerId=ZlpETlRzTXdFSVRmWmM4SmNpR2tjVzRscmFvS1NnL3dBbzZ6U1MwNTY4Zy9nZ3J4N3F4UkR4VUhydlBOYUhiMkN6WStHbTN4TmMwOWVtaEJOdmZyU2tJQkJ3cFJXVHNqeGFPamVMYVh6b1VJclNoZzl4bTkrb2YvUmVFM2RhTytYeGJrTG9zcUlGZWRGdlFxR3BxNnN6TEU0TlJ0bjNjdmUwWnZaaUlHMXdEaFI5YVV4Y0JXSXJSc1J1M21yS1krYUcrV2FCenR2VXZMWVdEWVMxR1BVc3R5TmFpNnJPUjZMT1dEYkVwZE5lTmp2OUpDREhuc2JmakowTUNWME5iWHBVZmxwM3dXSldzTDJKcWdYYUw4aVR2eC9RTT0",
         "product": "iPhone 17 5G smartphone 256GB Sort",
         "image_url": "/images/elgiganten/iphone_17_5g_smartphone_256gb.webp",
-        "sku": "982749",
-        "provider": "YouSee",
-        "title": "Yousee Fri Tale 100GB",
-        "data_gb": 100,
+        "type": "phone",
         "price_without_subscription": 7499,
         "price_with_subscription": 5999,
         "min_cost_6_months": 7592,
         "subscription_price_monthly": 249,
         "discount_on_product": 1500,
-        "benefits": [
-            "Roaming World i 48 lande",
-            "YouSee Musik"
-        ],
-        "saved_at": "09-03-2026-06:46",
-        "sold_out": "false",
-        "type": "phone"
+        "saved_at": "09-03-2026-16:56"
     },
     {
         "link": "https://www.elgiganten.dk/product/mobil-tablet-smartwatch/mobiltelefon/iphone-air-5g-smartphone-256gb-space-black/982741?offerId=ZlpETmJzSXdFSVRmWmM5SjVmd1VrdHhvUUFoUjROQytnTzFzZ3lWbkhmbEhnS3ErZTIzRUFmWFE2M3d6bXAzOWhwWDFTbW84aGttZ2hRN2FwbHpXQldTd0krZTUxaE9TUHhqeVozM3JqZlBRc1F3MlYyLzVQL3d2Y3ZmVWsvcDVtekYyYWVRT1k5VnBSc3U5b3JFL2MwVVJuUHIxZnZPK2plaERqUlRCSTBCNFNSclg2S0tWQ0hVMG96UlRVb053MHFyWkswTmJhOEs4R3lKOHhaWlZ2S255cjVLMWVTMmFNdWVWcUhJMmxJWEV1bGkySW8xOURyOHBHbUlsZEl2SDBnTzNZenFMZ3RZWnJKV1RKbEQ2eEF2NytRVT0",
         "product": "iPhone Air 5G smartphone 256GB Space Black",
         "image_url": "/images/elgiganten/iphone_air_5g_smartphone_256gb.webp",
-        "sku": "982741",
-        "provider": "YouSee",
-        "title": "Yousee Fri Tale 100GB",
-        "data_gb": 100,
+        "type": "phone",
         "price_without_subscription": 7999,
         "price_with_subscription": 6499,
         "min_cost_6_months": 8092,
         "subscription_price_monthly": 249,
         "discount_on_product": 1500,
-        "benefits": [
-            "Roaming World i 48 lande",
-            "YouSee Musik"
-        ],
-        "saved_at": "09-03-2026-06:46",
-        "sold_out": "false",
-        "type": "phone"
+        "saved_at": "09-03-2026-16:56"
+    },
+    {
+        "link": "https://www.elgiganten.dk/product/mobil-tablet-smartwatch/mobiltelefon/iphone-15-128gb-black/673005?offerId=ZlpETmJzSXdFSVRmeGVla01nMzVhVzQwSUlRb2NHaGZZR092Z3FYTk92S1BLS3I2N2ppSVE4V2gxL2xtTkx2ekkxWXVHRVY0akdPUFRyU2lxZ3NwUzVHSkhmc0FSQ055T0ZnT1o3cDIxZ2ZSeWt4c3ZvT0RmL2d6OHZmVUgvWHJPbUhxSWdTUHFlbzBvWU5nZU9qT1lEaUJVN2ZlYno2MkNYMmFnUk40QkJndnN3YUVQbG1aa1pJWmxSMW5OZlplT1RNRlkzbnJiSngyT3NHK0xFcXBHNVVETnBndjMzQ1pRNzJvY2loQkt5d2EvVnBYVCtGM3d6cFZpclo2ZkhvQU44eG5jU1RLeE5wNFpTUFBTN3pJM3hzPQ",
+        "product": "iPhone 15 128GB Black",
+        "image_url": "/images/elgiganten/iphone_15_128gb.webp",
+        "type": "phone",
+        "price_without_subscription": 4899,
+        "price_with_subscription": 4249,
+        "min_cost_6_months": 5842,
+        "subscription_price_monthly": 249,
+        "discount_on_product": 650,
+        "saved_at": "09-03-2026-16:56"
     },
     {
         "link": "https://www.elgiganten.dk/product/mobil-tablet-smartwatch/mobiltelefon/iphone-air-5g-smartphone-512gb-space-black/982757?offerId=ZlpETmJzSXdFSVRmWmM5SkZkSEVUbkpyQTBLb1VBN3RDeGhuR3l3NTY4Zy9Bb1Q2N213UWg0cERyL1BOYUhibkNtOCtHbTN4TTQwSDlOQkNVeTlrSlNHRERZV29yQjJSNHM1UlBOcEw1MEtFdHNoZ2RZNWUvY09mVWJpbi9xamZsd201eTZJS3lGWDdDYjJLaG9idXFBd3gySGZMajlWMnplakxETVRnRVNBOHpacXlHTmhLaEpiTnFOMDRxK2tRdERkVE5JN1czcVZwMHpPc0pPcmlwOUY1V1ZRaUwyc2hjOVV2TU85bEtXcmRDTjFVcjAvaGQwTTlWMElySHAvdWxCL21zeWhabThIU0JPMFN6VXU4Rkw4Mw",
         "product": "iPhone Air 5G smartphone 512GB Space Black",
         "image_url": "/images/elgiganten/iphone_air_5g_smartphone_512gb.webp",
-        "sku": "982757",
-        "provider": "YouSee",
-        "title": "Yousee Fri Tale 100GB",
-        "data_gb": 100,
+        "type": "phone",
         "price_without_subscription": 9499,
         "price_with_subscription": 7999,
         "min_cost_6_months": 9592,
         "subscription_price_monthly": 249,
         "discount_on_product": 1500,
-        "benefits": [
-            "Roaming World i 48 lande",
-            "YouSee Musik"
-        ],
-        "saved_at": "09-03-2026-06:46",
-        "sold_out": "false",
-        "type": "phone"
+        "saved_at": "09-03-2026-16:56"
     },
     {
         "link": "https://www.elgiganten.dk/product/mobil-tablet-smartwatch/mobiltelefon/iphone-17-pro-max-5g-smartphone-256gb-dybbla/982739?offerId=ZlpETmJzSXdFSVRmWmM5SlpRb05jVzV0UUFoUnlxRjlBY2ZaQkV2T092S1BLS3I2N2wxWEhGQVB2YzQzbzluWkwzajIwV2lMYjJucTBFTURzbjVjTHlVVXNLY1FsYlVUVWp3NmltZDdiVjJJMElnQ3RwL1JxMy80WHhSK1UzZnF4M1ZHN3JLb0FuTFZhVWF2b3FHeFBTdERERTd0NXJCOTNURjZOeU14dUFVSUwxbFRGZ05iaWRDeUdiV2JzcHE2b0wyWm8zRzA4eTdOKzU1aEowVTFTQzNMUmErcWNpWFhReW1Yc2k3MXFoNmV1b1VXb3M5ajc4TXZobnF1aEthNkxUMHFQK2F6S0ZsYndNWUU3UkxsVHp5STd4OD0",
         "product": "iPhone 17 Pro Max 5G smartphone 256GB Dybblå",
         "image_url": "/images/elgiganten/iphone_17_pro_max_5g_smartphone_256gb.webp",
-        "sku": "982739",
-        "provider": "YouSee",
-        "title": "Yousee Fri Tale 100GB",
-        "data_gb": 100,
+        "type": "phone",
         "price_without_subscription": 10999,
         "price_with_subscription": 9499,
         "min_cost_6_months": 11092,
         "subscription_price_monthly": 249,
         "discount_on_product": 1500,
-        "benefits": [
-            "Roaming World i 48 lande",
-            "YouSee Musik"
-        ],
-        "saved_at": "09-03-2026-06:46",
-        "sold_out": "false",
-        "type": "phone"
+        "saved_at": "09-03-2026-16:56"
     },
     {
         "link": "https://www.elgiganten.dk/product/mobil-tablet-smartwatch/mobiltelefon/iphone-17-pro-5g-smartphone-512gb-dybbla/982729",
         "product": "iPhone 17 Pro 5G smartphone 512GB Dybblå",
         "image_url": "/images/elgiganten/iphone_17_pro_5g_smartphone_512gb.webp",
-        "sku": "982729",
-        "provider": "YouSee",
-        "title": "Yousee Fri Tale 100GB",
-        "data_gb": 100,
+        "type": "phone",
         "price_without_subscription": 11999,
         "price_with_subscription": 10499,
         "min_cost_6_months": 12092,
         "subscription_price_monthly": 249,
         "discount_on_product": 1500,
-        "benefits": [
-            "Roaming World i 48 lande",
-            "YouSee Musik"
-        ],
-        "saved_at": "09-03-2026-06:46",
-        "sold_out": "false",
-        "type": "phone"
+        "saved_at": "09-03-2026-16:56"
     },
     {
         "link": "https://www.elgiganten.dk/product/mobil-tablet-smartwatch/mobiltelefon/iphone-17-5g-smartphone-512gb-sort/982711",
         "product": "iPhone 17 5G smartphone 512GB Sort",
         "image_url": "/images/elgiganten/iphone_17_5g_smartphone_512gb.webp",
-        "sku": "982711",
-        "provider": "YouSee",
-        "title": "Yousee Fri Tale 100GB",
-        "data_gb": 100,
+        "type": "phone",
         "price_without_subscription": 9499,
         "price_with_subscription": 7999,
         "min_cost_6_months": 9592,
         "subscription_price_monthly": 249,
         "discount_on_product": 1500,
-        "benefits": [
-            "Roaming World i 48 lande",
-            "YouSee Musik"
-        ],
-        "saved_at": "09-03-2026-06:46",
-        "sold_out": "false",
-        "type": "phone"
+        "saved_at": "09-03-2026-16:56"
     },
     {
         "link": "https://www.elgiganten.dk/product/mobil-tablet-smartwatch/mobiltelefon/honor-400-smart-5g-smartphone-4256gb-velvet-black/968052",
         "product": "HONOR 400 Smart 5G smartphone 4/256GB (velvet black)",
         "image_url": "/images/elgiganten/honor_400_smart_5g_smartphone_4_256gb.webp",
-        "sku": "968052",
-        "provider": "YouSee",
-        "title": "Yousee Fri Tale 100GB",
-        "data_gb": 100,
+        "type": "phone",
         "price_without_subscription": 2199,
         "price_with_subscription": 549,
         "min_cost_6_months": 2142,
         "subscription_price_monthly": 249,
         "discount_on_product": 1650,
-        "benefits": [
-            "Roaming World i 48 lande",
-            "YouSee Musik"
-        ],
-        "saved_at": "09-03-2026-06:46",
-        "sold_out": "false",
-        "type": "phone"
+        "saved_at": "09-03-2026-16:56"
     },
     {
         "link": "https://www.elgiganten.dk/product/mobil-tablet-smartwatch/mobiltelefon/honor-400-smart-5g-smartphone-4128gb-velvet-black/968046",
         "product": "HONOR 400 Smart 5G smartphone 4/128GB (velvet black)",
         "image_url": "/images/elgiganten/honor_400_smart_5g_smartphone_4_128gb.webp",
-        "sku": "968046",
-        "provider": "YouSee",
-        "title": "Yousee Fri Tale 100GB",
-        "data_gb": 100,
+        "type": "phone",
         "price_without_subscription": 1899,
         "price_with_subscription": 249,
         "min_cost_6_months": 1842,
         "subscription_price_monthly": 249,
         "discount_on_product": 1650,
-        "benefits": [
-            "Roaming World i 48 lande",
-            "YouSee Musik"
-        ],
-        "saved_at": "09-03-2026-06:46",
-        "sold_out": "false",
-        "type": "phone"
+        "saved_at": "09-03-2026-16:56"
     },
     {
         "link": "https://www.elgiganten.dk/product/mobil-tablet-smartwatch/mobiltelefon/samsung-galaxy-s26-ultra-5g-smartphone-12512gb-sort/1039751?offerId=ZlpETmJzSXdFSVRmeGVla1NocnlRMjQwSUlRb2NHaGZZR092Z3FYTk92S1BLS3I2N2ppSUErTFE2M3d6bXQzNUZTdnJ0U1E4aHJGSEsxcVJaOFd5TG5PUmlCMDdEMFFqc2o4WTltZTZkc1o1MFdhSjJQeDRDLy93VitUdXFTZjErenBoTENNRWg3SHFOS0VGcjNub3pxQTVnbE8zM204K3R4Rjk2WUVqZUFRWUw3TUdoQzVhbVpHaUdhVVpaelgwVGxvOWVXMTRhMDJZZGlyQ3ZpektURFV5Qld3d1hTeHhrVUtkVnltVW9DUVdqWHF2cTVmd2gyWVZLMFZiUFQ0OWdCM21zemdRSldLdG5UU0I1eVhlc3I4Yg",
         "product": "Samsung Galaxy S26 Ultra 5G smartphone 12/512GB (sort)",
         "image_url": "/images/elgiganten/samsung_galaxy_s26_ultra_5g_smartphone_12_512gb.webp",
-        "sku": "1039751",
-        "provider": "YouSee",
-        "title": "Yousee Fri Tale 100GB",
-        "data_gb": 100,
+        "type": "phone",
         "price_without_subscription": 12999,
         "price_with_subscription": 9499,
         "min_cost_6_months": 11092,
         "subscription_price_monthly": 249,
         "discount_on_product": 3500,
-        "benefits": [
-            "Roaming World i 48 lande",
-            "YouSee Musik"
-        ],
-        "saved_at": "09-03-2026-06:46",
-        "sold_out": "false",
-        "type": "phone"
+        "saved_at": "09-03-2026-16:56"
     },
     {
         "link": "https://www.elgiganten.dk/product/mobil-tablet-smartwatch/mobiltelefon/samsung-galaxy-s26-5g-smartphone-12512gb-sort/1039747?offerId=ZlpETmJzSXdFSVRmWmM5SjVZZzB3Ym1WZ0JDaWxFUDdBbzZ6Q1pZMjY4Zy9vcWpxdTllcE9GUWNlcDF2UnJNN1gvRGlndEdFYjNIcTBFRURoVmpKdXF3aGd3UDdvSWdtNUhDeUhDNTBhNjBQMElnTWRwL0JxWC80SS9LL3FUL3F4MjNHVkVhb1BLYXE4NHhPQmNOamUxR0dFemkzMitQdWRaL1F1eGs1Z1h1QThicG9pdEFuS3pOU01xTzIwNkxHem10bjVtQXM3NTJOODZGUHNKT2lHcVNXZWRHcktpOWxQZVJ5SmRlNUx0ZkRjMWRvSVhyNUVONFk3bE1sTk5YOTA1Tnk0M0lXUjZJTXRzWnJHM2xaNGtsOC93QT0",
         "product": "Samsung Galaxy S26 5G smartphone 12/512GB (sort)",
         "image_url": "/images/elgiganten/samsung_galaxy_s26_5g_smartphone_12_512gb.webp",
-        "sku": "1039747",
-        "provider": "YouSee",
-        "title": "Yousee Fri Tale 100GB",
-        "data_gb": 100,
+        "type": "phone",
         "price_without_subscription": 9499,
         "price_with_subscription": 7699,
         "min_cost_6_months": 9292,
         "subscription_price_monthly": 249,
         "discount_on_product": 1800,
-        "benefits": [
-            "Roaming World i 48 lande",
-            "YouSee Musik"
-        ],
-        "saved_at": "09-03-2026-06:46",
-        "sold_out": "false",
-        "type": "phone"
+        "saved_at": "09-03-2026-16:56"
     },
     {
         "link": "https://www.elgiganten.dk/product/mobil-tablet-smartwatch/mobiltelefon/samsung-galaxy-s26-plus-5g-smartphone-12512gb-sort/1039734?offerId=ZlpETmJzSXdFSVRmeGVla2NwUTA0TnhLUUFoUnlxRjlBY2ZaQkV1YmRlUWZVVlQxM2J1cE9GUWNlcDF2UnJNN1grTEZSMnNRM3RMVWdSZU5LR1NwVm1VbE1uR2dFRFhpQkJSUGp1SUZiNjBMVVRReUU3dlA2UFUvL0JHRjM5UWY5ZU0yQTVjaDZBQmNkWjdCNjJocGJDL2FFb056dXozdVh2ZU0zdTFJRE80Qmd1dWlhWVRBVmlKQU5vTngwNkttTGhodjUyZ2Q3YjFMODZGbjJDbFpEOHFvdk9oMW5WZHFOZVNxVk92Y1ZPdmh1U3VNbEwxNkNHOHM5VndwbXZyKzZVbjdjVG1MRW1JbXRqWVlsMmhaNGtsKy93QT0",
         "product": "Samsung Galaxy S26 Plus 5G smartphone 12/512GB (sort)",
         "image_url": "/images/elgiganten/samsung_galaxy_s26_plus_5g_smartphone_12_512gb.webp",
-        "sku": "1039734",
-        "provider": "YouSee",
-        "title": "Yousee Fri Tale 100GB",
-        "data_gb": 100,
+        "type": "phone",
         "price_without_subscription": 11499,
         "price_with_subscription": 9499,
         "min_cost_6_months": 11092,
         "subscription_price_monthly": 249,
         "discount_on_product": 2000,
-        "benefits": [
-            "Roaming World i 48 lande",
-            "YouSee Musik"
-        ],
-        "saved_at": "09-03-2026-06:46",
-        "sold_out": "false",
-        "type": "phone"
+        "saved_at": "09-03-2026-16:56"
     },
     {
         "link": "https://www.elgiganten.dk/product/mobil-tablet-smartwatch/mobiltelefon/samsung-galaxy-s26-ultra-5g-smartphone-12256-gb-hvid/1039732",
         "product": "Samsung Galaxy S26 Ultra 5G smartphone 12/256 GB (hvid)",
         "image_url": "/images/elgiganten/samsung_galaxy_s26_ultra_5g_smartphone_12_256_gb.webp",
-        "sku": "1039732",
-        "provider": "YouSee",
-        "title": "Yousee Fri Tale 100GB",
-        "data_gb": 100,
+        "type": "phone",
         "price_without_subscription": 11499,
         "price_with_subscription": 7999,
         "min_cost_6_months": 9592,
         "subscription_price_monthly": 249,
         "discount_on_product": 3500,
-        "benefits": [
-            "Roaming World i 48 lande",
-            "YouSee Musik"
-        ],
-        "saved_at": "09-03-2026-06:46",
-        "sold_out": "false",
-        "type": "phone"
+        "saved_at": "09-03-2026-16:56"
     },
     {
         "link": "https://www.elgiganten.dk/product/mobil-tablet-smartwatch/mobiltelefon/iphone-air-5g-smartphone-1tb-space-black/982761",
         "product": "iPhone Air 5G smartphone 1TB Space Black",
         "image_url": "/images/elgiganten/iphone_air_5g_smartphone_1tb_space_black.webp",
-        "sku": "982761",
-        "provider": "YouSee",
-        "title": "Yousee Fri Tale 100GB",
-        "data_gb": 100,
+        "type": "phone",
         "price_without_subscription": 10999,
         "price_with_subscription": 9499,
         "min_cost_6_months": 11092,
         "subscription_price_monthly": 249,
         "discount_on_product": 1500,
-        "benefits": [
-            "Roaming World i 48 lande",
-            "YouSee Musik"
-        ],
-        "saved_at": "09-03-2026-06:46",
-        "sold_out": "false",
-        "type": "phone"
+        "saved_at": "09-03-2026-16:56"
     },
     {
         "link": "https://www.elgiganten.dk/product/mobil-tablet-smartwatch/mobiltelefon/iphone-air-5g-smartphone-1tb-skyhvid/982760",
         "product": "iPhone Air 5G smartphone 1TB Skyhvid",
         "image_url": "/images/elgiganten/iphone_air_5g_smartphone_1tb_skyhvid.webp",
-        "sku": "982760",
-        "provider": "YouSee",
-        "title": "Yousee Fri Tale 100GB",
-        "data_gb": 100,
+        "type": "phone",
         "price_without_subscription": 10999,
         "price_with_subscription": 9499,
         "min_cost_6_months": 11092,
         "subscription_price_monthly": 249,
         "discount_on_product": 1500,
-        "benefits": [
-            "Roaming World i 48 lande",
-            "YouSee Musik"
-        ],
-        "saved_at": "09-03-2026-06:46",
-        "sold_out": "false",
-        "type": "phone"
+        "saved_at": "09-03-2026-16:56"
     },
     {
         "link": "https://www.elgiganten.dk/product/mobil-tablet-smartwatch/mobiltelefon/iphone-17-pro-5g-smartphone-1tb-solv/982755?offerId=ZlpETmJzSXdFSVRmWmM5SlpTZ0pjVzV0UUFpMXdLRjlBY2ZaQkV2T092S1BXbFQxM2RsVUhDb09YT2ViMGV6T0Q3ejRhTFRGWXhwYjlGQ0RySmJyb29BTTloU2lzblpFaWdkSDhXd3ZqUXNSYXBIQjlqdDY5WURmby9DWCtxZCtYaWJrTG9zcUlGZWRKdlFxR2hxYXN6TEU0TlJzM3Jidk8wWWZaaUFHdHdEaDE2d3BpNEd0UkdqWmpOcU5zNXJhb0wyWm9uRzA4eTVOKzQ1aEswWFpTeTN6UmFmS2ZDWFhmUzZmWlpYclZkVVg3VUlMMGNtNzhLdWhqaXVoTG0rZkhwUWY1ck1vV1p2QnhnVHRFczFMUEluZkt3PT0",
         "product": "iPhone 17 Pro 5G smartphone 1TB Sølv",
         "image_url": "/images/elgiganten/iphone_17_pro_5g_smartphone_1tb_s_lv.webp",
-        "sku": "982755",
-        "provider": "YouSee",
-        "title": "Yousee Fri Tale 100GB",
-        "data_gb": 100,
+        "type": "phone",
         "price_without_subscription": 13999,
         "price_with_subscription": 12499,
         "min_cost_6_months": 14092,
         "subscription_price_monthly": 249,
         "discount_on_product": 1500,
-        "benefits": [
-            "Roaming World i 48 lande",
-            "YouSee Musik"
-        ],
-        "saved_at": "09-03-2026-06:46",
-        "sold_out": "false",
-        "type": "phone"
+        "saved_at": "09-03-2026-16:56"
     },
     {
         "link": "https://www.elgiganten.dk/product/mobil-tablet-smartwatch/mobiltelefon/iphone-air-5g-smartphone-1tb-himmelbla/982752?offerId=ZlpETlRzTXdFSVRmeGVjRU9VNUxrOXdncmFvS1NnL3dBcmF6cEpZMjY4Zy9nZ3J4N214UUQ2Z0hydlBOYUhiblN6eUU1Q3pDUzU0TUJOR0p0bEdidFJLRk9GQk1HbkVDU2tkUDZZeVgzc2NrT2xtSTNXY0sraDkraStKdjZvLzZkcG1CdXhCMEJLNDZ6UkIwY2pUMlorMkl3YW5mUHUyZTk0eGUzVWdNcmdHQ2owWFRDSkd0UklCc0J1dW5SYzBtMnVEbTVEenRnOC96WVdDNGhsYld1cW5MZHlYYmNtVWFWZXJhMUtVY1ZHVmhWVzFhVTkyRUh4ME5YQ202Kyt1blJ4M0c1U3pLaUlYWXVtaDlwbVdKTy9uOUF3PT0",
         "product": "iPhone Air 5G smartphone 1TB Himmelblå",
         "image_url": "/images/elgiganten/iphone_air_5g_smartphone_1tb_himmelbl_.webp",
-        "sku": "982752",
-        "provider": "YouSee",
-        "title": "Yousee Fri Tale 100GB",
-        "data_gb": 100,
+        "type": "phone",
         "price_without_subscription": 10999,
         "price_with_subscription": 9499,
         "min_cost_6_months": 11092,
         "subscription_price_monthly": 249,
         "discount_on_product": 1500,
-        "benefits": [
-            "Roaming World i 48 lande",
-            "YouSee Musik"
-        ],
-        "saved_at": "09-03-2026-06:46",
-        "sold_out": "false",
-        "type": "phone"
+        "saved_at": "09-03-2026-16:56"
     },
     {
         "link": "https://www.elgiganten.dk/product/mobil-tablet-smartwatch/mobiltelefon/iphone-air-5g-smartphone-1tb-lyst-guld/982747?offerId=ZlpETmJzSXdFSVRmeGVla2ltaGlKN20xQVNGVUtJZjJCWXl6RFpZMjY4Zy9Bb1Q2N213UWg0cERyL1BOYUhibkt0NTh0QWJoTTQwSDhLSVZUYjFRcFJLWjJGQ0lHbkVFaWp0SDhZaVh6b1VvMmlJVHEzUDAraC8rak1JOTlVZjl2a3pBWFFnNkFGZnRKL0E2V2hxNm83YkVZTjh0UDFiYk5hTXZPeENEUjREZ05Hc2FJYkNWQ0pETllOdzRxK2tRakxkVHRJN1czcVZwMHpPc0ZKamlwekY1V1ZReUwydXBjdDB2SU85VktXdlRTTk5VcjAvaGQwczlWNHBXUGo3ZGFUL01aMUZDek1UU0J1TVN6VXU4Rkw4Mw",
         "product": "iPhone Air 5G smartphone 1TB Lyst Guld",
         "image_url": "/images/elgiganten/iphone_air_5g_smartphone_1tb_lyst_guld.webp",
-        "sku": "982747",
-        "provider": "YouSee",
-        "title": "Yousee Fri Tale 100GB",
-        "data_gb": 100,
+        "type": "phone",
         "price_without_subscription": 10999,
         "price_with_subscription": 9499,
         "min_cost_6_months": 11092,
         "subscription_price_monthly": 249,
         "discount_on_product": 1500,
-        "benefits": [
-            "Roaming World i 48 lande",
-            "YouSee Musik"
-        ],
-        "saved_at": "09-03-2026-06:46",
-        "sold_out": "false",
-        "type": "phone"
+        "saved_at": "09-03-2026-16:56"
     },
     {
         "link": "https://www.elgiganten.dk/product/mobil-tablet-smartwatch/mobiltelefon/iphone-17-pro-5g-smartphone-1tb-kosmisk-orange/982745?offerId=ZlpETlRzTkFESVRmeGVjRWhUWi96YTJrVlZWQjZRRmV3Tm0xMHBVY2I3US9nZ3J4N214UUQ2Z0hydlBOYU96NWdxMExSakc5eG1rZ0J4MXMybFZUVnBEQlVYeEE1b2trbkt5RUMxOTc2d04wUlFiN3orRHdIMzZQL0cvcWovcCtuU2wxTWFHblZIV2V5V0V3TXZZWE5KTEF1ZDg5NzE4T0NiMlpVUks0QllRK0ZnMlpmTEtLRUNjektUc3RhaHk4Y21ZT3hzckIyVGdmZFlKRHRhNEszYW9jcWFXODNGQ1pZL05ZNTFpaFZyUnU5YXFwNzhKUFJuU3FoSzYrZlhwQ055NW5TV1RPWUdlOHNsR1dKUjZLN3g4PQ",
         "product": "iPhone 17 Pro 5G smartphone 1TB Kosmisk Orange",
         "image_url": "/images/elgiganten/iphone_17_pro_5g_smartphone_1tb_kosmisk_orange.webp",
-        "sku": "982745",
-        "provider": "YouSee",
-        "title": "Yousee Fri Tale 100GB",
-        "data_gb": 100,
+        "type": "phone",
         "price_without_subscription": 13999,
         "price_with_subscription": 12499,
         "min_cost_6_months": 14092,
         "subscription_price_monthly": 249,
         "discount_on_product": 1500,
-        "benefits": [
-            "Roaming World i 48 lande",
-            "YouSee Musik"
-        ],
-        "saved_at": "09-03-2026-06:46",
-        "sold_out": "false",
-        "type": "phone"
+        "saved_at": "09-03-2026-16:56"
     },
     {
         "link": "https://www.elgiganten.dk/product/mobil-tablet-smartwatch/mobiltelefon/iphone-17-pro-5g-smartphone-1tb-dybbla/982740",
         "product": "iPhone 17 Pro 5G smartphone 1TB Dybblå",
         "image_url": "/images/elgiganten/iphone_17_pro_5g_smartphone_1tb_dybbl_.webp",
-        "sku": "982740",
-        "provider": "YouSee",
-        "title": "Yousee Fri Tale 100GB",
-        "data_gb": 100,
+        "type": "phone",
         "price_without_subscription": 13999,
         "price_with_subscription": 12499,
         "min_cost_6_months": 14092,
         "subscription_price_monthly": 249,
         "discount_on_product": 1500,
-        "benefits": [
-            "Roaming World i 48 lande",
-            "YouSee Musik"
-        ],
-        "saved_at": "09-03-2026-06:46",
-        "sold_out": "false",
-        "type": "phone"
+        "saved_at": "09-03-2026-16:56"
     },
     {
         "link": "https://www.elgiganten.dk/product/mobil-tablet-smartwatch/mobiltelefon/iphone-17-pro-max-5g-smartphone-2tb-solv/982738?offerId=ZlpETmJzSXdFSVRmWmM4Sk1nVkNuRnNiRUVJVU9MUXY0RGliWUdtemp2d2ppcXErTzA3Rm9lTFE2M3d6bXQzNWhsY1hqQ1k4eGFGQkJ4WEk4bVc5S0NHRFBmdWdpQWJrY0xRY0xuU3JyUTlRaVF5Mlg4R3BmL2d6OHIrcFArcm5iY1RVUmFnOHBxcnppRTRGdzMxOVVZWVRPTmVidy9aOWw5Q0g2VG1CUjREeE9tbUswQ2NyTTFJeW83YkRwTWJHYTJmR1lDenZuSTNqdmsyd2thTG9wSmI1dkZWRnZwVHJMcGNMV2VaNldYYXJacTZGYU9WVCtNMXdteXFoS2g2ZkhwWHJwN000RW1Xd01WN2J5Tk1TTS9GekJ3PT0",
         "product": "iPhone 17 Pro Max 5G smartphone 2TB Sølv",
         "image_url": "/images/elgiganten/iphone_17_pro_max_5g_smartphone_2tb_s_lv.webp",
-        "sku": "982738",
-        "provider": "YouSee",
-        "title": "Yousee Fri Tale 100GB",
-        "data_gb": 100,
+        "type": "phone",
         "price_without_subscription": 18999,
         "price_with_subscription": 17499,
         "min_cost_6_months": 19092,
         "subscription_price_monthly": 249,
         "discount_on_product": 1500,
-        "benefits": [
-            "Roaming World i 48 lande",
-            "YouSee Musik"
-        ],
-        "saved_at": "09-03-2026-06:46",
-        "sold_out": "false",
-        "type": "phone"
+        "saved_at": "09-03-2026-16:56"
     },
     {
         "link": "https://www.elgiganten.dk/product/mobil-tablet-smartwatch/mobiltelefon/iphone-17-pro-max-5g-smartphone-2tb-kosmisk-orange/982728",
         "product": "iPhone 17 Pro Max 5G smartphone 2TB Kosmisk Orange",
         "image_url": "/images/elgiganten/iphone_17_pro_max_5g_smartphone_2tb_kosmisk_orange.webp",
-        "sku": "982728",
-        "provider": "YouSee",
-        "title": "Yousee Fri Tale 100GB",
-        "data_gb": 100,
+        "type": "phone",
         "price_without_subscription": 18999,
         "price_with_subscription": 17499,
         "min_cost_6_months": 19092,
         "subscription_price_monthly": 249,
         "discount_on_product": 1500,
-        "benefits": [
-            "Roaming World i 48 lande",
-            "YouSee Musik"
-        ],
-        "saved_at": "09-03-2026-06:46",
-        "sold_out": "false",
-        "type": "phone"
+        "saved_at": "09-03-2026-16:56"
     },
     {
         "link": "https://www.elgiganten.dk/product/mobil-tablet-smartwatch/mobiltelefon/iphone-17-pro-max-5g-smartphone-2tb-dybbla/982724?offerId=ZlpETmJzSXdFSVRmeGVjRXBTRi81QVlCSVFTVVEvc0NHM3NWTEczV2tYOEVxT3E3MTZrNFZCeDZuVzlHc3p0ZlltMjlsb1R2WWV6UmlsYXNtcnpPQzVHSUF6c1BSQ095UHh2MlYzcDB4bm5SWm9uWTNiMkZmL2dyY3IrcFArcm5ZOExZUlFnT1k5VmxRZ3RlODlCZFFYTUVsMjU3M0ozMkVYM29nU040QmhodnN3YUVMbHFaa2FJWnBSbG5OZlJPV2oxNWJYaHZUWmdPS3NLK1hKYVphbVFLMkdCYXJMQklvWDZyVWloQlNWdzJLcStybC9CR3M0cVZvcTJlbjU3QkR2TlpISWdTc2RWT21zRHpFb3ZzK3djPQ",
         "product": "iPhone 17 Pro Max 5G smartphone 2TB Dybblå",
         "image_url": "/images/elgiganten/iphone_17_pro_max_5g_smartphone_2tb_dybbl_.webp",
-        "sku": "982724",
-        "provider": "YouSee",
-        "title": "Yousee Fri Tale 100GB",
-        "data_gb": 100,
+        "type": "phone",
         "price_without_subscription": 18999,
         "price_with_subscription": 17499,
         "min_cost_6_months": 19092,
         "subscription_price_monthly": 249,
         "discount_on_product": 1500,
-        "benefits": [
-            "Roaming World i 48 lande",
-            "YouSee Musik"
-        ],
-        "saved_at": "09-03-2026-06:46",
-        "sold_out": "false",
-        "type": "phone"
+        "saved_at": "09-03-2026-16:56"
     },
     {
         "link": "https://www.elgiganten.dk/product/mobil-tablet-smartwatch/mobiltelefon/iphone-17-pro-max-5g-smartphone-512gb-solv/982723?offerId=ZlpETmJzSXdFSVRmeGVjRXBRbjVJVGNJQ0NHZ0hOb1gyTmlyWUdtemp2d2pRRlhmdlU3Rm9lTFE2M3d6bXQzNUVtdnJ0U1I4RDJPUFZyUmkxZVIxWG9oRUhOaDVJQnFSL2Rtd3Y5S2pNODZMTmt2RTd1NHQvTU5ma2Z0Ti9WRS9IeFBHTGtKd0dLc3VFMXJ3bW9mdUNwb2p1SFRiNCs2MGoraEREeHpCTThCNG16VWdkTkhLakJUTktNMDRxNkYzMHVySmE4TjdhOEowVUJIMlpWRm1xcEVwWUlQcGNvWExGT3EzS29VU2xNU2lVWGxkdllRM21sV3NGRzMxL1BRTWRwalA0a0NVaUsxMjBnU2VsMWhrM3o4PQ",
         "product": "iPhone 17 Pro Max 5G smartphone 512GB Sølv",
         "image_url": "/images/elgiganten/iphone_17_pro_max_5g_smartphone_512gb.webp",
-        "sku": "982723",
-        "provider": "YouSee",
-        "title": "Yousee Fri Tale 100GB",
-        "data_gb": 100,
+        "type": "phone",
         "price_without_subscription": 12999,
         "price_with_subscription": 11499,
         "min_cost_6_months": 13092,
         "subscription_price_monthly": 249,
         "discount_on_product": 1500,
-        "benefits": [
-            "Roaming World i 48 lande",
-            "YouSee Musik"
-        ],
-        "saved_at": "09-03-2026-06:46",
-        "sold_out": "false",
-        "type": "phone"
+        "saved_at": "09-03-2026-16:56"
     },
     {
         "link": "https://www.elgiganten.dk/product/mobil-tablet-smartwatch/mobiltelefon/iphone-17-pro-max-5g-smartphone-1tb-dybbla/982713?offerId=ZlpETmJzSXdFSVRmWmM5SjVRQU5jVzV0UUFpMXdLRjlBY2ZaQkV1YmRlUWZ0YWpxdStOVUhDb09YT2ViMGV6T0Q3eTRZRFRoTVk0dE9xaEJWb3Qxc1lRTTl1eURJaHFSdzhGeU9OT2xzVDVBTFRMWWZnZW5IdkI3NVA5Uy85VFB5NFNwaTFCNVRGV25DWjBLaG9mbXJBd25jR28yYjl2M1hVSWZadUFFYmdIR3IxbFRoRDVabVpHU0diVWRaelcyWGpzekJXTjU1MnljOWwyQ3JSUmxMN1hNaTA2VitVcXUrMXd1WlpYclZkVS90NFVXb3BOMzRWZkRYYXFFdXJ4OWVsQnVtTS9pU0pUQnhuaHRJODlMUEluZkt3PT0",
         "product": "iPhone 17 Pro Max 5G smartphone 1TB Dybblå",
         "image_url": "/images/elgiganten/iphone_17_pro_max_5g_smartphone_1tb_dybbl_.webp",
-        "sku": "982713",
-        "provider": "YouSee",
-        "title": "Yousee Fri Tale 100GB",
-        "data_gb": 100,
+        "type": "phone",
         "price_without_subscription": 14999,
         "price_with_subscription": 13499,
         "min_cost_6_months": 15092,
         "subscription_price_monthly": 249,
         "discount_on_product": 1500,
-        "benefits": [
-            "Roaming World i 48 lande",
-            "YouSee Musik"
-        ],
-        "saved_at": "09-03-2026-06:46",
-        "sold_out": "false",
-        "type": "phone"
+        "saved_at": "09-03-2026-16:56"
     },
     {
         "link": "https://www.elgiganten.dk/product/mobil-tablet-smartwatch/mobiltelefon/iphone-17-pro-max-5g-smartphone-1tb-kosmisk-orange/982710",
         "product": "iPhone 17 Pro Max 5G smartphone 1TB Kosmisk Orange",
         "image_url": "/images/elgiganten/iphone_17_pro_max_5g_smartphone_1tb_kosmisk_orange.webp",
-        "sku": "982710",
-        "provider": "YouSee",
-        "title": "Yousee Fri Tale 100GB",
-        "data_gb": 100,
+        "type": "phone",
         "price_without_subscription": 14999,
         "price_with_subscription": 13499,
         "min_cost_6_months": 15092,
         "subscription_price_monthly": 249,
         "discount_on_product": 1500,
-        "benefits": [
-            "Roaming World i 48 lande",
-            "YouSee Musik"
-        ],
-        "saved_at": "09-03-2026-06:46",
-        "sold_out": "false",
-        "type": "phone"
+        "saved_at": "09-03-2026-16:56"
     },
     {
         "link": "https://www.elgiganten.dk/product/mobil-tablet-smartwatch/mobiltelefon/iphone-17-pro-max-5g-smartphone-1tb-solv/982709?offerId=ZlpETlRzTkFESVRmWmM4SkNtM3pleXRwVlZWUWVvQVhjSGF0ZENYSEcrMlBvRUs4T3c3cUFmWEFkYjRaalQxZmF1dWoxWVN2YVJyUXEwNjF6YW91V3BXcEk0Y0lSQk55UERtT0Y3cjJMa1RWRlpuYWYwWVAvL0I3Rkg1VGY5VDM2NHpTUlFnQnBlbzhvNGRvZWV3dllGbkF1ZDg5NzE4T2d0N3N5QUp1QWNhUFJRUENJRlptSkRHamR0T2lwaUZvYitkb0hSKzhTL1BSQ0J6S2RWbVlSdWVBRGVhYkZqYzUxSTlWRGlVWWpldkdyT3JxTHZ4azJVaWw2cXJicHlmdzQzSVdKNkpNN1d6UUx2R3l4RVB4L1FNPQ",
         "product": "iPhone 17 Pro Max 5G smartphone 1TB Sølv",
         "image_url": "/images/elgiganten/iphone_17_pro_max_5g_smartphone_1tb_s_lv.webp",
-        "sku": "982709",
-        "provider": "YouSee",
-        "title": "Yousee Fri Tale 100GB",
-        "data_gb": 100,
+        "type": "phone",
         "price_without_subscription": 14999,
         "price_with_subscription": 13499,
         "min_cost_6_months": 15092,
         "subscription_price_monthly": 249,
         "discount_on_product": 1500,
-        "benefits": [
-            "Roaming World i 48 lande",
-            "YouSee Musik"
-        ],
-        "saved_at": "09-03-2026-06:46",
-        "sold_out": "false",
-        "type": "phone"
+        "saved_at": "09-03-2026-16:56"
     },
     {
         "link": "https://www.elgiganten.dk/product/mobil-tablet-smartwatch/mobiltelefon/samsung-galaxy-s26-plus-5g-smartphone-12256gb-hvid/1039746",
         "product": "Samsung Galaxy S26 Plus 5G smartphone 12/256GB (hvid)",
         "image_url": "/images/elgiganten/samsung_galaxy_s26_plus_5g_smartphone_12_256gb.webp",
-        "sku": "1039746",
-        "provider": "YouSee",
-        "title": "Yousee Fri Tale 100GB",
-        "data_gb": 100,
+        "type": "phone",
         "price_without_subscription": 9999,
         "price_with_subscription": 7999,
         "min_cost_6_months": 9592,
         "subscription_price_monthly": 249,
         "discount_on_product": 2000,
-        "benefits": [
-            "Roaming World i 48 lande",
-            "YouSee Musik"
-        ],
-        "saved_at": "09-03-2026-06:46",
-        "sold_out": "false",
-        "type": "phone"
+        "saved_at": "09-03-2026-16:56"
     },
     {
         "link": "https://www.elgiganten.dk/product/mobil-tablet-smartwatch/mobiltelefon/samsung-galaxy-s26-ultra-5g-smartphone-161tb-sort/1039739",
         "product": "Samsung Galaxy S26 Ultra 5G smartphone 16/1TB (sort)",
         "image_url": "/images/elgiganten/samsung_galaxy_s26_ultra_5g_smartphone_16_1tb__sort_.webp",
-        "sku": "1039739",
-        "provider": "YouSee",
-        "title": "Yousee Fri Tale 100GB",
-        "data_gb": 100,
+        "type": "phone",
         "price_without_subscription": 14999,
         "price_with_subscription": 11499,
         "min_cost_6_months": 13092,
         "subscription_price_monthly": 249,
         "discount_on_product": 3500,
-        "benefits": [
-            "Roaming World i 48 lande",
-            "YouSee Musik"
-        ],
-        "saved_at": "09-03-2026-06:46",
-        "sold_out": "false",
-        "type": "phone"
+        "saved_at": "09-03-2026-16:56"
     },
     {
         "link": "https://www.elgiganten.dk/product/mobil-tablet-smartwatch/mobiltelefon/samsung-galaxy-s26-ultra-5g-smartphone-161tb-sky-blue/1039733",
         "product": "Samsung Galaxy S26 Ultra 5G smartphone 16/1TB (sky blue)",
         "image_url": "/images/elgiganten/samsung_galaxy_s26_ultra_5g_smartphone_16_1tb__sky_blue_.webp",
-        "sku": "1039733",
-        "provider": "YouSee",
-        "title": "Yousee Fri Tale 100GB",
-        "data_gb": 100,
+        "type": "phone",
         "price_without_subscription": 14999,
         "price_with_subscription": 11499,
         "min_cost_6_months": 13092,
         "subscription_price_monthly": 249,
         "discount_on_product": 3500,
-        "benefits": [
-            "Roaming World i 48 lande",
-            "YouSee Musik"
-        ],
-        "saved_at": "09-03-2026-06:46",
-        "sold_out": "false",
-        "type": "phone"
+        "saved_at": "09-03-2026-16:56"
     },
     {
         "link": "https://www.elgiganten.dk/product/mobil-tablet-smartwatch/mobiltelefon/samsung-galaxy-s26-5g-smartphone-12512gb-hvid/1039728?offerId=ZlpETlRzTkFESVRmeGVjRXBVM3owOXdncmFvS1NnL3dBczZ1bGE3a2VLUDlFVlNJZDJlRGVrQTljSjF2Um1QUEZ6eTZZQlRUYTV3R2N0REJxaWkzemJxRkRJN2lBekpQSk9Ga0pWejQybHNmb0NzeTJIOEdoLy93ZStSL1UzL1U5K3RNcVl3SlBhV3E4MHdPZzVHeHY2Q1JCTTc5N25uL2Nram96WXlTd0MwZzlMRm95T1NUVllRNG1VblphVkhqNEpVemN6QldEczdHK2FnVEhLcXlLblNyY3FTVzhzMldOamsycXpySENyV2lzdFhycHI0TFB4blJxUks2K3ZicENkMjRuQ1dST1lPZDhjcEdXWlo0S0w1L0FBPT0",
         "product": "Samsung Galaxy S26+ 5G smartphone 12/512GB (hvid)",
         "image_url": "/images/elgiganten/samsung_galaxy_s26__5g_smartphone_12_512gb.webp",
-        "sku": "1039728",
-        "provider": "YouSee",
-        "title": "Yousee Fri Tale 100GB",
-        "data_gb": 100,
+        "type": "phone",
         "price_without_subscription": 11499,
         "price_with_subscription": 9499,
         "min_cost_6_months": 11092,
         "subscription_price_monthly": 249,
         "discount_on_product": 2000,
-        "benefits": [
-            "Roaming World i 48 lande",
-            "YouSee Musik"
-        ],
-        "saved_at": "09-03-2026-06:46",
-        "sold_out": "false",
-        "type": "phone"
+        "saved_at": "09-03-2026-16:56"
     },
     {
         "link": "https://www.elgiganten.dk/product/mobil-tablet-smartwatch/mobiltelefon/samsung-galaxy-s26-ultra-5g-smartphone-161tb-hvid/1039726?offerId=ZlpETmJzSXdFSVRmWmM4SmNnb0VuRnNiRUVJVU9MUXY0RGliWU1sWlIvNFJSVlhmblUzRm9lTFE2M3d6bXQzNWhsY2ZqYlo0U2tPREhpb294Rnl1WGtySVlFOGhLbXNIcEhoMEZDLzJWcnNRb1JJWmJMK2lWLy93WnhSK1UzL1V6OXVJWEdaUkJlU3E4NGhlUlVOOWZWR0dHSnpyeldIN3ZtUDBZWHBpOEFnUVhpZE5XUXhzSlVMTFp0UnVtTlRVQk8zTkdJMmpuWGRwM0xjTUd5bktUbXFaRjYwcTg0VmNkYm1jeTNXdUYrdHUyUlJhaUZZK2hkOE10VndKVmZuNDlLaDhQNTFGeWRvTU5pWm9sMmhhWWlaKzdnPT0",
         "product": "Samsung Galaxy S26 Ultra 5G smartphone 16/1TB (hvid)",
         "image_url": "/images/elgiganten/samsung_galaxy_s26_ultra_5g_smartphone_16_1tb__hvid_.webp",
-        "sku": "1039726",
-        "provider": "YouSee",
-        "title": "Yousee Fri Tale 100GB",
-        "data_gb": 100,
+        "type": "phone",
         "price_without_subscription": 14999,
         "price_with_subscription": 11499,
         "min_cost_6_months": 13092,
         "subscription_price_monthly": 249,
         "discount_on_product": 3500,
-        "benefits": [
-            "Roaming World i 48 lande",
-            "YouSee Musik"
-        ],
-        "saved_at": "09-03-2026-06:46",
-        "sold_out": "false",
-        "type": "phone"
+        "saved_at": "09-03-2026-16:56"
     },
     {
         "link": "https://www.elgiganten.dk/product/mobil-tablet-smartwatch/mobiltelefon/samsung-galaxy-s26-ultra-5g-smartphone-16gb-ram1tb-lagerplads-cobalt-violet/1039724?offerId=ZlpETmJzSXdFSVRmeGVjRUJmSkxibTFBQ0ZIZzBMN0F4bDRGUzg0NjhvOEFWWDMzYmhDSGlrT3Y4ODFvZHVkYnZMbWdwY0ZUSEh0MG9oWExMRi9YcTBJa1lrOCtnREVqVWpoYUNoZHo3NndQb3MwU3NiMEZCLy93VitRZnFUL3ExMzFDTGpNSUhybnFQS0dEb0dub0xxQ0p3Ym5iSExZZk8wYWZlaUFHendEaGRkYkFvR2NyRVJvMm83VGpyTWJlUzZlbm9DM3RuSTNUWGpIc3k3ek1WQ05Ud0FiVFlvMUZDdld5U3FFRUpURnYxS3F1WHNMdm1oUlhpclo2Zm5vRU44eG5VVFFtRVJ2dHBZMDBMN0hJZm40Qg",
         "product": "Samsung Galaxy S26 Ultra 5G smartphone 16GB RAM/1TB lagerplads (cobalt violet)",
         "image_url": "/images/elgiganten/samsung_galaxy_s26_ultra_5g_smartphone_16gb.webp",
-        "sku": "1039724",
-        "provider": "YouSee",
-        "title": "Yousee Fri Tale 100GB",
-        "data_gb": 100,
+        "type": "phone",
         "price_without_subscription": 14999,
         "price_with_subscription": 11499,
         "min_cost_6_months": 13092,
         "subscription_price_monthly": 249,
         "discount_on_product": 3500,
-        "benefits": [
-            "Roaming World i 48 lande",
-            "YouSee Musik"
-        ],
-        "saved_at": "09-03-2026-06:46",
-        "sold_out": "false",
-        "type": "phone"
-    },
-    {
-        "link": "https://www.elgiganten.dk/product/mobil-tablet-smartwatch/tablet/remarkable-paper-pro-move-e-ink-tablet-marker-plus/948194?offerId=ZlpETlRzTkFESVRmWmM4SlNtbVNKcm1WdEtvcUtEM0FDemk3VnJxUzQ0MzJSMUFoM2gwSDlZQjY0RHJmak1hZUw3WDEwV3JDMXpRTjZGV24yckpadGFYSzFKRkRCS0lKT1o0Y3h3dGRleGVpNm9wTTdUK2poMy80UFFxL3FUL3ErM1ZHNlNLRWdGSjFudEZEdER6MkY3QXM0Tnp2bnZjdkIwRnZkbVFCdHdEang2SUJZUkFyTTVLWVVidHBVZE1RdExkenRJNFAzcVg1YUFRTzFib3FUS056d0FienNzVXloODJxenFFQ28zSGRtTWROZlJkK3NteWtVblgxN2RNVCtIRTVpeE5ScG5ZMmFKZDRXZUtoK1A0Qg",
-        "product": "reMarkable Paper Pro Move E-ink tablet + Marker Plus",
-        "image_url": "/images/elgiganten/remarkable_paper_pro_move_e_ink_tablet___marker_plus.webp",
-        "sku": "948194",
-        "provider": "YouSee",
-        "title": "Yousee Fri Tale 100GB",
-        "data_gb": 100,
-        "price_without_subscription": 3999,
-        "price_with_subscription": 3349,
-        "min_cost_6_months": 4942,
-        "subscription_price_monthly": 249,
-        "discount_on_product": 650,
-        "benefits": [
-            "Roaming World i 48 lande",
-            "YouSee Musik"
-        ],
-        "saved_at": "09-03-2026-06:46",
-        "sold_out": "false",
-        "type": "tablet"
-    },
-    {
-        "link": "https://www.elgiganten.dk/product/mobil-tablet-smartwatch/tablet/samsung-galaxy-tab-a11-4g-tablet-8128gb-gra/993571",
-        "product": "Samsung Galaxy Tab A11 4G tablet 8/128GB (grå)",
-        "image_url": "/images/elgiganten/samsung_galaxy_tab_a11_4g_tablet_8_128gb.webp",
-        "sku": "993571",
-        "provider": "YouSee",
-        "title": "Yousee Fri Tale 100GB",
-        "data_gb": 100,
-        "price_without_subscription": 2299,
-        "price_with_subscription": 1649,
-        "min_cost_6_months": 3242,
-        "subscription_price_monthly": 249,
-        "discount_on_product": 650,
-        "benefits": [
-            "Roaming World i 48 lande",
-            "YouSee Musik"
-        ],
-        "saved_at": "09-03-2026-06:46",
-        "sold_out": "false",
-        "type": "tablet"
-    },
-    {
-        "link": "https://www.elgiganten.dk/product/mobil-tablet-smartwatch/tablet/samsung-galaxy-tab-a11-4g-tablet-464gb-gra/993570",
-        "product": "Samsung Galaxy Tab A11 4G tablet 4/64GB (grå)",
-        "image_url": "/images/elgiganten/samsung_galaxy_tab_a11_4g_tablet_4_64gb.webp",
-        "sku": "993570",
-        "provider": "YouSee",
-        "title": "Yousee Fri Tale 100GB",
-        "data_gb": 100,
-        "price_without_subscription": 1799,
-        "price_with_subscription": 299,
-        "min_cost_6_months": 1892,
-        "subscription_price_monthly": 249,
-        "discount_on_product": 1500,
-        "benefits": [
-            "Roaming World i 48 lande",
-            "YouSee Musik"
-        ],
-        "saved_at": "09-03-2026-06:46",
-        "sold_out": "false",
-        "type": "tablet"
+        "saved_at": "09-03-2026-16:56"
     },
     {
         "link": "https://www.elgiganten.dk/product/mobil-tablet-smartwatch/tablet/ipad-11-11-gen-128gb-wifi-solv/905379?offerId=ZlpETlRzTkFESVRmeGVjRUJkTDgzaUN0cWdwS0QvQUN6cTZWcnJUeFJ2c2pxQkR2am9ONlFEMXduVzlHWTg4WFBQcG9sS1hYTkkva29ZZXVxTXFtZ3d3T0hDSmFPeFBIbytONHRwZkJoUWg5a2NIdU0zcjhoOStpOEp2Nm83NWZGcEl1U3hoSXFrNExlWXlHcCtHTWhnV2NodTN6N21VdjZNMU1MT0FhWVBwWU5iUVV4TXBNVnN5azNMeXFhUXpLbXlVYXgzdnYwbkxRQXNlcXJBcmRxaHlwcFh6VDBTYkg1cjdPc1VLdHFHejFRMVBmaEo4TWE2bUV2cjUrZWtRL3JXZHhzamFEclFuS0pWNlh1Q3UrZndBPQ",
         "product": "iPad 11\" (11. Gen) 128GB WiFi (sølv)",
         "image_url": "/images/elgiganten/ipad_11___11__gen__128gb.webp",
-        "sku": "905379",
-        "provider": "YouSee",
-        "title": "Yousee Fri Tale 100GB",
-        "data_gb": 100,
+        "type": "tablet",
         "price_without_subscription": 2999,
         "price_with_subscription": 2349,
         "min_cost_6_months": 3942,
         "subscription_price_monthly": 249,
         "discount_on_product": 650,
-        "benefits": [
-            "Roaming World i 48 lande",
-            "YouSee Musik"
-        ],
-        "saved_at": "09-03-2026-06:46",
-        "sold_out": "false",
-        "type": "tablet"
+        "saved_at": "09-03-2026-16:56"
+    },
+    {
+        "link": "https://www.elgiganten.dk/product/mobil-tablet-smartwatch/tablet/remarkable-paper-pro-move-e-ink-tablet-marker-plus/948194?offerId=ZlpETlRzTkFESVRmWmM4SlNtbVNKcm1WdEtvcUtEM0FDemk3VnJxUzQ0MzJSMUFoM2gwSDlZQjY0RHJmak1hZUw3WDEwV3JDMXpRTjZGV24yckpadGFYSzFKRkRCS0lKT1o0Y3h3dGRleGVpNm9wTTdUK2poMy80UFFxL3FUL3ErM1ZHNlNLRWdGSjFudEZEdER6MkY3QXM0Tnp2bnZjdkIwRnZkbVFCdHdEang2SUJZUkFyTTVLWVVidHBVZE1RdExkenRJNFAzcVg1YUFRTzFib3FUS056d0FienNzVXloODJxenFFQ28zSGRtTWROZlJkK3NteWtVblgxN2RNVCtIRTVpeE5ScG5ZMmFKZDRXZUtoK1A0Qg",
+        "product": "reMarkable Paper Pro Move E-ink tablet + Marker Plus",
+        "image_url": "/images/elgiganten/remarkable_paper_pro_move_e_ink_tablet___marker_plus.webp",
+        "type": "tablet",
+        "price_without_subscription": 3999,
+        "price_with_subscription": 3349,
+        "min_cost_6_months": 4942,
+        "subscription_price_monthly": 249,
+        "discount_on_product": 650,
+        "saved_at": "09-03-2026-16:56"
+    },
+    {
+        "link": "https://www.elgiganten.dk/product/mobil-tablet-smartwatch/tablet/samsung-galaxy-tab-a11-4g-tablet-8128gb-gra/993571",
+        "product": "Samsung Galaxy Tab A11 4G tablet 8/128GB (grå)",
+        "image_url": "/images/elgiganten/samsung_galaxy_tab_a11_4g_tablet_8_128gb.webp",
+        "type": "tablet",
+        "price_without_subscription": 2299,
+        "price_with_subscription": 1649,
+        "min_cost_6_months": 3242,
+        "subscription_price_monthly": 249,
+        "discount_on_product": 650,
+        "saved_at": "09-03-2026-16:56"
+    },
+    {
+        "link": "https://www.elgiganten.dk/product/mobil-tablet-smartwatch/tablet/samsung-galaxy-tab-a11-4g-tablet-464gb-gra/993570",
+        "product": "Samsung Galaxy Tab A11 4G tablet 4/64GB (grå)",
+        "image_url": "/images/elgiganten/samsung_galaxy_tab_a11_4g_tablet_4_64gb.webp",
+        "type": "tablet",
+        "price_without_subscription": 1799,
+        "price_with_subscription": 299,
+        "min_cost_6_months": 1892,
+        "subscription_price_monthly": 249,
+        "discount_on_product": 1500,
+        "saved_at": "09-03-2026-16:56"
     }
 ]

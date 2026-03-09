@@ -4,376 +4,347 @@
         "product_name": "iPhone 17e",
         "image_url": "/images/telmore/iphone_17e.webp",
         "provider": "Telmore",
-        "signup_price": "",
-        "data_gb": "",
+        "type": "phone",
         "price_without_subscription": 5499,
         "price_with_subscription": 3999,
         "discount_on_product": 1500,
         "min_cost_6_months": 5793,
-        "saved_at": "09-03-2026-06:46"
+        "saved_at": "09-03-2026-16:56"
     },
     {
         "link": "https://www.telmore.dk/shop/mobiltelefoner/samsung/galaxy-s26-ultra-black-512gb",
         "product_name": "Galaxy S26 Ultra",
         "image_url": "/images/telmore/galaxy_s26_ultra.webp",
         "provider": "Telmore",
-        "signup_price": "",
-        "data_gb": "",
+        "type": "phone",
         "price_without_subscription": 12999,
         "price_with_subscription": 6999,
         "discount_on_product": 6000,
         "min_cost_6_months": 8793,
-        "saved_at": "09-03-2026-06:46"
+        "saved_at": "09-03-2026-16:56"
     },
     {
         "link": "https://www.telmore.dk/shop/mobiltelefoner/samsung/galaxy-s26-black-256gb",
         "product_name": "Galaxy S26",
         "image_url": "/images/telmore/galaxy_s26.webp",
         "provider": "Telmore",
-        "signup_price": "",
-        "data_gb": "",
+        "type": "phone",
         "price_without_subscription": 7999,
         "price_with_subscription": 5499,
         "discount_on_product": 2500,
         "min_cost_6_months": 7293,
-        "saved_at": "09-03-2026-06:46"
+        "saved_at": "09-03-2026-16:56"
     },
     {
         "link": "https://www.telmore.dk/shop/mobiltelefoner/samsung/galaxy-s26-plus-black-256gb",
         "product_name": "Galaxy S26+",
         "image_url": "/images/telmore/galaxy_s26_.webp",
         "provider": "Telmore",
-        "signup_price": "",
-        "data_gb": "",
+        "type": "phone",
         "price_without_subscription": 9999,
         "price_with_subscription": 8749,
         "discount_on_product": 1250,
         "min_cost_6_months": 10543,
-        "saved_at": "09-03-2026-06:46"
+        "saved_at": "09-03-2026-16:56"
     },
     {
         "link": "https://www.telmore.dk/shop/mobiltelefoner/samsung/galaxy-a56-awesome-graphite-128gb",
         "product_name": "Galaxy A56",
         "image_url": "/images/telmore/galaxy_a56.webp",
         "provider": "Telmore",
-        "signup_price": "",
-        "data_gb": "",
+        "type": "phone",
         "price_without_subscription": 3699,
         "price_with_subscription": 999,
         "discount_on_product": 2700,
         "min_cost_6_months": 2793,
-        "saved_at": "09-03-2026-06:46"
+        "saved_at": "09-03-2026-16:56"
     },
     {
         "link": "https://www.telmore.dk/shop/mobiltelefoner/google/pixel-10a-obsidian-128gb",
         "product_name": "Pixel 10a",
         "image_url": "/images/telmore/pixel_10a.webp",
         "provider": "Telmore",
-        "signup_price": "",
-        "data_gb": "",
+        "type": "phone",
         "price_without_subscription": 4299,
         "price_with_subscription": 2499,
         "discount_on_product": 1800,
         "min_cost_6_months": 4293,
-        "saved_at": "09-03-2026-06:46"
+        "saved_at": "09-03-2026-16:56"
     },
     {
         "link": "https://www.telmore.dk/shop/mobiltelefoner/google/pixel-10-obsidian-128gb",
         "product_name": "Pixel 10",
         "image_url": "/images/telmore/pixel_10.webp",
         "provider": "Telmore",
-        "signup_price": "",
-        "data_gb": "",
+        "type": "phone",
         "price_without_subscription": 6999,
         "price_with_subscription": 4999,
         "discount_on_product": 2000,
         "min_cost_6_months": 6793,
-        "saved_at": "09-03-2026-06:46"
+        "saved_at": "09-03-2026-16:56"
     },
     {
         "link": "https://www.telmore.dk/shop/mobiltelefoner/motorola/moto-g86-power-spellbound-512gb",
         "product_name": "moto G86 Power",
         "image_url": "/images/telmore/moto_g86_power.webp",
         "provider": "Telmore",
-        "signup_price": "",
-        "data_gb": "",
+        "type": "phone",
         "price_without_subscription": 2799,
         "price_with_subscription": 199,
         "discount_on_product": 2600,
         "min_cost_6_months": 1993,
-        "saved_at": "09-03-2026-06:46"
+        "saved_at": "09-03-2026-16:56"
     },
     {
         "link": "https://www.telmore.dk/shop/mobiltelefoner/motorola/razr-60-ultra-mountain-trail-512gb",
         "product_name": "Razr 60 Ultra",
         "image_url": "/images/telmore/razr_60_ultra.webp",
         "provider": "Telmore",
-        "signup_price": "",
-        "data_gb": "",
+        "type": "phone",
         "price_without_subscription": 9999,
         "price_with_subscription": 4999,
         "discount_on_product": 5000,
         "min_cost_6_months": 6793,
-        "saved_at": "09-03-2026-06:46"
+        "saved_at": "09-03-2026-16:56"
     },
     {
         "link": "https://www.telmore.dk/shop/mobiltelefoner/apple/iphone-15-black-128gb",
         "product_name": "iPhone 15",
         "image_url": "/images/telmore/iphone_15.webp",
         "provider": "Telmore",
-        "signup_price": "",
-        "data_gb": "",
+        "type": "phone",
         "price_without_subscription": 6499,
         "price_with_subscription": 4499,
         "discount_on_product": 2000,
         "min_cost_6_months": 6293,
-        "saved_at": "09-03-2026-06:46"
+        "saved_at": "09-03-2026-16:56"
     },
     {
         "link": "https://www.telmore.dk/shop/mobiltelefoner/samsung/galaxy-s24-onyx-black-128gb",
         "product_name": "Galaxy S24",
         "image_url": "/images/telmore/galaxy_s24.webp",
         "provider": "Telmore",
-        "signup_price": "",
-        "data_gb": "",
+        "type": "phone",
         "price_without_subscription": 6299,
         "price_with_subscription": 3499,
         "discount_on_product": 2800,
         "min_cost_6_months": 5293,
-        "saved_at": "09-03-2026-06:46"
+        "saved_at": "09-03-2026-16:56"
     },
     {
         "link": "https://www.telmore.dk/shop/mobiltelefoner/samsung/galaxy-s25-plus-navy-256gb",
         "product_name": "Galaxy S25+",
         "image_url": "/images/telmore/galaxy_s25_.webp",
         "provider": "Telmore",
-        "signup_price": "",
-        "data_gb": "",
+        "type": "phone",
         "price_without_subscription": 8999,
         "price_with_subscription": 8299,
         "discount_on_product": 700,
         "min_cost_6_months": 10093,
-        "saved_at": "09-03-2026-06:46"
+        "saved_at": "09-03-2026-16:56"
     },
     {
         "link": "https://www.telmore.dk/shop/mobiltelefoner/samsung/galaxy-z-fold7-jetblack-256gb",
         "product_name": "Galaxy Z Fold7",
         "image_url": "/images/telmore/galaxy_z_fold7.webp",
         "provider": "Telmore",
-        "signup_price": "",
-        "data_gb": "",
+        "type": "phone",
         "price_without_subscription": 16499,
         "price_with_subscription": 14976,
         "discount_on_product": 1523,
         "min_cost_6_months": 16770,
-        "saved_at": "09-03-2026-06:46"
+        "saved_at": "09-03-2026-16:56"
     },
     {
         "link": "https://www.telmore.dk/shop/mobiltelefoner/samsung/galaxy-a26-black-128gb",
         "product_name": "Galaxy A26",
         "image_url": "/images/telmore/galaxy_a26.webp",
         "provider": "Telmore",
-        "signup_price": "",
-        "data_gb": "",
+        "type": "phone",
         "price_without_subscription": 2299,
         "price_with_subscription": 499,
         "discount_on_product": 1800,
         "min_cost_6_months": 2293,
-        "saved_at": "09-03-2026-06:46"
+        "saved_at": "09-03-2026-16:56"
     },
     {
         "link": "https://www.telmore.dk/shop/mobiltelefoner/apple/iphone-16e-sort-128gb",
         "product_name": "iPhone 16e",
         "image_url": "/images/telmore/iphone_16e.webp",
         "provider": "Telmore",
-        "signup_price": "",
-        "data_gb": "",
+        "type": "phone",
         "price_without_subscription": 5499,
         "price_with_subscription": 4299,
         "discount_on_product": 1200,
         "min_cost_6_months": 6093,
-        "saved_at": "09-03-2026-06:46"
+        "saved_at": "09-03-2026-16:56"
     },
     {
         "link": "https://www.telmore.dk/shop/mobiltelefoner/samsung/galaxy-s25-edge-titanium-silver-256gb",
         "product_name": "Galaxy S25 Edge",
         "image_url": "/images/telmore/galaxy_s25_edge.webp",
         "provider": "Telmore",
-        "signup_price": "",
-        "data_gb": "",
+        "type": "phone",
         "price_without_subscription": 10499,
         "price_with_subscription": 6499,
         "discount_on_product": 4000,
         "min_cost_6_months": 8293,
-        "saved_at": "09-03-2026-06:46"
+        "saved_at": "09-03-2026-16:56"
     },
     {
         "link": "https://www.telmore.dk/shop/mobiltelefoner/samsung/galaxy-z-flip7-jetblack-256gb",
         "product_name": "Galaxy Z Flip7",
         "image_url": "/images/telmore/galaxy_z_flip7.webp",
         "provider": "Telmore",
-        "signup_price": "",
-        "data_gb": "",
+        "type": "phone",
         "price_without_subscription": 9499,
         "price_with_subscription": 8249,
         "discount_on_product": 1250,
         "min_cost_6_months": 10043,
-        "saved_at": "09-03-2026-06:46"
+        "saved_at": "09-03-2026-16:56"
     },
     {
         "link": "https://www.telmore.dk/shop/mobiltelefoner/samsung/galaxy-a36-awesome-black-128gb",
         "product_name": "Galaxy A36",
         "image_url": "/images/telmore/galaxy_a36.webp",
         "provider": "Telmore",
-        "signup_price": "",
-        "data_gb": "",
+        "type": "phone",
         "price_without_subscription": 2999,
         "price_with_subscription": 1499,
         "discount_on_product": 1500,
         "min_cost_6_months": 3293,
-        "saved_at": "09-03-2026-06:46"
+        "saved_at": "09-03-2026-16:56"
     },
     {
         "link": "https://www.telmore.dk/shop/mobiltelefoner/samsung/galaxy-s25-silver-shadow-128gb",
         "product_name": "Galaxy S25",
         "image_url": "/images/telmore/galaxy_s25.webp",
         "provider": "Telmore",
-        "signup_price": "",
-        "data_gb": "",
+        "type": "phone",
         "price_without_subscription": 6999,
         "price_with_subscription": 4499,
         "discount_on_product": 2500,
         "min_cost_6_months": 6293,
-        "saved_at": "09-03-2026-06:46"
+        "saved_at": "09-03-2026-16:56"
     },
     {
         "link": "https://www.telmore.dk/shop/mobiltelefoner/motorola/edge-70-gadget-grey-512gb",
         "product_name": "Edge 70",
         "image_url": "/images/telmore/edge_70.webp",
         "provider": "Telmore",
-        "signup_price": "",
-        "data_gb": "",
+        "type": "phone",
         "price_without_subscription": 5999,
         "price_with_subscription": 4999,
         "discount_on_product": 1000,
         "min_cost_6_months": 6793,
-        "saved_at": "09-03-2026-06:46"
+        "saved_at": "09-03-2026-16:56"
     },
     {
         "link": "https://www.telmore.dk/shop/mobiltelefoner/motorola/moto-g75-charcoal-gray-256gb",
         "product_name": "Moto G75",
         "image_url": "/images/telmore/moto_g75.webp",
         "provider": "Telmore",
-        "signup_price": "",
-        "data_gb": "",
+        "type": "phone",
         "price_without_subscription": 2999,
         "price_with_subscription": 2299,
         "discount_on_product": 700,
         "min_cost_6_months": 4093,
-        "saved_at": "09-03-2026-06:46"
+        "saved_at": "09-03-2026-16:56"
     },
     {
         "link": "https://www.telmore.dk/shop/mobiltelefoner/apple/iphone-17-black-256gb",
         "product_name": "iPhone 17",
         "image_url": "/images/telmore/iphone_17.webp",
         "provider": "Telmore",
-        "signup_price": "",
-        "data_gb": "",
+        "type": "phone",
         "price_without_subscription": 7499,
         "price_with_subscription": 6499,
         "discount_on_product": 1000,
         "min_cost_6_months": 8293,
-        "saved_at": "09-03-2026-06:46"
+        "saved_at": "09-03-2026-16:56"
     },
     {
         "link": "https://www.telmore.dk/shop/mobiltelefoner/apple/iphone-17-pro-silver-256gb",
         "product_name": "iPhone 17 Pro",
         "image_url": "/images/telmore/iphone_17_pro.webp",
         "provider": "Telmore",
-        "signup_price": "",
-        "data_gb": "",
+        "type": "phone",
         "price_without_subscription": 9999,
         "price_with_subscription": 8799,
         "discount_on_product": 1200,
         "min_cost_6_months": 10593,
-        "saved_at": "09-03-2026-06:46"
+        "saved_at": "09-03-2026-16:56"
     },
     {
         "link": "https://www.telmore.dk/shop/mobiltelefoner/apple/iphone-17-pro-max-silver-256gb",
         "product_name": "iPhone 17 Pro Max",
         "image_url": "/images/telmore/iphone_17_pro_max.webp",
         "provider": "Telmore",
-        "signup_price": "",
-        "data_gb": "",
+        "type": "phone",
         "price_without_subscription": 10999,
         "price_with_subscription": 10249,
         "discount_on_product": 750,
         "min_cost_6_months": 12043,
-        "saved_at": "09-03-2026-06:46"
+        "saved_at": "09-03-2026-16:56"
     },
     {
         "link": "https://www.telmore.dk/shop/mobiltelefoner/samsung/galaxy-s25-fe-jetblack-128gb",
         "product_name": "Galaxy S25 FE",
         "image_url": "/images/telmore/galaxy_s25_fe.webp",
         "provider": "Telmore",
-        "signup_price": "",
-        "data_gb": "",
+        "type": "phone",
         "price_without_subscription": 5999,
         "price_with_subscription": 4999,
         "discount_on_product": 1000,
         "min_cost_6_months": 6793,
-        "saved_at": "09-03-2026-06:46"
+        "saved_at": "09-03-2026-16:56"
     },
     {
         "link": "https://www.telmore.dk/shop/mobiltelefoner/google/pixel-10-pro-obsidian-128gb",
         "product_name": "Pixel 10 Pro",
         "image_url": "/images/telmore/pixel_10_pro.webp",
         "provider": "Telmore",
-        "signup_price": "",
-        "data_gb": "",
+        "type": "phone",
         "price_without_subscription": 8599,
         "price_with_subscription": 7699,
         "discount_on_product": 900,
         "min_cost_6_months": 9493,
-        "saved_at": "09-03-2026-06:46"
+        "saved_at": "09-03-2026-16:56"
     },
     {
         "link": "https://www.telmore.dk/shop/mobiltelefoner/google/pixel-10-pro-xl-obsidian-256gb",
         "product_name": "Pixel 10 Pro XL",
         "image_url": "/images/telmore/pixel_10_pro_xl.webp",
         "provider": "Telmore",
-        "signup_price": "",
-        "data_gb": "",
+        "type": "phone",
         "price_without_subscription": 10199,
         "price_with_subscription": 9499,
         "discount_on_product": 700,
         "min_cost_6_months": 11293,
-        "saved_at": "09-03-2026-06:46"
+        "saved_at": "09-03-2026-16:56"
     },
     {
         "link": "https://www.telmore.dk/shop/mobiltelefoner/motorola/edge-60-shamrock-512gb",
         "product_name": "Edge 60",
         "image_url": "/images/telmore/edge_60.webp",
         "provider": "Telmore",
-        "signup_price": "",
-        "data_gb": "",
+        "type": "phone",
         "price_without_subscription": 3599,
         "price_with_subscription": 2699,
         "discount_on_product": 900,
         "min_cost_6_months": 4493,
-        "saved_at": "09-03-2026-06:46"
+        "saved_at": "09-03-2026-16:56"
     },
     {
         "link": "https://www.telmore.dk/shop/mobiltelefoner/nokia/3210-black-128mb",
         "product_name": "3210",
         "image_url": "/images/telmore/3210.webp",
         "provider": "Telmore",
-        "signup_price": "",
-        "data_gb": "",
+        "type": "phone",
         "price_without_subscription": 1555,
         "price_with_subscription": 199,
         "discount_on_product": 1356,
         "min_cost_6_months": 553,
-        "saved_at": "09-03-2026-06:46"
+        "saved_at": "09-03-2026-16:56"
     }
 ]

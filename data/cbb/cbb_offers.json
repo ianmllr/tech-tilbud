@@ -1,9 +1,10 @@
 [
     {
-        "link": "https://www.cbb.dk/shop/mobiltelefoner/samsung/galaxy-s26-ultra/?variant=Galaxy-S26-Ultra-256GB-Purple_1",
-        "product_name": "Galaxy S26 Ultra 256GB Purple",
-        "image_url": "/images/cbb/galaxy_s26_ultra_256gb_purple.webp",
+        "link": "https://www.cbb.dk/shop/mobiltelefoner/samsung/galaxy-s26-ultra/?variant=Galaxy-S26-Ultra-512GB-Black_1",
+        "product_name": "Galaxy S26 Ultra 512GB Black",
+        "image_url": "/images/cbb/galaxy_s26_ultra_512gb_black.webp",
         "provider": "CBB",
+        "type": "phone",
         "signup_price": 0,
         "data_gb": 0,
         "price_without_subscription": 0,
@@ -12,7 +13,7 @@
         "subscription_price_monthly_after_promo": 139,
         "min_cost_6_months": 9123,
         "discount_on_product": 0,
-        "saved_at": "09-03-2026-06:47",
+        "saved_at": "09-03-2026-16:57",
         "sold_out": "false"
     },
     {
@@ -20,6 +21,7 @@
         "product_name": "Galaxy S26 256GB Black",
         "image_url": "/images/cbb/galaxy_s26_256gb_black.webp",
         "provider": "CBB",
+        "type": "phone",
         "signup_price": 0,
         "data_gb": 0,
         "price_without_subscription": 0,
@@ -28,7 +30,7 @@
         "subscription_price_monthly_after_promo": 139,
         "min_cost_6_months": 7123,
         "discount_on_product": 0,
-        "saved_at": "09-03-2026-06:47",
+        "saved_at": "09-03-2026-16:57",
         "sold_out": "false"
     },
     {
@@ -36,6 +38,7 @@
         "product_name": "iPhone 17e 256GB Black",
         "image_url": "/images/cbb/iphone_17e_256gb_black.webp",
         "provider": "CBB",
+        "type": "phone",
         "signup_price": 0,
         "data_gb": 0,
         "price_without_subscription": 0,
@@ -44,7 +47,7 @@
         "subscription_price_monthly_after_promo": 139,
         "min_cost_6_months": 5623,
         "discount_on_product": 0,
-        "saved_at": "09-03-2026-06:47",
+        "saved_at": "09-03-2026-16:57",
         "sold_out": "false"
     },
     {
@@ -52,6 +55,7 @@
         "product_name": "Galaxy S25 128GB sort",
         "image_url": "/images/cbb/galaxy_s25_128gb_sort.webp",
         "provider": "CBB",
+        "type": "phone",
         "signup_price": 0,
         "data_gb": 0,
         "price_without_subscription": 0,
@@ -60,7 +64,7 @@
         "subscription_price_monthly_after_promo": 139,
         "min_cost_6_months": 3823,
         "discount_on_product": 0,
-        "saved_at": "09-03-2026-06:47",
+        "saved_at": "09-03-2026-16:57",
         "sold_out": "false"
     },
     {
@@ -68,6 +72,7 @@
         "product_name": "Galaxy S26+ 256GB Black",
         "image_url": "/images/cbb/galaxy_s26__256gb_black.webp",
         "provider": "CBB",
+        "type": "phone",
         "signup_price": 0,
         "data_gb": 0,
         "price_without_subscription": 0,
@@ -76,7 +81,7 @@
         "subscription_price_monthly_after_promo": 139,
         "min_cost_6_months": 9923,
         "discount_on_product": 0,
-        "saved_at": "09-03-2026-06:47",
+        "saved_at": "09-03-2026-16:57",
         "sold_out": "false"
     },
     {
@@ -84,6 +89,7 @@
         "product_name": "Motorola Edge 60 Pro 512GB Grey",
         "image_url": "/images/cbb/motorola_edge_60_pro_512gb_grey.webp",
         "provider": "CBB",
+        "type": "phone",
         "signup_price": 0,
         "data_gb": 0,
         "price_without_subscription": 0,
@@ -92,7 +98,7 @@
         "subscription_price_monthly_after_promo": 139,
         "min_cost_6_months": 2923,
         "discount_on_product": 0,
-        "saved_at": "09-03-2026-06:47",
+        "saved_at": "09-03-2026-16:57",
         "sold_out": "false"
     },
     {
@@ -100,6 +106,7 @@
         "product_name": "Motorola Edge 60 512GB Blue",
         "image_url": "/images/cbb/motorola_edge_60_512gb_blue.webp",
         "provider": "CBB",
+        "type": "phone",
         "signup_price": 0,
         "data_gb": 0,
         "price_without_subscription": 0,
@@ -108,7 +115,7 @@
         "subscription_price_monthly_after_promo": 139,
         "min_cost_6_months": 2323,
         "discount_on_product": 0,
-        "saved_at": "09-03-2026-06:47",
+        "saved_at": "09-03-2026-16:57",
         "sold_out": "false"
     },
     {
@@ -116,6 +123,7 @@
         "product_name": "15R 256 GB",
         "image_url": "/images/cbb/15r_256_gb.webp",
         "provider": "CBB",
+        "type": "phone",
         "signup_price": 0,
         "data_gb": 0,
         "price_without_subscription": 0,
@@ -124,7 +132,7 @@
         "subscription_price_monthly_after_promo": 139,
         "min_cost_6_months": 4823,
         "discount_on_product": 0,
-        "saved_at": "09-03-2026-06:47",
+        "saved_at": "09-03-2026-16:57",
         "sold_out": "false"
     },
     {
@@ -132,6 +140,7 @@
         "product_name": "Google Pixel 10 128GB Black",
         "image_url": "/images/cbb/google_pixel_10_128gb_black.webp",
         "provider": "CBB",
+        "type": "phone",
         "signup_price": 0,
         "data_gb": 0,
         "price_without_subscription": 0,
@@ -140,7 +149,7 @@
         "subscription_price_monthly_after_promo": 139,
         "min_cost_6_months": 4623,
         "discount_on_product": 0,
-        "saved_at": "09-03-2026-06:47",
+        "saved_at": "09-03-2026-16:57",
         "sold_out": "false"
     },
     {
@@ -148,6 +157,7 @@
         "product_name": "Motorola G56 256 Black",
         "image_url": "/images/cbb/motorola_g56_256_black.webp",
         "provider": "CBB",
+        "type": "phone",
         "signup_price": 0,
         "data_gb": 0,
         "price_without_subscription": 0,
@@ -156,7 +166,7 @@
         "subscription_price_monthly_after_promo": 139,
         "min_cost_6_months": 1423,
         "discount_on_product": 0,
-        "saved_at": "09-03-2026-06:47",
+        "saved_at": "09-03-2026-16:57",
         "sold_out": "false"
     },
     {
@@ -164,6 +174,7 @@
         "product_name": "Google Pixel 10 Pro 128GB Black",
         "image_url": "/images/cbb/google_pixel_10_pro_128gb_black.webp",
         "provider": "CBB",
+        "type": "phone",
         "signup_price": 0,
         "data_gb": 0,
         "price_without_subscription": 0,
@@ -172,7 +183,7 @@
         "subscription_price_monthly_after_promo": 139,
         "min_cost_6_months": 6623,
         "discount_on_product": 0,
-        "saved_at": "09-03-2026-06:47",
+        "saved_at": "09-03-2026-16:57",
         "sold_out": "false"
     },
     {
@@ -180,6 +191,7 @@
         "product_name": "Google Pixel 10 Pro Fold 256GB Grey",
         "image_url": "/images/cbb/google_pixel_10_pro_fold_256gb_grey.webp",
         "provider": "CBB",
+        "type": "phone",
         "signup_price": 0,
         "data_gb": 0,
         "price_without_subscription": 0,
@@ -188,7 +200,7 @@
         "subscription_price_monthly_after_promo": 139,
         "min_cost_6_months": 11623,
         "discount_on_product": 0,
-        "saved_at": "09-03-2026-06:47",
+        "saved_at": "09-03-2026-16:57",
         "sold_out": "false"
     },
     {
@@ -196,6 +208,7 @@
         "product_name": "Google Pixel 10A 128GB Black",
         "image_url": "/images/cbb/google_pixel_10a_128gb_black.webp",
         "provider": "CBB",
+        "type": "phone",
         "signup_price": 0,
         "data_gb": 0,
         "price_without_subscription": 0,
@@ -204,7 +217,7 @@
         "subscription_price_monthly_after_promo": 139,
         "min_cost_6_months": 3623,
         "discount_on_product": 0,
-        "saved_at": "09-03-2026-06:47",
+        "saved_at": "09-03-2026-16:57",
         "sold_out": "false"
     },
     {
@@ -212,6 +225,7 @@
         "product_name": "Motorola G86 Power 256GB Dark Blue",
         "image_url": "/images/cbb/motorola_g86_power_256gb_dark_blue.webp",
         "provider": "CBB",
+        "type": "phone",
         "signup_price": 0,
         "data_gb": 0,
         "price_without_subscription": 0,
@@ -220,7 +234,7 @@
         "subscription_price_monthly_after_promo": 139,
         "min_cost_6_months": 3423,
         "discount_on_product": 0,
-        "saved_at": "09-03-2026-06:47",
+        "saved_at": "09-03-2026-16:57",
         "sold_out": "false"
     },
     {
@@ -228,6 +242,7 @@
         "product_name": "Motorola Edge 70, 512GB",
         "image_url": "/images/cbb/motorola_edge_70__512gb.webp",
         "provider": "CBB",
+        "type": "phone",
         "signup_price": 0,
         "data_gb": 0,
         "price_without_subscription": 0,
@@ -236,7 +251,7 @@
         "subscription_price_monthly_after_promo": 139,
         "min_cost_6_months": 6623,
         "discount_on_product": 0,
-        "saved_at": "09-03-2026-06:47",
+        "saved_at": "09-03-2026-16:57",
         "sold_out": "false"
     },
     {
@@ -244,6 +259,7 @@
         "product_name": "Google Pixel 9 128 GB Obsidian",
         "image_url": "/images/cbb/google_pixel_9_128_gb_obsidian.webp",
         "provider": "CBB",
+        "type": "phone",
         "signup_price": 0,
         "data_gb": 0,
         "price_without_subscription": 0,
@@ -252,7 +268,7 @@
         "subscription_price_monthly_after_promo": 139,
         "min_cost_6_months": 4423,
         "discount_on_product": 0,
-        "saved_at": "09-03-2026-06:47",
+        "saved_at": "09-03-2026-16:57",
         "sold_out": "false"
     },
     {
@@ -260,6 +276,7 @@
         "product_name": "Oneplus CE 5",
         "image_url": "/images/cbb/oneplus_ce_5.webp",
         "provider": "CBB",
+        "type": "phone",
         "signup_price": 0,
         "data_gb": 0,
         "price_without_subscription": 0,
@@ -268,7 +285,7 @@
         "subscription_price_monthly_after_promo": 139,
         "min_cost_6_months": 2123,
         "discount_on_product": 0,
-        "saved_at": "09-03-2026-06:47",
+        "saved_at": "09-03-2026-16:57",
         "sold_out": "false"
     },
     {
@@ -276,6 +293,7 @@
         "product_name": "Google Pixel 10 Pro XL 256GB Black",
         "image_url": "/images/cbb/google_pixel_10_pro_xl_256gb_black.webp",
         "provider": "CBB",
+        "type": "phone",
         "signup_price": 0,
         "data_gb": 0,
         "price_without_subscription": 0,
@@ -284,7 +302,7 @@
         "subscription_price_monthly_after_promo": 139,
         "min_cost_6_months": 7623,
         "discount_on_product": 0,
-        "saved_at": "09-03-2026-06:47",
+        "saved_at": "09-03-2026-16:57",
         "sold_out": "false"
     },
     {
@@ -292,6 +310,7 @@
         "product_name": "Motorola Signature 512GB Green",
         "image_url": "/images/cbb/motorola_signature_512gb_green.webp",
         "provider": "CBB",
+        "type": "phone",
         "signup_price": 0,
         "data_gb": 0,
         "price_without_subscription": 0,
@@ -300,7 +319,7 @@
         "subscription_price_monthly_after_promo": 139,
         "min_cost_6_months": 10623,
         "discount_on_product": 0,
-        "saved_at": "09-03-2026-06:47",
+        "saved_at": "09-03-2026-16:57",
         "sold_out": "false"
     },
     {
@@ -308,6 +327,7 @@
         "product_name": "OnePlus 15 256GB Black",
         "image_url": "/images/cbb/oneplus_15_256gb_black.webp",
         "provider": "CBB",
+        "type": "phone",
         "signup_price": 0,
         "data_gb": 0,
         "price_without_subscription": 0,
@@ -316,7 +336,7 @@
         "subscription_price_monthly_after_promo": 139,
         "min_cost_6_months": 8123,
         "discount_on_product": 0,
-        "saved_at": "09-03-2026-06:47",
+        "saved_at": "09-03-2026-16:57",
         "sold_out": "false"
     },
     {
@@ -324,6 +344,7 @@
         "product_name": "iPhone 17 Pro Max 256 GB Silver",
         "image_url": "/images/cbb/iphone_17_pro_max_256_gb_silver.webp",
         "provider": "CBB",
+        "type": "phone",
         "signup_price": 0,
         "data_gb": 0,
         "price_without_subscription": 0,
@@ -332,7 +353,7 @@
         "subscription_price_monthly_after_promo": 139,
         "min_cost_6_months": 11123,
         "discount_on_product": 0,
-        "saved_at": "09-03-2026-06:47",
+        "saved_at": "09-03-2026-16:57",
         "sold_out": "false"
     },
     {
@@ -340,6 +361,7 @@
         "product_name": "iPhone 17 Pro 256 GB Silver",
         "image_url": "/images/cbb/iphone_17_pro_256_gb_silver.webp",
         "provider": "CBB",
+        "type": "phone",
         "signup_price": 0,
         "data_gb": 0,
         "price_without_subscription": 0,
@@ -348,7 +370,7 @@
         "subscription_price_monthly_after_promo": 139,
         "min_cost_6_months": 10123,
         "discount_on_product": 0,
-        "saved_at": "09-03-2026-06:47",
+        "saved_at": "09-03-2026-16:57",
         "sold_out": "false"
     },
     {
@@ -356,6 +378,7 @@
         "product_name": "iPhone Air 256 GB Sort",
         "image_url": "/images/cbb/iphone_air_256_gb_sort.webp",
         "provider": "CBB",
+        "type": "phone",
         "signup_price": 0,
         "data_gb": 0,
         "price_without_subscription": 0,
@@ -364,7 +387,7 @@
         "subscription_price_monthly_after_promo": 139,
         "min_cost_6_months": 8623,
         "discount_on_product": 0,
-        "saved_at": "09-03-2026-06:47",
+        "saved_at": "09-03-2026-16:57",
         "sold_out": "false"
     },
     {
@@ -372,6 +395,7 @@
         "product_name": "iPhone 17 256 GB Sort",
         "image_url": "/images/cbb/iphone_17_256_gb_sort.webp",
         "provider": "CBB",
+        "type": "phone",
         "signup_price": 0,
         "data_gb": 0,
         "price_without_subscription": 0,
@@ -380,7 +404,7 @@
         "subscription_price_monthly_after_promo": 139,
         "min_cost_6_months": 7623,
         "discount_on_product": 0,
-        "saved_at": "09-03-2026-06:47",
+        "saved_at": "09-03-2026-16:57",
         "sold_out": "false"
     },
     {
@@ -388,6 +412,7 @@
         "product_name": "Samsung Galaxy S25 Edge 256GB Black",
         "image_url": "/images/cbb/samsung_galaxy_s25_edge_256gb_black.webp",
         "provider": "CBB",
+        "type": "phone",
         "signup_price": 0,
         "data_gb": 0,
         "price_without_subscription": 0,
@@ -396,7 +421,7 @@
         "subscription_price_monthly_after_promo": 139,
         "min_cost_6_months": 11123,
         "discount_on_product": 0,
-        "saved_at": "09-03-2026-06:47",
+        "saved_at": "09-03-2026-16:57",
         "sold_out": "false"
     },
     {
@@ -404,6 +429,7 @@
         "product_name": "Samsung Galaxy Z Fold7 256GB Black",
         "image_url": "/images/cbb/samsung_galaxy_z_fold7_256gb_black.webp",
         "provider": "CBB",
+        "type": "phone",
         "signup_price": 0,
         "data_gb": 0,
         "price_without_subscription": 0,
@@ -412,7 +438,7 @@
         "subscription_price_monthly_after_promo": 139,
         "min_cost_6_months": 17123,
         "discount_on_product": 0,
-        "saved_at": "09-03-2026-06:47",
+        "saved_at": "09-03-2026-16:57",
         "sold_out": "false"
     },
     {
@@ -420,6 +446,7 @@
         "product_name": "Samsung Galaxy Z Flip7 256GB Black",
         "image_url": "/images/cbb/samsung_galaxy_z_flip7_256gb_black.webp",
         "provider": "CBB",
+        "type": "phone",
         "signup_price": 0,
         "data_gb": 0,
         "price_without_subscription": 0,
@@ -428,7 +455,7 @@
         "subscription_price_monthly_after_promo": 139,
         "min_cost_6_months": 10123,
         "discount_on_product": 0,
-        "saved_at": "09-03-2026-06:47",
+        "saved_at": "09-03-2026-16:57",
         "sold_out": "false"
     },
     {
@@ -436,6 +463,7 @@
         "product_name": "OnePlus NORD 5",
         "image_url": "/images/cbb/oneplus_nord_5.webp",
         "provider": "CBB",
+        "type": "phone",
         "signup_price": 0,
         "data_gb": 0,
         "price_without_subscription": 0,
@@ -444,7 +472,7 @@
         "subscription_price_monthly_after_promo": 139,
         "min_cost_6_months": 4923,
         "discount_on_product": 0,
-        "saved_at": "09-03-2026-06:47",
+        "saved_at": "09-03-2026-16:57",
         "sold_out": "false"
     },
     {
@@ -452,6 +480,7 @@
         "product_name": "Galaxy A56 5G 128GB Black",
         "image_url": "/images/cbb/galaxy_a56_5g_128gb_black.webp",
         "provider": "CBB",
+        "type": "phone",
         "signup_price": 0,
         "data_gb": 0,
         "price_without_subscription": 0,
@@ -460,7 +489,7 @@
         "subscription_price_monthly_after_promo": 139,
         "min_cost_6_months": 4323,
         "discount_on_product": 0,
-        "saved_at": "09-03-2026-06:47",
+        "saved_at": "09-03-2026-16:57",
         "sold_out": "false"
     },
     {
@@ -468,6 +497,7 @@
         "product_name": "Galaxy A26 5G 128 GB Black",
         "image_url": "/images/cbb/galaxy_a26_5g_128_gb_black.webp",
         "provider": "CBB",
+        "type": "phone",
         "signup_price": 0,
         "data_gb": 0,
         "price_without_subscription": 0,
@@ -476,7 +506,7 @@
         "subscription_price_monthly_after_promo": 139,
         "min_cost_6_months": 2923,
         "discount_on_product": 0,
-        "saved_at": "09-03-2026-06:47",
+        "saved_at": "09-03-2026-16:57",
         "sold_out": "false"
     },
     {
@@ -484,6 +514,7 @@
         "product_name": "Apple iPhone 16e 128 GB Sort",
         "image_url": "/images/cbb/apple_iphone_16e_128_gb_sort.webp",
         "provider": "CBB",
+        "type": "phone",
         "signup_price": 0,
         "data_gb": 0,
         "price_without_subscription": 0,
@@ -492,7 +523,7 @@
         "subscription_price_monthly_after_promo": 139,
         "min_cost_6_months": 5123,
         "discount_on_product": 0,
-        "saved_at": "09-03-2026-06:47",
+        "saved_at": "09-03-2026-16:57",
         "sold_out": "false"
     },
     {
@@ -500,6 +531,7 @@
         "product_name": "Leva 11s Sort",
         "image_url": "/images/cbb/leva_11s_sort.webp",
         "provider": "CBB",
+        "type": "phone",
         "signup_price": 0,
         "data_gb": 0,
         "price_without_subscription": 0,
@@ -508,7 +540,7 @@
         "subscription_price_monthly_after_promo": 139,
         "min_cost_6_months": 1623,
         "discount_on_product": 0,
-        "saved_at": "09-03-2026-06:47",
+        "saved_at": "09-03-2026-16:57",
         "sold_out": "false"
     },
     {
@@ -516,6 +548,7 @@
         "product_name": "Galaxy S24 FE 128 GB Sort",
         "image_url": "/images/cbb/galaxy_s24_fe_128_gb_sort.webp",
         "provider": "CBB",
+        "type": "phone",
         "signup_price": 0,
         "data_gb": 0,
         "price_without_subscription": 0,
@@ -524,7 +557,7 @@
         "subscription_price_monthly_after_promo": 139,
         "min_cost_6_months": 6623,
         "discount_on_product": 0,
-        "saved_at": "09-03-2026-06:47",
+        "saved_at": "09-03-2026-16:57",
         "sold_out": "false"
     },
     {
@@ -532,6 +565,7 @@
         "product_name": "iPhone 16 Plus 128 GB Sort",
         "image_url": "/images/cbb/iphone_16_plus_128_gb_sort.webp",
         "provider": "CBB",
+        "type": "phone",
         "signup_price": 0,
         "data_gb": 0,
         "price_without_subscription": 0,
@@ -540,7 +574,7 @@
         "subscription_price_monthly_after_promo": 139,
         "min_cost_6_months": 6923,
         "discount_on_product": 0,
-        "saved_at": "09-03-2026-06:47",
+        "saved_at": "09-03-2026-16:57",
         "sold_out": "false"
     },
     {
@@ -548,6 +582,7 @@
         "product_name": "iPhone 16 128 GB Sort",
         "image_url": "/images/cbb/iphone_16_128_gb_sort.webp",
         "provider": "CBB",
+        "type": "phone",
         "signup_price": 0,
         "data_gb": 0,
         "price_without_subscription": 0,
@@ -556,7 +591,7 @@
         "subscription_price_monthly_after_promo": 139,
         "min_cost_6_months": 6123,
         "discount_on_product": 0,
-        "saved_at": "09-03-2026-06:47",
+        "saved_at": "09-03-2026-16:57",
         "sold_out": "false"
     },
     {
@@ -564,6 +599,7 @@
         "product_name": "iPhone 15 128GB Sort",
         "image_url": "/images/cbb/iphone_15_128gb_sort.webp",
         "provider": "CBB",
+        "type": "phone",
         "signup_price": 0,
         "data_gb": 0,
         "price_without_subscription": 0,
@@ -572,7 +608,7 @@
         "subscription_price_monthly_after_promo": 139,
         "min_cost_6_months": 4923,
         "discount_on_product": 0,
-        "saved_at": "09-03-2026-06:47",
+        "saved_at": "09-03-2026-16:57",
         "sold_out": "false"
     },
     {
@@ -580,6 +616,7 @@
         "product_name": "Galaxy A36 5G 128GB Black",
         "image_url": "/images/cbb/galaxy_a36_5g_128gb_black.webp",
         "provider": "CBB",
+        "type": "phone",
         "signup_price": 0,
         "data_gb": 0,
         "price_without_subscription": 0,
@@ -588,7 +625,7 @@
         "subscription_price_monthly_after_promo": 139,
         "min_cost_6_months": 3623,
         "discount_on_product": 0,
-        "saved_at": "09-03-2026-06:47",
+        "saved_at": "09-03-2026-16:57",
         "sold_out": "true"
     },
     {
@@ -596,6 +633,7 @@
         "product_name": "Samsung Galaxy S25 FE 128GB Black",
         "image_url": "/images/cbb/samsung_galaxy_s25_fe_128gb_black.webp",
         "provider": "CBB",
+        "type": "phone",
         "signup_price": 0,
         "data_gb": 0,
         "price_without_subscription": 0,
@@ -604,7 +642,7 @@
         "subscription_price_monthly_after_promo": 139,
         "min_cost_6_months": 6623,
         "discount_on_product": 0,
-        "saved_at": "09-03-2026-06:47",
+        "saved_at": "09-03-2026-16:57",
         "sold_out": "true"
     },
     {
@@ -612,6 +650,7 @@
         "product_name": "Galaxy S24 128GB Grå",
         "image_url": "/images/cbb/galaxy_s24_128gb_gr_.webp",
         "provider": "CBB",
+        "type": "phone",
         "signup_price": 0,
         "data_gb": 0,
         "price_without_subscription": 0,
@@ -620,7 +659,7 @@
         "subscription_price_monthly_after_promo": 139,
         "min_cost_6_months": 7623,
         "discount_on_product": 0,
-        "saved_at": "09-03-2026-06:47",
+        "saved_at": "09-03-2026-16:57",
         "sold_out": "true"
     }
 ]
