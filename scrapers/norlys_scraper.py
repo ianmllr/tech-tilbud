@@ -18,7 +18,7 @@ CATEGORY_URLS: dict[str, str] = {
     f"{SHOP_BASE}/privat/webshop/tablets/":  "tablet",
 }
 
-MAX_SUBSCRIPTIONS = 3
+MAX_SUBSCRIPTIONS = 5
 
 
 def download_image(image_url: str, product_name: str) -> str:
@@ -47,21 +47,6 @@ def download_image(image_url: str, product_name: str) -> str:
     return ""
 
 
-def call_variant_api(page, sku: str, subscription_id: str) -> dict | None:
-    # GET /api/olympus/commerce/catalog/products/variant/{sku}?subscriptionId=...&installment=...&contextId=...
-    url = (
-        f"/api/olympus/commerce/catalog/products/variant/{sku}"
-        f"?subscriptionId={subscription_id}"
-        f"&installment={INSTALLMENT}"
-        f"&contextId={CONTEXT_ID}"
-    )
-    return page.evaluate(
-        """async (url) => {
-            const r = await fetch(url);
-            return r.ok ? r.json() : null;
-        }""",
-        url,
-    )
 
 
 def get_product_links_from_listing(page, cat_url: str) -> list[str]:
@@ -88,20 +73,36 @@ def get_product_links_from_listing(page, cat_url: str) -> list[str]:
     return links
 
 
+def extract_price_data(price: dict) -> dict | None:
+    """Extract the relevant price fields from a variant API price object."""
+    min_price     = (price.get("minimumPrice") or {}).get("value")
+    monthly_price = (price.get("bundleMonthlyPrice") or {}).get("value")
+    product_price = (price.get("productPrice") or {}).get("value")
+
+
+    if min_price is None or monthly_price is None or product_price is None:
+        return None
+
+    return {
+        "min_cost_6_months":          min_price,
+        "subscription_price_monthly": monthly_price,
+        "price_with_subscription":    product_price,
+        "price_without_subscription": (price.get("productBasePrice") or {}).get("value"),
+        "discount_on_product":        (price.get("productDiscountedPrice") or {}).get("value"),
+    }
+
+
 def scrape_product(page, href: str, product_type: str, saved_at: str) -> dict | None:
     product_url = SHOP_BASE + href if href.startswith("/") else href
 
-    # intercept the variant API call that fires automatically on page load
-    initial_data: dict | None = None
+    # collect all variant API responses: one fires on page load (site pre-selects the
+    # cheapest subscription), then one per subscription card click.
+    api_responses: list[dict] = []
 
     def handle_response(response):
-        nonlocal initial_data
-        if (
-            initial_data is None
-            and "/api/olympus/commerce/catalog/products/variant/" in response.url
-        ):
+        if "/api/olympus/commerce/catalog/products/variant/" in response.url:
             try:
-                initial_data = response.json()
+                api_responses.append(response.json())
             except Exception:
                 pass
 
@@ -115,13 +116,12 @@ def scrape_product(page, href: str, product_type: str, saved_at: str) -> dict | 
         page.remove_listener("response", handle_response)
         return None
 
-    page.remove_listener("response", handle_response)
-
-    if not initial_data:
+    if not api_responses:
         print(f"  No variant API response captured for {href}")
+        page.remove_listener("response", handle_response)
         return None
 
-    sku          = initial_data.get("code", "")
+    initial_data = api_responses[0]
     display_name = initial_data.get("displayName", "")
     product_name = display_name or href.rstrip("/").split("/")[-1].replace("-", " ").title()
 
@@ -131,35 +131,17 @@ def scrape_product(page, href: str, product_type: str, saved_at: str) -> dict | 
         raw_image = SHOP_BASE + raw_image
     local_image = download_image(raw_image, product_name)
 
-    subscriptions = initial_data.get("subscriptions", [])
-    sub_codes     = [s.get("code") for s in subscriptions if s.get("code")]
+    page.remove_listener("response", handle_response)
 
-    if not sub_codes:
-        print(f"  No subscription codes for {product_name}")
-        return None
-
-    # call API for first MAX_SUBSCRIPTIONS options, pick the one with lowest minimumPrice
     best: dict | None = None
 
-    for code in sub_codes[:MAX_SUBSCRIPTIONS]:
-        data = call_variant_api(page, sku, code)
-        if not data:
+    for data in api_responses:
+        price = data.get("price") or {}
+        entry = extract_price_data(price)
+        if entry is None:
             continue
-
-        price   = data.get("price") or {}
-        min_val = (price.get("minimumPrice") or {}).get("value")
-
-        if min_val is None:
-            continue
-
-        if best is None or min_val < best["min_cost_6_months"]:
-            best = {
-                "min_cost_6_months":          min_val,
-                "subscription_price_monthly": (price.get("bundleMonthlyPrice") or {}).get("value"),
-                "price_with_subscription":    (price.get("productPrice") or {}).get("value"),
-                "price_without_subscription": (price.get("productBasePrice") or {}).get("value"),
-                "discount_on_product":        (price.get("productDiscountedPrice") or {}).get("value"),
-            }
+        if best is None or entry["min_cost_6_months"] < best["min_cost_6_months"]:
+            best = entry
 
     if not best:
         print(f"  No valid subscription data for {product_name}")
@@ -186,6 +168,7 @@ def scrape_product(page, href: str, product_type: str, saved_at: str) -> dict | 
         "subscription_price_monthly": best["subscription_price_monthly"],
         "saved_at":                   saved_at,
     }
+
 
 
 def scrape_norlys():
