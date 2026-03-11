@@ -28,6 +28,23 @@ def download_image(image_url, product_name):
     return ""
 
 
+def product_name_from_slug(href, fallback_name):
+
+    # the url pattern is always: <subscription-description>-inkl-<product-name>
+    # We split on '-inkl-' and take everything after it.
+    url = href.rstrip('/').split('/')[-1]  # take last path segment
+    if '-inkl-' in url:
+        product_part = url.split('-inkl-', 1)[1]
+        # title-case each word, upper-casing likely model identifiers (e.g. a11, a8)
+        words = product_part.replace('-', ' ').split()
+        titled = []
+        for w in words:
+            # keep all-digit or alphanumeric model codes in their natural case but capitalise first letter
+            titled.append(w[0].upper() + w[1:] if w else w)
+        return ' '.join(titled)
+    return fallback_name
+
+
 def scrape_oister():
     os.makedirs(os.path.join(BASE_DIR, 'data/oister'), exist_ok=True)
     os.makedirs(os.path.join(BASE_DIR, 'public/images/oister'), exist_ok=True)
@@ -116,6 +133,16 @@ def scrape_oister():
                 href = link_tag.get('href')
                 if href:
                     item["link"] = f"https://www.oister.dk{href}" if href.startswith('/') else href
+                    # if the punchline name is a generic category label (e.g. "Samsung tablet"),
+                    # derive the proper name from the URL slug -> "Samsung Galaxy Tab A11"
+                    GENERIC_LABELS = {'tablet', 'headphones', 'høretelefoner', 'earphones',
+                                      'earbuds', 'speaker', 'højttaler', 'watch', 'ur'}
+                    last_word = item["product_name"].split()[-1].lower() if item["product_name"] else ''
+                    if last_word in GENERIC_LABELS and '-inkl-' in href:
+                        better_name = product_name_from_slug(href, item["product_name"])
+                        if better_name and better_name != item["product_name"]:
+                            print(f"  Enriched name from slug: '{item['product_name']}' -> '{better_name}'")
+                            item["product_name"] = better_name
 
 
         if product_card:
