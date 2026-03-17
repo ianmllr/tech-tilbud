@@ -9,7 +9,7 @@
         "discount_on_product": 1700.0,
         "min_cost_6_months": 4672.0,
         "subscription_price_monthly": 129.0,
-        "saved_at": "16-03-2026-07:15"
+        "saved_at": "17-03-2026-07:00"
     },
     {
         "link": "https://shop.norlys.dk/shop/apple/apple-iphone-17/#/black/256-gb/1",
@@ -21,7 +21,7 @@
         "discount_on_product": 1700.0,
         "min_cost_6_months": 6672.0,
         "subscription_price_monthly": 129.0,
-        "saved_at": "16-03-2026-07:15"
+        "saved_at": "17-03-2026-07:00"
     },
     {
         "link": "https://shop.norlys.dk/shop/apple/apple-iphone-16/#/black/128-gb/1",
@@ -33,19 +33,19 @@
         "discount_on_product": 2000.0,
         "min_cost_6_months": 5372.0,
         "subscription_price_monthly": 129.0,
-        "saved_at": "16-03-2026-07:15"
+        "saved_at": "17-03-2026-07:00"
     },
     {
         "link": "https://shop.norlys.dk/shop/apple/apple-iphone-16e/#/white/128-gb/1",
         "product_name": "Apple iPhone 16e 128GB White",
         "image_url": "/images/norlys/apple_iphone_16e_128gb_white.webp",
         "type": "phone",
-        "price_without_subscription": 5499.0,
+        "price_without_subscription": 4599.0,
         "price_with_subscription": 3299.0,
-        "discount_on_product": 2200.0,
+        "discount_on_product": 1300.0,
         "min_cost_6_months": 4172.0,
         "subscription_price_monthly": 129.0,
-        "saved_at": "16-03-2026-07:15"
+        "saved_at": "17-03-2026-07:00"
     },
     {
         "link": "https://shop.norlys.dk/shop/samsung/samsung-galaxy-s26-d91169f9/#/cobalt-violet/256-gb/1",
@@ -57,7 +57,7 @@
         "discount_on_product": 2500.0,
         "min_cost_6_months": 6372.0,
         "subscription_price_monthly": 129.0,
-        "saved_at": "16-03-2026-07:15"
+        "saved_at": "17-03-2026-07:00"
     },
     {
         "link": "https://shop.norlys.dk/shop/samsung/samsung-galaxy-s26-1428f6b8/#/white/512-gb/1",
@@ -69,7 +69,7 @@
         "discount_on_product": 3200.0,
         "min_cost_6_months": 9172.0,
         "subscription_price_monthly": 129.0,
-        "saved_at": "16-03-2026-07:15"
+        "saved_at": "17-03-2026-07:00"
     },
     {
         "link": "https://shop.norlys.dk/shop/samsung/samsung-galaxy-s26-ultra/#/cobalt-violet/512-gb/1",
@@ -81,7 +81,7 @@
         "discount_on_product": 5200.0,
         "min_cost_6_months": 8172.0,
         "subscription_price_monthly": 129.0,
-        "saved_at": "16-03-2026-07:15"
+        "saved_at": "17-03-2026-07:00"
     },
     {
         "link": "https://shop.norlys.dk/shop/apple/apple-iphone-air/#/sky-blue/256-gb/1",
@@ -93,7 +93,7 @@
         "discount_on_product": 2500.0,
         "min_cost_6_months": 7372.0,
         "subscription_price_monthly": 129.0,
-        "saved_at": "16-03-2026-07:15"
+        "saved_at": "17-03-2026-07:00"
     },
     {
         "link": "https://shop.norlys.dk/shop/google/google-pixel-10a/#/obsidian/128-gb/1",
@@ -105,7 +105,7 @@
         "discount_on_product": 1800.0,
         "min_cost_6_months": 3372.0,
         "subscription_price_monthly": 129.0,
-        "saved_at": "16-03-2026-07:15"
+        "saved_at": "17-03-2026-07:00"
     },
     {
         "link": "https://shop.norlys.dk/shop/google/google-pixel-10-pro-xl-5g/#/moonstone/256-gb/1",
@@ -117,7 +117,7 @@
         "discount_on_product": 4200.0,
         "min_cost_6_months": 7172.0,
         "subscription_price_monthly": 129.0,
-        "saved_at": "16-03-2026-07:15"
+        "saved_at": "17-03-2026-07:00"
     },
     {
         "link": "https://shop.norlys.dk/shop/motorola/motorola-signature/#/martini-olive/512-gb/1",
@@ -129,7 +129,7 @@
         "discount_on_product": 3700.0,
         "min_cost_6_months": 5172.0,
         "subscription_price_monthly": 129.0,
-        "saved_at": "16-03-2026-07:15"
+        "saved_at": "17-03-2026-07:00"
     },
     {
         "link": "https://shop.norlys.dk/shop/motorola/motorola-g56/#/sort/256-gb/1",
@@ -141,7 +141,7 @@
         "discount_on_product": 1600.0,
         "min_cost_6_months": 1172.0,
         "subscription_price_monthly": 129.0,
-        "saved_at": "16-03-2026-07:15"
+        "saved_at": "17-03-2026-07:00"
     },
     {
         "link": "https://shop.norlys.dk/shop/apple/apple-ipad-air-11-2026-wifi--cellular/#/space-grey/128-gb/1",
@@ -153,7 +153,7 @@
         "discount_on_product": 510.0,
         "min_cost_6_months": 6372.0,
         "subscription_price_monthly": 129.0,
-        "saved_at": "16-03-2026-07:15"
+        "saved_at": "17-03-2026-07:00"
     },
     {
         "link": "https://shop.norlys.dk/shop/apple/apple-ipad-air-13-2026-wifi--cellular/#/space-grey/128-gb/1",
@@ -165,7 +165,7 @@
         "discount_on_product": 530.0,
         "min_cost_6_months": 7872.0,
         "subscription_price_monthly": 129.0,
-        "saved_at": "16-03-2026-07:15"
+        "saved_at": "17-03-2026-07:00"
     },
     {
         "link": "https://shop.norlys.dk/shop/apple/apple-ipad-11-a16-2025/#/silver/128-gb/1",
@@ -177,7 +177,7 @@
         "discount_on_product": 1300.0,
         "min_cost_6_months": 4372.0,
         "subscription_price_monthly": 129.0,
-        "saved_at": "16-03-2026-07:15"
+        "saved_at": "17-03-2026-07:00"
     },
     {
         "link": "https://shop.norlys.dk/shop/lenovo/lenovo-idea-tab-wifi-med-keyboard-og-pen-/#/luna-grey/256-gb/1",
@@ -189,7 +189,7 @@
         "discount_on_product": 1700.0,
         "min_cost_6_months": 1872.0,
         "subscription_price_monthly": 129.0,
-        "saved_at": "16-03-2026-07:15"
+        "saved_at": "17-03-2026-07:00"
     },
     {
         "link": "https://shop.norlys.dk/shop/samsung/samsung-galaxy-tab-s11-ultra-wifi/#/gray/256-gb/1",
@@ -201,7 +201,7 @@
         "discount_on_product": 7000.0,
         "min_cost_6_months": 4872.0,
         "subscription_price_monthly": 129.0,
-        "saved_at": "16-03-2026-07:15"
+        "saved_at": "17-03-2026-07:00"
     },
     {
         "link": "https://shop.norlys.dk/shop/apple/apple-ipad-pro-11-2024/#/space-black/256-gb/1",
@@ -213,7 +213,7 @@
         "discount_on_product": 3800.0,
         "min_cost_6_months": 8372.0,
         "subscription_price_monthly": 129.0,
-        "saved_at": "16-03-2026-07:15"
+        "saved_at": "17-03-2026-07:00"
     },
     {
         "link": "https://shop.norlys.dk/shop/apple/apple-ipad-air-13-2024/#/space-grey/128-gb/1",
@@ -225,7 +225,19 @@
         "discount_on_product": 2700.0,
         "min_cost_6_months": 7172.0,
         "subscription_price_monthly": 129.0,
-        "saved_at": "16-03-2026-07:15"
+        "saved_at": "17-03-2026-07:00"
+    },
+    {
+        "link": "https://shop.norlys.dk/shop/samsung/samsung-galaxy-tab-s11-ultra-5g/#/gray/256-gb/1",
+        "product_name": "Samsung Galaxy Tab S11 Ultra 5G 256GB Gray med abonnement",
+        "image_url": "/images/norlys/samsung_galaxy_tab_s11_ultra_5g_256gb_gray_med_abonnement.webp",
+        "type": "tablet",
+        "price_without_subscription": 12499.0,
+        "price_with_subscription": 5299.0,
+        "discount_on_product": 7200.0,
+        "min_cost_6_months": 6172.0,
+        "subscription_price_monthly": 129.0,
+        "saved_at": "17-03-2026-07:00"
     },
     {
         "link": "https://shop.norlys.dk/shop/samsung/samsung-galaxy-tab-active5-5g/#/green/128-gb/1",
@@ -237,7 +249,7 @@
         "discount_on_product": 1100.0,
         "min_cost_6_months": 4372.0,
         "subscription_price_monthly": 129.0,
-        "saved_at": "16-03-2026-07:15"
+        "saved_at": "17-03-2026-07:00"
     },
     {
         "link": "https://shop.norlys.dk/shop/apple/apple-ipad-pro-11-2025-med-abonnement/#/space-black/256-gb/1",
@@ -249,18 +261,6 @@
         "discount_on_product": 1800.0,
         "min_cost_6_months": 9872.0,
         "subscription_price_monthly": 129.0,
-        "saved_at": "16-03-2026-07:15"
-    },
-    {
-        "link": "https://shop.norlys.dk/shop/tilbehor-med-abonnement/apple-11-ipad-pro-2025-wi-fi-med-abonnement/#/space-black/256-gb/1",
-        "product_name": "Apple 11\" iPad Pro (2025) Wi-Fi 256GB Space Black med abonnement",
-        "image_url": "/images/norlys/apple_11__ipad_pro__2025__wi_fi_256gb_space_black_med_abonnement.webp",
-        "type": "tablet",
-        "price_without_subscription": 8799.0,
-        "price_with_subscription": 6999.0,
-        "discount_on_product": 1800.0,
-        "min_cost_6_months": 7872.0,
-        "subscription_price_monthly": 129.0,
-        "saved_at": "16-03-2026-07:15"
+        "saved_at": "17-03-2026-07:00"
     }
 ]
