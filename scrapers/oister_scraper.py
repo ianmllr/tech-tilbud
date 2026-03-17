@@ -7,6 +7,7 @@ import os
 
 # setup
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+AFFILIATE_PREFIX = "https://go.adt284.net/t/t?a=1666103641&as=2054240298&t=2&tk=1&url="
 
 
 def download_image(image_url, product_name):
@@ -28,7 +29,7 @@ def download_image(image_url, product_name):
     return ""
 
 
-def product_name_from_slug(href, fallback_name):
+def product_name_from_url(href, fallback_name):
 
     # the url pattern is always: <subscription-description>-inkl-<product-name>
     # We split on '-inkl-' and take everything after it.
@@ -132,16 +133,17 @@ def scrape_oister():
             if link_tag:
                 href = link_tag.get('href')
                 if href:
-                    item["link"] = f"https://www.oister.dk{href}" if href.startswith('/') else href
+                    full_link = f"https://www.oister.dk{href}" if href.startswith('/') else href
+                    item["link"] = AFFILIATE_PREFIX + full_link
                     # if the punchline name is a generic category label (e.g. "Samsung tablet"),
-                    # derive the proper name from the URL slug -> "Samsung Galaxy Tab A11"
+                    # derive the proper name from the URL -> "Samsung Galaxy Tab A11"
                     GENERIC_LABELS = {'tablet', 'headphones', 'høretelefoner', 'earphones',
                                       'earbuds', 'speaker', 'højttaler', 'watch', 'ur'}
                     last_word = item["product_name"].split()[-1].lower() if item["product_name"] else ''
                     if last_word in GENERIC_LABELS and '-inkl-' in href:
-                        better_name = product_name_from_slug(href, item["product_name"])
+                        better_name = product_name_from_url(href, item["product_name"])
                         if better_name and better_name != item["product_name"]:
-                            print(f"  Enriched name from slug: '{item['product_name']}' -> '{better_name}'")
+                            print(f"  Enriched name from: '{item['product_name']}' -> '{better_name}'")
                             item["product_name"] = better_name
 
 
