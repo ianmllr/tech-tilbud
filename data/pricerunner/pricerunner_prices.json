@@ -1,838 +1,1166 @@
 {
-    "Moto G75": {
-        "market_price": null,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "Pixel 10 Pro XL": {
-        "market_price": 7362,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "Doro Leva L11s Graphite": {
-        "market_price": null,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "Samsung Galaxy Z Flip7 FE 128GB Black": {
-        "market_price": 5999,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "Samsung Galaxy A26 5G 128GB Black": {
-        "market_price": 1499,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "iPad 11th gen 128GB": {
-        "market_price": 2581,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "Galaxy S25 FE": {
-        "market_price": 5354,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "Galaxy Watch5 Pro": {
-        "market_price": null,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "Apple iPhone 16e 128GB Black": {
-        "market_price": 4298,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "Doro Leva L31s Graphite White": {
-        "market_price": 327,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "Google Pixel 10 Pro Fold 256GB Moonstone": {
-        "market_price": 11999,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "Motorola Moto G35 5G 128GB Midnight Black": {
-        "market_price": 1499,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "Kids Watch": {
-        "market_price": 519,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "iPhone 16 128 GB Sort": {
-        "market_price": 4999,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "iPhone 16 Plus 128 GB Sort": {
-        "market_price": 6942,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "Samsung Galaxy Tab S11 128GB": {
-        "market_price": 5810,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "Motorola G86 Power 256GB Dark Blue": {
-        "market_price": 2776,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "Apple iPhone 17 256 GB Black": {
-        "market_price": 6648,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "Samsung Galaxy S25 Edge 256GB": {
-        "market_price": 5075,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "Motorola Edge 60 5G 512GB Gibraltar Sea": {
-        "market_price": 2412,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "iPhone 17 Pro Max 256 GB Orange": {
-        "market_price": 9999,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "Google Pixel 10 Pro 128GB Black": {
-        "market_price": 5994,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "Samsung Galaxy S25+ 5G 512GB Icy Blue": {
-        "market_price": 7649,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "Oneplus CE 5": {
-        "market_price": 2142,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "Apple iPad Air 13\" 128GB - Space Grey": {
-        "market_price": 6999,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "iPhone 17 Pro 256 GB Silver": {
-        "market_price": 8999,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "Samsung Galaxy Tab S11 Ultra 256GB": {
-        "market_price": 8340,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "Galaxy S25 128GB sort": {
-        "market_price": 4699,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "Apple iPad Pro 13\" (2025) 256GB Space Black med abonnement": {
-        "market_price": null,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "Samsung Galaxy A36 128GB Black": {
-        "market_price": 1777,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "Samsung Galaxy Z Flip7 256GB": {
-        "market_price": 6998,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "Motorola Edge 70 Fusion Power 256GB Silhouette": {
-        "market_price": 3390,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "Samsung Galaxy S25 Ultra 5G 256GB Black": {
-        "market_price": 6802,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "Samsung Galaxy Tab S10FE 5G 128GB Grey": {
-        "market_price": null,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "Razr 60 Ultra": {
-        "market_price": 5490,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "iPhone 16 128GB": {
-        "market_price": 4999,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "Samsung Galaxy S24 128GB": {
-        "market_price": 3799,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "Google Pixel 10a 128GB Obsidian": {
-        "market_price": 3850,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "Apple iPad Pro 11\" (2024) 256GB Space Black": {
-        "market_price": 8989,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "Pixel 10a": {
-        "market_price": 3952,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "Nokia T21 128GB": {
-        "market_price": null,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "Samsung Galaxy XCover 7 128GB": {
-        "market_price": null,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "Pixel 10": {
-        "market_price": null,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "OnePlus 15 512GB": {
-        "market_price": 6700,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "Motorola Signature 512GB Martini Olive": {
-        "market_price": 2179,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "Motorola Moto G75 5G 256GB Charcoal Grey": {
-        "market_price": 2222,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "Galaxy S26+": {
-        "market_price": null,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "Apple 11\" iPad Pro (2025) Wi-Fi 256GB Space Black med abonnement": {
-        "market_price": null,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "iPhone 15": {
-        "market_price": 4299,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "Samsung Galaxy S26 256GB": {
-        "market_price": 6490,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "Motorola Edge 70, 512GB": {
-        "market_price": 3635,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "Galaxy Watch Ultra": {
-        "market_price": 2988,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "Samsung Galaxy Z Flip6 512GB": {
-        "market_price": 11298,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "Apple iPhone 17 Pro 256 GB Orange": {
-        "market_price": 8999,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "Samsung Galaxy Z Flip7 256GB Black": {
-        "market_price": 6998,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "Watch Series 11": {
-        "market_price": null,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "iPhone 17 256GB": {
-        "market_price": 6666,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "Samsung Galaxy A35 5G 128GB": {
-        "market_price": 1497,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "Samsung Galaxy Z Fold6 512GB Silver Shadow": {
-        "market_price": 13999,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "Apple iPad Air 11\" 128GB - Space Grey": {
-        "market_price": 5244,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "iPhone 17 Pro Max": {
-        "market_price": 9999,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "Motorola G77 128GB Black olive": {
-        "market_price": null,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "Motorola G56 256 Black": {
-        "market_price": 1330,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "iPhone 16 Pro": {
-        "market_price": 8699,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "Samsung Galaxy S26 Ultra 512GB Cobalt violet": {
-        "market_price": 9135,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "Pixel 9a": {
-        "market_price": 2799,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "Galaxy S26+ 256GB Black": {
-        "market_price": 7950,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "Google Pixel 10 Pro Fold 256GB Grey": {
-        "market_price": 11999,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "Google Pixel 10 128GB Obsidian": {
-        "market_price": null,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "Apple AirPods 4": {
-        "market_price": 880,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "Galaxy A26 5G 128 GB Black": {
-        "market_price": 1499,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "Apple iPhone 16e 128 GB Sort": {
-        "market_price": 4199,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "Samsung Galaxy Tab S10FE WiFi 128GB Grey med abonnement": {
-        "market_price": null,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "iPhone 17 Pro Max 256GB": {
-        "market_price": 9999,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "Google Pixel 10A 128GB Black": {
-        "market_price": 3898,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "Samsung Galaxy Tab S10 Ultra 256GB": {
-        "market_price": null,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "Google Pixel 10 Pro 128GB Obsidian": {
-        "market_price": 5976,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "iPhone 17": {
-        "market_price": 6666,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "Samsung Galaxy S26 Ultra 256GB": {
-        "market_price": 8739,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "iPhone 17e": {
-        "market_price": 5187,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "Samsung Galaxy Tab Active5 5G 128GB Green": {
-        "market_price": null,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "Apple iPad Air 11\" (2026) 128GB WiFi + Cellular Space Grey": {
-        "market_price": 6799,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "OnePlus NORD 5": {
-        "market_price": 2585,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "iPhone 17 Pro 256GB": {
-        "market_price": 8999,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "Samsung Galaxy S25 Plus 512GB": {
-        "market_price": 8115,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "Motorola G86 Power 5G 512GB Spellbound": {
-        "market_price": 2272,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "Samsung Galaxy A56 128GB Graphite": {
-        "market_price": 2370,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "Apple iPhone 17 Pro Max 256 GB Orange": {
-        "market_price": 9999,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "Watch Series 9": {
-        "market_price": null,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "Samsung Galaxy S26+ 512GB White": {
-        "market_price": 8375,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "Galaxy S25 Edge": {
-        "market_price": 5075,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "3210": {
-        "market_price": 259,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "Google Pixel 10 128GB Black": {
-        "market_price": 3999,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "Galaxy S24 FE 128 GB Sort": {
-        "market_price": 2999,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "Apple iPhone 14 256GB Midnight": {
-        "market_price": 4810,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "Samsung Galaxy Z Flip7 FE 128GB": {
-        "market_price": 5999,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "iPad Pro 13 (2025) 256GB": {
-        "market_price": null,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "Samsung Galaxy Z Fold7 256GB": {
-        "market_price": 10999,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "Urbanista Phoenix": {
-        "market_price": 589,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "Watch Ultra 3": {
-        "market_price": 6946,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "moto G86 Power": {
-        "market_price": 2776,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "Leva 11s Sort": {
-        "market_price": null,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "OnePlus 15 256GB Black": {
-        "market_price": 6287,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "Samsung Galaxy A26 5G 128GB": {
-        "market_price": 1499,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "Galaxy Tab S11": {
-        "market_price": 5810,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "Samsung Galaxy Tab S9 128GB": {
-        "market_price": 4464,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "iPad Air 11 (2025) 128GB": {
-        "market_price": 4675,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "Doro Aurora A21 Graphite w Qi charger": {
-        "market_price": 1895,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "Motorola Edge 60 512GB Blue": {
-        "market_price": 2412,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "Galaxy S24": {
-        "market_price": 3799,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "Apple iPhone 16 Plus 128GB Black": {
-        "market_price": 6499,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "Samsung Galaxy S25 Edge 256GB Black": {
-        "market_price": 5175,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "Galaxy Tab S10 Lite": {
-        "market_price": 2195,
-        "looked_up_at": "25-03-2026-07:05"
+    "Motorola G86 Power 256GB": {
+        "market_price": 2764,
+        "looked_up_at": "26-03-2026-07:16"
     },
     "Watch SE 3": {
         "market_price": null,
-        "looked_up_at": "25-03-2026-07:05"
+        "looked_up_at": "26-03-2026-07:16"
     },
-    "Motorola Edge 60 Pro 512GB Grey": {
-        "market_price": 2999,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "Samsung Galaxy S24 5G 128GB Black": {
-        "market_price": 3799,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "Motorola Signature 512GB Green": {
-        "market_price": 2799,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "Google Pixel 10 Pro XL 256GB Black": {
-        "market_price": 7362,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "Samsung Galaxy A56 5G 128GB": {
-        "market_price": 2370,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "Apple iPad (2025) Wi-Fi 128GB Silver med abonnement": {
-        "market_price": 2599,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "Samsung Galaxy Tab A11": {
-        "market_price": 1165,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "Galaxy S26 Ultra": {
-        "market_price": 8739,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "Sony Playstation Portal med abonnement": {
-        "market_price": null,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "Samsung Galaxy Z Fold7 256GB Black": {
-        "market_price": 10999,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "Motorola G56 256GB": {
-        "market_price": 1445,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "Watch Series 10": {
-        "market_price": 5092,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "Google Pixel 9a 5G 128GB Obsidian": {
-        "market_price": 2799,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "Motorola G67 128GB Arctic seal": {
-        "market_price": null,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "Motorola Edge 50 Neo 512GB 5G Grisaille": {
-        "market_price": 2999,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "Samsung Galaxy A16 5G 128GB": {
-        "market_price": 1699,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "iPad Air 13 (2026) 128GB": {
-        "market_price": 6999,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "Watch SE 2nd Gen.": {
-        "market_price": null,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "iPhone 17e 256GB Black": {
-        "market_price": 5187,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "iPhone 16": {
-        "market_price": 4999,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "15R 256 GB": {
-        "market_price": 4499,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "iPhone Air 256GB": {
-        "market_price": 6886,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "Pixel 10 Pro": {
-        "market_price": 7362,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "iPhone 16e": {
-        "market_price": 4199,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "OnePlus 15R 5G 256 GB Black": {
-        "market_price": 4450,
-        "looked_up_at": "25-03-2026-07:05"
+    "BACKBONE One USB-C med abonnement": {
+        "market_price": 403,
+        "looked_up_at": "26-03-2026-07:16"
     },
     "Galaxy S24 128GB Grå": {
         "market_price": 3952,
-        "looked_up_at": "25-03-2026-07:05"
+        "looked_up_at": "26-03-2026-07:16"
     },
-    "Samsung Galaxy S25 128GB": {
-        "market_price": 4699,
-        "looked_up_at": "25-03-2026-07:05"
+    "JBL Partybox Stage 320 med abonnement": {
+        "market_price": 3348,
+        "looked_up_at": "26-03-2026-07:16"
     },
-    "Apple iPad Air 13\" (2026) 128GB WiFi + Cellular Space Grey": {
-        "market_price": 8444,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "iPhone 15 128GB Sort": {
-        "market_price": 4761,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "Galaxy S25": {
-        "market_price": 4699,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "iPad Air 11 (2026) 128GB": {
-        "market_price": 4675,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "Google Pixel 10 Pro XL 256GB Moonstone": {
-        "market_price": 7399,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "Apple iPad 11\" A16 (2025) WiFi + Cellular 128GB - Silver": {
+    "Watch SE 2nd Gen.": {
         "market_price": null,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "Galaxy S26 Ultra 512GB Black": {
-        "market_price": 9576,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "OnePlus Nord CE 5 5G 128GB Black Infinity": {
-        "market_price": null,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "Galaxy Watch8": {
-        "market_price": 2367,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "iPad 10.2\" (9. gen.) WiFi + 4G": {
-        "market_price": null,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "Samsung Galaxy A36 5G 128GB": {
-        "market_price": 2265,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "iPhone Air": {
-        "market_price": 6886,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "Samsung Galaxy S24 Ultra 256GB": {
-        "market_price": 6000,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "Samsung Galaxy S25 FE 128GB Black": {
-        "market_price": 3936,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "Galaxy Z Fold7": {
-        "market_price": 10999,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "Apple 13\" iPad Pro (2025) Wi-Fi 256GB Space Black med abonnement": {
-        "market_price": null,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "Pixel 8a": {
-        "market_price": 3153,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "iPhone 17e 256GB": {
-        "market_price": 5187,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "Apple iPad Air 13\" (2024) WiFi + Cellular 128GB - Space Grey": {
-        "market_price": 8444,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "Galaxy Tab S9+ 5G": {
-        "market_price": 139,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "OnePlus 15 256 GB Black": {
-        "market_price": 6287,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "iPad Air 13 (2025) 128GB": {
-        "market_price": 6999,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "Lenovo Idea Tab WiFi 256GB Luna Grey": {
-        "market_price": 1749,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "Galaxy S25+": {
-        "market_price": 5333,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "Apple iPhone 15 128GB Black": {
-        "market_price": 4299,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "Galaxy Z Flip7": {
-        "market_price": 6998,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "14T Pro Titan - Sort": {
-        "market_price": 4042,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "iPad 11\" (11. gen.) Wi-Fi + 5G": {
-        "market_price": null,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "Samsung Galaxy S26 256GB Cobalt violet": {
-        "market_price": 6496,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "Apple iPhone Air 256 GB Sky Blue": {
-        "market_price": 6886,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "Samsung Galaxy Tab S10 Plus 256GB": {
-        "market_price": 3999,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "Samsung Galaxy Tab S11 Ultra WiFi 256GB Gray": {
-        "market_price": 7725,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "iPhone 17 Pro": {
-        "market_price": 8999,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "Galaxy Tab A9": {
-        "market_price": null,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "Galaxy S26": {
-        "market_price": 6490,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "Motorola Edge 70 5G 512GB Bronze Green": {
-        "market_price": 3775,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "Apple iPhone 17e 256GB Soft Pink": {
-        "market_price": 5279,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "Galaxy Tab S11 Ultra": {
-        "market_price": 8580,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "Galaxy A56 5G 128GB Black": {
-        "market_price": 2349,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "Motorola G86 Power 256GB": {
-        "market_price": 2776,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "Google Pixel 9 128 GB Obsidian": {
-        "market_price": 3888,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "iPad Pro 11 256GB": {
-        "market_price": 8989,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "iPhone Air 256 GB Sort": {
-        "market_price": 6884,
-        "looked_up_at": "25-03-2026-07:05"
+        "looked_up_at": "26-03-2026-07:16"
     },
     "Urbanista Los Angeles": {
         "market_price": 1075,
-        "looked_up_at": "25-03-2026-07:05"
+        "looked_up_at": "26-03-2026-07:16"
     },
-    "iPhone 15 Plus": {
-        "market_price": 7499,
-        "looked_up_at": "25-03-2026-07:05"
+    "iPhone 15": {
+        "market_price": 4299,
+        "looked_up_at": "26-03-2026-07:16"
     },
-    "Apple iPad Pro 11\" (2025) 256GB Space Black med abonnement": {
-        "market_price": null,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "OnePlus Nord 5 5G 256GB Phantom Grey": {
-        "market_price": 2585,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "iPhone 16e 128GB": {
-        "market_price": 4199,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "Samsung Galaxy A36": {
-        "market_price": 2265,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "Edge 70": {
-        "market_price": null,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "iPhone 17 256 GB Sort": {
-        "market_price": 6648,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "Galaxy A26": {
-        "market_price": 1499,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "iPad Pro 11 (2025) 256GB": {
-        "market_price": 8989,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "Razr 60 Collection Crystals by Swarovski": {
-        "market_price": null,
-        "looked_up_at": "25-03-2026-07:05"
-    },
-    "Apple iPhone 16 Pro Max 512GB Black": {
+    "Galaxy Z Fold7": {
         "market_price": 10999,
-        "looked_up_at": "25-03-2026-07:05"
+        "looked_up_at": "26-03-2026-07:16"
     },
-    "Galaxy A36": {
-        "market_price": 2265,
-        "looked_up_at": "25-03-2026-07:05"
+    "Galaxy S25 FE": {
+        "market_price": 5354,
+        "looked_up_at": "26-03-2026-07:16"
     },
-    "Galaxy S26 256GB Black": {
-        "market_price": 6490,
-        "looked_up_at": "25-03-2026-07:05"
+    "Oneplus CE 5": {
+        "market_price": 2154,
+        "looked_up_at": "26-03-2026-07:16"
     },
-    "Apple iPhone 16 128GB Black": {
-        "market_price": 4999,
-        "looked_up_at": "25-03-2026-07:05"
+    "iPhone 17 256GB": {
+        "market_price": 6666,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Apple iPad Air 11\" 128GB - Space Grey": {
+        "market_price": 5244,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Watch Series 9": {
+        "market_price": null,
+        "looked_up_at": "26-03-2026-07:16"
     },
     "Samsung Galaxy S25 5G 256GB Blueblack": {
         "market_price": 5665,
-        "looked_up_at": "25-03-2026-07:05"
+        "looked_up_at": "26-03-2026-07:16"
     },
-    "Motorola G56 5G 256GB Black Oyster": {
-        "market_price": 1330,
-        "looked_up_at": "25-03-2026-07:05"
+    "Samsung Galaxy Z Flip6 512GB": {
+        "market_price": 11298,
+        "looked_up_at": "26-03-2026-07:16"
     },
-    "Urbanista Malibu": {
-        "market_price": 897,
-        "looked_up_at": "25-03-2026-07:05"
+    "Wavell 4 Plus med abonnement": {
+        "market_price": 479,
+        "looked_up_at": "26-03-2026-07:16"
     },
-    "Samsung Galaxy S26 Plus 256GB": {
-        "market_price": 7950,
-        "looked_up_at": "25-03-2026-07:05"
+    "Samsung Galaxy Buds4 Pro Sort med abonnement": {
+        "market_price": 1888,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Samsung Galaxy Tab S9 128GB": {
+        "market_price": 4464,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Galaxy S25": {
+        "market_price": 4699,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "iPad Air 13 (2026) 128GB": {
+        "market_price": 6999,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Apple iPhone 16 Pro Max 512GB Black": {
+        "market_price": 10999,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "iPhone 17 Pro 256GB": {
+        "market_price": 8999,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Apple iPad Air 11\" (2026) 128GB WiFi Space Grey med abonnement": {
+        "market_price": 5244,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "OnePlus NORD 5": {
+        "market_price": 2627,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Apple Airpods Pro 2 med abonnement": {
+        "market_price": null,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Samsung Galaxy S25+ 5G 512GB Icy Blue": {
+        "market_price": 7649,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "JBL Partybox Club 120 med abonnement": {
+        "market_price": 1999,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Galaxy Watch Ultra": {
+        "market_price": 5979,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Apple iPhone 16e 128GB Black": {
+        "market_price": 4298,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Samsung Galaxy Watch8 44mm eSIM - Grafit med abonnement": {
+        "market_price": 2327,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "iPhone Air 256 GB Sort": {
+        "market_price": 6619,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Pixel 10 Pro XL": {
+        "market_price": 7308,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Apple Watch Ultra 3 GPS + Cellular 49mm Natural Titanium Case with Anchor Blue Ocean Band med abonnement": {
+        "market_price": null,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Google Pixel 9 Pro XL 5G 128GB Obsidian": {
+        "market_price": 5560,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Wavell 4 Sleep Pro med abonnement": {
+        "market_price": 799,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Samsung Galaxy Tab S11 128GB": {
+        "market_price": 5810,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Apple iPad Air 13\" 128GB - Space Grey": {
+        "market_price": 6999,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Galaxy A56 5G 128GB Black": {
+        "market_price": 2349,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Pixel 10": {
+        "market_price": null,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Motorola G86 Power 256GB Dark Blue": {
+        "market_price": 2764,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Apple Watch Series 11 GPS + Cellular 42mm Slate Titanium Case with Black Sport Band - S/M med abonnement": {
+        "market_price": null,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Apple AirPods Pro 3 med abonnement": {
+        "market_price": 1685,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Lenovo Legion 5 15/i7-13650HX/24GB/1TB/5050 med abonnement": {
+        "market_price": 13999,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Wavell Junior - Caribbean Blue med abonnement": {
+        "market_price": null,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Motorola Moto G75 5G 256GB Charcoal Grey": {
+        "market_price": 2222,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Apple Watch Series 10 GPS + Cellular 42mm Natural Titanium Case with Natural Milanese Loop med abonnement": {
+        "market_price": null,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "JBL Wave Beam med abonnement Sort": {
+        "market_price": 579,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Apple iPhone 16 128GB Black": {
+        "market_price": 4999,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Pixel 10a": {
+        "market_price": 3952,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Motorola Edge 60 5G 512GB Gibraltar Sea": {
+        "market_price": 2412,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Pixel 9a": {
+        "market_price": 2799,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Samsung Galaxy Z Flip7 256GB": {
+        "market_price": 6999,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Edge 70": {
+        "market_price": null,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Samsung Galaxy S26 Ultra 512GB Cobalt violet": {
+        "market_price": 9120,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Apple Watch SE 3 GPS + Cellular 44mm Starlight Aluminium Case with Starlight Sport Band - M/L med abonnement": {
+        "market_price": null,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Apple iPhone 16 Plus 128GB Black": {
+        "market_price": 6499,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Galaxy S26 Ultra 512GB Black": {
+        "market_price": 9506,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "iPhone 17e": {
+        "market_price": 5124,
+        "looked_up_at": "26-03-2026-07:16"
     },
     "Samsung Galaxy Z Fold6 256GB": {
-        "market_price": 12499,
-        "looked_up_at": "25-03-2026-07:05"
+        "market_price": 15699,
+        "looked_up_at": "26-03-2026-07:16"
     },
-    "Galaxy Tab A9+ 5G": {
-        "market_price": 2199,
-        "looked_up_at": "25-03-2026-07:05"
+    "iPhone 17": {
+        "market_price": 6666,
+        "looked_up_at": "26-03-2026-07:16"
     },
-    "Galaxy A56": {
-        "market_price": 2827,
-        "looked_up_at": "25-03-2026-07:05"
+    "Google Pixel 10 128GB Obsidian": {
+        "market_price": 3999,
+        "looked_up_at": "26-03-2026-07:16"
     },
-    "iPhone 15 128GB": {
-        "market_price": 4299,
-        "looked_up_at": "25-03-2026-07:05"
+    "Sony Playstation 5 Pro med abonnement": {
+        "market_price": 5899,
+        "looked_up_at": "26-03-2026-07:16"
     },
-    "Samsung Galaxy Tab S11 Ultra 5G 256GB Gray med abonnement": {
-        "market_price": 8340,
-        "looked_up_at": "25-03-2026-07:05"
+    "Motorola Edge 60 Pro 512GB Grey": {
+        "market_price": 2950,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Samsung Galaxy A35 5G 128GB": {
+        "market_price": 1497,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "OnePlus Nord 5 5G 256GB Phantom Grey": {
+        "market_price": 2627,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Galaxy A36": {
+        "market_price": 2070,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Samsung Galaxy S26 256GB": {
+        "market_price": 6949,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Harman Kardon Luna - Grå med abonnement": {
+        "market_price": 679,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Beyerdynamic Aventho 300 Black med abonnement": {
+        "market_price": 2269,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Apple Watch Series 10 GPS + Cellular 46mm Slate Titanium Case with Slate Milanese Loop M/L med abonnement": {
+        "market_price": null,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Apple Watch SE 3 GPS 40mm Midnight Aluminium Case with Midnight Sport Band - S/M med abonnement": {
+        "market_price": null,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Motorola G67 128GB Arctic seal": {
+        "market_price": null,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Samsung Galaxy Watch8 44mm BT - Grafit med abonnement": {
+        "market_price": 1890,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Galaxy S25 Edge": {
+        "market_price": 5050,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Google Pixel 10 Pro Fold 256GB Moonstone": {
+        "market_price": 11999,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Samsung Galaxy Tab Active5 5G 128GB Green": {
+        "market_price": null,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "iPad Pro 13 (2025) 256GB": {
+        "market_price": null,
+        "looked_up_at": "26-03-2026-07:16"
     },
     "Edge 60": {
         "market_price": null,
-        "looked_up_at": "25-03-2026-07:05"
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Apple AirPods 4": {
+        "market_price": 880,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Nokia T21 128GB": {
+        "market_price": null,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Google Pixel 9a 5G 128GB Obsidian": {
+        "market_price": 2750,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Samsung Galaxy A56 128GB Graphite": {
+        "market_price": 2370,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "OnePlus 15R 5G 256 GB Black": {
+        "market_price": 4450,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "moto G86 Power": {
+        "market_price": 2764,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Apple Watch Series 11 GPS + Cellular 42mm Gold Titanium Case with Gold Milanese Loop med abonnement": {
+        "market_price": null,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Samsung Galaxy Tab S10 Plus 256GB": {
+        "market_price": 3999,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Samsung Galaxy Z Fold7 256GB Black": {
+        "market_price": 10999,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Kids Watch": {
+        "market_price": 199,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Galaxy S25 128GB sort": {
+        "market_price": 4699,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Samsung Galaxy Z Flip7 256GB Black": {
+        "market_price": 6999,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Motorola Edge 70, 512GB": {
+        "market_price": 3635,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "iPhone 16 Plus 128 GB Sort": {
+        "market_price": 6942,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Samsung Galaxy Watch8 Classic BT - Sort med abonnement": {
+        "market_price": 3502,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Apple iPad 11\" A16 (2025) WiFi + Cellular 128GB - Silver": {
+        "market_price": null,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Apple iPhone 17 Pro Max 256 GB Orange": {
+        "market_price": 9999,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Apple Watch SE 3 GPS + Cellular 40mm Starlight Aluminium Case with Starlight Sport Band - S/M med abonnement": {
+        "market_price": null,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Galaxy Tab S10 Lite": {
+        "market_price": 2488,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Apple 11\" iPad Pro (2025) Wi-Fi 256GB Space Black med abonnement": {
+        "market_price": null,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Doro Aurora A21 Graphite w Qi charger": {
+        "market_price": 1895,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Urbanista Phoenix": {
+        "market_price": 589,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Galaxy S26+ 256GB Black": {
+        "market_price": 7734,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "iPhone Air": {
+        "market_price": 6881,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Samsung Galaxy S24 5G 128GB Black": {
+        "market_price": 3799,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "iPhone 17 Pro Max 256GB": {
+        "market_price": 9999,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Watch Ultra 3": {
+        "market_price": 6907,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "iPad 10.2\" (9. gen.) WiFi + 4G": {
+        "market_price": null,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Samsung Galaxy S25 FE 128GB Black": {
+        "market_price": 3936,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Samsung Galaxy A56 5G 128GB": {
+        "market_price": 2370,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Samsung Galaxy S25 Plus 512GB": {
+        "market_price": 8115,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Motorola G56 256GB": {
+        "market_price": 1479,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Samsung Galaxy A36 128GB Black": {
+        "market_price": 1777,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Apple TV 4K 64GB med abonnement": {
+        "market_price": 1226,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "iPhone Air 256GB": {
+        "market_price": 6881,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "iPhone 17 Pro Max 256 GB Orange": {
+        "market_price": 9999,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Samsung Galaxy Z Fold6 512GB Silver Shadow": {
+        "market_price": 13999,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "iPhone 16": {
+        "market_price": 4999,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "iPad 11\" (11. gen.) Wi-Fi": {
+        "market_price": 2849,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Galaxy A26 5G 128 GB Black": {
+        "market_price": 1499,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Google Pixel Watch 4 45mm WiFi - Black/Obsidian med abonnement": {
+        "market_price": 2649,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Lenovo Idea Tab WiFi 256GB Luna Grey": {
+        "market_price": 1749,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Samsung Galaxy XCover 7 128GB": {
+        "market_price": null,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Galaxy S26": {
+        "market_price": 6949,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Google Pixel 10 Pro XL 256GB Moonstone": {
+        "market_price": 7344,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Apple Watch Series 11 GPS 42mm Rose Gold Aluminium Case with Light Blush Sport Band - S/M med abonnement": {
+        "market_price": null,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Samsung Galaxy A36": {
+        "market_price": 2123,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Apple Watch Series 10 GPS + Cellular 46mm Jet Black Aluminium Case with Black Sport Band M/L med abonnement": {
+        "market_price": null,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "iPad Air 11 (2025) 128GB": {
+        "market_price": 4526,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Galaxy Tab S11 Ultra": {
+        "market_price": 8340,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Apple Watch SE 3 GPS 44mm Midnight Aluminium Case with Midnight Sport Band - M/L med abonnement": {
+        "market_price": null,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Apple iPad Air 11\" (2026) 128GB WiFi + Cellular Space Grey": {
+        "market_price": 6799,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Samsung Galaxy Buds3 Silver med abonnement": {
+        "market_price": 613,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "iPhone 15 128GB Sort": {
+        "market_price": 4761,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Samsung Galaxy Z Flip7 FE 128GB Black": {
+        "market_price": 5999,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Ninja Double Stack XL Airfryer 9.5 L SL400EU med abonnement": {
+        "market_price": null,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Apple Watch SE 3 GPS 40mm Starlight Aluminium Case with Starlight Sport Band - S/M med abonnement": {
+        "market_price": null,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Apple Watch Ultra 3 GPS + Cellular 49mm Black Titanium Case with Black Ocean Band med abonnement": {
+        "market_price": null,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Galaxy S24 FE 128 GB Sort": {
+        "market_price": 2999,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Apple AirPods 4 med abonnement": {
+        "market_price": 880,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Google Pixel 10A 128GB Black": {
+        "market_price": 3898,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "iPad Pro 11 256GB": {
+        "market_price": 8989,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Pixel 8a": {
+        "market_price": 4102,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Motorola Edge 60 512GB Blue": {
+        "market_price": 2412,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Google Pixel 10a 128GB Obsidian": {
+        "market_price": 3850,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Lenovo LOQ 17/i5-13450HX/5050 med abonnement": {
+        "market_price": null,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Apple Watch Series 11 GPS + Cellular 46mm Space Grey Aluminium Case with Black Sport Band - M/L med abonnement": {
+        "market_price": null,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Pixel 10 Pro": {
+        "market_price": 7308,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "3210": {
+        "market_price": 259,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Motorola Signature 512GB Green": {
+        "market_price": 2799,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "iPhone 17 Pro 256 GB Silver": {
+        "market_price": 8999,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Apple iPhone 15 128GB Black": {
+        "market_price": 4299,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Apple iPad Pro 13\" (2025) 256GB Space Black med abonnement": {
+        "market_price": 12550,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "JBL Tune Buds 2 med abonnement - Sort": {
+        "market_price": 499,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Doro Leva L31s Graphite White": {
+        "market_price": null,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "15R 256 GB": {
+        "market_price": 4499,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Watch Series 10": {
+        "market_price": 5138,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Moto G75": {
+        "market_price": null,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Wavell 3 Pro med abonnement": {
+        "market_price": 719,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Samsung Galaxy Watch8 40mm eSIM - Grafit med abonnement": {
+        "market_price": 1757,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Galaxy A56": {
+        "market_price": 2827,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Wavell 4 Pro med abonnement": {
+        "market_price": 799,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "iPhone 16 128 GB Sort": {
+        "market_price": 4999,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "OnePlus Nord CE 5 5G 128GB Black Infinity": {
+        "market_price": null,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Samsung Galaxy Z Fold7 256GB": {
+        "market_price": 10999,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "iPhone 17 Pro": {
+        "market_price": 8999,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Galaxy Z Flip7": {
+        "market_price": 6999,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Google Pixel 10 Pro 128GB Black": {
+        "market_price": 5994,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Sony Playstation 5 Digital Slim med abonnement": {
+        "market_price": 4399,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Samsung Galaxy Watch8 Classic eSim - Sort med abonnement": {
+        "market_price": 3502,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Samsung Galaxy Watch8 40mm BT - Grafit med abonnement": {
+        "market_price": 1710,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Samsung Galaxy Tab S11 Ultra WiFi 256GB Gray": {
+        "market_price": 7725,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Samsung Galaxy Tab S10FE WiFi 128GB Grey med abonnement": {
+        "market_price": null,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Wavell 4 signature med abonnement": {
+        "market_price": null,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Samsung Galaxy S25 128GB": {
+        "market_price": 4699,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Razr 60 Collection Crystals by Swarovski": {
+        "market_price": null,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Samsung Galaxy S26 Plus 256GB": {
+        "market_price": 7599,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Apple Watch SE 3 GPS + Cellular 40mm Midnight Aluminium Case with Midnight Sport Band - S/M med abonnement": {
+        "market_price": null,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "OnePlus 15 256GB Black": {
+        "market_price": 6262,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Galaxy S24": {
+        "market_price": 3799,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Samsung Galaxy A26 5G 128GB": {
+        "market_price": 1499,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Apple Watch Series 11 GPS + Cellular 46mm Rose Gold Aluminium Case with Light Blush Sport Band - M/L med abonnement": {
+        "market_price": null,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Apple Watch Series 11 GPS 46mm Jet Black Aluminium Case with Black Sport Band - M/L med abonnement": {
+        "market_price": null,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "iPad Air 11 (2026) 128GB": {
+        "market_price": 4526,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Motorola G77 128GB Black olive": {
+        "market_price": null,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Apple iPad Air 13\" (2026) 128GB WiFi Space Grey med abonnement": {
+        "market_price": 6999,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Samsung Galaxy A16 5G 128GB": {
+        "market_price": 1599,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Galaxy Watch8": {
+        "market_price": 1730,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Watch Series 11": {
+        "market_price": null,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Lenovo LOQ 15/i5-12450HX/4050 med abonnement": {
+        "market_price": 9564,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Google Pixel 10 Pro 128GB Obsidian": {
+        "market_price": 5976,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Apple iPad Pro 11\" (2024) 256GB Space Black": {
+        "market_price": 8989,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Apple Watch Ultra 3 GPS + Cellular 49mm Black Titanium Case with Black/Charcoal Trail Loop - M/L med abonnement": {
+        "market_price": null,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "iPhone 16e 128GB": {
+        "market_price": 4199,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Apple iPhone 16e 128 GB Sort": {
+        "market_price": 4298,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "BACKBONE One PlayStation USB-C med abonnement": {
+        "market_price": 459,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Samsung Galaxy S24 128GB": {
+        "market_price": 3799,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "iPad 11th gen 128GB": {
+        "market_price": 2581,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Samsung Galaxy Tab S10 Ultra 256GB": {
+        "market_price": 7572,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Sony Playstation Portal med abonnement": {
+        "market_price": null,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "iPhone 16e": {
+        "market_price": 4199,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Google Pixel 10 128GB Black": {
+        "market_price": 3999,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Google Pixel 10 Pro XL 256GB Black": {
+        "market_price": 7362,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Galaxy Tab A9+ 5G": {
+        "market_price": null,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "JBL Tune Beam 2 med abonnement - Sort": {
+        "market_price": 499,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Apple iPad Pro 11\" (2025) 256GB Space Black med abonnement": {
+        "market_price": 8989,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Lenovo Legion 5 15/i7-13650HX/24GB/1TB/5070 med abonnement": {
+        "market_price": 13999,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "JBL Tune Flex 2 med abonnement - Sort": {
+        "market_price": 499,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Sonos Roam 2 - Sort med abonnement": {
+        "market_price": 1490,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Harman Kardon Onyx Studio 9 med abonnement - Grå": {
+        "market_price": 999,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Galaxy Tab S11": {
+        "market_price": 5810,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Sony Playstation 5 Standard Slim med abonnement": {
+        "market_price": 3949,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Galaxy S26 Ultra": {
+        "market_price": 8679,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Samsung Galaxy S25 Ultra 5G 256GB Black": {
+        "market_price": 6802,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Apple iPad (2025) Wi-Fi 128GB Silver med abonnement": {
+        "market_price": 2599,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "JBL FLIP 7 med abonnement - Black": {
+        "market_price": 793,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Samsung Galaxy S26 Ultra 256GB": {
+        "market_price": 8679,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Sonos Ace sort med abonnement": {
+        "market_price": 2395,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "iPhone 17 256 GB Sort": {
+        "market_price": 6648,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "iPad Air 13 (2025) 128GB": {
+        "market_price": 6999,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "iPhone 17e 256GB Black": {
+        "market_price": 5124,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "14T Pro Titan - Sort": {
+        "market_price": 4043,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Apple iPad Air 13\" (2026) 128GB WiFi + Cellular Space Grey": {
+        "market_price": 8439,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Samsung Galaxy Tab S11 Ultra 256GB": {
+        "market_price": 8580,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Dreame X40 Ultra med abonnement": {
+        "market_price": 6049,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Razr 60 Ultra": {
+        "market_price": 5490,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Apple iPhone Air 256 GB Sky Blue": {
+        "market_price": 6881,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Nintendo Switch 2 inkl. Mario Kart World med abonnement": {
+        "market_price": 3745,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Samsung Galaxy Watch Ultra (2025) Titanium Gray med abonnement": {
+        "market_price": 3296,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Motorola Edge 70 5G 512GB Bronze Green": {
+        "market_price": 3775,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Apple iPhone 14 256GB Midnight": {
+        "market_price": 4525,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Samsung Galaxy Buds3 Pro Silver med abonnement": {
+        "market_price": 1100,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "iPhone 16 128GB": {
+        "market_price": 4999,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Samsung Galaxy S25 Edge 256GB Black": {
+        "market_price": 5175,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Motorola G86 Power 5G 512GB Spellbound": {
+        "market_price": 2145,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Apple Watch SE 3 GPS + Cellular 44mm Midnight Aluminium Case with Midnight Sport Band - M/L med abonnement": {
+        "market_price": null,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Samsung Galaxy Tab S10FE 5G 128GB Grey": {
+        "market_price": null,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "iPhone 17e 256GB": {
+        "market_price": 5124,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Galaxy Tab A9": {
+        "market_price": null,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Samsung Galaxy A26 5G 128GB Black": {
+        "market_price": 1499,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Beyerdynamic Aventho 100 Black med abonnement": {
+        "market_price": null,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "iPad 11\" (11. gen.) Wi-Fi + 5G": {
+        "market_price": null,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Google Pixel 9 128 GB Obsidian": {
+        "market_price": 3888,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Galaxy S26 256GB Black": {
+        "market_price": 6949,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Samsung Galaxy A36 5G 128GB": {
+        "market_price": 2123,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "iPhone 16 Pro": {
+        "market_price": 7712,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Motorola Edge 70 Fusion Power 256GB Silhouette": {
+        "market_price": 3390,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Apple iPhone 17e 256GB Soft Pink": {
+        "market_price": 5264,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "OnePlus 15 512GB": {
+        "market_price": 6650,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Apple Watch Series 11 GPS + Cellular 42mm Rose Gold Aluminium Case with Light Blush Sport Band - S/M med abonnement": {
+        "market_price": null,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Motorola Signature 512GB Martini Olive": {
+        "market_price": 2179,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Galaxy S25+": {
+        "market_price": 5333,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Apple iPhone 17 Pro 256 GB Orange": {
+        "market_price": 8999,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Apple 13\" iPad Pro (2025) Wi-Fi 256GB Space Black med abonnement": {
+        "market_price": 12550,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Apple Watch Series 10 GPS + Cellular 42mm Jet Black Aluminium Case with Black Sport Band S/M med abonnement": {
+        "market_price": null,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Galaxy Watch5 Pro": {
+        "market_price": null,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Samsung Galaxy S24 Ultra 256GB": {
+        "market_price": 6000,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "iPad Pro 11 (2025) 256GB": {
+        "market_price": 8989,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Apple iPad Air 11\" WiFi 128GB (2025) Space Grey med abonnement": {
+        "market_price": 5244,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Samsung Galaxy Buds4 Hvid med abonnement": {
+        "market_price": 1185,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Google TV streamer (4K) - Med abonnement": {
+        "market_price": 741,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Galaxy A26": {
+        "market_price": 1499,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Apple Watch Ultra 2 GPS + Cellular 49mm Black Titanium Case med Black Trail Loop M/L med abonnement": {
+        "market_price": null,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Samsung Galaxy Tab A11": {
+        "market_price": 1224,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "JBL BOOMBOX3 - Sort med abonnement": {
+        "market_price": null,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Apple Watch SE 3 GPS 44mm Starlight Aluminium Case with Starlight Sport Band - M/L med abonnement": {
+        "market_price": null,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Samsung Galaxy S25 Edge 256GB": {
+        "market_price": 5050,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Apple iPad Air 13\" WiFi 128GB (2025) Space Grey med abonnement": {
+        "market_price": 6999,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Apple AirPods 4 med Aktiv støjreduktion med abonnement": {
+        "market_price": 1199,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Galaxy S26+": {
+        "market_price": null,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Galaxy Tab S9+ 5G": {
+        "market_price": 139,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "iPhone 15 Plus": {
+        "market_price": 5099,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Leva 11s Sort": {
+        "market_price": null,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "OnePlus 15 256 GB Black": {
+        "market_price": 6262,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "iPhone 17 Pro Max": {
+        "market_price": 9999,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "iPhone 15 128GB": {
+        "market_price": 4299,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Google Pixel Watch 3 41mm BT Obsidian med abonnement": {
+        "market_price": 1999,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Apple AirPods Max Midnight med abonnement": {
+        "market_price": 4290,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Urbanista Malibu": {
+        "market_price": 897,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Samsung Galaxy Tab S11 Ultra 5G 256GB Gray med abonnement": {
+        "market_price": 8340,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Sonos Era 100 med abonnement - Sort": {
+        "market_price": 1690,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Apple iPhone 17 256 GB Black": {
+        "market_price": 6648,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Apple iPad Air 13\" (2024) WiFi + Cellular 128GB - Space Grey": {
+        "market_price": 8439,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Samsung Galaxy Z Flip7 FE 128GB": {
+        "market_price": 5999,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Motorola Edge 50 Neo 512GB 5G Grisaille": {
+        "market_price": 2999,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Samsung Galaxy S26 256GB Cobalt violet": {
+        "market_price": 6426,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Motorola G56 256 Black": {
+        "market_price": 1345,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Doro Leva L11s Graphite": {
+        "market_price": null,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Google Pixel 10 Pro Fold 256GB Grey": {
+        "market_price": 11999,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Samsung Galaxy S26+ 512GB White": {
+        "market_price": 8355,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Motorola G56 5G 256GB Black Oyster": {
+        "market_price": 1345,
+        "looked_up_at": "26-03-2026-07:16"
+    },
+    "Apple Watch Series 11 GPS + Cellular 46mm Slate Titanium Case with Slate Milanese Loop - M/L med abonnement": {
+        "market_price": null,
+        "looked_up_at": "26-03-2026-07:16"
     }
 }
