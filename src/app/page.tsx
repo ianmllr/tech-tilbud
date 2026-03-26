@@ -5,11 +5,12 @@ import CategoryFilter from '@/components/CategoryFilter'
 import SortSelect from '@/components/SortSelect'
 import Header from '@/components/Header'
 import PriceRangeSlider from '@/components/PriceRangeSlider'
+import PaginationControls from '@/components/PaginationControls'
 import { useOffers } from '@/hooks/useOffers'
 import { Analytics } from "@vercel/analytics/next"
 
 export default function Home() {
-    const { filtered, selectedProviders, setSelectedProviders, selectedCategories, setSelectedCategories, sortOrder, setSortOrder, hideNegative, setHideNegative, search, setSearch, priceRange, setPriceRange, priceMin, priceMax } = useOffers()
+    const { filtered, page, setPage, totalPages, selectedProviders, setSelectedProviders, selectedCategories, setSelectedCategories, sortOrder, setSortOrder, hideNegative, setHideNegative, search, setSearch, priceRange, setPriceRange, priceMin, priceMax } = useOffers()
 
     return (
         <>
@@ -55,7 +56,14 @@ export default function Home() {
                     </div>
                 </div>
                 <Analytics />
+                <PaginationControls
+                    page={page}
+                    totalPages={totalPages}
+                    onPrev={() => setPage(p => Math.max(1, p - 1))}
+                    onNext={() => setPage(p => Math.min(totalPages, p + 1))}
+                />
             </main>
+
         </>
     )
 }

@@ -17,8 +17,12 @@ is_ci = os.environ.get('CI') == 'true'
 def clean_search_query(product_name):
     # remove color in parentheses e.g. "(obsidian)", "(sort)"
     name = re.sub(r'\(.*?\)', '', product_name)
+    # remove subscription suffix used by some providers
+    name = re.sub(r'\bmed\s+abonnement\b', '', name, flags=re.IGNORECASE)
     # remove generic words that hurt search results
     name = re.sub(r'\bsmartphone\b|\bLTE\b', '', name, flags=re.IGNORECASE)
+    # normalize separators left after removals
+    name = re.sub(r'\s+-\s+', ' - ', name)
     name = re.sub(r'\s+', ' ', name).strip()
     return name
 
