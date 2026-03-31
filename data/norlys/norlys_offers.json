@@ -1,17 +1,5 @@
 [
     {
-        "link": "https://shop.norlys.dk/shop/apple/apple-iphone-17e/#/soft-pink/256-gb/1",
-        "product_name": "Apple iPhone 17e 256GB Soft Pink",
-        "image_url": "/images/norlys/apple_iphone_17e_256gb_soft_pink.webp",
-        "type": "phone",
-        "price_without_subscription": 5499.0,
-        "price_with_subscription": 3799.0,
-        "discount_on_product": 1700.0,
-        "min_cost_6_months": 4672.0,
-        "subscription_price_monthly": 129.0,
-        "saved_at": "30-03-2026-07:30"
-    },
-    {
         "link": "https://shop.norlys.dk/shop/apple/apple-iphone-17/#/black/256-gb/1",
         "product_name": "Apple iPhone 17 256 GB Black",
         "image_url": "/images/norlys/apple_iphone_17_256_gb_black.webp",
@@ -21,103 +9,91 @@
         "discount_on_product": 1700.0,
         "min_cost_6_months": 6672.0,
         "subscription_price_monthly": 129.0,
-        "saved_at": "30-03-2026-07:30"
+        "saved_at": "31-03-2026-07:11"
     },
     {
-        "link": "https://shop.norlys.dk/shop/apple/apple-iphone-16/#/black/128-gb/1",
-        "product_name": "Apple iPhone 16 128GB Black",
-        "image_url": "/images/norlys/apple_iphone_16_128gb_black.webp",
+        "link": "https://shop.norlys.dk/shop/apple/apple-iphone-15/#/black/128-gb/1",
+        "product_name": "Apple iPhone 15 128GB Black",
+        "image_url": "/images/norlys/apple_iphone_15_128gb_black.webp",
         "type": "phone",
-        "price_without_subscription": 6499.0,
-        "price_with_subscription": 4499.0,
-        "discount_on_product": 2000.0,
-        "min_cost_6_months": 5372.0,
+        "price_without_subscription": 5499.0,
+        "price_with_subscription": 3799.0,
+        "discount_on_product": 1700.0,
+        "min_cost_6_months": 4672.0,
         "subscription_price_monthly": 129.0,
-        "saved_at": "30-03-2026-07:30"
+        "saved_at": "31-03-2026-07:11"
     },
     {
-        "link": "https://shop.norlys.dk/shop/apple/apple-iphone-16e/#/black/128-gb/1",
-        "product_name": "Apple iPhone 16e 128GB Black",
-        "image_url": "/images/norlys/apple_iphone_16e_128gb_black.webp",
-        "type": "phone",
-        "price_without_subscription": 4599.0,
-        "price_with_subscription": 3299.0,
-        "discount_on_product": 1300.0,
-        "min_cost_6_months": 4172.0,
-        "subscription_price_monthly": 129.0,
-        "saved_at": "30-03-2026-07:30"
-    },
-    {
-        "link": "https://shop.norlys.dk/shop/samsung/samsung-galaxy-s26/#/cobalt-violet/256-gb/1",
-        "product_name": "Samsung Galaxy S26 256GB Cobalt violet",
-        "image_url": "/images/norlys/samsung_galaxy_s26_256gb_cobalt_violet.webp",
-        "type": "phone",
-        "price_without_subscription": 7999.0,
-        "price_with_subscription": 5499.0,
-        "discount_on_product": 2500.0,
-        "min_cost_6_months": 6372.0,
-        "subscription_price_monthly": 129.0,
-        "saved_at": "30-03-2026-07:30"
-    },
-    {
-        "link": "https://shop.norlys.dk/shop/samsung/samsung-galaxy-s26-a5f38568/#/white/512-gb/1",
-        "product_name": "Samsung Galaxy S26+ 512GB White",
-        "image_url": "/images/norlys/samsung_galaxy_s26__512gb_white.webp",
+        "link": "https://shop.norlys.dk/shop/samsung/samsung-galaxy-s26-ultra/#/cobalt-violet/256-gb/1",
+        "product_name": "Samsung Galaxy S26 Ultra 256GB Cobalt violet",
+        "image_url": "/images/norlys/samsung_galaxy_s26_ultra_256gb_cobalt_violet.webp",
         "type": "phone",
         "price_without_subscription": 11499.0,
-        "price_with_subscription": 8299.0,
-        "discount_on_product": 3200.0,
-        "min_cost_6_months": 9172.0,
-        "subscription_price_monthly": 129.0,
-        "saved_at": "30-03-2026-07:30"
-    },
-    {
-        "link": "https://shop.norlys.dk/shop/samsung/samsung-galaxy-s26-ultra/#/cobalt-violet/512-gb/1",
-        "product_name": "Samsung Galaxy S26 Ultra 512GB Cobalt violet",
-        "image_url": "/images/norlys/samsung_galaxy_s26_ultra_512gb_cobalt_violet.webp",
-        "type": "phone",
-        "price_without_subscription": 12499.0,
         "price_with_subscription": 7299.0,
-        "discount_on_product": 5200.0,
+        "discount_on_product": 4200.0,
         "min_cost_6_months": 8172.0,
         "subscription_price_monthly": 129.0,
-        "saved_at": "30-03-2026-07:30"
+        "saved_at": "31-03-2026-07:11"
     },
     {
-        "link": "https://shop.norlys.dk/shop/apple/apple-iphone-air/#/sky-blue/256-gb/1",
-        "product_name": "Apple iPhone Air 256 GB Sky Blue",
-        "image_url": "/images/norlys/apple_iphone_air_256_gb_sky_blue.webp",
+        "link": "https://shop.norlys.dk/shop/samsung/samsung-galaxy-a57/#/awesome-grey/128-gb/1",
+        "product_name": "Samsung Galaxy A57 128GB Awesome Gray",
+        "image_url": "/images/norlys/samsung_galaxy_a57_128gb_awesome_gray.webp",
         "type": "phone",
-        "price_without_subscription": 8999.0,
-        "price_with_subscription": 6499.0,
-        "discount_on_product": 2500.0,
-        "min_cost_6_months": 7372.0,
+        "price_without_subscription": 3699.0,
+        "price_with_subscription": 1999.0,
+        "discount_on_product": 1700.0,
+        "min_cost_6_months": 2872.0,
         "subscription_price_monthly": 129.0,
-        "saved_at": "30-03-2026-07:30"
+        "saved_at": "31-03-2026-07:11"
     },
     {
-        "link": "https://shop.norlys.dk/shop/google/google-pixel-10a/#/obsidian/128-gb/1",
-        "product_name": "Google Pixel 10a 128GB Obsidian",
-        "image_url": "/images/norlys/google_pixel_10a_128gb_obsidian.webp",
+        "link": "https://shop.norlys.dk/shop/google/google-pixel-10/#/obsidian/128-gb/1",
+        "product_name": "Google Pixel 10 128GB Obsidian",
+        "image_url": "/images/norlys/google_pixel_10_128gb_obsidian.webp",
         "type": "phone",
-        "price_without_subscription": 4299.0,
-        "price_with_subscription": 2499.0,
+        "price_without_subscription": 6999.0,
+        "price_with_subscription": 2999.0,
+        "discount_on_product": 4000.0,
+        "min_cost_6_months": 3872.0,
+        "subscription_price_monthly": 129.0,
+        "saved_at": "31-03-2026-07:11"
+    },
+    {
+        "link": "https://shop.norlys.dk/shop/motorola/motorola-g86-power/#/blå/512-gb/1",
+        "product_name": "Motorola G86 Power 5G 512GB Spellbound",
+        "image_url": "/images/norlys/motorola_g86_power_5g_512gb_spellbound.webp",
+        "type": "phone",
+        "price_without_subscription": 2899.0,
+        "price_with_subscription": 999.0,
+        "discount_on_product": 1900.0,
+        "min_cost_6_months": 1872.0,
+        "subscription_price_monthly": 129.0,
+        "saved_at": "31-03-2026-07:11"
+    },
+    {
+        "link": "https://shop.norlys.dk/shop/google/google-pixel-10-pro/#/obsidian/128-gb/1",
+        "product_name": "Google Pixel 10 Pro 128GB Obsidian",
+        "image_url": "/images/norlys/google_pixel_10_pro_128gb_obsidian.webp",
+        "type": "phone",
+        "price_without_subscription": 8599.0,
+        "price_with_subscription": 4999.0,
+        "discount_on_product": 3600.0,
+        "min_cost_6_months": 5872.0,
+        "subscription_price_monthly": 129.0,
+        "saved_at": "31-03-2026-07:11"
+    },
+    {
+        "link": "https://shop.norlys.dk/shop/oneplus/oneplus-nord-ce-5-5g/#/black-infinity/128-gb/1",
+        "product_name": "OnePlus Nord CE 5 5G 128GB Black Infinity",
+        "image_url": "/images/norlys/oneplus_nord_ce_5_5g_128gb_black_infinity.webp",
+        "type": "phone",
+        "price_without_subscription": 2799.0,
+        "price_with_subscription": 999.0,
         "discount_on_product": 1800.0,
-        "min_cost_6_months": 3372.0,
+        "min_cost_6_months": 1872.0,
         "subscription_price_monthly": 129.0,
-        "saved_at": "30-03-2026-07:30"
-    },
-    {
-        "link": "https://shop.norlys.dk/shop/google/google-pixel-10-pro-xl-5g/#/moonstone/256-gb/1",
-        "product_name": "Google Pixel 10 Pro XL 256GB Moonstone",
-        "image_url": "/images/norlys/google_pixel_10_pro_xl_256gb_moonstone.webp",
-        "type": "phone",
-        "price_without_subscription": 10499.0,
-        "price_with_subscription": 6299.0,
-        "discount_on_product": 4200.0,
-        "min_cost_6_months": 7172.0,
-        "subscription_price_monthly": 129.0,
-        "saved_at": "30-03-2026-07:30"
+        "saved_at": "31-03-2026-07:11"
     },
     {
         "link": "https://shop.norlys.dk/shop/motorola/motorola-signature/#/martini-olive/512-gb/1",
@@ -125,23 +101,47 @@
         "image_url": "/images/norlys/motorola_signature_512gb_martini_olive.webp",
         "type": "phone",
         "price_without_subscription": 7999.0,
-        "price_with_subscription": 4299.0,
-        "discount_on_product": 3700.0,
-        "min_cost_6_months": 5172.0,
+        "price_with_subscription": 6999.0,
+        "discount_on_product": 1000.0,
+        "min_cost_6_months": 7872.0,
         "subscription_price_monthly": 129.0,
-        "saved_at": "30-03-2026-07:30"
+        "saved_at": "31-03-2026-07:11"
     },
     {
-        "link": "https://shop.norlys.dk/shop/motorola/motorola-g56/#/sort/256-gb/1",
-        "product_name": "Motorola G56 5G 256GB Black Oyster",
-        "image_url": "/images/norlys/motorola_g56_5g_256gb_black_oyster.webp",
+        "link": "https://shop.norlys.dk/shop/motorola/motorola-edge-70-5g/#/bronze-green/512-gb/1",
+        "product_name": "Motorola Edge 70 5G 512GB Bronze Green",
+        "image_url": "/images/norlys/motorola_edge_70_5g_512gb_bronze_green.webp",
         "type": "phone",
-        "price_without_subscription": 1899.0,
-        "price_with_subscription": 299.0,
-        "discount_on_product": 1600.0,
-        "min_cost_6_months": 1172.0,
+        "price_without_subscription": 5999.0,
+        "price_with_subscription": 2299.0,
+        "discount_on_product": 3700.0,
+        "min_cost_6_months": 3172.0,
         "subscription_price_monthly": 129.0,
-        "saved_at": "30-03-2026-07:30"
+        "saved_at": "31-03-2026-07:11"
+    },
+    {
+        "link": "https://shop.norlys.dk/shop/motorola/motorola-g67/#/arctic-seal/128-gb/1",
+        "product_name": "Motorola G67 128GB Arctic seal",
+        "image_url": "/images/norlys/motorola_g67_128gb_arctic_seal.webp",
+        "type": "phone",
+        "price_without_subscription": 2199.0,
+        "price_with_subscription": 699.0,
+        "discount_on_product": 1500.0,
+        "min_cost_6_months": 1572.0,
+        "subscription_price_monthly": 129.0,
+        "saved_at": "31-03-2026-07:11"
+    },
+    {
+        "link": "https://shop.norlys.dk/shop/apple/apple-iphone-17e/#/soft-pink/256-gb/1",
+        "product_name": "Apple iPhone 17e 256GB Soft Pink",
+        "image_url": "/images/norlys/apple_iphone_17e_256gb_soft_pink.webp",
+        "type": "phone",
+        "price_without_subscription": 5499.0,
+        "price_with_subscription": 4299.0,
+        "discount_on_product": 1200.0,
+        "min_cost_6_months": 5172.0,
+        "subscription_price_monthly": 129.0,
+        "saved_at": "31-03-2026-07:11"
     },
     {
         "link": "https://shop.norlys.dk/shop/apple/apple-ipad-air-11-2026-wifi--cellular/#/space-grey/128-gb/1",
@@ -153,7 +153,7 @@
         "discount_on_product": 800.0,
         "min_cost_6_months": 6372.0,
         "subscription_price_monthly": 129.0,
-        "saved_at": "30-03-2026-07:30"
+        "saved_at": "31-03-2026-07:11"
     },
     {
         "link": "https://shop.norlys.dk/shop/apple/apple-ipad-air-13-2026-wifi--cellular/#/space-grey/128-gb/1",
@@ -165,7 +165,7 @@
         "discount_on_product": 1000.0,
         "min_cost_6_months": 7872.0,
         "subscription_price_monthly": 129.0,
-        "saved_at": "30-03-2026-07:30"
+        "saved_at": "31-03-2026-07:11"
     },
     {
         "link": "https://shop.norlys.dk/shop/apple/apple-ipad-11-a16-2025/#/silver/128-gb/1",
@@ -177,7 +177,7 @@
         "discount_on_product": 1300.0,
         "min_cost_6_months": 4372.0,
         "subscription_price_monthly": 129.0,
-        "saved_at": "30-03-2026-07:30"
+        "saved_at": "31-03-2026-07:11"
     },
     {
         "link": "https://shop.norlys.dk/shop/lenovo/lenovo-idea-tab-wifi-med-keyboard-og-pen-/#/luna-grey/256-gb/1",
@@ -189,7 +189,7 @@
         "discount_on_product": 1700.0,
         "min_cost_6_months": 1872.0,
         "subscription_price_monthly": 129.0,
-        "saved_at": "30-03-2026-07:30"
+        "saved_at": "31-03-2026-07:11"
     },
     {
         "link": "https://shop.norlys.dk/shop/samsung/samsung-galaxy-tab-s11-ultra-wifi/#/gray/256-gb/1",
@@ -201,7 +201,7 @@
         "discount_on_product": 7000.0,
         "min_cost_6_months": 4872.0,
         "subscription_price_monthly": 129.0,
-        "saved_at": "30-03-2026-07:30"
+        "saved_at": "31-03-2026-07:11"
     },
     {
         "link": "https://shop.norlys.dk/shop/apple/apple-ipad-pro-11-2024/#/space-black/256-gb/1",
@@ -213,7 +213,7 @@
         "discount_on_product": 3800.0,
         "min_cost_6_months": 8372.0,
         "subscription_price_monthly": 129.0,
-        "saved_at": "30-03-2026-07:30"
+        "saved_at": "31-03-2026-07:11"
     },
     {
         "link": "https://shop.norlys.dk/shop/apple/apple-ipad-air-13-2024/#/space-grey/128-gb/1",
@@ -225,31 +225,31 @@
         "discount_on_product": 2700.0,
         "min_cost_6_months": 7172.0,
         "subscription_price_monthly": 129.0,
-        "saved_at": "30-03-2026-07:30"
+        "saved_at": "31-03-2026-07:11"
     },
     {
-        "link": "https://shop.norlys.dk/shop/apple/apple-ipad-pro-11-2025-med-abonnement/#/space-black/256-gb/1",
-        "product_name": "Apple iPad Pro 11\" (2025) 256GB Space Black",
-        "image_url": "/images/norlys/apple_ipad_pro_11___2025__256gb_space_black.webp",
+        "link": "https://shop.norlys.dk/shop/samsung/samsung-galaxy-tab-s11-ultra-5g/#/gray/256-gb/1",
+        "product_name": "Samsung Galaxy Tab S11 Ultra 5G 256GB Gray",
+        "image_url": "/images/norlys/samsung_galaxy_tab_s11_ultra_5g_256gb_gray.webp",
         "type": "tablet",
-        "price_without_subscription": 10799.0,
-        "price_with_subscription": 8999.0,
+        "price_without_subscription": 12499.0,
+        "price_with_subscription": 5299.0,
+        "discount_on_product": 7200.0,
+        "min_cost_6_months": 6172.0,
+        "subscription_price_monthly": 129.0,
+        "saved_at": "31-03-2026-07:11"
+    },
+    {
+        "link": "https://shop.norlys.dk/shop/tilbehor-med-abonnement/apple-ipad-pro-13-2025-wi-fi-med-abonnement/#/space-black/256-gb/1",
+        "product_name": "Apple 13\" iPad Pro (2025) Wi-Fi 256GB Space Black",
+        "image_url": "/images/norlys/apple_13__ipad_pro__2025__wi_fi_256gb_space_black.webp",
+        "type": "tablet",
+        "price_without_subscription": 11499.0,
+        "price_with_subscription": 9699.0,
         "discount_on_product": 1800.0,
-        "min_cost_6_months": 9872.0,
+        "min_cost_6_months": 10572.0,
         "subscription_price_monthly": 129.0,
-        "saved_at": "30-03-2026-07:30"
-    },
-    {
-        "link": "https://shop.norlys.dk/shop/samsung/samsung-galaxy-tab-active5-5g/#/green/128-gb/1",
-        "product_name": "Samsung Galaxy Tab Active5 5G 128GB Green",
-        "image_url": "/images/norlys/samsung_galaxy_tab_active5_5g_128gb_green.webp",
-        "type": "tablet",
-        "price_without_subscription": 4599.0,
-        "price_with_subscription": 3499.0,
-        "discount_on_product": 1100.0,
-        "min_cost_6_months": 4372.0,
-        "subscription_price_monthly": 129.0,
-        "saved_at": "30-03-2026-07:30"
+        "saved_at": "31-03-2026-07:11"
     },
     {
         "link": "https://shop.norlys.dk/shop/tilbehor-med-abonnement/apple-ipad-pro-11-2025-wi-fi-med-abonnement/#/space-black/256-gb/1",
@@ -257,11 +257,11 @@
         "image_url": "/images/norlys/apple_11__ipad_pro__2025__wi_fi_256gb_space_black.webp",
         "type": "tablet",
         "price_without_subscription": 8799.0,
-        "price_with_subscription": 6999.0,
-        "discount_on_product": 1800.0,
-        "min_cost_6_months": 7872.0,
+        "price_with_subscription": 7299.0,
+        "discount_on_product": 1500.0,
+        "min_cost_6_months": 8172.0,
         "subscription_price_monthly": 129.0,
-        "saved_at": "30-03-2026-07:30"
+        "saved_at": "31-03-2026-07:11"
     },
     {
         "link": "https://shop.norlys.dk/shop/tilbehor-med-abonnement/apple-ipad-air-11-2026-wifi-med-abonnement/#/space-grey/128-gb/1",
@@ -273,7 +273,7 @@
         "discount_on_product": 670.0,
         "min_cost_6_months": 4872.0,
         "subscription_price_monthly": 129.0,
-        "saved_at": "30-03-2026-07:30"
+        "saved_at": "31-03-2026-07:11"
     },
     {
         "link": "https://shop.norlys.dk/shop/tilbehor-med-abonnement/apple-ipad-air-13-2026-wifi-med-abonnement/#/space-grey/128-gb/1",
@@ -285,7 +285,7 @@
         "discount_on_product": 690.0,
         "min_cost_6_months": 6372.0,
         "subscription_price_monthly": 129.0,
-        "saved_at": "30-03-2026-07:30"
+        "saved_at": "31-03-2026-07:11"
     },
     {
         "link": "https://shop.norlys.dk/shop/tilbehor-med-abonnement/apple-ipad-air-11-wifi-128gb-2025-med-abonnement/#/space-grey/128-gb/1",
@@ -297,7 +297,7 @@
         "discount_on_product": 1100.0,
         "min_cost_6_months": 5072.0,
         "subscription_price_monthly": 129.0,
-        "saved_at": "30-03-2026-07:30"
+        "saved_at": "31-03-2026-07:11"
     },
     {
         "link": "https://shop.norlys.dk/shop/tilbehor-med-abonnement/apple-ipad-air-13-wifi-128gb-2025-med-abonnement/#/space-grey/128-gb/1",
@@ -309,7 +309,7 @@
         "discount_on_product": 1300.0,
         "min_cost_6_months": 6572.0,
         "subscription_price_monthly": 129.0,
-        "saved_at": "30-03-2026-07:30"
+        "saved_at": "31-03-2026-07:11"
     },
     {
         "link": "https://shop.norlys.dk/shop/tilbehor-med-abonnement/apple-ipad-2025-wi-fi-med-abonnement/#/silver/128-gb/1",
@@ -317,35 +317,59 @@
         "image_url": "/images/norlys/apple_ipad_11__a16__2025__wifi_128gb_silver.webp",
         "type": "tablet",
         "price_without_subscription": 2999.0,
-        "price_with_subscription": 1999.0,
-        "discount_on_product": 1000.0,
-        "min_cost_6_months": 2872.0,
+        "price_with_subscription": 1499.0,
+        "discount_on_product": 1500.0,
+        "min_cost_6_months": 2372.0,
         "subscription_price_monthly": 129.0,
-        "saved_at": "30-03-2026-07:30"
+        "saved_at": "31-03-2026-07:11"
     },
     {
-        "link": "https://shop.norlys.dk/shop/tilbehor-med-abonnement/apple-ipad-pro-13-2025-wi-fi-med-abonnement/#/space-black/256-gb/1",
-        "product_name": "Apple 13\" iPad Pro (2025) Wi-Fi 256GB Space Black",
-        "image_url": "/images/norlys/apple_13__ipad_pro__2025__wi_fi_256gb_space_black.webp",
-        "type": "tablet",
-        "price_without_subscription": 11499.0,
-        "price_with_subscription": 9499.0,
-        "discount_on_product": 2000.0,
-        "min_cost_6_months": 10372.0,
-        "subscription_price_monthly": 129.0,
-        "saved_at": "30-03-2026-07:30"
-    },
-    {
-        "link": "https://shop.norlys.dk/shop/tilbehor-med-abonnement/backbone-one-playstation-usb-c-med-abonnement-4107d461/#/white/1",
-        "product_name": "BACKBONE One PlayStation USB-C",
-        "image_url": "/images/norlys/backbone_one_playstation_usb_c.webp",
+        "link": "https://shop.norlys.dk/shop/inriverassociations/sony-playstation-5-digital-slim-med-abonnement-c03a9dd1/#/white/1",
+        "product_name": "Sony Playstation 5 Digital Slim",
+        "image_url": "/images/norlys/sony_playstation_5_digital_slim.webp",
         "type": "gaming",
-        "price_without_subscription": 999.0,
-        "price_with_subscription": 99.0,
-        "discount_on_product": 900.0,
-        "min_cost_6_months": 972.0,
+        "price_without_subscription": 4099.0,
+        "price_with_subscription": 2799.0,
+        "discount_on_product": 1300.0,
+        "min_cost_6_months": 3672.0,
         "subscription_price_monthly": 129.0,
-        "saved_at": "30-03-2026-07:30"
+        "saved_at": "31-03-2026-07:11"
+    },
+    {
+        "link": "https://shop.norlys.dk/shop/tilbehor-med-abonnement/sony-playstation-5-standard-slim-med-abonnement-ee041611/#/white/1",
+        "product_name": "Sony Playstation 5 Standard Slim",
+        "image_url": "/images/norlys/sony_playstation_5_standard_slim.webp",
+        "type": "gaming",
+        "price_without_subscription": 4399.0,
+        "price_with_subscription": 3099.0,
+        "discount_on_product": 1300.0,
+        "min_cost_6_months": 3972.0,
+        "subscription_price_monthly": 129.0,
+        "saved_at": "31-03-2026-07:11"
+    },
+    {
+        "link": "https://shop.norlys.dk/shop/tilbehor-med-abonnement/sony-playstation-5-pro-med-abonnement-d6879354/#/hvid/1",
+        "product_name": "Sony Playstation 5 Pro",
+        "image_url": "/images/norlys/sony_playstation_5_pro.webp",
+        "type": "gaming",
+        "price_without_subscription": 5799.0,
+        "price_with_subscription": 4999.0,
+        "discount_on_product": 800.0,
+        "min_cost_6_months": 5872.0,
+        "subscription_price_monthly": 129.0,
+        "saved_at": "31-03-2026-07:11"
+    },
+    {
+        "link": "https://shop.norlys.dk/shop/tilbehor-med-abonnement/nintendo-switch-2-inkl.-mario-kart-world-med-abonnement-c82fb5c1/#/sort/256-gb/1",
+        "product_name": "Nintendo Switch 2 inkl. Mario Kart World",
+        "image_url": "/images/norlys/nintendo_switch_2_inkl__mario_kart_world.webp",
+        "type": "gaming",
+        "price_without_subscription": 4599.0,
+        "price_with_subscription": 3299.0,
+        "discount_on_product": 1300.0,
+        "min_cost_6_months": 4172.0,
+        "subscription_price_monthly": 129.0,
+        "saved_at": "31-03-2026-07:11"
     },
     {
         "link": "https://shop.norlys.dk/shop/tilbehor-med-abonnement/backbone-one-usb-c-med-abonnement-12222762/#/black/1",
@@ -357,7 +381,19 @@
         "discount_on_product": 900.0,
         "min_cost_6_months": 972.0,
         "subscription_price_monthly": 129.0,
-        "saved_at": "30-03-2026-07:30"
+        "saved_at": "31-03-2026-07:11"
+    },
+    {
+        "link": "https://shop.norlys.dk/shop/tilbehor-med-abonnement/backbone-one-playstation-usb-c-med-abonnement-4107d461/#/white/1",
+        "product_name": "BACKBONE One PlayStation USB-C",
+        "image_url": "/images/norlys/backbone_one_playstation_usb_c.webp",
+        "type": "gaming",
+        "price_without_subscription": 999.0,
+        "price_with_subscription": 99.0,
+        "discount_on_product": 900.0,
+        "min_cost_6_months": 972.0,
+        "subscription_price_monthly": 129.0,
+        "saved_at": "31-03-2026-07:11"
     },
     {
         "link": "https://shop.norlys.dk/shop/lenovo/lenovo-loq-15i5-12450hx4050-med-abonnement-06b40a93/#/grey/1000-gb/1",
@@ -365,11 +401,11 @@
         "image_url": "/images/norlys/lenovo_loq_15_i5_12450hx_4050.webp",
         "type": "gaming",
         "price_without_subscription": 6999.0,
-        "price_with_subscription": 4999.0,
-        "discount_on_product": 2000.0,
-        "min_cost_6_months": 5872.0,
+        "price_with_subscription": 5799.0,
+        "discount_on_product": 1200.0,
+        "min_cost_6_months": 6672.0,
         "subscription_price_monthly": 129.0,
-        "saved_at": "30-03-2026-07:30"
+        "saved_at": "31-03-2026-07:11"
     },
     {
         "link": "https://shop.norlys.dk/shop/lenovo/lenovo-loq-17i5-13450hx5050-med-abonnement-2ca0aa66/#/grey/1000-gb/1",
@@ -377,11 +413,11 @@
         "image_url": "/images/norlys/lenovo_loq_17_i5_13450hx_5050.webp",
         "type": "gaming",
         "price_without_subscription": 9499.0,
-        "price_with_subscription": 7499.0,
-        "discount_on_product": 2000.0,
-        "min_cost_6_months": 8372.0,
+        "price_with_subscription": 8299.0,
+        "discount_on_product": 1200.0,
+        "min_cost_6_months": 9172.0,
         "subscription_price_monthly": 129.0,
-        "saved_at": "30-03-2026-07:30"
+        "saved_at": "31-03-2026-07:11"
     },
     {
         "link": "https://shop.norlys.dk/shop/lenovo/lenovo-legion-5-15i7-13650hx24gb1tb5050-med-abonnement-44eab2fa/#/grey/1000-gb/1",
@@ -389,11 +425,11 @@
         "image_url": "/images/norlys/lenovo_legion_5_15_i7_13650hx_24gb_1tb_5050.webp",
         "type": "gaming",
         "price_without_subscription": 9499.0,
-        "price_with_subscription": 7499.0,
-        "discount_on_product": 2000.0,
-        "min_cost_6_months": 8372.0,
+        "price_with_subscription": 8299.0,
+        "discount_on_product": 1200.0,
+        "min_cost_6_months": 9172.0,
         "subscription_price_monthly": 129.0,
-        "saved_at": "30-03-2026-07:30"
+        "saved_at": "31-03-2026-07:11"
     },
     {
         "link": "https://shop.norlys.dk/shop/lenovo/lenovo-legion-5-15i7-13650hx24gb1tb5070-med-abonnement-2f78d8df/#/grey/1000-gb/1",
@@ -401,59 +437,11 @@
         "image_url": "/images/norlys/lenovo_legion_5_15_i7_13650hx_24gb_1tb_5070.webp",
         "type": "gaming",
         "price_without_subscription": 12499.0,
-        "price_with_subscription": 9999.0,
-        "discount_on_product": 2500.0,
-        "min_cost_6_months": 10872.0,
+        "price_with_subscription": 10799.0,
+        "discount_on_product": 1700.0,
+        "min_cost_6_months": 11672.0,
         "subscription_price_monthly": 129.0,
-        "saved_at": "30-03-2026-07:30"
-    },
-    {
-        "link": "https://shop.norlys.dk/shop/inriverassociations/sony-playstation-5-digital-slim-med-abonnement-c03a9dd1/#/white/1",
-        "product_name": "Sony Playstation 5 Digital Slim",
-        "image_url": "/images/norlys/sony_playstation_5_digital_slim.webp",
-        "type": "gaming",
-        "price_without_subscription": 4099.0,
-        "price_with_subscription": 3299.0,
-        "discount_on_product": 800.0,
-        "min_cost_6_months": 4172.0,
-        "subscription_price_monthly": 129.0,
-        "saved_at": "30-03-2026-07:30"
-    },
-    {
-        "link": "https://shop.norlys.dk/shop/tilbehor-med-abonnement/sony-playstation-5-standard-slim-med-abonnement-ee041611/#/white/1",
-        "product_name": "Sony Playstation 5 Standard Slim",
-        "image_url": "/images/norlys/sony_playstation_5_standard_slim.webp",
-        "type": "gaming",
-        "price_without_subscription": 4399.0,
-        "price_with_subscription": 3499.0,
-        "discount_on_product": 900.0,
-        "min_cost_6_months": 4372.0,
-        "subscription_price_monthly": 129.0,
-        "saved_at": "30-03-2026-07:30"
-    },
-    {
-        "link": "https://shop.norlys.dk/shop/tilbehor-med-abonnement/sony-playstation-5-pro-med-abonnement-d6879354/#/hvid/1",
-        "product_name": "Sony Playstation 5 Pro",
-        "image_url": "/images/norlys/sony_playstation_5_pro.webp",
-        "type": "gaming",
-        "price_without_subscription": 5799.0,
-        "price_with_subscription": 5399.0,
-        "discount_on_product": 400.0,
-        "min_cost_6_months": 6272.0,
-        "subscription_price_monthly": 129.0,
-        "saved_at": "30-03-2026-07:30"
-    },
-    {
-        "link": "https://shop.norlys.dk/shop/tilbehor-med-abonnement/nintendo-switch-2-inkl.-mario-kart-world-med-abonnement-c82fb5c1/#/sort/256-gb/1",
-        "product_name": "Nintendo Switch 2 inkl. Mario Kart World",
-        "image_url": "/images/norlys/nintendo_switch_2_inkl__mario_kart_world.webp",
-        "type": "gaming",
-        "price_without_subscription": 4599.0,
-        "price_with_subscription": 3499.0,
-        "discount_on_product": 1100.0,
-        "min_cost_6_months": 4372.0,
-        "subscription_price_monthly": 129.0,
-        "saved_at": "30-03-2026-07:30"
+        "saved_at": "31-03-2026-07:11"
     },
     {
         "link": "https://shop.norlys.dk/shop/tilbehor-med-abonnement/samsung-galaxy-watch8-40mm-bt-med-abonnement/#/grafit/1",
@@ -465,7 +453,7 @@
         "discount_on_product": 2000.0,
         "min_cost_6_months": 1872.0,
         "subscription_price_monthly": 129.0,
-        "saved_at": "30-03-2026-07:30"
+        "saved_at": "31-03-2026-07:11"
     },
     {
         "link": "https://shop.norlys.dk/shop/tilbehor-med-abonnement/samsung-galaxy-watch-ultra-2025-med-abonnement/#/grå/1",
@@ -477,31 +465,31 @@
         "discount_on_product": 2500.0,
         "min_cost_6_months": 3372.0,
         "subscription_price_monthly": 129.0,
-        "saved_at": "30-03-2026-07:30"
+        "saved_at": "31-03-2026-07:11"
     },
     {
         "link": "https://shop.norlys.dk/shop/tilbehor-med-abonnement/apple-watch-ultra-3gps--cellular49mmblack-titanium-case-with-black-ocean-band-med-abonnement-29843dda/#/black-titanium/1",
         "product_name": "Apple Watch Ultra 3 GPS + Cellular 49mm Black Titanium Case with Black Ocean Band",
         "image_url": "/images/norlys/apple_watch_ultra_3_gps___cellular_49mm_black_titanium_case_with_black_ocean_band.webp",
         "type": "smartwatch",
-        "price_without_subscription": 6299.1,
-        "price_with_subscription": 4769.1,
-        "discount_on_product": 1530.0,
-        "min_cost_6_months": 5642.1,
+        "price_without_subscription": 6999.0,
+        "price_with_subscription": 5299.0,
+        "discount_on_product": 1700.0,
+        "min_cost_6_months": 6172.0,
         "subscription_price_monthly": 129.0,
-        "saved_at": "30-03-2026-07:30"
+        "saved_at": "31-03-2026-07:11"
     },
     {
         "link": "https://shop.norlys.dk/shop/tilbehor-med-abonnement/apple-watch-ultra-3-gps--cellular-49mm-black-titanium-case-with-blackcharcoal-trail-loop-med-abon/#/black-titanium/1",
         "product_name": "Apple Watch Ultra 3 GPS + Cellular 49mm Black Titanium Case with Black/Charcoal Trail Loop M/L",
         "image_url": "/images/norlys/apple_watch_ultra_3_gps___cellular_49mm_black_titanium_case_with_black_charcoal_trail_loop_m_l.webp",
         "type": "smartwatch",
-        "price_without_subscription": 6299.1,
-        "price_with_subscription": 4769.1,
-        "discount_on_product": 1530.0,
-        "min_cost_6_months": 5642.1,
+        "price_without_subscription": 6999.0,
+        "price_with_subscription": 5299.0,
+        "discount_on_product": 1700.0,
+        "min_cost_6_months": 6172.0,
         "subscription_price_monthly": 129.0,
-        "saved_at": "30-03-2026-07:30"
+        "saved_at": "31-03-2026-07:11"
     },
     {
         "link": "https://shop.norlys.dk/shop/tilbehor-med-abonnement/apple-watch-series-11-gps--cellular-46mm-titanium-case-med-milanese-loop-med-abonnement/#/slate/1",
@@ -513,7 +501,7 @@
         "discount_on_product": 1500.0,
         "min_cost_6_months": 6272.0,
         "subscription_price_monthly": 129.0,
-        "saved_at": "30-03-2026-07:30"
+        "saved_at": "31-03-2026-07:11"
     },
     {
         "link": "https://shop.norlys.dk/shop/tilbehor-med-abonnement/apple-watch-series-11-gps--cellular-46mm-aluminium-case-med-sport-band-ml-med-abonnement/#/rose-gold/1",
@@ -525,7 +513,7 @@
         "discount_on_product": 1200.0,
         "min_cost_6_months": 4372.0,
         "subscription_price_monthly": 129.0,
-        "saved_at": "30-03-2026-07:30"
+        "saved_at": "31-03-2026-07:11"
     },
     {
         "link": "https://shop.norlys.dk/shop/tilbehor-med-abonnement/apple-watch-series-11-gps--cellular-42mm-titanium-case-med-milanese-loop-med-abonnement/#/gold/1",
@@ -537,7 +525,7 @@
         "discount_on_product": 1850.0,
         "min_cost_6_months": 5472.0,
         "subscription_price_monthly": 129.0,
-        "saved_at": "30-03-2026-07:30"
+        "saved_at": "31-03-2026-07:11"
     },
     {
         "link": "https://shop.norlys.dk/shop/tilbehor-med-abonnement/apple-watch-series-11-gps--cellular-42mm-aluminium-case-med-sport-band-sm-med-abonnement/#/rose-gold/1",
@@ -549,7 +537,7 @@
         "discount_on_product": 900.0,
         "min_cost_6_months": 4372.0,
         "subscription_price_monthly": 129.0,
-        "saved_at": "30-03-2026-07:30"
+        "saved_at": "31-03-2026-07:11"
     },
     {
         "link": "https://shop.norlys.dk/shop/tilbehor-med-abonnement/apple-watch-series-11-gps--cellular-42mm-titanium-case-med-sport-band-sm-med-abonnement/#/slate/1",
@@ -561,7 +549,7 @@
         "discount_on_product": 1400.0,
         "min_cost_6_months": 5472.0,
         "subscription_price_monthly": 129.0,
-        "saved_at": "30-03-2026-07:30"
+        "saved_at": "31-03-2026-07:11"
     },
     {
         "link": "https://shop.norlys.dk/shop/tilbehor-med-abonnement/apple-watch-series-11-gps-42mm-aluminium-case-med-sport-band-sm-med-abonnement/#/rose-gold/1",
@@ -573,7 +561,7 @@
         "discount_on_product": 900.0,
         "min_cost_6_months": 3472.0,
         "subscription_price_monthly": 129.0,
-        "saved_at": "30-03-2026-07:30"
+        "saved_at": "31-03-2026-07:11"
     },
     {
         "link": "https://shop.norlys.dk/shop/tilbehor-med-abonnement/apple-watch-series-11-gps-46mm-aluminium-case-med-sport-band-ml-med-abonnement/#/jet-black/1",
@@ -585,7 +573,7 @@
         "discount_on_product": 900.0,
         "min_cost_6_months": 3772.0,
         "subscription_price_monthly": 129.0,
-        "saved_at": "30-03-2026-07:30"
+        "saved_at": "31-03-2026-07:11"
     },
     {
         "link": "https://shop.norlys.dk/shop/tilbehor-med-abonnement/apple-watch-se-3-gps--cellular-44mm-starlight-aluminium-case-with-starlight-sport-band-med-abonnem/#/starlight/1",
@@ -597,7 +585,7 @@
         "discount_on_product": 800.0,
         "min_cost_6_months": 2822.0,
         "subscription_price_monthly": 129.0,
-        "saved_at": "30-03-2026-07:30"
+        "saved_at": "31-03-2026-07:11"
     },
     {
         "link": "https://shop.norlys.dk/shop/tilbehor-med-abonnement/apple-watch-se-3-gps--cellular-44mm-midnight-aluminium-case-with-midnight-sport-band-med-abonnement/#/midnight/1",
@@ -609,7 +597,7 @@
         "discount_on_product": 800.0,
         "min_cost_6_months": 2822.0,
         "subscription_price_monthly": 129.0,
-        "saved_at": "30-03-2026-07:30"
+        "saved_at": "31-03-2026-07:11"
     },
     {
         "link": "https://shop.norlys.dk/shop/tilbehor-med-abonnement/apple-watch-se-3-gps--cellular-40mm-starlight-aluminium-case-with-starlight-sport-band-med-abonnem/#/starlight/1",
@@ -621,7 +609,7 @@
         "discount_on_product": 800.0,
         "min_cost_6_months": 2522.0,
         "subscription_price_monthly": 129.0,
-        "saved_at": "30-03-2026-07:30"
+        "saved_at": "31-03-2026-07:11"
     },
     {
         "link": "https://shop.norlys.dk/shop/tilbehor-med-abonnement/apple-watch-se-3-gps--cellular-40mm-midnight-aluminium-case-with-midnight-sport-band-med-abonnement/#/midnight/1",
@@ -633,31 +621,7 @@
         "discount_on_product": 800.0,
         "min_cost_6_months": 2522.0,
         "subscription_price_monthly": 129.0,
-        "saved_at": "30-03-2026-07:30"
-    },
-    {
-        "link": "https://shop.norlys.dk/shop/tilbehor-med-abonnement/samsung-galaxy-buds4-pro-med-abonnement/#/black/1",
-        "product_name": "Samsung Galaxy Buds4 Pro Sort",
-        "image_url": "/images/norlys/samsung_galaxy_buds4_pro_sort.webp",
-        "type": "audio",
-        "price_without_subscription": 1899.0,
-        "price_with_subscription": 499.0,
-        "discount_on_product": 1400.0,
-        "min_cost_6_months": 1372.0,
-        "subscription_price_monthly": 129.0,
-        "saved_at": "30-03-2026-07:30"
-    },
-    {
-        "link": "https://shop.norlys.dk/shop/tilbehor-med-abonnement/apple-airpods-pro-3-med-abonnement/#/hvid/1",
-        "product_name": "Apple AirPods Pro 3",
-        "image_url": "/images/norlys/apple_airpods_pro_3.webp",
-        "type": "audio",
-        "price_without_subscription": 1999.0,
-        "price_with_subscription": 999.0,
-        "discount_on_product": 1000.0,
-        "min_cost_6_months": 1872.0,
-        "subscription_price_monthly": 129.0,
-        "saved_at": "30-03-2026-07:30"
+        "saved_at": "31-03-2026-07:11"
     },
     {
         "link": "https://shop.norlys.dk/shop/tilbehor-med-abonnement/samsung-galaxy-buds4-med-abonnement/#/white/1",
@@ -669,7 +633,67 @@
         "discount_on_product": 1000.0,
         "min_cost_6_months": 1172.0,
         "subscription_price_monthly": 129.0,
-        "saved_at": "30-03-2026-07:30"
+        "saved_at": "31-03-2026-07:11"
+    },
+    {
+        "link": "https://shop.norlys.dk/shop/tilbehor-med-abonnement/apple-airpods-pro-3-med-abonnement/#/hvid/1",
+        "product_name": "Apple AirPods Pro 3",
+        "image_url": "/images/norlys/apple_airpods_pro_3.webp",
+        "type": "audio",
+        "price_without_subscription": 1999.0,
+        "price_with_subscription": 999.0,
+        "discount_on_product": 1000.0,
+        "min_cost_6_months": 1872.0,
+        "subscription_price_monthly": 129.0,
+        "saved_at": "31-03-2026-07:11"
+    },
+    {
+        "link": "https://shop.norlys.dk/shop/tilbehor-med-abonnement/apple-airpods-4-med-abonnement-c7e1b118/#/white/1",
+        "product_name": "Apple AirPods 4",
+        "image_url": "/images/norlys/apple_airpods_4.webp",
+        "type": "audio",
+        "price_without_subscription": 1199.0,
+        "price_with_subscription": 99.0,
+        "discount_on_product": 1100.0,
+        "min_cost_6_months": 972.0,
+        "subscription_price_monthly": 129.0,
+        "saved_at": "31-03-2026-07:11"
+    },
+    {
+        "link": "https://shop.norlys.dk/shop/tilbehor-med-abonnement/apple-airpods-4-med-aktiv-stojreduktion-med-abonnement/#/white/1",
+        "product_name": "Apple AirPods 4 med Aktiv støjreduktion",
+        "image_url": "/images/norlys/apple_airpods_4_med_aktiv_st_jreduktion.webp",
+        "type": "audio",
+        "price_without_subscription": 1599.0,
+        "price_with_subscription": 499.0,
+        "discount_on_product": 1100.0,
+        "min_cost_6_months": 1372.0,
+        "subscription_price_monthly": 129.0,
+        "saved_at": "31-03-2026-07:11"
+    },
+    {
+        "link": "https://shop.norlys.dk/shop/apple/apple-airpods-max-med-abonnement/#/midnight/1",
+        "product_name": "Apple AirPods Max Midnight",
+        "image_url": "/images/norlys/apple_airpods_max_midnight.webp",
+        "type": "audio",
+        "price_without_subscription": 4599.0,
+        "price_with_subscription": 2999.0,
+        "discount_on_product": 1600.0,
+        "min_cost_6_months": 3872.0,
+        "subscription_price_monthly": 129.0,
+        "saved_at": "31-03-2026-07:11"
+    },
+    {
+        "link": "https://shop.norlys.dk/shop/tilbehor-med-abonnement/samsung-galaxy-buds4-pro-med-abonnement/#/black/1",
+        "product_name": "Samsung Galaxy Buds4 Pro Sort",
+        "image_url": "/images/norlys/samsung_galaxy_buds4_pro_sort.webp",
+        "type": "audio",
+        "price_without_subscription": 1899.0,
+        "price_with_subscription": 499.0,
+        "discount_on_product": 1400.0,
+        "min_cost_6_months": 1372.0,
+        "subscription_price_monthly": 129.0,
+        "saved_at": "31-03-2026-07:11"
     },
     {
         "link": "https://shop.norlys.dk/shop/tilbehor-med-abonnement/beyerdynamic-aventho-100-med-abonnement/#/sort/1",
@@ -681,7 +705,7 @@
         "discount_on_product": 1100.0,
         "min_cost_6_months": 1372.0,
         "subscription_price_monthly": 129.0,
-        "saved_at": "30-03-2026-07:30"
+        "saved_at": "31-03-2026-07:11"
     },
     {
         "link": "https://shop.norlys.dk/shop/tilbehor-med-abonnement/beyerdynamic-aventho-300-med-abonnement/#/sort/1",
@@ -693,43 +717,7 @@
         "discount_on_product": 2200.0,
         "min_cost_6_months": 1772.0,
         "subscription_price_monthly": 129.0,
-        "saved_at": "30-03-2026-07:30"
-    },
-    {
-        "link": "https://shop.norlys.dk/shop/tilbehor-med-abonnement/apple-airpods-4-med-abonnement-c7e1b118/#/white/1",
-        "product_name": "Apple AirPods 4",
-        "image_url": "/images/norlys/apple_airpods_4.webp",
-        "type": "audio",
-        "price_without_subscription": 1199.0,
-        "price_with_subscription": 499.0,
-        "discount_on_product": 700.0,
-        "min_cost_6_months": 1372.0,
-        "subscription_price_monthly": 129.0,
-        "saved_at": "30-03-2026-07:30"
-    },
-    {
-        "link": "https://shop.norlys.dk/shop/tilbehor-med-abonnement/apple-airpods-4-med-aktiv-stojreduktion-med-abonnement/#/white/1",
-        "product_name": "Apple AirPods 4 med Aktiv støjreduktion",
-        "image_url": "/images/norlys/apple_airpods_4_med_aktiv_st_jreduktion.webp",
-        "type": "audio",
-        "price_without_subscription": 1599.0,
-        "price_with_subscription": 799.0,
-        "discount_on_product": 800.0,
-        "min_cost_6_months": 1672.0,
-        "subscription_price_monthly": 129.0,
-        "saved_at": "30-03-2026-07:30"
-    },
-    {
-        "link": "https://shop.norlys.dk/shop/apple/apple-airpods-max-med-abonnement/#/midnight/1",
-        "product_name": "Apple AirPods Max Midnight",
-        "image_url": "/images/norlys/apple_airpods_max_midnight.webp",
-        "type": "audio",
-        "price_without_subscription": 4599.0,
-        "price_with_subscription": 3299.0,
-        "discount_on_product": 1300.0,
-        "min_cost_6_months": 4172.0,
-        "subscription_price_monthly": 129.0,
-        "saved_at": "30-03-2026-07:30"
+        "saved_at": "31-03-2026-07:11"
     },
     {
         "link": "https://shop.norlys.dk/shop/tilbehor-med-abonnement/wavell-3-pro-med-abonnement-bee63477/#/sort/1",
@@ -741,7 +729,7 @@
         "discount_on_product": 800.0,
         "min_cost_6_months": 972.0,
         "subscription_price_monthly": 129.0,
-        "saved_at": "30-03-2026-07:30"
+        "saved_at": "31-03-2026-07:11"
     },
     {
         "link": "https://shop.norlys.dk/shop/tilbehor-med-abonnement/jbl-tune-buds-2-med-abonnement/#/sort/1",
@@ -753,7 +741,7 @@
         "discount_on_product": 700.0,
         "min_cost_6_months": 972.0,
         "subscription_price_monthly": 129.0,
-        "saved_at": "30-03-2026-07:30"
+        "saved_at": "31-03-2026-07:11"
     },
     {
         "link": "https://shop.norlys.dk/shop/tilbehor-med-abonnement/jbl-tune-flex-2-med-abonnement/#/sort/1",
@@ -765,7 +753,7 @@
         "discount_on_product": 700.0,
         "min_cost_6_months": 972.0,
         "subscription_price_monthly": 129.0,
-        "saved_at": "30-03-2026-07:30"
+        "saved_at": "31-03-2026-07:11"
     },
     {
         "link": "https://shop.norlys.dk/shop/tilbehor-med-abonnement/wavell-4-pro-med-abonnement-8a6dc45d/#/sort/1",
@@ -777,19 +765,7 @@
         "discount_on_product": 900.0,
         "min_cost_6_months": 972.0,
         "subscription_price_monthly": 129.0,
-        "saved_at": "30-03-2026-07:30"
-    },
-    {
-        "link": "https://shop.norlys.dk/shop/tilbehor-med-abonnement/wavell-4-plus-med-abonnement-4218450f/#/sort/1",
-        "product_name": "Wavell 4 Plus",
-        "image_url": "/images/norlys/wavell_4_plus.webp",
-        "type": "audio",
-        "price_without_subscription": 599.0,
-        "price_with_subscription": 99.0,
-        "discount_on_product": 500.0,
-        "min_cost_6_months": 972.0,
-        "subscription_price_monthly": 129.0,
-        "saved_at": "30-03-2026-07:30"
+        "saved_at": "31-03-2026-07:11"
     },
     {
         "link": "https://shop.norlys.dk/shop/tilbehor-med-abonnement/wavell-4-sleep-pro-med-abonnement-7103147b/#/hvid/1",
@@ -801,7 +777,19 @@
         "discount_on_product": 900.0,
         "min_cost_6_months": 972.0,
         "subscription_price_monthly": 129.0,
-        "saved_at": "30-03-2026-07:30"
+        "saved_at": "31-03-2026-07:11"
+    },
+    {
+        "link": "https://shop.norlys.dk/shop/tilbehor-med-abonnement/wavell-4-plus-med-abonnement-4218450f/#/sort/1",
+        "product_name": "Wavell 4 Plus",
+        "image_url": "/images/norlys/wavell_4_plus.webp",
+        "type": "audio",
+        "price_without_subscription": 599.0,
+        "price_with_subscription": 99.0,
+        "discount_on_product": 500.0,
+        "min_cost_6_months": 972.0,
+        "subscription_price_monthly": 129.0,
+        "saved_at": "31-03-2026-07:11"
     },
     {
         "link": "https://shop.norlys.dk/shop/tilbehor-med-abonnement/wavell-junior-med-abonnement/#/blå/1",
@@ -813,31 +801,7 @@
         "discount_on_product": 400.0,
         "min_cost_6_months": 972.0,
         "subscription_price_monthly": 129.0,
-        "saved_at": "30-03-2026-07:30"
-    },
-    {
-        "link": "https://shop.norlys.dk/shop/tilbehor-med-abonnement/sonos-era-100-med-abonnement/#/sort/1",
-        "product_name": "Sonos Era 100 Sort",
-        "image_url": "/images/norlys/sonos_era_100_sort.webp",
-        "type": "audio",
-        "price_without_subscription": 1899.0,
-        "price_with_subscription": 699.0,
-        "discount_on_product": 1200.0,
-        "min_cost_6_months": 1572.0,
-        "subscription_price_monthly": 129.0,
-        "saved_at": "30-03-2026-07:30"
-    },
-    {
-        "link": "https://shop.norlys.dk/shop/tilbehor-med-abonnement/harman-kardon-luna---med-abonnement/#/grå/1",
-        "product_name": "Harman Kardon Luna Grå",
-        "image_url": "/images/norlys/harman_kardon_luna_gr_.webp",
-        "type": "audio",
-        "price_without_subscription": 799.0,
-        "price_with_subscription": 99.0,
-        "discount_on_product": 700.0,
-        "min_cost_6_months": 972.0,
-        "subscription_price_monthly": 129.0,
-        "saved_at": "30-03-2026-07:30"
+        "saved_at": "31-03-2026-07:11"
     },
     {
         "link": "https://shop.norlys.dk/shop/tilbehor-med-abonnement/jbl-partybox-club-120-med-abonnement-652e400c/#/sort/1",
@@ -849,7 +813,7 @@
         "discount_on_product": 2000.0,
         "min_cost_6_months": 1872.0,
         "subscription_price_monthly": 129.0,
-        "saved_at": "30-03-2026-07:30"
+        "saved_at": "31-03-2026-07:11"
     },
     {
         "link": "https://shop.norlys.dk/shop/tilbehor-med-abonnement/jbl-partybox-stage-320-med-abonnement-89c6eb40/#/sort/1",
@@ -861,7 +825,31 @@
         "discount_on_product": 2500.0,
         "min_cost_6_months": 2872.0,
         "subscription_price_monthly": 129.0,
-        "saved_at": "30-03-2026-07:30"
+        "saved_at": "31-03-2026-07:11"
+    },
+    {
+        "link": "https://shop.norlys.dk/shop/tilbehor-med-abonnement/sonos-era-100-med-abonnement/#/sort/1",
+        "product_name": "Sonos Era 100 Sort",
+        "image_url": "/images/norlys/sonos_era_100_sort.webp",
+        "type": "audio",
+        "price_without_subscription": 1899.0,
+        "price_with_subscription": 699.0,
+        "discount_on_product": 1200.0,
+        "min_cost_6_months": 1572.0,
+        "subscription_price_monthly": 129.0,
+        "saved_at": "31-03-2026-07:11"
+    },
+    {
+        "link": "https://shop.norlys.dk/shop/tilbehor-med-abonnement/harman-kardon-luna---med-abonnement/#/grå/1",
+        "product_name": "Harman Kardon Luna Grå",
+        "image_url": "/images/norlys/harman_kardon_luna_gr_.webp",
+        "type": "audio",
+        "price_without_subscription": 799.0,
+        "price_with_subscription": 99.0,
+        "discount_on_product": 700.0,
+        "min_cost_6_months": 972.0,
+        "subscription_price_monthly": 129.0,
+        "saved_at": "31-03-2026-07:11"
     },
     {
         "link": "https://shop.norlys.dk/shop/tilbehor-med-abonnement/harman-kardon-onyx-studio-9-med-abonnement/#/grå/1",
@@ -873,7 +861,7 @@
         "discount_on_product": 1000.0,
         "min_cost_6_months": 1372.0,
         "subscription_price_monthly": 129.0,
-        "saved_at": "30-03-2026-07:30"
+        "saved_at": "31-03-2026-07:11"
     },
     {
         "link": "https://shop.norlys.dk/shop/tilbehor-med-abonnement/sonos-roam-2-med-abonnement/#/sort/1",
@@ -885,7 +873,7 @@
         "discount_on_product": 1000.0,
         "min_cost_6_months": 1372.0,
         "subscription_price_monthly": 129.0,
-        "saved_at": "30-03-2026-07:30"
+        "saved_at": "31-03-2026-07:11"
     },
     {
         "link": "https://shop.norlys.dk/shop/tilbehor-med-abonnement/jbl-boombox3-med-abonnement/#/sort/1",
@@ -897,7 +885,7 @@
         "discount_on_product": 2200.0,
         "min_cost_6_months": 1872.0,
         "subscription_price_monthly": 129.0,
-        "saved_at": "30-03-2026-07:30"
+        "saved_at": "31-03-2026-07:11"
     },
     {
         "link": "https://shop.norlys.dk/shop/tilbehor-med-abonnement/jbl-flip-7-med-abonnement/#/sort/1",
@@ -909,6 +897,6 @@
         "discount_on_product": 1100.0,
         "min_cost_6_months": 972.0,
         "subscription_price_monthly": 129.0,
-        "saved_at": "30-03-2026-07:30"
+        "saved_at": "31-03-2026-07:11"
     }
 ]
