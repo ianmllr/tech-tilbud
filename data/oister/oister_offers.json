@@ -1,8 +1,8 @@
 [
     {
         "link": "https://go.adt284.net/t/t?a=1666103641&as=2054240298&t=2&tk=1&url=https://www.oister.dk/tilbehor-til-abonnement/oister-mobil-fri-tale-fri-gb-data-inkl-Mova-e20s-pro-robotstoevsuger/",
-        "product_name": "Mova E20S Pro",
-        "image_url": "/images/oister/mova_e20s_pro.webp",
+        "product_name": "Robotstøvsuger",
+        "image_url": "/images/oister/robotst_vsuger.webp",
         "provider": "Oister",
         "type": "tablet",
         "price_without_subscription": 1499,
@@ -10,7 +10,7 @@
         "min_cost_6_months": 1293,
         "subscription_price_monthly": 199,
         "discount_on_product": 1499,
-        "saved_at": "09-04-2026-07:10"
+        "saved_at": "10-04-2026-07:15"
     },
     {
         "link": "https://go.adt284.net/t/t?a=1666103641&as=2054240298&t=2&tk=1&url=https://www.oister.dk/tilbehor-til-abonnement/oister-mobil-fri-tale-fri-data-inkl-airpods-4/",
@@ -23,7 +23,7 @@
         "min_cost_6_months": 1293,
         "subscription_price_monthly": 199,
         "discount_on_product": 1160,
-        "saved_at": "09-04-2026-07:10"
+        "saved_at": "10-04-2026-07:15"
     },
     {
         "link": "https://go.adt284.net/t/t?a=1666103641&as=2054240298&t=2&tk=1&url=https://www.oister.dk/tilbehor-til-abonnement/oister-mobil-fri-tale-fri-data-inkl-samsung-galaxy-tab-a11/",
@@ -36,7 +36,7 @@
         "min_cost_6_months": 1293,
         "subscription_price_monthly": 199,
         "discount_on_product": 1480,
-        "saved_at": "09-04-2026-07:10"
+        "saved_at": "10-04-2026-07:15"
     },
     {
         "link": "https://go.adt284.net/t/t?a=1666103641&as=2054240298&t=2&tk=1&url=https://www.oister.dk/tilbehor-til-abonnement/urbanista/fri-tale-1000-gb-data-inkl-urbanista-los-angeles-desert-gray/",
@@ -49,7 +49,7 @@
         "min_cost_6_months": 1173,
         "subscription_price_monthly": 179,
         "discount_on_product": 1480,
-        "saved_at": "09-04-2026-07:10"
+        "saved_at": "10-04-2026-07:15"
     },
     {
         "link": "https://go.adt284.net/t/t?a=1666103641&as=2054240298&t=2&tk=1&url=https://www.oister.dk/tilbehor-til-abonnement/urbanista/fri-tale-1000-gb-data-inkl-urbanista-los-angeles-midnight-black/",
@@ -62,7 +62,7 @@
         "min_cost_6_months": 1173,
         "subscription_price_monthly": 179,
         "discount_on_product": 1480,
-        "saved_at": "09-04-2026-07:10"
+        "saved_at": "10-04-2026-07:15"
     },
     {
         "link": "https://go.adt284.net/t/t?a=1666103641&as=2054240298&t=2&tk=1&url=https://www.oister.dk/tilbehor-til-abonnement/urbanista/fri-tale-500-gb-data-inkl-urbanista-phoenix-midnight-black/",
@@ -75,7 +75,7 @@
         "min_cost_6_months": 1053,
         "subscription_price_monthly": 159,
         "discount_on_product": 1280,
-        "saved_at": "09-04-2026-07:10"
+        "saved_at": "10-04-2026-07:15"
     },
     {
         "link": "https://go.adt284.net/t/t?a=1666103641&as=2054240298&t=2&tk=1&url=https://www.oister.dk/tilbehor-til-abonnement/urbanista/fri-tale-500-gb-data-inkl-urbanista-phoenix-desert-rose/",
@@ -88,7 +88,7 @@
         "min_cost_6_months": 1053,
         "subscription_price_monthly": 159,
         "discount_on_product": 1280,
-        "saved_at": "09-04-2026-07:10"
+        "saved_at": "10-04-2026-07:15"
     },
     {
         "link": "https://go.adt284.net/t/t?a=1666103641&as=2054240298&t=2&tk=1&url=https://www.oister.dk/tilbehor-til-abonnement/urbanista/fri-tale-500-gb-data-inkl-urbanista-malibu-desert-grey/",
@@ -101,7 +101,7 @@
         "min_cost_6_months": 1053,
         "subscription_price_monthly": 159,
         "discount_on_product": 1280,
-        "saved_at": "09-04-2026-07:10"
+        "saved_at": "10-04-2026-07:15"
     },
     {
         "link": "https://go.adt284.net/t/t?a=1666103641&as=2054240298&t=2&tk=1&url=https://www.oister.dk/tilbehor-til-abonnement/urbanista/fri-tale-500-gb-data-inkl-urbanista-malibu-midnight-black/",
@@ -114,6 +114,6 @@
         "min_cost_6_months": 1053,
         "subscription_price_monthly": 159,
         "discount_on_product": 1280,
-        "saved_at": "09-04-2026-07:10"
+        "saved_at": "10-04-2026-07:15"
     }
 ]
