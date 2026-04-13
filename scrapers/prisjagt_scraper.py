@@ -4,11 +4,12 @@ import re
 import datetime
 import random
 import time
+from typing import cast
 from difflib import SequenceMatcher
 from playwright.sync_api import sync_playwright
 from playwright_stealth import Stealth
 
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+BASE_DIR = cast(str, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 is_ci = os.environ.get('CI') == 'true'
 
@@ -69,7 +70,7 @@ def split_fused_tokens(text):
     return tokens
 
 
-def extract_model_number(text):
+def extract_model_number(text: str) -> str | None:
     # extract the primary model number for exact-match comparison e.g. "16e", "a36", "s25"
     text = re.sub(r'\d+\s*GB\s*RAM', '', text, flags=re.IGNORECASE)
     text = re.sub(r'\d+\s*(GB|TB)', '', text, flags=re.IGNORECASE)
@@ -78,7 +79,10 @@ def extract_model_number(text):
              '5g', '4g', 'lte', 'dual', 'sim', 'sm', 'smartphone', 'wireless',
              'black', 'white', 'blue', 'green', 'grey', 'gray', 'silver', 'gold',
              'sort', 'grå', 'hvid', 'obsidian', 'coral', 'red', 'jetblack',
-             'dark', 'true', 'on', 'ear', 'tws', 'gen'}
+             'dark', 'true', 'on', 'ear', 'tws', 'gen', 'silver shadow',
+             'space', 'cosmic', 'ocean', 'starlight', 'midnight', 'sunrise',
+             'space grey', 'grisaille', 'charcoal grey', 'navy', 'silhouette',
+             'moonstone', 'graphite', 'obsidian', 'blueblack', }
     noise.update(TIER_WORDS)
     tokens = normalize(text).split()
     for token in tokens:
@@ -117,9 +121,9 @@ def score_match(query, candidate):
     # disqualify if model numbers differ e.g. "iPhone 16" vs "iPhone 16e"
     q_model = extract_model_number(query)
     c_model = extract_model_number(candidate)
-    if q_model and c_model and q_model != c_model:
-        q_parts = set(re.findall(r'[a-z]+|\d+', q_model))
-        c_parts = set(re.findall(r'[a-z]+|\d+', c_model))
+    if q_model is not None and c_model is not None and q_model != c_model:
+        q_parts = set(re.findall(r"[a-z]+|\d+", q_model))
+        c_parts = set(re.findall(r"[a-z]+|\d+", c_model))
         q_digits = {p for p in q_parts if p.isdigit()}
         c_digits = {p for p in c_parts if p.isdigit()}
         q_alpha = q_parts - q_digits

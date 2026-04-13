@@ -34,8 +34,7 @@ CONSENT_COOKIES: list["SetCookieParam"] = [
 
 
 def get_product_type_from_api_category(api_category, product_name=""):
-    # CallMe's API has a very inconsistent productCategory field, so we need to do this manually based on the
-    # category and product name to determine the actual type
+    # CallMe's API has a very inconsistent productCategory field
     if api_category == "handset":
         # Could be a phone, gaming console, or smartwatch
         name_lower = product_name.lower()
@@ -143,6 +142,20 @@ def parse_monthly_prices(minimum_price_text):
     return None, None, None
 
 
+def normalize_product_name(name):
+    # Keep product title up to the storage token and drop color/other trailing descriptors.
+    if not name:
+        return ""
+
+    normalized = re.sub(
+        r"^(.*?\b\d+\s?(?:gb|tb)\b).*$",
+        r"\1",
+        name,
+        flags=re.IGNORECASE,
+    ).strip()
+    return normalized or name.strip()
+
+
 def build_entry(hit, product_type, date_time, use_api_category=False):
     # build a single offer entry from one API hit, using only the first (default) color variant
     # if use_api_category=True, determine product_type from the API's productCategory and product name
@@ -179,6 +192,7 @@ def build_entry(hit, product_type, date_time, use_api_category=False):
         return None
 
     variant_name = variant.get("name", hit.get("productName", ""))
+    variant_name = normalize_product_name(variant_name)
 
     badge = variant.get("badgeText") or {}
     sold_out = "true" if "udsolgt" in (badge.get("item2", "")).lower() else "false"
