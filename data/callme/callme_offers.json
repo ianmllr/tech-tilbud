@@ -765,23 +765,6 @@
         "sold_out": "false"
     },
     {
-        "link": "https://www.callme.dk/shop/samsung/samsung-galaxy-z-fold6-5g/",
-        "product_name": "Samsung Galaxy Z Fold6 512GB Silver Shadow",
-        "image_url": "/images/callme/samsung_galaxy_z_fold6_512gb_silver_shadow.webp",
-        "provider": "CallMe",
-        "type": "phone",
-        "signup_price": 0,
-        "data_gb": 0,
-        "price_without_subscription": 0,
-        "price_with_subscription": 9999,
-        "subscription_price_monthly": 79,
-        "subscription_price_monthly_after_promo": 129,
-        "min_cost_6_months": 10522,
-        "discount_on_product": 0,
-        "saved_at": "13-04-2026-08:01",
-        "sold_out": "false"
-    },
-    {
         "link": "https://www.callme.dk/shop/motorola/motorola-g67/",
         "product_name": "Motorola G67 128GB Arctic seal",
         "image_url": "/images/callme/motorola_g67_128gb_arctic_seal.webp",
