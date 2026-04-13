@@ -1,0 +1,35 @@
+name: Send reminders
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 6 * * *'
+
+permissions:
+  contents: read
+
+jobs:
+  send-reminders:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger reminder sender
+        env:
+          REMINDER_SEND_URL: ${{ secrets.REMINDER_SEND_URL }}
+          QSTASH_CURRENT_SIGNING_KEY: ${{ secrets.QSTASH_CURRENT_SIGNING_KEY }}
+        run: |
+          if [ -z "$REMINDER_SEND_URL" ]; then
+            echo "REMINDER_SEND_URL is not set"
+            exit 1
+          fi
+
+          if [ -z "$QSTASH_CURRENT_SIGNING_KEY" ]; then
+            echo "QSTASH_CURRENT_SIGNING_KEY is not set"
+            exit 1
+          fi
+
+          curl --fail --silent --show-error \
+            -X POST \
+            -H "Authorization: Bearer $QSTASH_CURRENT_SIGNING_KEY" \
+            "$REMINDER_SEND_URL"
+
+
