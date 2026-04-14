@@ -55,6 +55,8 @@ export default function About() {
             </div>
 
         </main>
+            <footer className={"flex text-xs text-center pb-4 text-[#7d8fa0] justify-center"}>Af Ian Møller Jensen 2026.
+                Kontakt på ianmoellerjensen@gmail.com for spørgsmål eller for at rapportere fejl.</footer>
         </>
     )
 }
