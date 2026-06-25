@@ -12,7 +12,7 @@
         "discount_on_product": 1500,
         "min_cost_6_months": 5739,
         "subscription_price_monthly": 290,
-        "saved_at": "24-06-2026-08:55"
+        "saved_at": "25-06-2026-08:51"
     },
     {
         "link": "https://www.3.dk/shop/mobiler/apple/iphone-17/",
@@ -27,7 +27,7 @@
         "discount_on_product": 1100,
         "min_cost_6_months": 8139,
         "subscription_price_monthly": 290,
-        "saved_at": "24-06-2026-08:55"
+        "saved_at": "25-06-2026-08:51"
     },
     {
         "link": "https://www.3.dk/shop/mobiler/apple/iphone-17-pro-max/",
@@ -42,7 +42,7 @@
         "discount_on_product": 1100,
         "min_cost_6_months": 11639,
         "subscription_price_monthly": 290,
-        "saved_at": "24-06-2026-08:55"
+        "saved_at": "25-06-2026-08:51"
     },
     {
         "link": "https://www.3.dk/shop/mobiler/apple/iphone-17-pro/",
@@ -57,7 +57,7 @@
         "discount_on_product": 1300,
         "min_cost_6_months": 10439,
         "subscription_price_monthly": 290,
-        "saved_at": "24-06-2026-08:55"
+        "saved_at": "25-06-2026-08:51"
     },
     {
         "link": "https://www.3.dk/shop/mobiler/apple/iphone-air/",
@@ -72,7 +72,7 @@
         "discount_on_product": 3500,
         "min_cost_6_months": 7239,
         "subscription_price_monthly": 290,
-        "saved_at": "24-06-2026-08:55"
+        "saved_at": "25-06-2026-08:51"
     },
     {
         "link": "https://www.3.dk/shop/mobiler/apple/iphone-16e/",
@@ -87,7 +87,7 @@
         "discount_on_product": 1999,
         "min_cost_6_months": 5240,
         "subscription_price_monthly": 290,
-        "saved_at": "24-06-2026-08:55"
+        "saved_at": "25-06-2026-08:51"
     },
     {
         "link": "https://www.3.dk/shop/mobiler/apple/iphone-16/",
@@ -102,7 +102,7 @@
         "discount_on_product": 1600,
         "min_cost_6_months": 6639,
         "subscription_price_monthly": 290,
-        "saved_at": "24-06-2026-08:55"
+        "saved_at": "25-06-2026-08:51"
     },
     {
         "link": "https://www.3.dk/shop/mobiler/apple/iphone-15/",
@@ -117,7 +117,7 @@
         "discount_on_product": 900,
         "min_cost_6_months": 6439,
         "subscription_price_monthly": 290,
-        "saved_at": "24-06-2026-08:55"
+        "saved_at": "25-06-2026-08:51"
     },
     {
         "link": "https://www.3.dk/shop/mobiler/samsung/samsung-galaxy-s26-ultra/",
@@ -132,7 +132,7 @@
         "discount_on_product": 4500,
         "min_cost_6_months": 8739,
         "subscription_price_monthly": 290,
-        "saved_at": "24-06-2026-08:55"
+        "saved_at": "25-06-2026-08:51"
     },
     {
         "link": "https://www.3.dk/shop/mobiler/samsung/samsung-galaxy-s26/",
@@ -147,7 +147,22 @@
         "discount_on_product": 1050,
         "min_cost_6_months": 8639,
         "subscription_price_monthly": 290,
-        "saved_at": "24-06-2026-08:55"
+        "saved_at": "25-06-2026-08:51"
+    },
+    {
+        "link": "https://www.3.dk/shop/mobiler/samsung/samsung-galaxy-s26-plus/",
+        "product_name": "Samsung Galaxy S26 Plus 256GB",
+        "image_url": "/images/3/samsung_galaxy_s26_plus_256gb.webp",
+        "provider": "3",
+        "type": "phone",
+        "signup_price": 0,
+        "data_gb": 0,
+        "price_without_subscription": null,
+        "price_with_subscription": 6599,
+        "discount_on_product": 3300,
+        "min_cost_6_months": 8339,
+        "subscription_price_monthly": 290,
+        "saved_at": "25-06-2026-08:51"
     },
     {
         "link": "https://www.3.dk/shop/mobiler/samsung/samsung-galaxy-z-flip7/",
@@ -162,7 +177,22 @@
         "discount_on_product": 1299,
         "min_cost_6_months": 9940,
         "subscription_price_monthly": 290,
-        "saved_at": "24-06-2026-08:55"
+        "saved_at": "25-06-2026-08:51"
+    },
+    {
+        "link": "https://www.3.dk/shop/mobiler/samsung/samsung-galaxy-z-flip7-fe/",
+        "product_name": "Samsung Galaxy Z Flip7 FE 128GB",
+        "image_url": "/images/3/samsung_galaxy_z_flip7_fe_128gb.webp",
+        "provider": "3",
+        "type": "phone",
+        "signup_price": 0,
+        "data_gb": 0,
+        "price_without_subscription": null,
+        "price_with_subscription": 6760,
+        "discount_on_product": 1189,
+        "min_cost_6_months": 8500,
+        "subscription_price_monthly": 290,
+        "saved_at": "25-06-2026-08:51"
     },
     {
         "link": "https://www.3.dk/shop/mobiler/samsung/samsung-galaxy-z-fold7/",
@@ -177,7 +207,7 @@
         "discount_on_product": 1550,
         "min_cost_6_months": 13739,
         "subscription_price_monthly": 290,
-        "saved_at": "24-06-2026-08:55"
+        "saved_at": "25-06-2026-08:51"
     },
     {
         "link": "https://www.3.dk/shop/mobiler/samsung/samsung-galaxy-s25-edge/",
@@ -192,7 +222,7 @@
         "discount_on_product": 3400,
         "min_cost_6_months": 8239,
         "subscription_price_monthly": 290,
-        "saved_at": "24-06-2026-08:55"
+        "saved_at": "25-06-2026-08:51"
     },
     {
         "link": "https://www.3.dk/shop/mobiler/samsung/samsung-galaxy-a57-5g/",
@@ -207,7 +237,7 @@
         "discount_on_product": 900,
         "min_cost_6_months": 5039,
         "subscription_price_monthly": 290,
-        "saved_at": "24-06-2026-08:55"
+        "saved_at": "25-06-2026-08:51"
     },
     {
         "link": "https://www.3.dk/shop/mobiler/samsung/samsung-galaxy-a27-5g/",
@@ -222,7 +252,7 @@
         "discount_on_product": 900,
         "min_cost_6_months": 3739,
         "subscription_price_monthly": 290,
-        "saved_at": "24-06-2026-08:55"
+        "saved_at": "25-06-2026-08:51"
     },
     {
         "link": "https://www.3.dk/shop/mobiler/samsung/samsung-galaxy-a36-5g/",
@@ -237,22 +267,22 @@
         "discount_on_product": 900,
         "min_cost_6_months": 3939,
         "subscription_price_monthly": 290,
-        "saved_at": "24-06-2026-08:55"
+        "saved_at": "25-06-2026-08:51"
     },
     {
         "link": "https://www.3.dk/shop/mobiler/samsung/samsung-galaxy-s24-fe/",
-        "product_name": "Vovsa.",
-        "image_url": "",
+        "product_name": "Samsung Galaxy S24 FE 128GB",
+        "image_url": "/images/3/samsung_galaxy_s24_fe_128gb.webp",
         "provider": "3",
         "type": "phone",
         "signup_price": 0,
         "data_gb": 0,
         "price_without_subscription": null,
-        "price_with_subscription": null,
-        "discount_on_product": 0,
-        "min_cost_6_months": null,
-        "subscription_price_monthly": null,
-        "saved_at": "24-06-2026-08:55"
+        "price_with_subscription": 1499,
+        "discount_on_product": 4450,
+        "min_cost_6_months": 3239,
+        "subscription_price_monthly": 290,
+        "saved_at": "25-06-2026-08:51"
     },
     {
         "link": "https://www.3.dk/shop/mobiler/samsung/samsung-galaxy-s25/",
@@ -267,7 +297,7 @@
         "discount_on_product": 1650,
         "min_cost_6_months": 7239,
         "subscription_price_monthly": 290,
-        "saved_at": "24-06-2026-08:55"
+        "saved_at": "25-06-2026-08:51"
     },
     {
         "link": "https://www.3.dk/shop/mobiler/samsung/samsung-galaxy-xcover-7/",
@@ -282,7 +312,7 @@
         "discount_on_product": 919,
         "min_cost_6_months": 3720,
         "subscription_price_monthly": 290,
-        "saved_at": "24-06-2026-08:55"
+        "saved_at": "25-06-2026-08:51"
     },
     {
         "link": "https://www.3.dk/shop/mobiler/motorola/motorola-razr-fold-fifa26/",
@@ -297,7 +327,7 @@
         "discount_on_product": 11700,
         "min_cost_6_months": 12739,
         "subscription_price_monthly": 290,
-        "saved_at": "24-06-2026-08:55"
+        "saved_at": "25-06-2026-08:51"
     },
     {
         "link": "https://www.3.dk/shop/mobiler/motorola/motorola-edge-70-fusion-power-fifa26/",
@@ -312,22 +342,7 @@
         "discount_on_product": 3200,
         "min_cost_6_months": 3239,
         "subscription_price_monthly": 290,
-        "saved_at": "24-06-2026-08:55"
-    },
-    {
-        "link": "https://www.3.dk/shop/mobiler/motorola/motorola-signature/",
-        "product_name": "Motorola Signature 512GB",
-        "image_url": "/images/3/motorola_signature_512gb.webp",
-        "provider": "3",
-        "type": "phone",
-        "signup_price": 0,
-        "data_gb": 0,
-        "price_without_subscription": null,
-        "price_with_subscription": 3599,
-        "discount_on_product": 4700,
-        "min_cost_6_months": 5339,
-        "subscription_price_monthly": 290,
-        "saved_at": "24-06-2026-08:55"
+        "saved_at": "25-06-2026-08:51"
     },
     {
         "link": "https://www.3.dk/shop/mobiler/motorola/motorola-g77/",
@@ -342,7 +357,22 @@
         "discount_on_product": 2746,
         "min_cost_6_months": 1743,
         "subscription_price_monthly": 290,
-        "saved_at": "24-06-2026-08:55"
+        "saved_at": "25-06-2026-08:51"
+    },
+    {
+        "link": "https://www.3.dk/shop/mobiler/motorola/motorola-g67/",
+        "product_name": "Motorola G67 128GB",
+        "image_url": "/images/3/motorola_g67_128gb.webp",
+        "provider": "3",
+        "type": "phone",
+        "signup_price": 0,
+        "data_gb": 0,
+        "price_without_subscription": null,
+        "price_with_subscription": 2739,
+        "discount_on_product": 1650,
+        "min_cost_6_months": 2739,
+        "subscription_price_monthly": 290,
+        "saved_at": "25-06-2026-08:51"
     },
     {
         "link": "https://www.3.dk/shop/mobiler/motorola/motorola-edge-70-fusion-power/",
@@ -357,7 +387,7 @@
         "discount_on_product": 950,
         "min_cost_6_months": 4739,
         "subscription_price_monthly": 290,
-        "saved_at": "24-06-2026-08:55"
+        "saved_at": "25-06-2026-08:51"
     },
     {
         "link": "https://www.3.dk/shop/tablets/apple/ipad-air-11-2026/",
@@ -372,7 +402,37 @@
         "discount_on_product": 1350,
         "min_cost_6_months": 6559,
         "subscription_price_monthly": 210,
-        "saved_at": "24-06-2026-08:55"
+        "saved_at": "25-06-2026-08:51"
+    },
+    {
+        "link": "https://www.3.dk/shop/tablets/apple/ipad-air-13-2026/",
+        "product_name": "iPad Air 13 (2026) 128GB",
+        "image_url": "/images/3/ipad_air_13__2026__128gb.webp",
+        "provider": "3",
+        "type": "tablet",
+        "signup_price": 0,
+        "data_gb": 0,
+        "price_without_subscription": null,
+        "price_with_subscription": 6799,
+        "discount_on_product": 1550,
+        "min_cost_6_months": 8059,
+        "subscription_price_monthly": 210,
+        "saved_at": "25-06-2026-08:51"
+    },
+    {
+        "link": "https://www.3.dk/shop/tablets/apple/ipad-pro-11-2025/",
+        "product_name": "iPad Pro 11 (2025) 256GB",
+        "image_url": "/images/3/ipad_pro_11__2025__256gb.webp",
+        "provider": "3",
+        "type": "tablet",
+        "signup_price": 0,
+        "data_gb": 0,
+        "price_without_subscription": null,
+        "price_with_subscription": 9000,
+        "discount_on_product": 1599,
+        "min_cost_6_months": 10260,
+        "subscription_price_monthly": 210,
+        "saved_at": "25-06-2026-08:51"
     },
     {
         "link": "https://www.3.dk/shop/tablets/apple/ipad-pro-13-2025/",
@@ -387,7 +447,7 @@
         "discount_on_product": 1849,
         "min_cost_6_months": 12660,
         "subscription_price_monthly": 210,
-        "saved_at": "24-06-2026-08:55"
+        "saved_at": "25-06-2026-08:51"
     },
     {
         "link": "https://www.3.dk/shop/tablets/apple/ipad-air-11-2025/",
@@ -402,7 +462,22 @@
         "discount_on_product": 950,
         "min_cost_6_months": 7159,
         "subscription_price_monthly": 210,
-        "saved_at": "24-06-2026-08:55"
+        "saved_at": "25-06-2026-08:51"
+    },
+    {
+        "link": "https://www.3.dk/shop/tablets/apple/ipad-air-13-2025/",
+        "product_name": "iPad Air 13 (2025) 128GB",
+        "image_url": "/images/3/ipad_air_13__2025__128gb.webp",
+        "provider": "3",
+        "type": "tablet",
+        "signup_price": 0,
+        "data_gb": 0,
+        "price_without_subscription": null,
+        "price_with_subscription": 7699,
+        "discount_on_product": 1150,
+        "min_cost_6_months": 8959,
+        "subscription_price_monthly": 210,
+        "saved_at": "25-06-2026-08:51"
     },
     {
         "link": "https://www.3.dk/shop/tablets/apple/ipad-11th-gen/",
@@ -417,7 +492,7 @@
         "discount_on_product": 800,
         "min_cost_6_months": 5159,
         "subscription_price_monthly": 210,
-        "saved_at": "24-06-2026-08:55"
+        "saved_at": "25-06-2026-08:51"
     },
     {
         "link": "https://www.3.dk/shop/tablets/samsung/samsung-galaxy-tab-a11-plus/",
@@ -432,22 +507,7 @@
         "discount_on_product": 2200,
         "min_cost_6_months": 1659,
         "subscription_price_monthly": 210,
-        "saved_at": "24-06-2026-08:55"
-    },
-    {
-        "link": "https://www.3.dk/shop/tablets/samsung/samsung-galaxy-tab-s11/",
-        "product_name": "Samsung Galaxy Tab S11 128GB",
-        "image_url": "/images/3/samsung_galaxy_tab_s11_128gb.webp",
-        "provider": "3",
-        "type": "tablet",
-        "signup_price": 0,
-        "data_gb": 0,
-        "price_without_subscription": null,
-        "price_with_subscription": 3999,
-        "discount_on_product": 4300,
-        "min_cost_6_months": 5259,
-        "subscription_price_monthly": 210,
-        "saved_at": "24-06-2026-08:55"
+        "saved_at": "25-06-2026-08:51"
     },
     {
         "link": "https://www.3.dk/shop/tablets/samsung/samsung-galaxy-tab-s11-ultra/",
@@ -462,6 +522,6 @@
         "discount_on_product": 6350,
         "min_cost_6_months": 6559,
         "subscription_price_monthly": 210,
-        "saved_at": "24-06-2026-08:55"
+        "saved_at": "25-06-2026-08:51"
     }
 ]
