@@ -40,6 +40,7 @@ type ProviderOffer = {
 
 const elgiganten = elgiganten_raw as ElgigantenOffer[]
 const callme = callme_raw as ProviderOffer[]
+const oisterTyped = oister as ProviderOffer[]
 
 const prisjagtLookup = prisjagt as Record<string, { market_price: number | null }>
 const pricerunnerLookup = pricerunner as Record<string, { market_price: number | null }>
@@ -78,7 +79,7 @@ export const allOffers: Offer[] = [
         subscription_price_monthly: o.subscription_price_monthly,
         subscription_price_monthly_after_promo: (o as Record<string, unknown>).subscription_price_monthly_after_promo as number | null ?? null,
     })),
-    ...oister.map(o => ({
+    ...oisterTyped.map(o => ({
         link: o.link,
         product_name: o.product_name,
         image_url: o.image_url,

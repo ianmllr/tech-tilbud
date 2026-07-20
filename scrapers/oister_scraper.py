@@ -12,10 +12,15 @@ DATA_DIR = BASE_DIR / "data" / "oister"
 IMAGE_DIR = BASE_DIR / "public" / "images" / "oister"
 OUTPUT_PATH = DATA_DIR / "oister_offers.json"
 
-# Blocked products due to bad naming by oister (will be skipped)
+# blocked products due to bad naming by oister (will be skipped)
 BLOCKED_PRODUCTS = [
     "Robotstøvsuger"
 ]
+
+SOUND_KEYWORDS = ['urbanista', 'airpods', 'galaxy buds', 'jabra', 'soundcore',
+                  'bose', 'jbl', 'headphones', 'høretelefoner', 'earbuds', 'speaker', 'højttaler']
+TABLET_KEYWORDS = ['tablet', 'ipad', 'tab']
+GAMING_KEYWORDS = ['playstation', 'xbox', 'nintendo', 'controller']
 
 
 class OfferItem(TypedDict):
@@ -47,18 +52,24 @@ def download_image(image_url, product_name):
 
 
 def product_name_from_url(href: str, fallback_name: str) -> str:
-
     # the url pattern is always: <subscription-description>-inkl-<product-name>
-    url = href.rstrip('/').split('/')[-1]  # take last path segment
-    if '-inkl-' in url:
-        product_part = url.split('-inkl-', 1)[1]
+    slug = href.rstrip('/').split('/')[-1]
+    if '-inkl-' in slug:
+        product_part = slug.split('-inkl-', 1)[1]
         words = product_part.replace('-', ' ').split()
-        titled = []
-        for w in words:
-            # keep all-digit or alphanumeric model codes in their natural case but capitalise first letter
-            titled.append(w[0].upper() + w[1:] if w else w)
-        return ' '.join(titled)
+        return ' '.join(w[0].upper() + w[1:] if w else w for w in words)
     return fallback_name
+
+
+def guess_type(product_name: str) -> str:
+    name_lower = product_name.lower()
+    if any(k in name_lower for k in SOUND_KEYWORDS):
+        return 'sound'
+    if any(k in name_lower for k in TABLET_KEYWORDS):
+        return 'tablet'
+    if any(k in name_lower for k in GAMING_KEYWORDS):
+        return 'gaming'
+    return 'phone'
 
 
 def scrape_oister():
@@ -66,7 +77,16 @@ def scrape_oister():
     IMAGE_DIR.mkdir(parents=True, exist_ok=True)
 
     url = "https://www.oister.dk/tilbehor-til-abonnement"
-    response = requests.get(url)
+    headers = {
+        "User-Agent": (
+            "Mozilla/5.0 (X11; Linux x86_64) "
+            "AppleWebKit/537.36 (KHTML, like Gecko) "
+            "Chrome/124.0.0.0 Safari/537.36"
+        ),
+        "Accept-Language": "da-DK,da;q=0.9,en;q=0.8",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+    }
+    response = requests.get(url, headers=headers)
     date_time = now_timestamp()
 
     if response.status_code != 200:
@@ -75,129 +95,112 @@ def scrape_oister():
 
     soup = BeautifulSoup(response.text, 'html.parser')
 
-    offer_list = soup.find_all('div', class_='col--double-padding-bottom')
-    promo_card = soup.find('div', class_='section-promo-voice-card')
-    if promo_card:
-        offer_list = [promo_card] + list(offer_list)
+    # offers are <a> tags whose href contains '-inkl-' — no wrapping card divs in the new site structure
+    offer_links = [
+        a for a in soup.find_all('a', href=True)
+        if '-inkl-' in a.get('href', '')
+           and a.get_text(strip=True)
+    ]
+
+    log(f"Found {len(offer_links)} offer <a> tags")
 
     scraped_data = []
+    seen_hrefs: set[str] = set()
 
-    for offer in offer_list:
+    for a_tag in offer_links:
+        # product link
+        href = _bs4_str(a_tag.get('href'))
+        full_link = f"https://www.oister.dk{href}" if href.startswith('/') else href
+
+        # deduplicate — same product may appear in multiple sections
+        if full_link in seen_hrefs:
+            continue
+        seen_hrefs.add(full_link)
+
+        text = a_tag.get_text(separator=' ', strip=True)
+
+        # product name — prefer <strong> tag, fall back to url slug
+        strong = a_tag.find('strong')
+        if strong:
+            raw_name = strong.get_text(strip=True)
+            # if the strong text is a generic category label, derive proper name from url
+            GENERIC_LABELS = {'tablet', 'headphones', 'høretelefoner', 'earphones',
+                              'earbuds', 'speaker', 'højttaler', 'watch', 'ur'}
+            last_word = raw_name.split()[-1].lower() if raw_name else ''
+            if last_word in GENERIC_LABELS:
+                product_name = product_name_from_url(href, raw_name)
+                log(f"  Enriched name: '{raw_name}' -> '{product_name}'")
+            else:
+                product_name = raw_name
+        else:
+            product_name = product_name_from_url(href, "")
+
+        if not product_name:
+            log(f"  Skipping — could not determine product name for {href}")
+            continue
+
+        # check blocklist
+        name_lower = product_name.lower()
+        if any(keyword.lower() in name_lower for keyword in BLOCKED_PRODUCTS):
+            matched = next(k for k in BLOCKED_PRODUCTS if k.lower() in name_lower)
+            log(f"  Skipping blocked product: {product_name} (matched: '{matched}')")
+            continue
+
+        # discount / retail value
+        vaerdi_match = re.search(r'Værdi\s*([\d.]+),-\)', text)
+        if vaerdi_match:
+            discount = int(vaerdi_match.group(1).replace('.', ''))
+        else:
+            vaerdi_match2 = re.search(r'\(([\d.]+),-\)', text)
+            discount = int(vaerdi_match2.group(1).replace('.', '')) if vaerdi_match2 else 0
+
+        # monthly subscription price
+        price_match = re.search(r'(\d+)\s*,- /md', text)
+        sub_price = int(price_match.group(1)) if price_match else 0
+
+        # min cost over 6 months — read from page if available, otherwise calculate
+        min6_match = re.search(r'Min\.\s*pris\s*([\d.]+)\s*kr', text)
+        if min6_match:
+            min_cost = int(min6_match.group(1).replace('.', ''))
+        else:
+            min_cost = sub_price * 6 + 99
+
+        # image
+        img_tag = a_tag.find('img')
+        image_url = ""
+        if img_tag:
+            src = _bs4_str(img_tag.get('src')) or _bs4_str(img_tag.get('data-src'))
+            if src:
+                image_url = f"https://www.oister.dk{src}" if src.startswith('/') else src
+
+        image_url = download_image(image_url, product_name)
+
         item: OfferItem = {
-            "link": "",
-            "product_name": "",
-            "image_url": "",
+            "link": AFFILIATE_PREFIX + full_link,
+            "product_name": product_name,
+            "image_url": image_url,
             "provider": "Oister",
-            "type": "tablet",
-            "price_without_subscription": "",
-            "price_with_subscription": "",
-            "min_cost_6_months": "",
-            "subscription_price_monthly": 0,
-            "discount_on_product": 0,
+            "type": guess_type(product_name),
+            "price_without_subscription": discount,
+            "price_with_subscription": 0,
+            "min_cost_6_months": min_cost,
+            "subscription_price_monthly": sub_price,
+            "discount_on_product": discount,
             "saved_at": date_time,
         }
 
-        # image url
-        image_div = offer.find('div', class_="ribbon-container")
-        if image_div:
-            # find all images and pick the one with 'tilgift' in src (the actual product)
-            all_imgs = image_div.find_all('img')
-            for img in all_imgs:
-                src = _bs4_str(img.get('src')) or _bs4_str(img.get('data-src'))
-                if 'tilgift' in src:
-                    if src.startswith('/'):
-                        item["image_url"] = f"https://www.oister.dk{src}"
-                    else:
-                        item["image_url"] = src
-                    break
+        scraped_data.append(item)
+        offer_summary(
+            item["product_name"],
+            sub=item["price_with_subscription"],
+            rabat=item["discount_on_product"],
+            kontant=item["price_without_subscription"],
+            min6=item["min_cost_6_months"],
+            md=item["subscription_price_monthly"],
+        )
 
-        # campaign
-        punchline_div = offer.find('div', class_='card__punchline')
-        if punchline_div:
-
-            # name of the discounted product - must be before download_image
-            strong_tag = punchline_div.find('strong')
-            if strong_tag:
-                item["product_name"] = strong_tag.get_text(strip=True)
-                if "urbanista" in item["product_name"].lower():
-                    item["type"] = "sound"
-
-            full_text = punchline_div.get_text(strip=True).replace("inkl. ", "")
-
-            match = re.search(r'\(Værdi\s?(.*?)\)', full_text)
-
-            if match:
-                raw_discount = match.group(1).strip()
-                clean_number = raw_discount.replace(".", "").replace(",-", "")
-
-                try:
-                    item["discount_on_product"] = int(clean_number)
-                    item["price_without_subscription"] = int(clean_number)
-                    item["price_with_subscription"] = 0
-                except ValueError:
-                    item["discount_on_product"] = clean_number
-
-        # download image now that we have the product name
-        item["image_url"] = download_image(item["image_url"], item["product_name"])
-
-        product_card = offer.find('div', class_='card--product')
-
-        # product link
-        if product_card:
-            link_tag = product_card.find('a')
-            if link_tag:
-                href = _bs4_str(link_tag.get('href'))
-                if href:
-                    full_link = f"https://www.oister.dk{href}" if href.startswith('/') else href
-                    item["link"] = AFFILIATE_PREFIX + full_link
-                    # if the punchline name is a generic category label (e.g. "Samsung tablet"),
-                    # derive the proper name from the URL -> "Samsung Galaxy Tab A11"
-                    GENERIC_LABELS = {'tablet', 'headphones', 'høretelefoner', 'earphones',
-                                      'earbuds', 'speaker', 'højttaler', 'watch', 'ur'}
-                    last_word = item["product_name"].split()[-1].lower() if item["product_name"] else ''
-                    if last_word in GENERIC_LABELS and '-inkl-' in href:
-                        better_name = product_name_from_url(href, item["product_name"])
-                        if better_name and better_name != item["product_name"]:
-                            log(f"  Enriched name from: '{item['product_name']}' -> '{better_name}'")
-                            item["product_name"] = better_name
-
-
-        if product_card:
-            options = product_card.find_all('div', class_='card__option')
-            if len(options) >= 2:
-                pass  # data_gb and talk fields removed — not used by frontend
-
-            all_data_fields = product_card.find_all('h3', class_='card__text-data')
-            if len(all_data_fields) >= 3:
-                try:
-                    price = int(all_data_fields[2].text.strip().replace('.', ''))
-                    item["subscription_price_monthly"] = price
-                    item["min_cost_6_months"] = price * 6 + 99
-                except ValueError:
-                    item["subscription_price_monthly"] = all_data_fields[2].text.strip()
-
-
-        if product_card:
-            # Check if product is in blocklist
-            product_name_lower = item.get("product_name", "").lower()
-            is_blocked = any(keyword.lower() in product_name_lower for keyword in BLOCKED_PRODUCTS)
-            
-            if is_blocked:
-                matched_keyword = next(keyword for keyword in BLOCKED_PRODUCTS if keyword.lower() in product_name_lower)
-                log(f"  Skipping blocked product: {item['product_name']} (matched: '{matched_keyword}')")
-            else:
-                scraped_data.append(item)
-                offer_summary(
-                    item["product_name"],
-                    sub=item["price_with_subscription"],
-                    rabat=item["discount_on_product"],
-                    kontant=item["price_without_subscription"],
-                    min6=item["min_cost_6_months"],
-                    md=item["subscription_price_monthly"],
-                )
-
+    # save results to JSON file
     write_json(OUTPUT_PATH, scraped_data)
-
     log(f"Exported {len(scraped_data)} offers to 'data/oister/oister_offers.json'")
 
 
