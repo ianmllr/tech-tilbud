@@ -120,9 +120,17 @@ def extract_subscription_info(page) -> tuple[int | None, int | None, int | None]
     min_cost_6_months = None
     mindste_el = page.locator("text=/Mindstepris/").first
     if mindste_el.count():
-        numbers = re.findall(r"(\d{1,3}(?:\.\d{3})+|\d+)", mindste_el.text_content() or "")
-        if numbers:
-            min_cost_6_months = int(numbers[-1].replace(".", ""))
+        raw = mindste_el.text_content() or ""
+        # Prefer explicit price matches that include 'kr' to avoid picking up the
+        # stray '6' from '6 mdr.' or other single-digit tokens.
+        m = re.search(KR_PATTERN, raw)
+        if m:
+            min_cost_6_months = int(m.group(1).replace(".", ""))
+        else:
+            # Fallback: look for multi-digit numbers (ignore isolated single-digit "6")
+            numbers = re.findall(r"(\d{1,3}(?:\.\d{3})+|\d{2,})", raw)
+            if numbers:
+                min_cost_6_months = int(numbers[-1].replace(".", ""))
 
     return discount_on_product, subscription_price_monthly, min_cost_6_months
 
