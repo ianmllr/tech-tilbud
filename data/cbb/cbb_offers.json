@@ -1,22 +1,5 @@
 [
     {
-        "link": "https://www.cbb.dk/shop/mobiltelefoner/google/google-pixel-11-pro/?variant=Google-Pixel-11-Pro-256GB-Black_1",
-        "product_name": "Google Pixel 11 Pro 256GB Black",
-        "image_url": "/images/cbb/google_pixel_11_pro_256gb_black.webp",
-        "provider": "CBB",
-        "type": "phone",
-        "signup_price": 0,
-        "data_gb": 0,
-        "price_without_subscription": 0,
-        "price_with_subscription": 5999,
-        "subscription_price_monthly": 39,
-        "subscription_price_monthly_after_promo": 129,
-        "min_cost_6_months": 6593,
-        "discount_on_product": 0,
-        "saved_at": "15-08-2026-06:20",
-        "sold_out": "false"
-    },
-    {
         "link": "https://www.cbb.dk/shop/mobiltelefoner/google/google-pixel-11/?variant=Google-Pixel-11-256GB-Black_1",
         "product_name": "Google Pixel 11 256GB Black",
         "image_url": "/images/cbb/google_pixel_11_256gb_black.webp",
@@ -30,24 +13,7 @@
         "subscription_price_monthly_after_promo": 129,
         "min_cost_6_months": 6293,
         "discount_on_product": 0,
-        "saved_at": "15-08-2026-06:20",
-        "sold_out": "false"
-    },
-    {
-        "link": "https://www.cbb.dk/shop/mobiltelefoner/google/google-pixel-11-pro-xl/?variant=Google-Pixel-11-Pro-XL-256GB-Black_1",
-        "product_name": "Google Pixel 11 Pro XL 256GB Black",
-        "image_url": "/images/cbb/google_pixel_11_pro_xl_256gb_black.webp",
-        "provider": "CBB",
-        "type": "phone",
-        "signup_price": 0,
-        "data_gb": 0,
-        "price_without_subscription": 0,
-        "price_with_subscription": 7499,
-        "subscription_price_monthly": 39,
-        "subscription_price_monthly_after_promo": 129,
-        "min_cost_6_months": 8093,
-        "discount_on_product": 0,
-        "saved_at": "15-08-2026-06:20",
+        "saved_at": "16-08-2026-06:22",
         "sold_out": "false"
     },
     {
@@ -64,7 +30,7 @@
         "subscription_price_monthly_after_promo": 129,
         "min_cost_6_months": 13093,
         "discount_on_product": 0,
-        "saved_at": "15-08-2026-06:20",
+        "saved_at": "16-08-2026-06:22",
         "sold_out": "false"
     },
     {
@@ -81,7 +47,7 @@
         "subscription_price_monthly_after_promo": 129,
         "min_cost_6_months": 7593,
         "discount_on_product": 0,
-        "saved_at": "15-08-2026-06:20",
+        "saved_at": "16-08-2026-06:22",
         "sold_out": "false"
     },
     {
@@ -98,7 +64,7 @@
         "subscription_price_monthly_after_promo": 129,
         "min_cost_6_months": 12593,
         "discount_on_product": 0,
-        "saved_at": "15-08-2026-06:20",
+        "saved_at": "16-08-2026-06:22",
         "sold_out": "false"
     },
     {
@@ -115,7 +81,7 @@
         "subscription_price_monthly_after_promo": 129,
         "min_cost_6_months": 13593,
         "discount_on_product": 0,
-        "saved_at": "15-08-2026-06:20",
+        "saved_at": "16-08-2026-06:22",
         "sold_out": "false"
     },
     {
@@ -132,7 +98,7 @@
         "subscription_price_monthly_after_promo": 129,
         "min_cost_6_months": 9093,
         "discount_on_product": 0,
-        "saved_at": "15-08-2026-06:20",
+        "saved_at": "16-08-2026-06:22",
         "sold_out": "false"
     },
     {
@@ -149,41 +115,7 @@
         "subscription_price_monthly_after_promo": 129,
         "min_cost_6_months": 2793,
         "discount_on_product": 0,
-        "saved_at": "15-08-2026-06:20",
-        "sold_out": "false"
-    },
-    {
-        "link": "https://www.cbb.dk/shop/mobiltelefoner/motorola/motorola-edge-70/?variant=Motorola-Edge-70-512GB_1",
-        "product_name": "Motorola Edge 70, 512GB",
-        "image_url": "/images/cbb/motorola_edge_70__512gb.webp",
-        "provider": "CBB",
-        "type": "phone",
-        "signup_price": 0,
-        "data_gb": 0,
-        "price_without_subscription": 0,
-        "price_with_subscription": 2999,
-        "subscription_price_monthly": 39,
-        "subscription_price_monthly_after_promo": 129,
-        "min_cost_6_months": 3593,
-        "discount_on_product": 0,
-        "saved_at": "15-08-2026-06:20",
-        "sold_out": "false"
-    },
-    {
-        "link": "https://www.cbb.dk/shop/mobiltelefoner/motorola/motorola-g77/?variant=Motorola-G77-128GB-Black_1",
-        "product_name": "Motorola G77 128GB Black",
-        "image_url": "/images/cbb/motorola_g77_128gb_black.webp",
-        "provider": "CBB",
-        "type": "phone",
-        "signup_price": 0,
-        "data_gb": 0,
-        "price_without_subscription": 0,
-        "price_with_subscription": 999,
-        "subscription_price_monthly": 39,
-        "subscription_price_monthly_after_promo": 129,
-        "min_cost_6_months": 1593,
-        "discount_on_product": 0,
-        "saved_at": "15-08-2026-06:20",
+        "saved_at": "16-08-2026-06:22",
         "sold_out": "false"
     },
     {
@@ -200,7 +132,7 @@
         "subscription_price_monthly_after_promo": 129,
         "min_cost_6_months": 2093,
         "discount_on_product": 0,
-        "saved_at": "15-08-2026-06:20",
+        "saved_at": "16-08-2026-06:22",
         "sold_out": "false"
     },
     {
@@ -217,7 +149,7 @@
         "subscription_price_monthly_after_promo": 129,
         "min_cost_6_months": 5593,
         "discount_on_product": 0,
-        "saved_at": "15-08-2026-06:20",
+        "saved_at": "16-08-2026-06:22",
         "sold_out": "false"
     },
     {
@@ -234,7 +166,7 @@
         "subscription_price_monthly_after_promo": 129,
         "min_cost_6_months": 8093,
         "discount_on_product": 0,
-        "saved_at": "15-08-2026-06:20",
+        "saved_at": "16-08-2026-06:22",
         "sold_out": "false"
     },
     {
@@ -251,7 +183,7 @@
         "subscription_price_monthly_after_promo": 129,
         "min_cost_6_months": 2893,
         "discount_on_product": 0,
-        "saved_at": "15-08-2026-06:20",
+        "saved_at": "16-08-2026-06:22",
         "sold_out": "false"
     },
     {
@@ -268,7 +200,7 @@
         "subscription_price_monthly_after_promo": 129,
         "min_cost_6_months": 10593,
         "discount_on_product": 0,
-        "saved_at": "15-08-2026-06:20",
+        "saved_at": "16-08-2026-06:22",
         "sold_out": "false"
     },
     {
@@ -285,7 +217,7 @@
         "subscription_price_monthly_after_promo": 129,
         "min_cost_6_months": 3793,
         "discount_on_product": 0,
-        "saved_at": "15-08-2026-06:20",
+        "saved_at": "16-08-2026-06:22",
         "sold_out": "false"
     },
     {
@@ -302,7 +234,7 @@
         "subscription_price_monthly_after_promo": 129,
         "min_cost_6_months": 3393,
         "discount_on_product": 0,
-        "saved_at": "15-08-2026-06:20",
+        "saved_at": "16-08-2026-06:22",
         "sold_out": "false"
     },
     {
@@ -319,7 +251,7 @@
         "subscription_price_monthly_after_promo": 129,
         "min_cost_6_months": 5593,
         "discount_on_product": 0,
-        "saved_at": "15-08-2026-06:20",
+        "saved_at": "16-08-2026-06:22",
         "sold_out": "false"
     },
     {
@@ -336,7 +268,7 @@
         "subscription_price_monthly_after_promo": 129,
         "min_cost_6_months": 7593,
         "discount_on_product": 0,
-        "saved_at": "15-08-2026-06:20",
+        "saved_at": "16-08-2026-06:22",
         "sold_out": "false"
     },
     {
@@ -353,7 +285,7 @@
         "subscription_price_monthly_after_promo": 129,
         "min_cost_6_months": 7093,
         "discount_on_product": 0,
-        "saved_at": "15-08-2026-06:20",
+        "saved_at": "16-08-2026-06:22",
         "sold_out": "false"
     },
     {
@@ -370,7 +302,7 @@
         "subscription_price_monthly_after_promo": 129,
         "min_cost_6_months": 2493,
         "discount_on_product": 0,
-        "saved_at": "15-08-2026-06:20",
+        "saved_at": "16-08-2026-06:22",
         "sold_out": "false"
     },
     {
@@ -387,7 +319,7 @@
         "subscription_price_monthly_after_promo": 129,
         "min_cost_6_months": 7593,
         "discount_on_product": 0,
-        "saved_at": "15-08-2026-06:20",
+        "saved_at": "16-08-2026-06:22",
         "sold_out": "false"
     },
     {
@@ -404,7 +336,7 @@
         "subscription_price_monthly_after_promo": 129,
         "min_cost_6_months": 10893,
         "discount_on_product": 0,
-        "saved_at": "15-08-2026-06:20",
+        "saved_at": "16-08-2026-06:22",
         "sold_out": "false"
     },
     {
@@ -421,7 +353,7 @@
         "subscription_price_monthly_after_promo": 129,
         "min_cost_6_months": 9893,
         "discount_on_product": 0,
-        "saved_at": "15-08-2026-06:20",
+        "saved_at": "16-08-2026-06:22",
         "sold_out": "false"
     },
     {
@@ -438,7 +370,7 @@
         "subscription_price_monthly_after_promo": 129,
         "min_cost_6_months": 7393,
         "discount_on_product": 0,
-        "saved_at": "15-08-2026-06:20",
+        "saved_at": "16-08-2026-06:22",
         "sold_out": "false"
     },
     {
@@ -455,7 +387,7 @@
         "subscription_price_monthly_after_promo": 129,
         "min_cost_6_months": 7593,
         "discount_on_product": 0,
-        "saved_at": "15-08-2026-06:20",
+        "saved_at": "16-08-2026-06:22",
         "sold_out": "false"
     },
     {
@@ -472,7 +404,7 @@
         "subscription_price_monthly_after_promo": 129,
         "min_cost_6_months": 5093,
         "discount_on_product": 0,
-        "saved_at": "15-08-2026-06:20",
+        "saved_at": "16-08-2026-06:22",
         "sold_out": "false"
     },
     {
@@ -489,7 +421,7 @@
         "subscription_price_monthly_after_promo": 129,
         "min_cost_6_months": 6393,
         "discount_on_product": 0,
-        "saved_at": "15-08-2026-06:20",
+        "saved_at": "16-08-2026-06:22",
         "sold_out": "false"
     },
     {
@@ -506,8 +438,42 @@
         "subscription_price_monthly_after_promo": 129,
         "min_cost_6_months": 5593,
         "discount_on_product": 0,
-        "saved_at": "15-08-2026-06:20",
+        "saved_at": "16-08-2026-06:22",
         "sold_out": "false"
+    },
+    {
+        "link": "https://www.cbb.dk/shop/mobiltelefoner/google/google-pixel-11-pro/?variant=Google-Pixel-11-Pro-256GB-Black_1",
+        "product_name": "Google Pixel 11 Pro 256GB Black",
+        "image_url": "/images/cbb/google_pixel_11_pro_256gb_black.webp",
+        "provider": "CBB",
+        "type": "phone",
+        "signup_price": 0,
+        "data_gb": 0,
+        "price_without_subscription": 0,
+        "price_with_subscription": 5999,
+        "subscription_price_monthly": 39,
+        "subscription_price_monthly_after_promo": 129,
+        "min_cost_6_months": 6593,
+        "discount_on_product": 0,
+        "saved_at": "16-08-2026-06:22",
+        "sold_out": "true"
+    },
+    {
+        "link": "https://www.cbb.dk/shop/mobiltelefoner/google/google-pixel-11-pro-xl/?variant=Google-Pixel-11-Pro-XL-256GB-Black_1",
+        "product_name": "Google Pixel 11 Pro XL 256GB Black",
+        "image_url": "/images/cbb/google_pixel_11_pro_xl_256gb_black.webp",
+        "provider": "CBB",
+        "type": "phone",
+        "signup_price": 0,
+        "data_gb": 0,
+        "price_without_subscription": 0,
+        "price_with_subscription": 7499,
+        "subscription_price_monthly": 39,
+        "subscription_price_monthly_after_promo": 129,
+        "min_cost_6_months": 8093,
+        "discount_on_product": 0,
+        "saved_at": "16-08-2026-06:22",
+        "sold_out": "true"
     },
     {
         "link": "https://www.cbb.dk/shop/mobiltelefoner/oneplus/oneplus-nord-5/?variant=OnePlus-NORD-5_2",
@@ -523,7 +489,24 @@
         "subscription_price_monthly_after_promo": 129,
         "min_cost_6_months": 3193,
         "discount_on_product": 0,
-        "saved_at": "15-08-2026-06:20",
+        "saved_at": "16-08-2026-06:22",
+        "sold_out": "true"
+    },
+    {
+        "link": "https://www.cbb.dk/shop/mobiltelefoner/motorola/motorola-edge-70/?variant=Motorola-Edge-70-512GB_1",
+        "product_name": "Motorola Edge 70, 512GB",
+        "image_url": "/images/cbb/motorola_edge_70__512gb.webp",
+        "provider": "CBB",
+        "type": "phone",
+        "signup_price": 0,
+        "data_gb": 0,
+        "price_without_subscription": 0,
+        "price_with_subscription": 2999,
+        "subscription_price_monthly": 39,
+        "subscription_price_monthly_after_promo": 129,
+        "min_cost_6_months": 3593,
+        "discount_on_product": 0,
+        "saved_at": "16-08-2026-06:22",
         "sold_out": "true"
     },
     {
@@ -540,7 +523,7 @@
         "subscription_price_monthly_after_promo": 129,
         "min_cost_6_months": 3093,
         "discount_on_product": 0,
-        "saved_at": "15-08-2026-06:20",
+        "saved_at": "16-08-2026-06:22",
         "sold_out": "true"
     },
     {
@@ -557,7 +540,24 @@
         "subscription_price_monthly_after_promo": 129,
         "min_cost_6_months": 2493,
         "discount_on_product": 0,
-        "saved_at": "15-08-2026-06:20",
+        "saved_at": "16-08-2026-06:22",
+        "sold_out": "true"
+    },
+    {
+        "link": "https://www.cbb.dk/shop/mobiltelefoner/motorola/motorola-g77/?variant=Motorola-G77-128GB-Black_1",
+        "product_name": "Motorola G77 128GB Black",
+        "image_url": "/images/cbb/motorola_g77_128gb_black.webp",
+        "provider": "CBB",
+        "type": "phone",
+        "signup_price": 0,
+        "data_gb": 0,
+        "price_without_subscription": 0,
+        "price_with_subscription": 999,
+        "subscription_price_monthly": 39,
+        "subscription_price_monthly_after_promo": 129,
+        "min_cost_6_months": 1593,
+        "discount_on_product": 0,
+        "saved_at": "16-08-2026-06:22",
         "sold_out": "true"
     },
     {
@@ -574,7 +574,7 @@
         "subscription_price_monthly_after_promo": 129,
         "min_cost_6_months": 3093,
         "discount_on_product": 0,
-        "saved_at": "15-08-2026-06:20",
+        "saved_at": "16-08-2026-06:22",
         "sold_out": "true"
     },
     {
@@ -591,7 +591,7 @@
         "subscription_price_monthly_after_promo": 129,
         "min_cost_6_months": 4393,
         "discount_on_product": 0,
-        "saved_at": "15-08-2026-06:20",
+        "saved_at": "16-08-2026-06:22",
         "sold_out": "true"
     },
     {
@@ -608,7 +608,7 @@
         "subscription_price_monthly_after_promo": 129,
         "min_cost_6_months": 9593,
         "discount_on_product": 0,
-        "saved_at": "15-08-2026-06:20",
+        "saved_at": "16-08-2026-06:22",
         "sold_out": "true"
     },
     {
@@ -625,7 +625,7 @@
         "subscription_price_monthly_after_promo": 129,
         "min_cost_6_months": 15393,
         "discount_on_product": 0,
-        "saved_at": "15-08-2026-06:20",
+        "saved_at": "16-08-2026-06:22",
         "sold_out": "true"
     },
     {
@@ -642,7 +642,7 @@
         "subscription_price_monthly_after_promo": 129,
         "min_cost_6_months": 6593,
         "discount_on_product": 0,
-        "saved_at": "15-08-2026-06:20",
+        "saved_at": "16-08-2026-06:22",
         "sold_out": "true"
     },
     {
@@ -659,7 +659,7 @@
         "subscription_price_monthly_after_promo": 129,
         "min_cost_6_months": 10793,
         "discount_on_product": 0,
-        "saved_at": "15-08-2026-06:20",
+        "saved_at": "16-08-2026-06:22",
         "sold_out": "true"
     },
     {
@@ -676,7 +676,7 @@
         "subscription_price_monthly_after_promo": 129,
         "min_cost_6_months": 17093,
         "discount_on_product": 0,
-        "saved_at": "15-08-2026-06:20",
+        "saved_at": "16-08-2026-06:22",
         "sold_out": "true"
     },
     {
@@ -693,7 +693,7 @@
         "subscription_price_monthly_after_promo": 129,
         "min_cost_6_months": 10093,
         "discount_on_product": 0,
-        "saved_at": "15-08-2026-06:20",
+        "saved_at": "16-08-2026-06:22",
         "sold_out": "true"
     },
     {
@@ -710,7 +710,7 @@
         "subscription_price_monthly_after_promo": 129,
         "min_cost_6_months": 1593,
         "discount_on_product": 0,
-        "saved_at": "15-08-2026-06:20",
+        "saved_at": "16-08-2026-06:22",
         "sold_out": "true"
     },
     {
@@ -727,7 +727,7 @@
         "subscription_price_monthly_after_promo": 129,
         "min_cost_6_months": 7093,
         "discount_on_product": 0,
-        "saved_at": "15-08-2026-06:20",
+        "saved_at": "16-08-2026-06:22",
         "sold_out": "true"
     }
 ]
