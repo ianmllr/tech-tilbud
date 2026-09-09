@@ -1,56 +1,5 @@
 [
     {
-        "link": "https://www.callme.dk/shop/apple/apple-iphone-15/",
-        "product_name": "Apple iPhone 15 128GB",
-        "image_url": "/images/callme/apple_iphone_15_128gb.webp",
-        "provider": "CallMe",
-        "type": "phone",
-        "signup_price": 0,
-        "data_gb": 0,
-        "price_without_subscription": 0,
-        "price_with_subscription": 4399,
-        "subscription_price_monthly": 99,
-        "subscription_price_monthly_after_promo": null,
-        "min_cost_6_months": 5042,
-        "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
-        "sold_out": "false"
-    },
-    {
-        "link": "https://www.callme.dk/shop/apple/apple-iphone-17-pro/",
-        "product_name": "Apple iPhone 17 Pro 256 GB",
-        "image_url": "/images/callme/apple_iphone_17_pro_256_gb.webp",
-        "provider": "CallMe",
-        "type": "phone",
-        "signup_price": 0,
-        "data_gb": 0,
-        "price_without_subscription": 0,
-        "price_with_subscription": 8499,
-        "subscription_price_monthly": 99,
-        "subscription_price_monthly_after_promo": null,
-        "min_cost_6_months": 9142,
-        "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
-        "sold_out": "false"
-    },
-    {
-        "link": "https://www.callme.dk/shop/samsung/samsung-galaxy-s26-ultra/",
-        "product_name": "Samsung Galaxy S26 Ultra 256GB",
-        "image_url": "/images/callme/samsung_galaxy_s26_ultra_256gb.webp",
-        "provider": "CallMe",
-        "type": "phone",
-        "signup_price": 0,
-        "data_gb": 0,
-        "price_without_subscription": 0,
-        "price_with_subscription": 6999,
-        "subscription_price_monthly": 99,
-        "subscription_price_monthly_after_promo": null,
-        "min_cost_6_months": 7642,
-        "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
-        "sold_out": "false"
-    },
-    {
         "link": "https://www.callme.dk/shop/samsung/samsung-galaxy-a57/",
         "product_name": "Samsung Galaxy A57 128GB",
         "image_url": "/images/callme/samsung_galaxy_a57_128gb.webp",
@@ -64,7 +13,41 @@
         "subscription_price_monthly_after_promo": null,
         "min_cost_6_months": 2142,
         "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
+        "saved_at": "09-09-2026-10:37",
+        "sold_out": "false"
+    },
+    {
+        "link": "https://www.callme.dk/shop/motorola/motorola-g67/",
+        "product_name": "Motorola G67 128GB",
+        "image_url": "/images/callme/motorola_g67_128gb.webp",
+        "provider": "CallMe",
+        "type": "phone",
+        "signup_price": 0,
+        "data_gb": 0,
+        "price_without_subscription": 0,
+        "price_with_subscription": 599,
+        "subscription_price_monthly": 99,
+        "subscription_price_monthly_after_promo": null,
+        "min_cost_6_months": 1242,
+        "discount_on_product": 0,
+        "saved_at": "09-09-2026-10:37",
+        "sold_out": "false"
+    },
+    {
+        "link": "https://www.callme.dk/shop/apple/apple-iphone-air/",
+        "product_name": "Apple iPhone Air 256 GB",
+        "image_url": "/images/callme/apple_iphone_air_256_gb.webp",
+        "provider": "CallMe",
+        "type": "phone",
+        "signup_price": 0,
+        "data_gb": 0,
+        "price_without_subscription": 0,
+        "price_with_subscription": 6299,
+        "subscription_price_monthly": 99,
+        "subscription_price_monthly_after_promo": null,
+        "min_cost_6_months": 6942,
+        "discount_on_product": 0,
+        "saved_at": "09-09-2026-10:37",
         "sold_out": "false"
     },
     {
@@ -81,7 +64,58 @@
         "subscription_price_monthly_after_promo": null,
         "min_cost_6_months": 2642,
         "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
+        "saved_at": "09-09-2026-10:37",
+        "sold_out": "false"
+    },
+    {
+        "link": "https://www.callme.dk/shop/motorola/motorola-edge-70-5g/",
+        "product_name": "Motorola Edge 70 5G 512GB",
+        "image_url": "/images/callme/motorola_edge_70_5g_512gb.webp",
+        "provider": "CallMe",
+        "type": "phone",
+        "signup_price": 0,
+        "data_gb": 0,
+        "price_without_subscription": 0,
+        "price_with_subscription": 1999,
+        "subscription_price_monthly": 99,
+        "subscription_price_monthly_after_promo": null,
+        "min_cost_6_months": 2642,
+        "discount_on_product": 0,
+        "saved_at": "09-09-2026-10:37",
+        "sold_out": "false"
+    },
+    {
+        "link": "https://www.callme.dk/shop/samsung/samsung-galaxy-s26/",
+        "product_name": "Samsung Galaxy S26 256GB",
+        "image_url": "/images/callme/samsung_galaxy_s26_256gb.webp",
+        "provider": "CallMe",
+        "type": "phone",
+        "signup_price": 0,
+        "data_gb": 0,
+        "price_without_subscription": 0,
+        "price_with_subscription": 3999,
+        "subscription_price_monthly": 99,
+        "subscription_price_monthly_after_promo": null,
+        "min_cost_6_months": 4642,
+        "discount_on_product": 0,
+        "saved_at": "09-09-2026-10:37",
+        "sold_out": "false"
+    },
+    {
+        "link": "https://www.callme.dk/shop/samsung/samsung-mobiler/samsung-galaxy-z-flip8/",
+        "product_name": "Samsung Galaxy Z Flip8 256GB",
+        "image_url": "/images/callme/samsung_galaxy_z_flip8_256gb.webp",
+        "provider": "CallMe",
+        "type": "phone",
+        "signup_price": 0,
+        "data_gb": 0,
+        "price_without_subscription": 0,
+        "price_with_subscription": 5499,
+        "subscription_price_monthly": 99,
+        "subscription_price_monthly_after_promo": null,
+        "min_cost_6_months": 6142,
+        "discount_on_product": 0,
+        "saved_at": "09-09-2026-10:37",
         "sold_out": "false"
     },
     {
@@ -93,12 +127,131 @@
         "signup_price": 0,
         "data_gb": 0,
         "price_without_subscription": 0,
-        "price_with_subscription": 7499,
+        "price_with_subscription": 5999,
         "subscription_price_monthly": 99,
         "subscription_price_monthly_after_promo": null,
-        "min_cost_6_months": 8142,
+        "min_cost_6_months": 6642,
         "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
+        "saved_at": "09-09-2026-10:37",
+        "sold_out": "false"
+    },
+    {
+        "link": "https://www.callme.dk/shop/google/google-pixel-11-pro/",
+        "product_name": "Google Pixel 11 Pro 256GB",
+        "image_url": "/images/callme/google_pixel_11_pro_256gb.webp",
+        "provider": "CallMe",
+        "type": "phone",
+        "signup_price": 0,
+        "data_gb": 0,
+        "price_without_subscription": 0,
+        "price_with_subscription": 5899,
+        "subscription_price_monthly": 99,
+        "subscription_price_monthly_after_promo": null,
+        "min_cost_6_months": 6542,
+        "discount_on_product": 0,
+        "saved_at": "09-09-2026-10:37",
+        "sold_out": "false"
+    },
+    {
+        "link": "https://www.callme.dk/shop/google/google-pixel-11-pro-xl/",
+        "product_name": "Google Pixel 11 Pro XL 256GB",
+        "image_url": "/images/callme/google_pixel_11_pro_xl_256gb.webp",
+        "provider": "CallMe",
+        "type": "phone",
+        "signup_price": 0,
+        "data_gb": 0,
+        "price_without_subscription": 0,
+        "price_with_subscription": 6499,
+        "subscription_price_monthly": 99,
+        "subscription_price_monthly_after_promo": null,
+        "min_cost_6_months": 7142,
+        "discount_on_product": 0,
+        "saved_at": "09-09-2026-10:37",
+        "sold_out": "false"
+    },
+    {
+        "link": "https://www.callme.dk/shop/google/google-mobiler/google-pixel-11-pro-fold-/",
+        "product_name": "Google Pixel 11 Pro Fold 256GB",
+        "image_url": "/images/callme/google_pixel_11_pro_fold_256gb.webp",
+        "provider": "CallMe",
+        "type": "phone",
+        "signup_price": 0,
+        "data_gb": 0,
+        "price_without_subscription": 0,
+        "price_with_subscription": 11499,
+        "subscription_price_monthly": 99,
+        "subscription_price_monthly_after_promo": null,
+        "min_cost_6_months": 12142,
+        "discount_on_product": 0,
+        "saved_at": "09-09-2026-10:37",
+        "sold_out": "false"
+    },
+    {
+        "link": "https://www.callme.dk/shop/google/google-pixel-11/",
+        "product_name": "Google Pixel 11 256GB",
+        "image_url": "/images/callme/google_pixel_11_256gb.webp",
+        "provider": "CallMe",
+        "type": "phone",
+        "signup_price": 0,
+        "data_gb": 0,
+        "price_without_subscription": 0,
+        "price_with_subscription": 4899,
+        "subscription_price_monthly": 99,
+        "subscription_price_monthly_after_promo": null,
+        "min_cost_6_months": 5542,
+        "discount_on_product": 0,
+        "saved_at": "09-09-2026-10:37",
+        "sold_out": "false"
+    },
+    {
+        "link": "https://www.callme.dk/shop/apple/apple-iphone-15/",
+        "product_name": "Apple iPhone 15 128GB",
+        "image_url": "/images/callme/apple_iphone_15_128gb.webp",
+        "provider": "CallMe",
+        "type": "phone",
+        "signup_price": 0,
+        "data_gb": 0,
+        "price_without_subscription": 0,
+        "price_with_subscription": 4899,
+        "subscription_price_monthly": 99,
+        "subscription_price_monthly_after_promo": null,
+        "min_cost_6_months": 5542,
+        "discount_on_product": 0,
+        "saved_at": "09-09-2026-10:37",
+        "sold_out": "false"
+    },
+    {
+        "link": "https://www.callme.dk/shop/apple/apple-iphone-17-pro/",
+        "product_name": "Apple iPhone 17 Pro 256 GB",
+        "image_url": "/images/callme/apple_iphone_17_pro_256_gb.webp",
+        "provider": "CallMe",
+        "type": "phone",
+        "signup_price": 0,
+        "data_gb": 0,
+        "price_without_subscription": 0,
+        "price_with_subscription": 8899,
+        "subscription_price_monthly": 99,
+        "subscription_price_monthly_after_promo": null,
+        "min_cost_6_months": 9542,
+        "discount_on_product": 0,
+        "saved_at": "09-09-2026-10:37",
+        "sold_out": "false"
+    },
+    {
+        "link": "https://www.callme.dk/shop/samsung/samsung-galaxy-s26-ultra/",
+        "product_name": "Samsung Galaxy S26 Ultra 256GB",
+        "image_url": "/images/callme/samsung_galaxy_s26_ultra_256gb.webp",
+        "provider": "CallMe",
+        "type": "phone",
+        "signup_price": 0,
+        "data_gb": 0,
+        "price_without_subscription": 0,
+        "price_with_subscription": 10499,
+        "subscription_price_monthly": 99,
+        "subscription_price_monthly_after_promo": null,
+        "min_cost_6_months": 11142,
+        "discount_on_product": 0,
+        "saved_at": "09-09-2026-10:37",
         "sold_out": "false"
     },
     {
@@ -110,12 +263,12 @@
         "signup_price": 0,
         "data_gb": 0,
         "price_without_subscription": 0,
-        "price_with_subscription": 899,
+        "price_with_subscription": 2549,
         "subscription_price_monthly": 99,
         "subscription_price_monthly_after_promo": null,
-        "min_cost_6_months": 1542,
+        "min_cost_6_months": 3192,
         "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
+        "saved_at": "09-09-2026-10:37",
         "sold_out": "false"
     },
     {
@@ -127,29 +280,12 @@
         "signup_price": 0,
         "data_gb": 0,
         "price_without_subscription": 0,
-        "price_with_subscription": 1999,
+        "price_with_subscription": 3999,
         "subscription_price_monthly": 99,
         "subscription_price_monthly_after_promo": null,
-        "min_cost_6_months": 2642,
+        "min_cost_6_months": 4642,
         "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
-        "sold_out": "false"
-    },
-    {
-        "link": "https://www.callme.dk/shop/apple/apple-iphone-air/",
-        "product_name": "Apple iPhone Air 256 GB",
-        "image_url": "/images/callme/apple_iphone_air_256_gb.webp",
-        "provider": "CallMe",
-        "type": "phone",
-        "signup_price": 0,
-        "data_gb": 0,
-        "price_without_subscription": 0,
-        "price_with_subscription": 6499,
-        "subscription_price_monthly": 99,
-        "subscription_price_monthly_after_promo": null,
-        "min_cost_6_months": 7142,
-        "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
+        "saved_at": "09-09-2026-10:37",
         "sold_out": "false"
     },
     {
@@ -166,7 +302,7 @@
         "subscription_price_monthly_after_promo": null,
         "min_cost_6_months": 5642,
         "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
+        "saved_at": "09-09-2026-10:37",
         "sold_out": "false"
     },
     {
@@ -178,12 +314,12 @@
         "signup_price": 0,
         "data_gb": 0,
         "price_without_subscription": 0,
-        "price_with_subscription": 3499,
+        "price_with_subscription": 7799,
         "subscription_price_monthly": 99,
         "subscription_price_monthly_after_promo": null,
-        "min_cost_6_months": 4142,
+        "min_cost_6_months": 8442,
         "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
+        "saved_at": "09-09-2026-10:37",
         "sold_out": "false"
     },
     {
@@ -200,41 +336,7 @@
         "subscription_price_monthly_after_promo": null,
         "min_cost_6_months": 4642,
         "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
-        "sold_out": "false"
-    },
-    {
-        "link": "https://www.callme.dk/shop/motorola/motorola-g67/",
-        "product_name": "Motorola G67 128GB",
-        "image_url": "/images/callme/motorola_g67_128gb.webp",
-        "provider": "CallMe",
-        "type": "phone",
-        "signup_price": 0,
-        "data_gb": 0,
-        "price_without_subscription": 0,
-        "price_with_subscription": 2199,
-        "subscription_price_monthly": 99,
-        "subscription_price_monthly_after_promo": null,
-        "min_cost_6_months": 2842,
-        "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
-        "sold_out": "false"
-    },
-    {
-        "link": "https://www.callme.dk/shop/motorola/motorola-edge-70-5g/",
-        "product_name": "Motorola Edge 70 5G 512GB",
-        "image_url": "/images/callme/motorola_edge_70_5g_512gb.webp",
-        "provider": "CallMe",
-        "type": "phone",
-        "signup_price": 0,
-        "data_gb": 0,
-        "price_without_subscription": 0,
-        "price_with_subscription": 4999,
-        "subscription_price_monthly": 99,
-        "subscription_price_monthly_after_promo": null,
-        "min_cost_6_months": 5642,
-        "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
+        "saved_at": "09-09-2026-10:37",
         "sold_out": "false"
     },
     {
@@ -251,7 +353,7 @@
         "subscription_price_monthly_after_promo": null,
         "min_cost_6_months": 5142,
         "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
+        "saved_at": "09-09-2026-10:37",
         "sold_out": "false"
     },
     {
@@ -268,7 +370,7 @@
         "subscription_price_monthly_after_promo": null,
         "min_cost_6_months": 2542,
         "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
+        "saved_at": "09-09-2026-10:37",
         "sold_out": "false"
     },
     {
@@ -280,12 +382,12 @@
         "signup_price": 0,
         "data_gb": 0,
         "price_without_subscription": 0,
-        "price_with_subscription": 9499,
+        "price_with_subscription": 12499,
         "subscription_price_monthly": 99,
         "subscription_price_monthly_after_promo": null,
-        "min_cost_6_months": 10142,
+        "min_cost_6_months": 13142,
         "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
+        "saved_at": "09-09-2026-10:37",
         "sold_out": "false"
     },
     {
@@ -302,24 +404,7 @@
         "subscription_price_monthly_after_promo": null,
         "min_cost_6_months": 5642,
         "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
-        "sold_out": "false"
-    },
-    {
-        "link": "https://www.callme.dk/shop/samsung/samsung-galaxy-s26/",
-        "product_name": "Samsung Galaxy S26 256GB",
-        "image_url": "/images/callme/samsung_galaxy_s26_256gb.webp",
-        "provider": "CallMe",
-        "type": "phone",
-        "signup_price": 0,
-        "data_gb": 0,
-        "price_without_subscription": 0,
-        "price_with_subscription": 6499,
-        "subscription_price_monthly": 99,
-        "subscription_price_monthly_after_promo": null,
-        "min_cost_6_months": 7142,
-        "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
+        "saved_at": "09-09-2026-10:37",
         "sold_out": "false"
     },
     {
@@ -336,7 +421,7 @@
         "subscription_price_monthly_after_promo": null,
         "min_cost_6_months": 7642,
         "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
+        "saved_at": "09-09-2026-10:37",
         "sold_out": "false"
     },
     {
@@ -353,7 +438,7 @@
         "subscription_price_monthly_after_promo": null,
         "min_cost_6_months": 6942,
         "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
+        "saved_at": "09-09-2026-10:37",
         "sold_out": "false"
     },
     {
@@ -370,7 +455,7 @@
         "subscription_price_monthly_after_promo": null,
         "min_cost_6_months": 3842,
         "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
+        "saved_at": "09-09-2026-10:37",
         "sold_out": "false"
     },
     {
@@ -387,7 +472,7 @@
         "subscription_price_monthly_after_promo": null,
         "min_cost_6_months": 6542,
         "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
+        "saved_at": "09-09-2026-10:37",
         "sold_out": "false"
     },
     {
@@ -404,7 +489,7 @@
         "subscription_price_monthly_after_promo": null,
         "min_cost_6_months": 5542,
         "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
+        "saved_at": "09-09-2026-10:37",
         "sold_out": "false"
     },
     {
@@ -421,7 +506,7 @@
         "subscription_price_monthly_after_promo": null,
         "min_cost_6_months": 3142,
         "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
+        "saved_at": "09-09-2026-10:37",
         "sold_out": "false"
     },
     {
@@ -438,7 +523,7 @@
         "subscription_price_monthly_after_promo": null,
         "min_cost_6_months": 10142,
         "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
+        "saved_at": "09-09-2026-10:37",
         "sold_out": "false"
     },
     {
@@ -455,7 +540,7 @@
         "subscription_price_monthly_after_promo": null,
         "min_cost_6_months": 9642,
         "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
+        "saved_at": "09-09-2026-10:37",
         "sold_out": "false"
     },
     {
@@ -472,7 +557,7 @@
         "subscription_price_monthly_after_promo": null,
         "min_cost_6_months": 3442,
         "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
+        "saved_at": "09-09-2026-10:37",
         "sold_out": "false"
     },
     {
@@ -489,7 +574,7 @@
         "subscription_price_monthly_after_promo": null,
         "min_cost_6_months": 2642,
         "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
+        "saved_at": "09-09-2026-10:37",
         "sold_out": "false"
     },
     {
@@ -506,24 +591,7 @@
         "subscription_price_monthly_after_promo": null,
         "min_cost_6_months": 7742,
         "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
-        "sold_out": "false"
-    },
-    {
-        "link": "https://www.callme.dk/shop/oneplus/oneplus-nord-5-5g/",
-        "product_name": "OnePlus Nord 5 5G 256GB",
-        "image_url": "/images/callme/oneplus_nord_5_5g_256gb.webp",
-        "provider": "CallMe",
-        "type": "phone",
-        "signup_price": 0,
-        "data_gb": 0,
-        "price_without_subscription": 0,
-        "price_with_subscription": 3499,
-        "subscription_price_monthly": 99,
-        "subscription_price_monthly_after_promo": null,
-        "min_cost_6_months": 4142,
-        "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
+        "saved_at": "09-09-2026-10:37",
         "sold_out": "false"
     },
     {
@@ -540,7 +608,7 @@
         "subscription_price_monthly_after_promo": null,
         "min_cost_6_months": 4142,
         "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
+        "saved_at": "09-09-2026-10:37",
         "sold_out": "false"
     },
     {
@@ -557,7 +625,7 @@
         "subscription_price_monthly_after_promo": null,
         "min_cost_6_months": 3142,
         "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
+        "saved_at": "09-09-2026-10:37",
         "sold_out": "false"
     },
     {
@@ -574,7 +642,7 @@
         "subscription_price_monthly_after_promo": null,
         "min_cost_6_months": 1642,
         "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
+        "saved_at": "09-09-2026-10:37",
         "sold_out": "false"
     },
     {
@@ -591,7 +659,7 @@
         "subscription_price_monthly_after_promo": null,
         "min_cost_6_months": 1042,
         "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
+        "saved_at": "09-09-2026-10:37",
         "sold_out": "false"
     },
     {
@@ -608,7 +676,7 @@
         "subscription_price_monthly_after_promo": null,
         "min_cost_6_months": 842,
         "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
+        "saved_at": "09-09-2026-10:37",
         "sold_out": "false"
     },
     {
@@ -625,7 +693,7 @@
         "subscription_price_monthly_after_promo": null,
         "min_cost_6_months": 1642,
         "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
+        "saved_at": "09-09-2026-10:37",
         "sold_out": "false"
     },
     {
@@ -642,7 +710,7 @@
         "subscription_price_monthly_after_promo": null,
         "min_cost_6_months": 10542,
         "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
+        "saved_at": "09-09-2026-10:37",
         "sold_out": "false"
     },
     {
@@ -659,7 +727,7 @@
         "subscription_price_monthly_after_promo": null,
         "min_cost_6_months": 11142,
         "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
+        "saved_at": "09-09-2026-10:37",
         "sold_out": "false"
     },
     {
@@ -676,7 +744,7 @@
         "subscription_price_monthly_after_promo": null,
         "min_cost_6_months": 7142,
         "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
+        "saved_at": "09-09-2026-10:37",
         "sold_out": "false"
     },
     {
@@ -693,24 +761,7 @@
         "subscription_price_monthly_after_promo": null,
         "min_cost_6_months": 10147,
         "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
-        "sold_out": "false"
-    },
-    {
-        "link": "https://www.callme.dk/shop/motorola/motorola-moto-g75/",
-        "product_name": "Motorola Moto G75 5G 256GB",
-        "image_url": "/images/callme/motorola_moto_g75_5g_256gb.webp",
-        "provider": "CallMe",
-        "type": "phone",
-        "signup_price": 0,
-        "data_gb": 0,
-        "price_without_subscription": 0,
-        "price_with_subscription": 499,
-        "subscription_price_monthly": 99,
-        "subscription_price_monthly_after_promo": null,
-        "min_cost_6_months": 1142,
-        "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
+        "saved_at": "09-09-2026-10:37",
         "sold_out": "false"
     },
     {
@@ -727,7 +778,7 @@
         "subscription_price_monthly_after_promo": null,
         "min_cost_6_months": 5642,
         "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
+        "saved_at": "09-09-2026-10:37",
         "sold_out": "false"
     },
     {
@@ -744,7 +795,7 @@
         "subscription_price_monthly_after_promo": null,
         "min_cost_6_months": 6642,
         "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
+        "saved_at": "09-09-2026-10:37",
         "sold_out": "false"
     },
     {
@@ -761,7 +812,7 @@
         "subscription_price_monthly_after_promo": null,
         "min_cost_6_months": 2642,
         "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
+        "saved_at": "09-09-2026-10:37",
         "sold_out": "false"
     },
     {
@@ -778,41 +829,7 @@
         "subscription_price_monthly_after_promo": null,
         "min_cost_6_months": 12142,
         "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
-        "sold_out": "false"
-    },
-    {
-        "link": "https://www.callme.dk/shop/samsung/samsung-mobiler/samsung-galaxy-z-flip8/",
-        "product_name": "Samsung Galaxy Z Flip8 256GB",
-        "image_url": "/images/callme/samsung_galaxy_z_flip8_256gb.webp",
-        "provider": "CallMe",
-        "type": "phone",
-        "signup_price": 0,
-        "data_gb": 0,
-        "price_without_subscription": 0,
-        "price_with_subscription": 6999,
-        "subscription_price_monthly": 99,
-        "subscription_price_monthly_after_promo": null,
-        "min_cost_6_months": 7642,
-        "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
-        "sold_out": "false"
-    },
-    {
-        "link": "https://www.callme.dk/shop/apple/apple-ipad/apple-ipad-air-11-wifi-128gb-2025-med-abonnement/",
-        "product_name": "iPad Air 11 M3 Wi-Fi 128GB",
-        "image_url": "/images/callme/ipad_air_11_m3_wi_fi_128gb.webp",
-        "provider": "CallMe",
-        "type": "tablet",
-        "signup_price": 0,
-        "data_gb": 0,
-        "price_without_subscription": 0,
-        "price_with_subscription": 4199,
-        "subscription_price_monthly": 99,
-        "subscription_price_monthly_after_promo": null,
-        "min_cost_6_months": 4842,
-        "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
+        "saved_at": "09-09-2026-10:37",
         "sold_out": "false"
     },
     {
@@ -829,7 +846,24 @@
         "subscription_price_monthly_after_promo": null,
         "min_cost_6_months": 6642,
         "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
+        "saved_at": "09-09-2026-10:37",
+        "sold_out": "false"
+    },
+    {
+        "link": "https://www.callme.dk/shop/apple/apple-ipad/apple-ipad-air-11-wifi-128gb-2025-med-abonnement/",
+        "product_name": "iPad Air 11 M3 Wi-Fi 128GB",
+        "image_url": "/images/callme/ipad_air_11_m3_wi_fi_128gb.webp",
+        "provider": "CallMe",
+        "type": "tablet",
+        "signup_price": 0,
+        "data_gb": 0,
+        "price_without_subscription": 0,
+        "price_with_subscription": 4199,
+        "subscription_price_monthly": 99,
+        "subscription_price_monthly_after_promo": null,
+        "min_cost_6_months": 4842,
+        "discount_on_product": 0,
+        "saved_at": "09-09-2026-10:37",
         "sold_out": "false"
     },
     {
@@ -846,7 +880,7 @@
         "subscription_price_monthly_after_promo": null,
         "min_cost_6_months": 2642,
         "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
+        "saved_at": "09-09-2026-10:37",
         "sold_out": "false"
     },
     {
@@ -863,7 +897,7 @@
         "subscription_price_monthly_after_promo": null,
         "min_cost_6_months": 6642,
         "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
+        "saved_at": "09-09-2026-10:37",
         "sold_out": "false"
     },
     {
@@ -880,7 +914,7 @@
         "subscription_price_monthly_after_promo": null,
         "min_cost_6_months": 8142,
         "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
+        "saved_at": "09-09-2026-10:37",
         "sold_out": "false"
     },
     {
@@ -897,24 +931,7 @@
         "subscription_price_monthly_after_promo": null,
         "min_cost_6_months": 3142,
         "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
-        "sold_out": "false"
-    },
-    {
-        "link": "https://www.callme.dk/shop/apple/apple-ipad/apple-ipad-air-13-wifi-128gb-2025-med-abonnement/",
-        "product_name": "iPad Air 13 M3 Wi-Fi 128GB",
-        "image_url": "/images/callme/ipad_air_13_m3_wi_fi_128gb.webp",
-        "provider": "CallMe",
-        "type": "tablet",
-        "signup_price": 0,
-        "data_gb": 0,
-        "price_without_subscription": 0,
-        "price_with_subscription": 5899,
-        "subscription_price_monthly": 99,
-        "subscription_price_monthly_after_promo": null,
-        "min_cost_6_months": 6542,
-        "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
+        "saved_at": "09-09-2026-10:37",
         "sold_out": "false"
     },
     {
@@ -931,24 +948,7 @@
         "subscription_price_monthly_after_promo": null,
         "min_cost_6_months": 2642,
         "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
-        "sold_out": "false"
-    },
-    {
-        "link": "https://www.callme.dk/shop/samsung/samsung-tablets/samsung-galaxy-tab-s10fe-wifi/",
-        "product_name": "Samsung Galaxy Tab S10FE WiFi 128GB",
-        "image_url": "/images/callme/samsung_galaxy_tab_s10fe_wifi_128gb.webp",
-        "provider": "CallMe",
-        "type": "tablet",
-        "signup_price": 0,
-        "data_gb": 0,
-        "price_without_subscription": 0,
-        "price_with_subscription": 1499,
-        "subscription_price_monthly": 99,
-        "subscription_price_monthly_after_promo": null,
-        "min_cost_6_months": 2142,
-        "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
+        "saved_at": "09-09-2026-10:37",
         "sold_out": "false"
     },
     {
@@ -965,7 +965,7 @@
         "subscription_price_monthly_after_promo": null,
         "min_cost_6_months": 5642,
         "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
+        "saved_at": "09-09-2026-10:37",
         "sold_out": "false"
     },
     {
@@ -982,7 +982,7 @@
         "subscription_price_monthly_after_promo": null,
         "min_cost_6_months": 8642,
         "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
+        "saved_at": "09-09-2026-10:37",
         "sold_out": "false"
     },
     {
@@ -994,12 +994,12 @@
         "signup_price": 0,
         "data_gb": 0,
         "price_without_subscription": 0,
-        "price_with_subscription": 6499,
+        "price_with_subscription": 6099,
         "subscription_price_monthly": 99,
         "subscription_price_monthly_after_promo": null,
-        "min_cost_6_months": 7142,
+        "min_cost_6_months": 6742,
         "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
+        "saved_at": "09-09-2026-10:37",
         "sold_out": "false"
     },
     {
@@ -1016,24 +1016,7 @@
         "subscription_price_monthly_after_promo": null,
         "min_cost_6_months": 5342,
         "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
-        "sold_out": "false"
-    },
-    {
-        "link": "https://www.callme.dk/shop/apple/apple-ipad-11-a16-2025/",
-        "product_name": "iPad 11 A16 Wi-Fi Cellular 128GB",
-        "image_url": "/images/callme/ipad_11_a16_wi_fi_cellular_128gb.webp",
-        "provider": "CallMe",
-        "type": "tablet",
-        "signup_price": 0,
-        "data_gb": 0,
-        "price_without_subscription": 0,
-        "price_with_subscription": 3999,
-        "subscription_price_monthly": 99,
-        "subscription_price_monthly_after_promo": null,
-        "min_cost_6_months": 4642,
-        "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
+        "saved_at": "09-09-2026-10:37",
         "sold_out": "false"
     },
     {
@@ -1050,7 +1033,24 @@
         "subscription_price_monthly_after_promo": null,
         "min_cost_6_months": 9942,
         "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
+        "saved_at": "09-09-2026-10:37",
+        "sold_out": "false"
+    },
+    {
+        "link": "https://www.callme.dk/shop/apple/apple-ipad-11-a16-2025/",
+        "product_name": "iPad 11 A16 Wi-Fi Cellular 128GB",
+        "image_url": "/images/callme/ipad_11_a16_wi_fi_cellular_128gb.webp",
+        "provider": "CallMe",
+        "type": "tablet",
+        "signup_price": 0,
+        "data_gb": 0,
+        "price_without_subscription": 0,
+        "price_with_subscription": 3999,
+        "subscription_price_monthly": 99,
+        "subscription_price_monthly_after_promo": null,
+        "min_cost_6_months": 4642,
+        "discount_on_product": 0,
+        "saved_at": "09-09-2026-10:37",
         "sold_out": "false"
     },
     {
@@ -1067,24 +1067,7 @@
         "subscription_price_monthly_after_promo": null,
         "min_cost_6_months": 4442,
         "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
-        "sold_out": "false"
-    },
-    {
-        "link": "https://www.callme.dk/shop/apple/apple-ipad/apple-ipad-pro-11-2025-wi-fi-med-abonnement/",
-        "product_name": "iPad Pro 11 M5 Wi-Fi 256GB",
-        "image_url": "/images/callme/ipad_pro_11_m5_wi_fi_256gb.webp",
-        "provider": "CallMe",
-        "type": "tablet",
-        "signup_price": 0,
-        "data_gb": 0,
-        "price_without_subscription": 0,
-        "price_with_subscription": 7499,
-        "subscription_price_monthly": 99,
-        "subscription_price_monthly_after_promo": null,
-        "min_cost_6_months": 8142,
-        "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
+        "saved_at": "09-09-2026-10:37",
         "sold_out": "false"
     },
     {
@@ -1101,7 +1084,7 @@
         "subscription_price_monthly_after_promo": null,
         "min_cost_6_months": 4442,
         "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
+        "saved_at": "09-09-2026-10:37",
         "sold_out": "false"
     },
     {
@@ -1118,24 +1101,24 @@
         "subscription_price_monthly_after_promo": null,
         "min_cost_6_months": 12342,
         "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
+        "saved_at": "09-09-2026-10:37",
         "sold_out": "false"
     },
     {
-        "link": "https://www.callme.dk/shop/apple/apple-ipad-air-11-2025/",
-        "product_name": "iPad Air 11 M3 Wi-Fi Cellular 128GB",
-        "image_url": "/images/callme/ipad_air_11_m3_wi_fi_cellular_128gb.webp",
+        "link": "https://www.callme.dk/shop/apple/apple-ipad/apple-ipad-air-13-wifi-128gb-2025-med-abonnement/",
+        "product_name": "iPad Air 13 M3 Wi-Fi 128GB",
+        "image_url": "/images/callme/ipad_air_13_m3_wi_fi_128gb.webp",
         "provider": "CallMe",
         "type": "tablet",
         "signup_price": 0,
         "data_gb": 0,
         "price_without_subscription": 0,
-        "price_with_subscription": 5999,
+        "price_with_subscription": 5899,
         "subscription_price_monthly": 99,
         "subscription_price_monthly_after_promo": null,
-        "min_cost_6_months": 6642,
+        "min_cost_6_months": 6542,
         "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
+        "saved_at": "09-09-2026-10:37",
         "sold_out": "false"
     },
     {
@@ -1152,7 +1135,24 @@
         "subscription_price_monthly_after_promo": null,
         "min_cost_6_months": 7842,
         "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
+        "saved_at": "09-09-2026-10:37",
+        "sold_out": "false"
+    },
+    {
+        "link": "https://www.callme.dk/shop/apple/apple-ipad-air-11-2025/",
+        "product_name": "iPad Air 11 M3 Wi-Fi Cellular 128GB",
+        "image_url": "/images/callme/ipad_air_11_m3_wi_fi_cellular_128gb.webp",
+        "provider": "CallMe",
+        "type": "tablet",
+        "signup_price": 0,
+        "data_gb": 0,
+        "price_without_subscription": 0,
+        "price_with_subscription": 5999,
+        "subscription_price_monthly": 99,
+        "subscription_price_monthly_after_promo": null,
+        "min_cost_6_months": 6642,
+        "discount_on_product": 0,
+        "saved_at": "09-09-2026-10:37",
         "sold_out": "false"
     },
     {
@@ -1169,7 +1169,7 @@
         "subscription_price_monthly_after_promo": null,
         "min_cost_6_months": 4142,
         "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
+        "saved_at": "09-09-2026-10:37",
         "sold_out": "false"
     },
     {
@@ -1186,7 +1186,7 @@
         "subscription_price_monthly_after_promo": null,
         "min_cost_6_months": 4342,
         "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
+        "saved_at": "09-09-2026-10:37",
         "sold_out": "false"
     },
     {
@@ -1203,7 +1203,7 @@
         "subscription_price_monthly_after_promo": null,
         "min_cost_6_months": 6942,
         "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
+        "saved_at": "09-09-2026-10:37",
         "sold_out": "false"
     },
     {
@@ -1220,7 +1220,7 @@
         "subscription_price_monthly_after_promo": null,
         "min_cost_6_months": 1942,
         "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
+        "saved_at": "09-09-2026-10:37",
         "sold_out": "false"
     },
     {
@@ -1237,143 +1237,194 @@
         "subscription_price_monthly_after_promo": null,
         "min_cost_6_months": 7148,
         "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
+        "saved_at": "09-09-2026-10:37",
         "sold_out": "false"
     },
     {
-        "link": "https://www.callme.dk/shop/accessories/apple-magsafe-oplader-1-m/",
-        "product_name": "Apple MagSafe oplader",
-        "image_url": "/images/callme/apple_magsafe_oplader.webp",
+        "link": "https://www.callme.dk/shop/samsung/samsung-galaxy-watch9-40mm-beige-bt/",
+        "product_name": "Samsung Galaxy Watch9 40mm Beige BT",
+        "image_url": "/images/callme/samsung_galaxy_watch9_40mm_beige_bt.webp",
         "provider": "CallMe",
         "type": "gaming",
         "signup_price": 0,
         "data_gb": 0,
         "price_without_subscription": 0,
-        "price_with_subscription": 349,
+        "price_with_subscription": 3099,
         "subscription_price_monthly": null,
         "subscription_price_monthly_after_promo": null,
-        "min_cost_6_months": 398,
+        "min_cost_6_months": 3148,
         "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
+        "saved_at": "09-09-2026-10:37",
         "sold_out": "false"
     },
     {
-        "link": "https://www.callme.dk/shop/accessories/apple-watch-se-2024-gps-44mm-midnight-aluminium-case-med-midnight-sport-band/",
-        "product_name": "Apple Watch SE (2024) GPS 44mm Midnight Aluminium Case med Midnight Sport Band i S/M",
-        "image_url": "/images/callme/apple_watch_se__2024__gps_44mm_midnight_aluminium_case_med_midnight_sport_band_i_s_m.webp",
+        "link": "https://www.callme.dk/shop/samsung/samsung-galaxy-watch9-44mm-graphite-e-sim-ce5d51e3/",
+        "product_name": "Samsung Galaxy Watch9 44mm Graphite e-SIM",
+        "image_url": "/images/callme/samsung_galaxy_watch9_44mm_graphite_e_sim.webp",
         "provider": "CallMe",
         "type": "gaming",
         "signup_price": 0,
         "data_gb": 0,
         "price_without_subscription": 0,
-        "price_with_subscription": 1299,
+        "price_with_subscription": 3699,
         "subscription_price_monthly": null,
         "subscription_price_monthly_after_promo": null,
-        "min_cost_6_months": 1348,
+        "min_cost_6_months": 3748,
         "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
+        "saved_at": "09-09-2026-10:37",
         "sold_out": "false"
     },
     {
-        "link": "https://www.callme.dk/shop/accessories/sandberg-airpods-cleaning-kit/",
-        "product_name": "Sandberg Airpods cleaning kit",
-        "image_url": "/images/callme/sandberg_airpods_cleaning_kit.webp",
+        "link": "https://www.callme.dk/shop/accessories/samsung-galaxy-watch8-classic-esim/",
+        "product_name": "Samsung Galaxy Watch8 Classic eSim - Sort",
+        "image_url": "/images/callme/samsung_galaxy_watch8_classic_esim___sort.webp",
         "provider": "CallMe",
         "type": "gaming",
         "signup_price": 0,
         "data_gb": 0,
         "price_without_subscription": 0,
-        "price_with_subscription": 79,
+        "price_with_subscription": 4299,
         "subscription_price_monthly": null,
         "subscription_price_monthly_after_promo": null,
-        "min_cost_6_months": 128,
+        "min_cost_6_months": 4348,
         "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
+        "saved_at": "09-09-2026-10:37",
         "sold_out": "false"
     },
     {
-        "link": "https://www.callme.dk/shop/accessories/care-tango-2i1-wallet-iphone-16-plus/",
-        "product_name": "CARE Tango 2i1 Wallet iPhone 16 Plus",
-        "image_url": "/images/callme/care_tango_2i1_wallet_iphone_16_plus.webp",
+        "link": "https://www.callme.dk/shop/accessories/samsung-tilbehor/samsung-galaxy-watch-ultra-2025/",
+        "product_name": "Samsung Galaxy Watch Ultra (2025) Titanium Gray",
+        "image_url": "/images/callme/samsung_galaxy_watch_ultra__2025__titanium_gray.webp",
         "provider": "CallMe",
         "type": "gaming",
         "signup_price": 0,
         "data_gb": 0,
         "price_without_subscription": 0,
-        "price_with_subscription": 149,
+        "price_with_subscription": 4999,
         "subscription_price_monthly": null,
         "subscription_price_monthly_after_promo": null,
-        "min_cost_6_months": 198,
+        "min_cost_6_months": 5048,
         "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
+        "saved_at": "09-09-2026-10:37",
         "sold_out": "false"
     },
     {
-        "link": "https://www.callme.dk/shop/inriverassociations/care-tango-2i1-wallet-iphone-16/",
-        "product_name": "CARE Tango 2i1 Wallet iPhone 16",
-        "image_url": "/images/callme/care_tango_2i1_wallet_iphone_16.webp",
+        "link": "https://www.callme.dk/shop/accessories/apple-iphone-11-pro-max-leather-case/",
+        "product_name": "Apple iPhone 11 Pro Max Leather Case - Midnight Blue",
+        "image_url": "/images/callme/apple_iphone_11_pro_max_leather_case___midnight_blue.webp",
         "provider": "CallMe",
         "type": "gaming",
+        "signup_price": 0,
+        "data_gb": 0,
+        "price_without_subscription": 0,
+        "price_with_subscription": 99,
+        "subscription_price_monthly": null,
+        "subscription_price_monthly_after_promo": null,
+        "min_cost_6_months": 148,
+        "discount_on_product": 0,
+        "saved_at": "09-09-2026-10:37",
+        "sold_out": "false"
+    },
+    {
+        "link": "https://www.callme.dk/shop/accessories/apple-airpods-max/",
+        "product_name": "Apple AirPods Max - Midnight",
+        "image_url": "/images/callme/apple_airpods_max___midnight.webp",
+        "provider": "CallMe",
+        "type": "gaming",
+        "signup_price": 0,
+        "data_gb": 0,
+        "price_without_subscription": 0,
+        "price_with_subscription": 4299,
+        "subscription_price_monthly": null,
+        "subscription_price_monthly_after_promo": null,
+        "min_cost_6_months": 4348,
+        "discount_on_product": 0,
+        "saved_at": "09-09-2026-10:37",
+        "sold_out": "false"
+    },
+    {
+        "link": "https://www.callme.dk/shop/accessories/apple-iphone-11-pro-max-silicone-case/",
+        "product_name": "Apple iPhone 11 Pro Max Silicone Case - Hvid",
+        "image_url": "/images/callme/apple_iphone_11_pro_max_silicone_case___hvid.webp",
+        "provider": "CallMe",
+        "type": "gaming",
+        "signup_price": 0,
+        "data_gb": 0,
+        "price_without_subscription": 0,
+        "price_with_subscription": 99,
+        "subscription_price_monthly": null,
+        "subscription_price_monthly_after_promo": null,
+        "min_cost_6_months": 148,
+        "discount_on_product": 0,
+        "saved_at": "09-09-2026-10:37",
+        "sold_out": "false"
+    },
+    {
+        "link": "https://www.callme.dk/shop/accessories/panzerglass-tilbehor/panzerglass-iphone-1212-pro/",
+        "product_name": "PanzerGlass iPhone 12|12 Pro",
+        "image_url": "/images/callme/panzerglass_iphone_12_12_pro.webp",
+        "provider": "CallMe",
+        "type": "gaming",
+        "signup_price": 0,
+        "data_gb": 0,
+        "price_without_subscription": 0,
+        "price_with_subscription": 7425,
+        "subscription_price_monthly": null,
+        "subscription_price_monthly_after_promo": null,
+        "min_cost_6_months": null,
+        "discount_on_product": 0,
+        "saved_at": "09-09-2026-10:37",
+        "sold_out": "false"
+    },
+    {
+        "link": "https://www.callme.dk/shop/tilbehor-med-abonnement/harman-kardon-onyx-studio-9-med-abonnement/",
+        "product_name": "Harman Kardon Onyx Studio 9 med abonnement - Grå",
+        "image_url": "/images/callme/harman_kardon_onyx_studio_9_med_abonnement___gr_.webp",
+        "provider": "CallMe",
+        "type": "audio",
+        "signup_price": 0,
+        "data_gb": 0,
+        "price_without_subscription": 0,
+        "price_with_subscription": 399,
+        "subscription_price_monthly": 99,
+        "subscription_price_monthly_after_promo": null,
+        "min_cost_6_months": 1042,
+        "discount_on_product": 0,
+        "saved_at": "09-09-2026-10:37",
+        "sold_out": "false"
+    },
+    {
+        "link": "https://www.callme.dk/shop/tilbehor-med-abonnement/harman-kardon-luna---med-abonnement/",
+        "product_name": "Harman Kardon Luna - Grå med abonnement",
+        "image_url": "/images/callme/harman_kardon_luna___gr__med_abonnement.webp",
+        "provider": "CallMe",
+        "type": "audio",
+        "signup_price": 0,
+        "data_gb": 0,
+        "price_without_subscription": 0,
+        "price_with_subscription": 199,
+        "subscription_price_monthly": 99,
+        "subscription_price_monthly_after_promo": null,
+        "min_cost_6_months": 842,
+        "discount_on_product": 0,
+        "saved_at": "09-09-2026-10:37",
+        "sold_out": "false"
+    },
+    {
+        "link": "https://www.callme.dk/shop/tilbehor-med-abonnement/zte-k2-pro-sort-med-abonnement/",
+        "product_name": "ZTE K2 Pro Sort med abonnement",
+        "image_url": "/images/callme/zte_k2_pro_sort_med_abonnement.webp",
+        "provider": "CallMe",
+        "type": "accessory",
         "signup_price": 0,
         "data_gb": 0,
         "price_without_subscription": 0,
         "price_with_subscription": 299,
-        "subscription_price_monthly": null,
+        "subscription_price_monthly": 99,
         "subscription_price_monthly_after_promo": null,
-        "min_cost_6_months": 348,
+        "min_cost_6_months": 942,
         "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
-        "sold_out": "false"
-    },
-    {
-        "link": "https://www.callme.dk/shop/accessories/care-tango-2i1-wallet-iphone-16-pro-max/",
-        "product_name": "CARE Tango 2i1 Wallet iPhone 16 Pro Max",
-        "image_url": "/images/callme/care_tango_2i1_wallet_iphone_16_pro_max.webp",
-        "provider": "CallMe",
-        "type": "gaming",
-        "signup_price": 0,
-        "data_gb": 0,
-        "price_without_subscription": 0,
-        "price_with_subscription": 149,
-        "subscription_price_monthly": null,
-        "subscription_price_monthly_after_promo": null,
-        "min_cost_6_months": 198,
-        "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
-        "sold_out": "false"
-    },
-    {
-        "link": "https://www.callme.dk/shop/accessories/care-transparent-cover-iphone-16/",
-        "product_name": "CARE Transparent Cover iPhone 16",
-        "image_url": "/images/callme/care_transparent_cover_iphone_16.webp",
-        "provider": "CallMe",
-        "type": "gaming",
-        "signup_price": 0,
-        "data_gb": 0,
-        "price_without_subscription": 0,
-        "price_with_subscription": 149,
-        "subscription_price_monthly": null,
-        "subscription_price_monthly_after_promo": null,
-        "min_cost_6_months": 198,
-        "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
-        "sold_out": "false"
-    },
-    {
-        "link": "https://www.callme.dk/shop/accessories/jbl-partylight-beam-projektor/",
-        "product_name": "JBL Partylight Beam Projektor",
-        "image_url": "/images/callme/jbl_partylight_beam_projektor.webp",
-        "provider": "CallMe",
-        "type": "gaming",
-        "signup_price": 0,
-        "data_gb": 0,
-        "price_without_subscription": 0,
-        "price_with_subscription": 999,
-        "subscription_price_monthly": null,
-        "subscription_price_monthly_after_promo": null,
-        "min_cost_6_months": 1048,
-        "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
+        "saved_at": "09-09-2026-10:37",
         "sold_out": "false"
     },
     {
@@ -1385,12 +1436,12 @@
         "signup_price": 0,
         "data_gb": 0,
         "price_without_subscription": 0,
-        "price_with_subscription": 1299,
+        "price_with_subscription": 1499,
         "subscription_price_monthly": 99,
         "subscription_price_monthly_after_promo": null,
-        "min_cost_6_months": 1942,
+        "min_cost_6_months": 2142,
         "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
+        "saved_at": "09-09-2026-10:37",
         "sold_out": "false"
     },
     {
@@ -1402,12 +1453,12 @@
         "signup_price": 0,
         "data_gb": 0,
         "price_without_subscription": 0,
-        "price_with_subscription": 299,
+        "price_with_subscription": 1499,
         "subscription_price_monthly": 99,
         "subscription_price_monthly_after_promo": null,
-        "min_cost_6_months": 942,
+        "min_cost_6_months": 2142,
         "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
+        "saved_at": "09-09-2026-10:37",
         "sold_out": "false"
     },
     {
@@ -1419,12 +1470,12 @@
         "signup_price": 0,
         "data_gb": 0,
         "price_without_subscription": 0,
-        "price_with_subscription": 1199,
+        "price_with_subscription": 1299,
         "subscription_price_monthly": 99,
         "subscription_price_monthly_after_promo": null,
-        "min_cost_6_months": 1842,
+        "min_cost_6_months": 1942,
         "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
+        "saved_at": "09-09-2026-10:37",
         "sold_out": "false"
     },
     {
@@ -1436,12 +1487,12 @@
         "signup_price": 0,
         "data_gb": 0,
         "price_without_subscription": 0,
-        "price_with_subscription": 599,
+        "price_with_subscription": 1299,
         "subscription_price_monthly": 99,
         "subscription_price_monthly_after_promo": null,
-        "min_cost_6_months": 1242,
+        "min_cost_6_months": 1942,
         "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
+        "saved_at": "09-09-2026-10:37",
         "sold_out": "false"
     },
     {
@@ -1453,12 +1504,12 @@
         "signup_price": 0,
         "data_gb": 0,
         "price_without_subscription": 0,
-        "price_with_subscription": 1499,
+        "price_with_subscription": 2499,
         "subscription_price_monthly": 99,
         "subscription_price_monthly_after_promo": null,
-        "min_cost_6_months": 2142,
+        "min_cost_6_months": 3142,
         "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
+        "saved_at": "09-09-2026-10:37",
         "sold_out": "false"
     },
     {
@@ -1470,12 +1521,12 @@
         "signup_price": 0,
         "data_gb": 0,
         "price_without_subscription": 0,
-        "price_with_subscription": 499,
+        "price_with_subscription": 999,
         "subscription_price_monthly": 99,
         "subscription_price_monthly_after_promo": null,
-        "min_cost_6_months": 1142,
+        "min_cost_6_months": 1642,
         "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
+        "saved_at": "09-09-2026-10:37",
         "sold_out": "false"
     },
     {
@@ -1487,12 +1538,12 @@
         "signup_price": 0,
         "data_gb": 0,
         "price_without_subscription": 0,
-        "price_with_subscription": 999,
+        "price_with_subscription": 1999,
         "subscription_price_monthly": 99,
         "subscription_price_monthly_after_promo": null,
-        "min_cost_6_months": 1642,
+        "min_cost_6_months": 2642,
         "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
+        "saved_at": "09-09-2026-10:37",
         "sold_out": "false"
     },
     {
@@ -1504,12 +1555,12 @@
         "signup_price": 0,
         "data_gb": 0,
         "price_without_subscription": 0,
-        "price_with_subscription": 5499,
+        "price_with_subscription": 6999,
         "subscription_price_monthly": 99,
         "subscription_price_monthly_after_promo": null,
-        "min_cost_6_months": 6142,
+        "min_cost_6_months": 7642,
         "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
+        "saved_at": "09-09-2026-10:37",
         "sold_out": "false"
     },
     {
@@ -1526,7 +1577,7 @@
         "subscription_price_monthly_after_promo": null,
         "min_cost_6_months": 5542,
         "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
+        "saved_at": "09-09-2026-10:37",
         "sold_out": "false"
     },
     {
@@ -1538,12 +1589,12 @@
         "signup_price": 0,
         "data_gb": 0,
         "price_without_subscription": 0,
-        "price_with_subscription": 5499,
+        "price_with_subscription": 6999,
         "subscription_price_monthly": 99,
         "subscription_price_monthly_after_promo": null,
-        "min_cost_6_months": 6142,
+        "min_cost_6_months": 7642,
         "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
+        "saved_at": "09-09-2026-10:37",
         "sold_out": "false"
     },
     {
@@ -1560,7 +1611,7 @@
         "subscription_price_monthly_after_promo": null,
         "min_cost_6_months": 1442,
         "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
+        "saved_at": "09-09-2026-10:37",
         "sold_out": "false"
     },
     {
@@ -1577,41 +1628,7 @@
         "subscription_price_monthly_after_promo": null,
         "min_cost_6_months": 1742,
         "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
-        "sold_out": "false"
-    },
-    {
-        "link": "https://www.callme.dk/shop/tilbehor-med-abonnement/harman-kardon-onyx-studio-9-med-abonnement/",
-        "product_name": "Harman Kardon Onyx Studio 9 med abonnement - Grå",
-        "image_url": "/images/callme/harman_kardon_onyx_studio_9_med_abonnement___gr_.webp",
-        "provider": "CallMe",
-        "type": "audio",
-        "signup_price": 0,
-        "data_gb": 0,
-        "price_without_subscription": 0,
-        "price_with_subscription": 999,
-        "subscription_price_monthly": 99,
-        "subscription_price_monthly_after_promo": null,
-        "min_cost_6_months": 1642,
-        "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
-        "sold_out": "false"
-    },
-    {
-        "link": "https://www.callme.dk/shop/tilbehor-med-abonnement/harman-kardon-luna---med-abonnement/",
-        "product_name": "Harman Kardon Luna - Grå med abonnement",
-        "image_url": "/images/callme/harman_kardon_luna___gr__med_abonnement.webp",
-        "provider": "CallMe",
-        "type": "audio",
-        "signup_price": 0,
-        "data_gb": 0,
-        "price_without_subscription": 0,
-        "price_with_subscription": 599,
-        "subscription_price_monthly": 99,
-        "subscription_price_monthly_after_promo": null,
-        "min_cost_6_months": 1242,
-        "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
+        "saved_at": "09-09-2026-10:37",
         "sold_out": "false"
     },
     {
@@ -1628,7 +1645,7 @@
         "subscription_price_monthly_after_promo": null,
         "min_cost_6_months": 1142,
         "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
+        "saved_at": "09-09-2026-10:37",
         "sold_out": "false"
     },
     {
@@ -1645,7 +1662,7 @@
         "subscription_price_monthly_after_promo": null,
         "min_cost_6_months": 6442,
         "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
+        "saved_at": "09-09-2026-10:37",
         "sold_out": "false"
     },
     {
@@ -1662,7 +1679,7 @@
         "subscription_price_monthly_after_promo": null,
         "min_cost_6_months": 6142,
         "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
+        "saved_at": "09-09-2026-10:37",
         "sold_out": "false"
     },
     {
@@ -1679,7 +1696,7 @@
         "subscription_price_monthly_after_promo": null,
         "min_cost_6_months": 5642,
         "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
+        "saved_at": "09-09-2026-10:37",
         "sold_out": "false"
     },
     {
@@ -1696,7 +1713,7 @@
         "subscription_price_monthly_after_promo": null,
         "min_cost_6_months": 4942,
         "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
+        "saved_at": "09-09-2026-10:37",
         "sold_out": "false"
     },
     {
@@ -1713,7 +1730,7 @@
         "subscription_price_monthly_after_promo": null,
         "min_cost_6_months": 4442,
         "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
+        "saved_at": "09-09-2026-10:37",
         "sold_out": "false"
     },
     {
@@ -1730,7 +1747,7 @@
         "subscription_price_monthly_after_promo": null,
         "min_cost_6_months": 3642,
         "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
+        "saved_at": "09-09-2026-10:37",
         "sold_out": "false"
     },
     {
@@ -1747,7 +1764,7 @@
         "subscription_price_monthly_after_promo": null,
         "min_cost_6_months": 3942,
         "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
+        "saved_at": "09-09-2026-10:37",
         "sold_out": "false"
     },
     {
@@ -1764,7 +1781,7 @@
         "subscription_price_monthly_after_promo": null,
         "min_cost_6_months": 1142,
         "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
+        "saved_at": "09-09-2026-10:37",
         "sold_out": "false"
     },
     {
@@ -1781,7 +1798,7 @@
         "subscription_price_monthly_after_promo": null,
         "min_cost_6_months": 2142,
         "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
+        "saved_at": "09-09-2026-10:37",
         "sold_out": "false"
     },
     {
@@ -1798,7 +1815,7 @@
         "subscription_price_monthly_after_promo": null,
         "min_cost_6_months": 1142,
         "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
+        "saved_at": "09-09-2026-10:37",
         "sold_out": "false"
     },
     {
@@ -1815,7 +1832,7 @@
         "subscription_price_monthly_after_promo": null,
         "min_cost_6_months": 2142,
         "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
+        "saved_at": "09-09-2026-10:37",
         "sold_out": "false"
     },
     {
@@ -1832,7 +1849,7 @@
         "subscription_price_monthly_after_promo": null,
         "min_cost_6_months": 1642,
         "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
+        "saved_at": "09-09-2026-10:37",
         "sold_out": "false"
     },
     {
@@ -1849,24 +1866,7 @@
         "subscription_price_monthly_after_promo": null,
         "min_cost_6_months": 4242,
         "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
-        "sold_out": "false"
-    },
-    {
-        "link": "https://www.callme.dk/shop/tilbehor-med-abonnement/apple-tv-4k-64gb-med-abonnement-d3520c92/",
-        "product_name": "Apple TV 4K 64GB",
-        "image_url": "/images/callme/apple_tv_4k_64gb.webp",
-        "provider": "CallMe",
-        "type": "accessory",
-        "signup_price": 0,
-        "data_gb": 0,
-        "price_without_subscription": 0,
-        "price_with_subscription": 999,
-        "subscription_price_monthly": 99,
-        "subscription_price_monthly_after_promo": null,
-        "min_cost_6_months": 1642,
-        "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
+        "saved_at": "09-09-2026-10:37",
         "sold_out": "false"
     },
     {
@@ -1883,7 +1883,7 @@
         "subscription_price_monthly_after_promo": null,
         "min_cost_6_months": 942,
         "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
+        "saved_at": "09-09-2026-10:37",
         "sold_out": "false"
     },
     {
@@ -1900,7 +1900,7 @@
         "subscription_price_monthly_after_promo": null,
         "min_cost_6_months": 2342,
         "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
+        "saved_at": "09-09-2026-10:37",
         "sold_out": "false"
     },
     {
@@ -1917,7 +1917,7 @@
         "subscription_price_monthly_after_promo": null,
         "min_cost_6_months": 2342,
         "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
+        "saved_at": "09-09-2026-10:37",
         "sold_out": "false"
     },
     {
@@ -1934,7 +1934,7 @@
         "subscription_price_monthly_after_promo": null,
         "min_cost_6_months": 2642,
         "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
+        "saved_at": "09-09-2026-10:37",
         "sold_out": "false"
     },
     {
@@ -1951,7 +1951,7 @@
         "subscription_price_monthly_after_promo": null,
         "min_cost_6_months": 2642,
         "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
+        "saved_at": "09-09-2026-10:37",
         "sold_out": "false"
     },
     {
@@ -1968,7 +1968,7 @@
         "subscription_price_monthly_after_promo": null,
         "min_cost_6_months": 2842,
         "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
+        "saved_at": "09-09-2026-10:37",
         "sold_out": "false"
     },
     {
@@ -1985,7 +1985,7 @@
         "subscription_price_monthly_after_promo": null,
         "min_cost_6_months": 2842,
         "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
+        "saved_at": "09-09-2026-10:37",
         "sold_out": "false"
     },
     {
@@ -2002,7 +2002,7 @@
         "subscription_price_monthly_after_promo": null,
         "min_cost_6_months": 3142,
         "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
+        "saved_at": "09-09-2026-10:37",
         "sold_out": "false"
     },
     {
@@ -2019,7 +2019,7 @@
         "subscription_price_monthly_after_promo": null,
         "min_cost_6_months": 3142,
         "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
+        "saved_at": "09-09-2026-10:37",
         "sold_out": "false"
     },
     {
@@ -2036,7 +2036,7 @@
         "subscription_price_monthly_after_promo": null,
         "min_cost_6_months": 2442,
         "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
+        "saved_at": "09-09-2026-10:37",
         "sold_out": "false"
     },
     {
@@ -2053,7 +2053,7 @@
         "subscription_price_monthly_after_promo": null,
         "min_cost_6_months": 2142,
         "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
+        "saved_at": "09-09-2026-10:37",
         "sold_out": "false"
     },
     {
@@ -2070,7 +2070,7 @@
         "subscription_price_monthly_after_promo": null,
         "min_cost_6_months": 2242,
         "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
+        "saved_at": "09-09-2026-10:37",
         "sold_out": "false"
     },
     {
@@ -2087,7 +2087,7 @@
         "subscription_price_monthly_after_promo": null,
         "min_cost_6_months": 2642,
         "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
+        "saved_at": "09-09-2026-10:37",
         "sold_out": "false"
     },
     {
@@ -2104,7 +2104,7 @@
         "subscription_price_monthly_after_promo": null,
         "min_cost_6_months": 2642,
         "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
+        "saved_at": "09-09-2026-10:37",
         "sold_out": "false"
     },
     {
@@ -2121,7 +2121,7 @@
         "subscription_price_monthly_after_promo": null,
         "min_cost_6_months": 2942,
         "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
+        "saved_at": "09-09-2026-10:37",
         "sold_out": "false"
     },
     {
@@ -2138,7 +2138,7 @@
         "subscription_price_monthly_after_promo": null,
         "min_cost_6_months": 3942,
         "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
+        "saved_at": "09-09-2026-10:37",
         "sold_out": "false"
     },
     {
@@ -2155,13 +2155,13 @@
         "subscription_price_monthly_after_promo": null,
         "min_cost_6_months": 942,
         "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
+        "saved_at": "09-09-2026-10:37",
         "sold_out": "false"
     },
     {
         "link": "https://www.callme.dk/shop/tilbehor-med-abonnement/jbl-tune-buds-2-med-abonnement/",
-        "product_name": "JBL Tune Buds 2 med abonnement - Sort",
-        "image_url": "/images/callme/jbl_tune_buds_2_med_abonnement___sort.webp",
+        "product_name": "JBL Tune Buds 2 med abonnement - Hvid",
+        "image_url": "/images/callme/jbl_tune_buds_2_med_abonnement___hvid.webp",
         "provider": "CallMe",
         "type": "audio",
         "signup_price": 0,
@@ -2172,7 +2172,7 @@
         "subscription_price_monthly_after_promo": null,
         "min_cost_6_months": 942,
         "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
+        "saved_at": "09-09-2026-10:37",
         "sold_out": "false"
     },
     {
@@ -2189,7 +2189,7 @@
         "subscription_price_monthly_after_promo": null,
         "min_cost_6_months": 942,
         "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
+        "saved_at": "09-09-2026-10:37",
         "sold_out": "false"
     },
     {
@@ -2206,7 +2206,7 @@
         "subscription_price_monthly_after_promo": null,
         "min_cost_6_months": 742,
         "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
+        "saved_at": "09-09-2026-10:37",
         "sold_out": "false"
     },
     {
@@ -2223,24 +2223,7 @@
         "subscription_price_monthly_after_promo": null,
         "min_cost_6_months": 742,
         "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
-        "sold_out": "false"
-    },
-    {
-        "link": "https://www.callme.dk/shop/tilbehor-med-abonnement/google-pixel-watch-3-41mm-bt-med-abonnement/",
-        "product_name": "Google Pixel Watch 3 41mm BT Obsidian med abonnement",
-        "image_url": "/images/callme/google_pixel_watch_3_41mm_bt_obsidian_med_abonnement.webp",
-        "provider": "CallMe",
-        "type": "smartwatch",
-        "signup_price": 0,
-        "data_gb": 0,
-        "price_without_subscription": 0,
-        "price_with_subscription": 1499,
-        "subscription_price_monthly": 99,
-        "subscription_price_monthly_after_promo": null,
-        "min_cost_6_months": 2142,
-        "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
+        "saved_at": "09-09-2026-10:37",
         "sold_out": "false"
     },
     {
@@ -2257,7 +2240,24 @@
         "subscription_price_monthly_after_promo": null,
         "min_cost_6_months": 3042,
         "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
+        "saved_at": "09-09-2026-10:37",
+        "sold_out": "false"
+    },
+    {
+        "link": "https://www.callme.dk/shop/tilbehor-med-abonnement/samsung-galaxy-watch9-40mm-beige-lte-med-abonnement/",
+        "product_name": "Samsung Galaxy Watch9 40mm Beige e-SIM med abonnement",
+        "image_url": "/images/callme/samsung_galaxy_watch9_40mm_beige_e_sim_med_abonnement.webp",
+        "provider": "CallMe",
+        "type": "smartwatch",
+        "signup_price": 0,
+        "data_gb": 0,
+        "price_without_subscription": 0,
+        "price_with_subscription": 3499,
+        "subscription_price_monthly": 99,
+        "subscription_price_monthly_after_promo": null,
+        "min_cost_6_months": 4142,
+        "discount_on_product": 0,
+        "saved_at": "09-09-2026-10:37",
         "sold_out": "false"
     },
     {
@@ -2274,24 +2274,24 @@
         "subscription_price_monthly_after_promo": null,
         "min_cost_6_months": 1142,
         "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
+        "saved_at": "09-09-2026-10:37",
         "sold_out": "false"
     },
     {
-        "link": "https://www.callme.dk/shop/tilbehor-med-abonnement/backbone-one-usb-c-med-abonnement-12222762/",
-        "product_name": "BACKBONE One USB-C",
-        "image_url": "/images/callme/backbone_one_usb_c.webp",
+        "link": "https://www.callme.dk/shop/tilbehor-med-abonnement/google-pixel-watch-3-41mm-bt-med-abonnement/",
+        "product_name": "Google Pixel Watch 3 41mm BT Obsidian med abonnement",
+        "image_url": "/images/callme/google_pixel_watch_3_41mm_bt_obsidian_med_abonnement.webp",
         "provider": "CallMe",
-        "type": "gaming",
+        "type": "smartwatch",
         "signup_price": 0,
         "data_gb": 0,
         "price_without_subscription": 0,
-        "price_with_subscription": 499,
+        "price_with_subscription": 1499,
         "subscription_price_monthly": 99,
         "subscription_price_monthly_after_promo": null,
-        "min_cost_6_months": 1142,
+        "min_cost_6_months": 2142,
         "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
+        "saved_at": "09-09-2026-10:37",
         "sold_out": "false"
     },
     {
@@ -2308,24 +2308,24 @@
         "subscription_price_monthly_after_promo": null,
         "min_cost_6_months": 2142,
         "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
+        "saved_at": "09-09-2026-10:37",
         "sold_out": "false"
     },
     {
-        "link": "https://www.callme.dk/shop/tilbehor-med-abonnement/samsung-galaxy-watch9-40mm-beige-lte-med-abonnement/",
-        "product_name": "Samsung Galaxy Watch9 40mm Beige e-SIM med abonnement",
-        "image_url": "/images/callme/samsung_galaxy_watch9_40mm_beige_e_sim_med_abonnement.webp",
+        "link": "https://www.callme.dk/shop/tilbehor-med-abonnement/samsung-galaxy-watch-ultra2-lte-med-abonnement/",
+        "product_name": "Samsung Galaxy Watch Ultra2 Graphite e-SIM med abonnement",
+        "image_url": "/images/callme/samsung_galaxy_watch_ultra2_graphite_e_sim_med_abonnement.webp",
         "provider": "CallMe",
         "type": "smartwatch",
         "signup_price": 0,
         "data_gb": 0,
         "price_without_subscription": 0,
-        "price_with_subscription": 1799,
+        "price_with_subscription": 5699,
         "subscription_price_monthly": 99,
         "subscription_price_monthly_after_promo": null,
-        "min_cost_6_months": 2442,
+        "min_cost_6_months": 6342,
         "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
+        "saved_at": "09-09-2026-10:37",
         "sold_out": "false"
     },
     {
@@ -2342,41 +2342,24 @@
         "subscription_price_monthly_after_promo": null,
         "min_cost_6_months": 4442,
         "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
+        "saved_at": "09-09-2026-10:37",
         "sold_out": "false"
     },
     {
-        "link": "https://www.callme.dk/shop/tilbehor-med-abonnement/zte-k2-pro-sort-med-abonnement/",
-        "product_name": "ZTE K2 Pro Sort med abonnement",
-        "image_url": "/images/callme/zte_k2_pro_sort_med_abonnement.webp",
+        "link": "https://www.callme.dk/shop/tilbehor-med-abonnement/backbone-one-usb-c-med-abonnement-12222762/",
+        "product_name": "BACKBONE One USB-C",
+        "image_url": "/images/callme/backbone_one_usb_c.webp",
         "provider": "CallMe",
-        "type": "accessory",
+        "type": "gaming",
         "signup_price": 0,
         "data_gb": 0,
         "price_without_subscription": 0,
-        "price_with_subscription": 599,
+        "price_with_subscription": 499,
         "subscription_price_monthly": 99,
         "subscription_price_monthly_after_promo": null,
-        "min_cost_6_months": 1242,
+        "min_cost_6_months": 1142,
         "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
-        "sold_out": "false"
-    },
-    {
-        "link": "https://www.callme.dk/shop/tilbehor-med-abonnement/wavell-4-pro-med-abonnement-8a6dc45d/",
-        "product_name": "Wavell 4 Pro med abonnement",
-        "image_url": "/images/callme/wavell_4_pro_med_abonnement.webp",
-        "provider": "CallMe",
-        "type": "accessory",
-        "signup_price": 0,
-        "data_gb": 0,
-        "price_without_subscription": 0,
-        "price_with_subscription": 99,
-        "subscription_price_monthly": 99,
-        "subscription_price_monthly_after_promo": null,
-        "min_cost_6_months": 742,
-        "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
+        "saved_at": "09-09-2026-10:37",
         "sold_out": "false"
     },
     {
@@ -2393,24 +2376,7 @@
         "subscription_price_monthly_after_promo": null,
         "min_cost_6_months": 3442,
         "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
-        "sold_out": "false"
-    },
-    {
-        "link": "https://www.callme.dk/shop/tilbehor-med-abonnement/wavell-4-sleep-pro-med-abonnement-7103147b/",
-        "product_name": "Wavell 4 Sleep Pro med abonnement",
-        "image_url": "/images/callme/wavell_4_sleep_pro_med_abonnement.webp",
-        "provider": "CallMe",
-        "type": "accessory",
-        "signup_price": 0,
-        "data_gb": 0,
-        "price_without_subscription": 0,
-        "price_with_subscription": 999,
-        "subscription_price_monthly": 99,
-        "subscription_price_monthly_after_promo": null,
-        "min_cost_6_months": 1642,
-        "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
+        "saved_at": "09-09-2026-10:37",
         "sold_out": "false"
     },
     {
@@ -2427,24 +2393,7 @@
         "subscription_price_monthly_after_promo": null,
         "min_cost_6_months": 742,
         "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
-        "sold_out": "false"
-    },
-    {
-        "link": "https://www.callme.dk/shop/tilbehor-med-abonnement/samsung-galaxy-watch-ultra2-lte-med-abonnement/",
-        "product_name": "Samsung Galaxy Watch Ultra2 Graphite e-SIM med abonnement",
-        "image_url": "/images/callme/samsung_galaxy_watch_ultra2_graphite_e_sim_med_abonnement.webp",
-        "provider": "CallMe",
-        "type": "smartwatch",
-        "signup_price": 0,
-        "data_gb": 0,
-        "price_without_subscription": 0,
-        "price_with_subscription": 1299,
-        "subscription_price_monthly": 99,
-        "subscription_price_monthly_after_promo": null,
-        "min_cost_6_months": 1942,
-        "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
+        "saved_at": "09-09-2026-10:37",
         "sold_out": "false"
     },
     {
@@ -2456,63 +2405,12 @@
         "signup_price": 0,
         "data_gb": 0,
         "price_without_subscription": 0,
-        "price_with_subscription": 1999,
+        "price_with_subscription": 3699,
         "subscription_price_monthly": 99,
         "subscription_price_monthly_after_promo": null,
-        "min_cost_6_months": 2642,
+        "min_cost_6_months": 4342,
         "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
-        "sold_out": "false"
-    },
-    {
-        "link": "https://www.callme.dk/shop/apple/apple-airpods-max-med-abonnement/",
-        "product_name": "Apple AirPods Max Midnight med abonnement",
-        "image_url": "/images/callme/apple_airpods_max_midnight_med_abonnement.webp",
-        "provider": "CallMe",
-        "type": "audio",
-        "signup_price": 0,
-        "data_gb": 0,
-        "price_without_subscription": 0,
-        "price_with_subscription": 3999,
-        "subscription_price_monthly": 99,
-        "subscription_price_monthly_after_promo": null,
-        "min_cost_6_months": 4642,
-        "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
-        "sold_out": "false"
-    },
-    {
-        "link": "https://www.callme.dk/shop/tilbehor-med-abonnement/wavell-4-signature-med-abonnement-9c0803e4/",
-        "product_name": "Wavell 4 signature med abonnement",
-        "image_url": "/images/callme/wavell_4_signature_med_abonnement.webp",
-        "provider": "CallMe",
-        "type": "accessory",
-        "signup_price": 0,
-        "data_gb": 0,
-        "price_without_subscription": 0,
-        "price_with_subscription": 99,
-        "subscription_price_monthly": 99,
-        "subscription_price_monthly_after_promo": null,
-        "min_cost_6_months": 742,
-        "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
-        "sold_out": "false"
-    },
-    {
-        "link": "https://www.callme.dk/shop/tilbehor-med-abonnement/seeger-super-slush-med-abonnement-b0678b4c/",
-        "product_name": "Seeger Super Slush med abonnement",
-        "image_url": "/images/callme/seeger_super_slush_med_abonnement.webp",
-        "provider": "CallMe",
-        "type": "accessory",
-        "signup_price": 0,
-        "data_gb": 0,
-        "price_without_subscription": 0,
-        "price_with_subscription": 999,
-        "subscription_price_monthly": 99,
-        "subscription_price_monthly_after_promo": null,
-        "min_cost_6_months": 1642,
-        "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
+        "saved_at": "09-09-2026-10:37",
         "sold_out": "false"
     },
     {
@@ -2529,7 +2427,58 @@
         "subscription_price_monthly_after_promo": null,
         "min_cost_6_months": 742,
         "discount_on_product": 0,
-        "saved_at": "12-08-2026-07:18",
+        "saved_at": "09-09-2026-10:37",
+        "sold_out": "false"
+    },
+    {
+        "link": "https://www.callme.dk/shop/apple/apple-airpods-max-med-abonnement/",
+        "product_name": "Apple AirPods Max Midnight med abonnement",
+        "image_url": "/images/callme/apple_airpods_max_midnight_med_abonnement.webp",
+        "provider": "CallMe",
+        "type": "audio",
+        "signup_price": 0,
+        "data_gb": 0,
+        "price_without_subscription": 0,
+        "price_with_subscription": 3999,
+        "subscription_price_monthly": 99,
+        "subscription_price_monthly_after_promo": null,
+        "min_cost_6_months": 4642,
+        "discount_on_product": 0,
+        "saved_at": "09-09-2026-10:37",
+        "sold_out": "false"
+    },
+    {
+        "link": "https://www.callme.dk/shop/tilbehor-med-abonnement/wavell-4-signature-med-abonnement-9c0803e4/",
+        "product_name": "Wavell 4 signature med abonnement",
+        "image_url": "/images/callme/wavell_4_signature_med_abonnement.webp",
+        "provider": "CallMe",
+        "type": "accessory",
+        "signup_price": 0,
+        "data_gb": 0,
+        "price_without_subscription": 0,
+        "price_with_subscription": 99,
+        "subscription_price_monthly": 99,
+        "subscription_price_monthly_after_promo": null,
+        "min_cost_6_months": 742,
+        "discount_on_product": 0,
+        "saved_at": "09-09-2026-10:37",
+        "sold_out": "false"
+    },
+    {
+        "link": "https://www.callme.dk/shop/tilbehor-med-abonnement/seeger-super-slush-med-abonnement-b0678b4c/",
+        "product_name": "Seeger Super Slush med abonnement",
+        "image_url": "/images/callme/seeger_super_slush_med_abonnement.webp",
+        "provider": "CallMe",
+        "type": "accessory",
+        "signup_price": 0,
+        "data_gb": 0,
+        "price_without_subscription": 0,
+        "price_with_subscription": 999,
+        "subscription_price_monthly": 99,
+        "subscription_price_monthly_after_promo": null,
+        "min_cost_6_months": 1642,
+        "discount_on_product": 0,
+        "saved_at": "09-09-2026-10:37",
         "sold_out": "false"
     }
 ]
