@@ -4,7 +4,7 @@ import os
 from pathlib import Path
 from typing import TYPE_CHECKING
 from playwright.sync_api import sync_playwright
-from scraper_utils import download_image_cached, now_timestamp, write_json, log, offer_summary
+from scraper_utils import download_image_cached, now_timestamp, write_json, log, offer_summary, skip_if_blacklisted
 
 if TYPE_CHECKING:
     from playwright._impl._api_structures import SetCookieParam
@@ -218,7 +218,7 @@ def scrape_cbb():
         for phone in phones_list:
             entry = build_entry(phone, page, date_time)
             product_name = str(entry.get("product_name", ""))
-            if "brugt" not in product_name.lower():
+            if not skip_if_blacklisted(product_name):
                 cleaned_results.append(entry)
                 offer_summary(
                     product_name,

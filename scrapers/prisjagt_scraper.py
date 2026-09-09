@@ -9,7 +9,7 @@ from difflib import SequenceMatcher
 from playwright.sync_api import ViewportSize, sync_playwright
 from playwright_stealth import Stealth
 from provider_sources import PROVIDER_SOURCES
-from scraper_utils import log
+from scraper_utils import log, is_blacklisted
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 VIEWPORT: ViewportSize = {"width": 1920, "height": 1080}
@@ -262,6 +262,12 @@ def scrape_prisjagt():
                     products.append(name)
 
     products = list(set(products))
+
+    # drop globally blacklisted products so we never spend a lookup on them
+    blacklisted = [name for name in products if is_blacklisted(name)]
+    if blacklisted:
+        log(f"Skipping {len(blacklisted)} blacklisted product(s)")
+    products = [name for name in products if not is_blacklisted(name)]
 
     results = {}
     date_time = datetime.datetime.now().strftime("%d-%m-%Y-%H:%M")

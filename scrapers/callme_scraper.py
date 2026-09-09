@@ -3,7 +3,7 @@ import os
 from pathlib import Path
 from typing import TYPE_CHECKING, Any
 from playwright.sync_api import sync_playwright
-from scraper_utils import download_image_cached, now_timestamp, write_json, log, offer_summary, apply_name_substitutions
+from scraper_utils import download_image_cached, now_timestamp, write_json, log, offer_summary, apply_name_substitutions, skip_if_blacklisted
 
 if TYPE_CHECKING:
     SetCookieParam = Any
@@ -262,7 +262,7 @@ def scrape_callme():
                 if not entry:
                     continue
                 name = entry["product_name"]
-                if name and name not in seen_names and "brugt" not in name.lower():
+                if name and name not in seen_names and not skip_if_blacklisted(name):
                     seen_names.add(name)
                     all_entries.append(entry)
                     offer_summary(

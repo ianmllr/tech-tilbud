@@ -7,6 +7,22 @@ from typing import Any
 
 import requests
 
+from product_blacklist import blacklist_match, is_blacklisted
+
+__all__ = [
+    "apply_name_substitutions",
+    "blacklist_match",
+    "download_image_cached",
+    "error",
+    "is_blacklisted",
+    "log",
+    "now_timestamp",
+    "offer_summary",
+    "skip_if_blacklisted",
+    "warn",
+    "write_json",
+]
+
 # manual substitutions for product names that are too inconsistent to reliably parse price data from. the keys are regex
 # patterns that are applied to the raw product name, and the values are the normalized product names that are used for
 # price extraction
@@ -63,6 +79,15 @@ def apply_name_substitutions(product_name):
 
 def now_timestamp() -> str:
     return datetime.datetime.now().strftime("%d-%m-%Y-%H:%M")
+
+
+def skip_if_blacklisted(product_name: str | None, *, indent: str = "  ") -> bool:
+    """Return True (and log why) when a product is globally blacklisted."""
+    matched = blacklist_match(product_name)
+    if matched:
+        log(f"{indent}Skipping blacklisted product ('{matched}'): {product_name}")
+        return True
+    return False
 
 
 def write_json(path: Path, data: Any) -> None:

@@ -2,7 +2,7 @@ import re
 from bs4 import BeautifulSoup
 from pathlib import Path
 from playwright.sync_api import ViewportSize, sync_playwright
-from scraper_utils import download_image_cached, now_timestamp, write_json, log, offer_summary
+from scraper_utils import download_image_cached, now_timestamp, write_json, log, offer_summary, skip_if_blacklisted
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 BASE_URL = "https://www.telmore.dk"
@@ -163,8 +163,7 @@ def scrape_telmore_tilgift():
                 "saved_at": date_time
             }
 
-            if "brugt" in full_name.lower():
-                log(f"  Skipping used product: {full_name}")
+            if skip_if_blacklisted(full_name):
                 continue
 
             scraped_data.append(item)

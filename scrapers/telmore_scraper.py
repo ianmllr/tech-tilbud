@@ -2,7 +2,7 @@ import re
 from bs4 import BeautifulSoup
 from pathlib import Path
 from playwright.sync_api import ViewportSize, sync_playwright
-from scraper_utils import download_image_cached, now_timestamp, write_json, log
+from scraper_utils import download_image_cached, now_timestamp, write_json, log, skip_if_blacklisted
 
 # setup
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -135,8 +135,7 @@ def scrape_telmore():
             if item["link"]:
                 item["subscription_price_monthly"] = scrape_detail_page(page, item["link"])
 
-            if "brugt" in item["product_name"].lower():
-                log(f"  Skipping used product: {item['product_name']}")
+            if skip_if_blacklisted(item["product_name"]):
                 continue
 
             def fmt(value):

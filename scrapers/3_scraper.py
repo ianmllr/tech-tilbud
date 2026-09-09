@@ -3,7 +3,7 @@ import dataclasses
 import os
 from pathlib import Path
 from playwright.sync_api import ViewportSize, sync_playwright
-from scraper_utils import download_image_cached, now_timestamp, write_json, log, offer_summary
+from scraper_utils import download_image_cached, now_timestamp, write_json, log, offer_summary, skip_if_blacklisted
 
 
 BASE_DIR = Path(__file__).parent.parent
@@ -245,7 +245,7 @@ def scrape_3():
         for url, product_type in product_links:
             log(f"Scraping: {url}")
             offer = scrape_product_page(page, url, saved_at, product_type)
-            if offer and offer.product_name not in seen_names and "brugt" not in offer.product_name.lower():
+            if offer and offer.product_name not in seen_names and not skip_if_blacklisted(offer.product_name):
                 seen_names.add(offer.product_name)
                 all_offers.append(offer)
 

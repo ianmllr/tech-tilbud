@@ -1,7 +1,7 @@
 import re
 from pathlib import Path
 from playwright.sync_api import ViewportSize, sync_playwright
-from scraper_utils import download_image_cached, now_timestamp, write_json, log, apply_name_substitutions
+from scraper_utils import download_image_cached, now_timestamp, write_json, log, apply_name_substitutions, skip_if_blacklisted
 
 BASE_DIR  = Path(__file__).parent.parent
 IMAGE_DIR = BASE_DIR / "public" / "images" / "norlys"
@@ -24,23 +24,6 @@ CATEGORY_URLS: dict[str, str] = {
 
 MAX_SUBSCRIPTIONS = 5
 
-# blacklisted names. this is needed because norlys offers gaming laptops which are very poorly named making them extremely hard
-# to reliably extract price data from. these products can not be filtered out by scraping specific parts of the site
-# because they are hidden on even non-gaming related pages.
-PRODUCT_BLACKLIST = [
-    "loq",
-    "bærbar",
-    "legion"
-]
-
-
-def is_product_blacklisted(product_name: str) -> bool:
-    """Check if a product name matches any blacklist entry."""
-    product_lower = product_name.lower()
-    for blacklist_item in PRODUCT_BLACKLIST:
-        if blacklist_item.lower() in product_lower:
-            return True
-    return False
 
 
 def normalize_product_name(product_name: str) -> str:
@@ -234,7 +217,7 @@ def scrape_norlys():
                 seen_slugs.add(slug)
 
                 offer = scrape_product(page, href, product_type, saved_at)
-                if offer and not is_product_blacklisted(offer.get("product_name", "")):
+                if offer and not skip_if_blacklisted(offer.get("product_name", "")):
                     all_offers.append(offer)
 
         context.close()

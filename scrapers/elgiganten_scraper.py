@@ -2,7 +2,7 @@ import time
 import re
 from playwright.sync_api import ViewportSize, sync_playwright
 from pathlib import Path
-from scraper_utils import download_image_cached, now_timestamp, write_json, log, offer_summary
+from scraper_utils import download_image_cached, now_timestamp, write_json, log, offer_summary, skip_if_blacklisted
 
 # setup
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -115,6 +115,10 @@ def scrape_elgiganten():
                         if clean_name in seen_products:
                             continue
                         seen_products.add(clean_name)
+
+                        # skip blacklisted products before doing the expensive API calls
+                        if skip_if_blacklisted(clean_name):
+                            continue
 
                         price_data = browser_page.evaluate(f"""async () => {{
                             const res = await fetch('/api/price/{sku}');

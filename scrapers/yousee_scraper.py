@@ -2,7 +2,7 @@ import re
 import dataclasses
 from pathlib import Path
 from playwright.sync_api import ViewportSize, sync_playwright
-from scraper_utils import download_image_cached, now_timestamp, write_json, log
+from scraper_utils import download_image_cached, now_timestamp, write_json, log, skip_if_blacklisted
 
 BASE_DIR  = Path(__file__).parent.parent
 IMAGE_DIR = BASE_DIR / "public" / "images" / "yousee"
@@ -179,7 +179,7 @@ def scrape_listing_page(page, cat_url: str, product_type: str, saved_at: str, se
 
     for card in cards:
         offer = extract_card(card, product_type, saved_at, storage_label)
-        if offer and offer.product_name and offer.product_name not in seen_names and "brugt" not in offer.product_name.lower():
+        if offer and offer.product_name and offer.product_name not in seen_names and not skip_if_blacklisted(offer.product_name):
             seen_names.add(offer.product_name)
             all_offers.append(offer)
 

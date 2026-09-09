@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 import re
 from pathlib import Path
 from typing import TypedDict
-from scraper_utils import download_image_cached, now_timestamp, write_json, log, offer_summary
+from scraper_utils import download_image_cached, now_timestamp, write_json, log, offer_summary, skip_if_blacklisted
 
 # setup
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -11,11 +11,6 @@ AFFILIATE_PREFIX = "https://go.adt284.net/t/t?a=1666103641&as=2054240298&t=2&tk=
 DATA_DIR = BASE_DIR / "data" / "oister"
 IMAGE_DIR = BASE_DIR / "public" / "images" / "oister"
 OUTPUT_PATH = DATA_DIR / "oister_offers.json"
-
-# blocked products due to bad naming by oister (will be skipped)
-BLOCKED_PRODUCTS = [
-    "Robotstøvsuger"
-]
 
 SOUND_KEYWORDS = ['urbanista', 'airpods', 'galaxy buds', 'jabra', 'soundcore',
                   'bose', 'jbl', 'headphones', 'høretelefoner', 'earbuds', 'speaker', 'højttaler']
@@ -139,11 +134,8 @@ def scrape_oister():
             log(f"  Skipping — could not determine product name for {href}")
             continue
 
-        # check blocklist
-        name_lower = product_name.lower()
-        if any(keyword.lower() in name_lower for keyword in BLOCKED_PRODUCTS):
-            matched = next(k for k in BLOCKED_PRODUCTS if k.lower() in name_lower)
-            log(f"  Skipping blocked product: {product_name} (matched: '{matched}')")
+        # check global blacklist
+        if skip_if_blacklisted(product_name):
             continue
 
         # discount / retail value

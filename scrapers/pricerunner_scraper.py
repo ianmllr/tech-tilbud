@@ -9,7 +9,7 @@ from pathlib import Path
 from playwright.sync_api import ViewportSize, sync_playwright
 from playwright_stealth import Stealth
 from provider_sources import PROVIDER_SOURCES
-from scraper_utils import log, apply_name_substitutions
+from scraper_utils import log, apply_name_substitutions, is_blacklisted
 
 # setup
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -174,10 +174,79 @@ def parse_price_text(price_text):
     # convert e.g. "10.899,00 kr." -> 10899
     if not price_text:
         return None
-    price_clean = re.sub(r'\.(?=\d{3}(\D|$))', '', price_text)  # strip thousands dots
-    price_clean = re.sub(r',\d+', '', price_clean)                # strip decimal fraction
-    digits = "".join(re.findall(r'\d+', price_clean))
-    return int(digits) if digits else None
+    lowered = price_text.lower()
+    # ignore recurring-payment / financing strings so we don't treat monthly price
+    # values (e.g. "2.783 kr./md.") as the market price.
+    if any(marker in lowered for marker in [
+        '/md', 'kr/md', 'kr. md', 'pr. md', 'pr md', 'pr. måned', 'pr måned',
+        'måned', 'måneds', 'betalinger af', 'afdrag', 'herefter', 'derefter', 'mdr',
+        'brugt', 'brugte', 'used', 'fragt', 'levering', 'shipping',
+    ]):
+        return None
+    # Extract standalone price-like tokens ending in kr.
+    matches = re.findall(r'(\d{1,3}(?:\.\d{3})+|\d{4,})\s*kr\.?', price_text, flags=re.IGNORECASE)
+    if not matches:
+        return None
+    prices = [int(m.replace('.', '')) for m in matches]
+    # If the snippet contains multiple price numbers without an explicit context,
+    # treat it as ambiguous and skip it.
+    if len(prices) > 1:
+        if 'laveste pris' in lowered or 'sammenlign priser fra' in lowered:
+            return prices[0]
+        return None
+    return prices[0]
+
+
+def extract_laveste_pris(page) -> int | None:
+    # Prefer the explicit "Laveste pris" section on the detail page.
+    try:
+        main = page.locator("main").first
+        if main.count():
+            text = main.inner_text() or ""
+        else:
+            text = page.inner_text("body")
+    except Exception:
+        return None
+
+    hits = re.findall(r'Laveste pris[\s\S]{0,140}?(\d{1,3}(?:\.\d{3})+|\d{4,})\s*kr', text, flags=re.IGNORECASE)
+    if not hits:
+        return None
+    return int(hits[0].replace('.', ''))
+
+
+def extract_offer_row_prices(page) -> list[int]:
+    # Fallback: collect one-time product prices from offer rows only, excluding
+    # used, shipping and installment contexts.
+    try:
+        prices = page.evaluate("""() => {
+            const root = document.querySelector('main') || document.body;
+            const nodes = root.querySelectorAll('span, strong, p, div, a');
+            const out = [];
+            const priceRe = /^\s*\d{1,3}(?:\.\d{3})*\s*kr\.?\s*$/i;
+            const banned = ['brugt', 'brugte', 'used', 'fragt', 'levering', 'shipping', '/md', 'pr. md', 'pr md', 'måned', 'måneds', 'betalinger af', 'afdrag'];
+            for (const n of nodes) {
+                const t = (n.innerText || n.textContent || '').trim();
+                if (!priceRe.test(t)) continue;
+                let ctx = '';
+                let p = n;
+                for (let i = 0; i < 3 && p; i++) {
+                    ctx += ' ' + ((p.innerText || p.textContent || '').toLowerCase());
+                    p = p.parentElement;
+                }
+                if (banned.some(b => ctx.includes(b))) continue;
+                out.push(t);
+            }
+            return Array.from(new Set(out));
+        }""")
+    except Exception:
+        return []
+
+    parsed: list[int] = []
+    for t in prices:
+        p = parse_price_text(t)
+        if p is not None:
+            parsed.append(p)
+    return parsed
 
 
 def get_market_price(page, product_name):
@@ -199,37 +268,38 @@ def get_market_price(page, product_name):
         log(f"No product cards found")
         return None, True
 
-    # collect (title, price_text) for every card
+    # collect (title, href, price_texts) for every card
     candidates = []
     for link in card_links:
         title = (link.get_attribute('title') or '').strip()
+        href = (link.get_attribute('href') or '').strip()
         if not title:
             continue
 
-        # walk up the DOM until we find a container with a "kr." span
-        # skip spans starting with "-" — those are discount badges, not prices
-        price_text = None
+        # Collect multiple nearby price-like spans (array) instead of a single price.
+        price_texts = []
         try:
-            price_text = link.evaluate("""el => {
+            price_texts = link.evaluate("""el => {
                 let node = el.parentElement;
+                const found = [];
                 for (let i = 0; i < 6; i++) {
                     if (!node) break;
-                    const spans = node.querySelectorAll('span');
+                    const spans = node.querySelectorAll('span, div, p, li');
                     for (const s of spans) {
                         const t = (s.innerText || s.textContent || '').trim();
-                        if (/\\d/.test(t) && t.includes('kr') && t.length < 25 && !t.startsWith('-')) {
-                            return t;
+                        if (/\\d/.test(t) && t.toLowerCase().includes('kr') && t.length < 60 && !t.startsWith('-')) {
+                            found.push(t);
                         }
                     }
                     node = node.parentElement;
                 }
-                return null;
+                return Array.from(new Set(found));
             }""")
         except Exception:
             pass
 
-        if title and price_text:
-            candidates.append((title, price_text))
+        if title:
+            candidates.append((title, href, price_texts or []))
 
     if not candidates:
         log(f"Could not extract any prices")
@@ -239,8 +309,17 @@ def get_market_price(page, product_name):
     q_has_storage = extract_storage(query_clean) is not None
 
     # score and sort candidates — highest score first
-    scored = [(score_match(query_clean, title), title, price_text)
-              for title, price_text in candidates]
+    # candidates: (title, href, price_texts)
+    scored = []
+    for title, href, price_texts in candidates:
+        score = score_match(query_clean, title)
+        # choose the lowest price among card-extracted price_texts as candidate price
+        parsed_price = None
+        for pt in price_texts:
+            p = parse_price_text(pt)
+            if p is not None and (parsed_price is None or p < parsed_price):
+                parsed_price = p
+        scored.append((score, title, href, price_texts, parsed_price))
     scored = [s for s in scored if s[0] > 0.0]
 
     if not scored:
@@ -257,18 +336,45 @@ def get_market_price(page, product_name):
     # keep candidates within 15% of the best score — wide enough for storage/colour variants to all be included
     top_candidates = [s for s in scored if s[0] >= best_score * 0.85]
 
+    # For increased accuracy: visit detail pages for top candidates and use structured
+    # extraction similar to other scrapers (label-first + scoped fallback).
+    N_DETAIL = 3
+    detail_price_map = {}
+    for score, title, href, price_texts, parsed_price in top_candidates[:N_DETAIL]:
+        if not href:
+            continue
+        try:
+            detail_url = f"https://www.pricerunner.dk{href}" if href.startswith('/') else href
+            page.goto(detail_url, wait_until="domcontentloaded", timeout=20000)
+            page.wait_for_timeout(random.uniform(1000, 2000))
+
+            laveste = extract_laveste_pris(page)
+            row_prices = extract_offer_row_prices(page)
+            detail_price = laveste if laveste is not None else (min(row_prices) if row_prices else None)
+            detail_price_map[href] = {'price': detail_price}
+        except Exception:
+            # if a detail page fails, ignore and continue with card price
+            pass
+
     if q_has_storage:
         # for exact storage queries, choose the cheapest among top score matches
         priced_top = []
-        for score, title, price_text in top_candidates:
-            parsed = parse_price_text(price_text)
-            if parsed is not None:
-                priced_top.append((score, title, price_text, parsed))
+        verified_available = any((detail_price_map.get(href, {}) or {}).get('price') is not None for _, _, href, _, _ in top_candidates)
+        for score, title, href, price_texts, parsed_price in top_candidates:
+            parsed = (detail_price_map.get(href, {}) or {}).get('price')
+            if parsed is None and not verified_available:
+                parsed = parsed_price
+                if parsed is None and price_texts:
+                    parsed_vals = [parse_price_text(pt) for pt in price_texts if parse_price_text(pt) is not None]
+                    if parsed_vals:
+                        parsed = min(parsed_vals)
+            if parsed is not None and (not verified_available or (detail_price_map.get(href, {}) or {}).get('price') is not None):
+                priced_top.append((score, title, href, parsed))
         if not priced_top:
             log("No parseable prices among top candidates")
             return None, True
         priced_top.sort(key=lambda x: (x[3], -x[0]))
-        best_score, best_title, best_price_text, best_price = priced_top[0]
+        best_score, best_title, best_href, best_price = priced_top[0]
     else:
         # no storage in query — among tied candidates, prefer the smallest storage size
         def storage_sort_key(item):
@@ -280,15 +386,22 @@ def get_market_price(page, product_name):
         min_storage = storage_sort_key(top_candidates[0])
         storage_group = [item for item in top_candidates if storage_sort_key(item) == min_storage]
         priced_group = []
-        for score, title, price_text in storage_group:
-            parsed = parse_price_text(price_text)
-            if parsed is not None:
-                priced_group.append((score, title, price_text, parsed))
+        verified_available = any((detail_price_map.get(href, {}) or {}).get('price') is not None for _, _, href, _, _ in storage_group)
+        for score, title, href, price_texts, parsed_price in storage_group:
+            parsed = (detail_price_map.get(href, {}) or {}).get('price')
+            if parsed is None and not verified_available:
+                parsed = parsed_price
+                if parsed is None and price_texts:
+                    parsed_vals = [parse_price_text(pt) for pt in price_texts if parse_price_text(pt) is not None]
+                    if parsed_vals:
+                        parsed = min(parsed_vals)
+            if parsed is not None and (not verified_available or (detail_price_map.get(href, {}) or {}).get('price') is not None):
+                priced_group.append((score, title, href, parsed))
         if not priced_group:
             log("No parseable prices in preferred storage group")
             return None, True
         priced_group.sort(key=lambda x: (x[3], -x[0]))
-        best_score, best_title, best_price_text, best_price = priced_group[0]
+        best_score, best_title, best_href, best_price = priced_group[0]
 
     log(f"Matched: '{best_title}' (score={best_score:.2f})")
 
@@ -357,6 +470,12 @@ def scrape_pricerunner():
                     products.append(name)
 
     products = list(set(products))
+
+    # drop globally blacklisted products so we never spend a lookup on them
+    blacklisted = [name for name in products if is_blacklisted(name)]
+    if blacklisted:
+        log(f"Skipping {len(blacklisted)} blacklisted product(s)")
+    products = [name for name in products if not is_blacklisted(name)]
 
     results = {}
     date_time = datetime.datetime.now().strftime("%d-%m-%Y-%H:%M")
