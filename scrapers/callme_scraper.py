@@ -227,6 +227,7 @@ def scrape_callme():
         context.add_cookies(CONSENT_COOKIES)
         page = context.new_page()
 
+
         for cat_url, (product_type, allowed_categories, use_dynamic_type) in CATEGORY_URLS.items():
             log(f"\nScraping: {cat_url} (type={product_type})")
 
