@@ -89,8 +89,10 @@ def scrape_elgiganten():
                 log(f"scanning page {page_num}: {url}")
 
                 try:
-                    browser_page.goto(url, wait_until="networkidle")
-                    browser_page.wait_for_selector('a[data-testid="product-card"]', timeout=10000)
+                    # the chat widget keeps connections open, so "networkidle" never
+                    # settles — wait for the product cards instead
+                    browser_page.goto(url, wait_until="domcontentloaded", timeout=30000)
+                    browser_page.wait_for_selector('a[data-testid="product-card"]', timeout=15000)
                 except Exception as e:
                     log(f"Couldn't load page {page_num} or found no products: {e}")
                     continue
@@ -116,7 +118,7 @@ def scrape_elgiganten():
                             continue
                         seen_products.add(clean_name)
 
-                        # skip blacklisted products before doing the expensive API calls
+                        # skip blacklisted products before the expensive api calls
                         if skip_if_blacklisted(clean_name):
                             continue
 

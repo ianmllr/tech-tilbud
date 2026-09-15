@@ -61,6 +61,11 @@ PRODUCT_NAME_SUBSTITUTIONS = {
 
     # other device substitutions
     "Samsung Galaxy Watch8 40mm eSIM - Grafit": "Samsung Galaxy Watch8 40mm LTE",
+
+    # telmore drops the brand, leaving a name too generic to search on. anchored so
+    # they only rewrite the bare name, not "Motorola Signature 512GB"
+    r"^Signature$": "Motorola Signature",
+    r"^3210$": "Nokia 3210",
 }
 
 # apply manual substitution
@@ -82,7 +87,7 @@ def now_timestamp() -> str:
 
 
 def skip_if_blacklisted(product_name: str | None, *, indent: str = "  ") -> bool:
-    """Return True (and log why) when a product is globally blacklisted."""
+    # returns True (and logs why) when a product is globally blacklisted
     matched = blacklist_match(product_name)
     if matched:
         log(f"{indent}Skipping blacklisted product ('{matched}'): {product_name}")

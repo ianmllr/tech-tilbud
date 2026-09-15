@@ -10,20 +10,20 @@
         "subscription_price_monthly": 149,
         "discount_on_product": null,
         "min_cost_6_months": 993,
-        "saved_at": "10-03-2026-13:57"
+        "saved_at": "09-09-2026-22:39"
     },
     {
-        "link": "https://www.telmore.dk/shop/tilgift/samsung/galaxy-tab-a9-plus-5g-graphite",
-        "product_name": "Samsung Galaxy Tab A9+ 5G",
-        "image_url": "/images/telmore/samsung_galaxy_tab_a9__5g.webp",
+        "link": "https://www.telmore.dk/shop/tilgift/jbl/charge-6-blue",
+        "product_name": "JBL Charge 6",
+        "image_url": "/images/telmore/jbl_charge_6.webp",
         "provider": "Telmore",
-        "type": "tablet",
+        "type": "gift",
         "price_without_subscription": null,
         "price_with_subscription": 0,
         "subscription_price_monthly": 149,
         "discount_on_product": null,
         "min_cost_6_months": 894,
-        "saved_at": "10-03-2026-13:57"
+        "saved_at": "09-09-2026-22:39"
     },
     {
         "link": "https://www.telmore.dk/shop/tilgift/apple/airpods-4-med-aktiv-stoejreduktion-hvid",
@@ -36,46 +36,7 @@
         "subscription_price_monthly": 149,
         "discount_on_product": null,
         "min_cost_6_months": 1093,
-        "saved_at": "10-03-2026-13:57"
-    },
-    {
-        "link": "https://www.telmore.dk/shop/tilgift/acer/iconia-tab-m10-champagne-64gb",
-        "product_name": "Acer Iconia Tab M10",
-        "image_url": "/images/telmore/acer_iconia_tab_m10.webp",
-        "provider": "Telmore",
-        "type": "tablet",
-        "price_without_subscription": null,
-        "price_with_subscription": 0,
-        "subscription_price_monthly": 149,
-        "discount_on_product": null,
-        "min_cost_6_months": 894,
-        "saved_at": "10-03-2026-13:57"
-    },
-    {
-        "link": "https://www.telmore.dk/shop/tilgift/apple/airpods-pro-3-hvid",
-        "product_name": "Apple AirPods Pro 3",
-        "image_url": "/images/telmore/apple_airpods_pro_3.webp",
-        "provider": "Telmore",
-        "type": "sound",
-        "price_without_subscription": null,
-        "price_with_subscription": 799,
-        "subscription_price_monthly": 149,
-        "discount_on_product": null,
-        "min_cost_6_months": 1693,
-        "saved_at": "10-03-2026-13:57"
-    },
-    {
-        "link": "https://www.telmore.dk/shop/tilgift/bang%20%26%20olufsen/beosound-a1-anthracite-black",
-        "product_name": "Bang & Olufsen BeoSound A1",
-        "image_url": "/images/telmore/bang___olufsen_beosound_a1.webp",
-        "provider": "Telmore",
-        "type": "gift",
-        "price_without_subscription": null,
-        "price_with_subscription": 99,
-        "subscription_price_monthly": 149,
-        "discount_on_product": null,
-        "min_cost_6_months": 993,
-        "saved_at": "10-03-2026-13:57"
+        "saved_at": "09-09-2026-22:39"
     },
     {
         "link": "https://www.telmore.dk/shop/tilgift/wolt/wolt-gavekort-500-kr-hvid",
@@ -88,6 +49,58 @@
         "subscription_price_monthly": 149,
         "discount_on_product": null,
         "min_cost_6_months": null,
-        "saved_at": "10-03-2026-13:57"
+        "saved_at": "09-09-2026-22:39"
+    },
+    {
+        "link": "https://www.telmore.dk/shop/tilgift/saphe/saphe-t-sort",
+        "product_name": "Saphe Saphe T",
+        "image_url": "/images/telmore/saphe_saphe_t.webp",
+        "provider": "Telmore",
+        "type": "gift",
+        "price_without_subscription": null,
+        "price_with_subscription": 0,
+        "subscription_price_monthly": 149,
+        "discount_on_product": null,
+        "min_cost_6_months": 894,
+        "saved_at": "09-09-2026-22:39"
+    },
+    {
+        "link": "https://www.telmore.dk/shop/tilgift/samsung/galaxy-tab-a9-wifi-graphite",
+        "product_name": "Samsung Galaxy Tab A9 WiFi",
+        "image_url": "/images/telmore/samsung_galaxy_tab_a9_wifi.webp",
+        "provider": "Telmore",
+        "type": "tablet",
+        "price_without_subscription": null,
+        "price_with_subscription": 0,
+        "subscription_price_monthly": 149,
+        "discount_on_product": null,
+        "min_cost_6_months": 894,
+        "saved_at": "09-09-2026-22:39"
+    },
+    {
+        "link": "https://www.telmore.dk/shop/tilgift/jbl/live-770nc-sort",
+        "product_name": "JBL Live 770NC",
+        "image_url": "/images/telmore/jbl_live_770nc.webp",
+        "provider": "Telmore",
+        "type": "gift",
+        "price_without_subscription": null,
+        "price_with_subscription": 0,
+        "subscription_price_monthly": 149,
+        "discount_on_product": null,
+        "min_cost_6_months": 894,
+        "saved_at": "09-09-2026-22:39"
+    },
+    {
+        "link": "https://www.telmore.dk/shop/tilgift/apple/airpods-pro-3-hvid",
+        "product_name": "Apple AirPods Pro 3",
+        "image_url": "/images/telmore/apple_airpods_pro_3.webp",
+        "provider": "Telmore",
+        "type": "sound",
+        "price_without_subscription": null,
+        "price_with_subscription": 799,
+        "subscription_price_monthly": 149,
+        "discount_on_product": null,
+        "min_cost_6_months": 1693,
+        "saved_at": "09-09-2026-22:39"
     }
 ]

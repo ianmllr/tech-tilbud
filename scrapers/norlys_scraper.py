@@ -1,3 +1,4 @@
+import json
 import re
 from pathlib import Path
 from playwright.sync_api import ViewportSize, sync_playwright
@@ -73,73 +74,117 @@ def get_product_links_from_listing(page, cat_url: str) -> list[str]:
     return links
 
 
-def extract_price_data(price: dict) -> dict | None:
-    # extract the relevant price fields from a variant API price object.
-    min_price     = (price.get("minimumPrice") or {}).get("value")
-    monthly_price = (price.get("bundleMonthlyPrice") or {}).get("value")
-    product_price = (price.get("productPrice") or {}).get("value")
+def extract_price_data(price_overview: dict) -> dict | None:
+    # extract the relevant price fields from a selectionPrice.priceOverview object
+    def value(key: str):
+        return (price_overview.get(key) or {}).get("value")
 
+    min_price = value("minimumPrice")
+    monthly   = value("monthlyTotal")
+    base      = value("basePrice")
+    discount  = value("discountTotal") or 0
 
-    if min_price is None or monthly_price is None or product_price is None:
+    if min_price is None or monthly is None or base is None:
         return None
 
     return {
         "min_cost_6_months":          min_price,
-        "subscription_price_monthly": monthly_price,
-        "price_with_subscription":    product_price,
-        "price_without_subscription": (price.get("productBasePrice") or {}).get("value"),
-        "discount_on_product":        (price.get("productDiscountedPrice") or {}).get("value"),
+        "subscription_price_monthly": monthly,
+        "price_with_subscription":    base - discount,
+        "price_without_subscription": base,
+        "discount_on_product":        discount,
     }
+
+
+def _iter_price_overviews(node):
+    # yield every priceOverview dict found anywhere in the embedded state
+    if isinstance(node, dict):
+        overview = node.get("priceOverview")
+        if isinstance(overview, dict):
+            yield overview
+        for v in node.values():
+            yield from _iter_price_overviews(v)
+    elif isinstance(node, list):
+        for v in node:
+            yield from _iter_price_overviews(v)
+
+
+def _iter_variants(node):
+    # yield every product variant dict found anywhere in the embedded state
+    if isinstance(node, dict):
+        variants = node.get("variants")
+        if isinstance(variants, list):
+            for v in variants:
+                if isinstance(v, dict):
+                    yield v
+        for v in node.values():
+            yield from _iter_variants(v)
+    elif isinstance(node, list):
+        for v in node:
+            yield from _iter_variants(v)
+
+
+def read_embedded_state(page) -> list[dict]:
+    # norlys renders product and price data into json islands on the page
+    raw_islands = page.eval_on_selector_all(
+        'script[type="application/json"]',
+        "els => els.map(e => e.textContent)",
+    )
+
+    states: list[dict] = []
+    for raw in raw_islands:
+        if not raw or "priceOverview" not in raw:
+            continue
+        try:
+            states.append(json.loads(raw))
+        except Exception:
+            continue
+    return states
 
 
 def scrape_product(page, href: str, product_type: str, saved_at: str) -> dict | None:
     product_url = SHOP_BASE + href if href.startswith("/") else href
 
-    # collect all variant API responses: one fires on page load (site pre-selects the
-    # cheapest subscription), then one per subscription card click.
-    api_responses: list[dict] = []
-
-    def handle_response(response):
-        if "/api/olympus/commerce/catalog/products/variant/" in response.url:
-            try:
-                api_responses.append(response.json())
-            except Exception:
-                pass
-
-    page.on("response", handle_response)
-
     try:
-        page.goto(product_url, wait_until="networkidle", timeout=30000)
-        page.wait_for_timeout(2000)
+        page.goto(product_url, wait_until="domcontentloaded", timeout=30000)
     except Exception as e:
         log(f"  Could not load {product_url}: {e}")
-        page.remove_listener("response", handle_response)
         return None
 
-    if not api_responses:
-        log(f"  No variant API response captured for {href}")
-        page.remove_listener("response", handle_response)
+    # price data is embedded in the page, not served by an api. these pages also keep
+    # connections open, so "networkidle" never settles — poll for the island instead
+    states: list[dict] = []
+    for _ in range(24):
+        states = read_embedded_state(page)
+        if states:
+            break
+        page.wait_for_timeout(500)
+
+    if not states:
+        log(f"  No embedded price data for {href}")
         return None
 
-    initial_data = api_responses[0]
-    display_name = initial_data.get("displayName", "")
+    # product identity comes from the first variant in the embedded state
+    variant = next((v for v in _iter_variants(states) if v.get("displayName")), {})
+    display_name = variant.get("displayName", "")
     raw_product_name = display_name or href.rstrip("/").split("/")[-1].replace("-", " ").title()
     product_name = normalize_product_name(raw_product_name)
     product_name = apply_name_substitutions(product_name)
 
-    image_urls = initial_data.get("imageUrls", [])
-    raw_image  = image_urls[0] if image_urls else ""
+    raw_image = ""
+    for media in variant.get("mediaResources") or []:
+        if media.get("type") == "Image" and media.get("source"):
+            raw_image = media["source"]
+            break
     if raw_image.startswith("/"):
         raw_image = SHOP_BASE + raw_image
     local_image = download_image(raw_image, product_name)
 
-    page.remove_listener("response", handle_response)
-
+    # the page may embed several price overviews (one per subscription); keep the cheapest
     best: dict | None = None
 
-    for data in api_responses:
-        price = data.get("price") or {}
-        entry = extract_price_data(price)
+    for overview in _iter_price_overviews(states):
+        entry = extract_price_data(overview)
         if entry is None:
             continue
         if best is None or entry["min_cost_6_months"] < best["min_cost_6_months"]:

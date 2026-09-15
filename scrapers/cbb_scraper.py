@@ -37,59 +37,31 @@ def parse_price(text):
 
 
 def get_min_cost_from_page(page, url):
-    # minimum 6 month price is more complicated to extract because of the way CBB structures their offers with a mix of upfront price and subscription options
-    # returns int or None
+    # cbb mixes an upfront phone price with a monthly subscription, so the 6 month
+    # total has to be assembled from both. returns (min_cost, monthly, after_promo, kontant)
     try:
-        page.goto(url, wait_until="networkidle", timeout=30000)
-        page.wait_for_timeout(1500)
+        page.goto(url, wait_until="domcontentloaded", timeout=30000)
+        page.wait_for_selector("text=Kontant", timeout=15000)
+        page.wait_for_timeout(500)
 
-        # kontant pris / upfront price
+        body = page.inner_text("body").replace('\xa0', ' ')
+
+        # the page states "Kontant" above the upfront phone price. cbb's own
+        # "Mindstepris" is only one month of subscription, so it cannot be used
+        # as the 6 month total
         kontant_price = None
-
-        # look for a "Mindstepris inkl. X mdr. abonnement" line - take the LAST number
-        mindste_texts = page.locator('text=/Mindstepris/').all_text_contents()
-        for raw in mindste_texts:
-            raw = raw.replace('\xa0', ' ')
-            matches = re.findall(r'(\d{1,3}(?:\.\d{3})+|\d{3,})', raw)
-            if matches:
-                return int(matches[-1].replace('.', ''))
-
-        # fallback : "Kontant" price block
-        for selector in ['text=Kontant', 'text=Betal kontant', 'text=Betales kontant']:
-            kontant_block = page.locator(selector).first
-            if kontant_block.count():
-                try:
-                    parent = kontant_block.locator('xpath=ancestor::*[self::div or self::li or self::button][1]')
-                    price_text = parent.locator('span, strong, p').first.text_content()
-                    kontant_price = parse_price(price_text)
-                    if kontant_price:
-                        break
-                except Exception:
-                    pass
+        match = re.search(r'\bKontant\b\s*\n\s*([\d.]+)\s*kr', body, flags=re.IGNORECASE)
+        if match:
+            kontant_price = parse_price(match.group(1))
 
         if not kontant_price:
-            # fallback: "Betales nu" total
-            try:
-                betales_nu_el = page.locator('text=Betales nu').locator('xpath=following-sibling::*[1]').first
-                if betales_nu_el.count():
-                    total = parse_price(betales_nu_el.text_content())
-                    fragt_el = page.locator('text=Fragt').locator('xpath=following-sibling::*[1]').first
-                    fragt = parse_price(fragt_el.text_content()) if fragt_el.count() else 65
-                    if total:
-                        kontant_price = total - (fragt or 65)
-            except Exception:
-                pass
-
-        if not kontant_price:
-            # fallback: largest standalone price-looking number on the page
-            price_els = page.locator('text=/^\\d{1,2}\\.\\d{3}\\s*kr\\.?$/').all_text_contents()
-            candidates = []
-            for t in price_els:
-                v = parse_price(t)
-                if v and v > 500:
-                    candidates.append(v)
-            if candidates:
-                kontant_price = min(candidates)  # cheapest upfront price
+            # fallback: "Betales nu" is the upfront price plus shipping
+            match = re.search(r'Betales nu\s*\n\s*([\d.]+)\s*kr[\s\S]{0,40}?Fragt\s*\n\s*([\d.]+)\s*kr', body, flags=re.IGNORECASE)
+            if match:
+                total = parse_price(match.group(1))
+                fragt = parse_price(match.group(2))
+                if total:
+                    kontant_price = total - (fragt or 0)
 
         # --- Monthly subscription price ---
         monthly_price = None
@@ -120,15 +92,15 @@ def get_min_cost_from_page(page, url):
         if kontant_price and promo_price is not None and promo_months is not None and regular_price is not None:
             remaining_months = max(0, 6 - promo_months)
             total = kontant_price + (promo_months * promo_price) + (remaining_months * regular_price)
-            return total, promo_price, regular_price
+            return total, promo_price, regular_price, kontant_price
 
         if kontant_price and monthly_price:
-            return kontant_price + 6 * monthly_price, monthly_price, None
+            return kontant_price + 6 * monthly_price, monthly_price, None, kontant_price
 
     except Exception as e:
         log(f"  Error scraping {url}: {e}")
 
-    return None, None, None
+    return None, None, None, None
 
 
 def build_entry(phone, page, date_time):
@@ -152,8 +124,16 @@ def build_entry(phone, page, date_time):
     min_cost = None
     monthly_price = None
     monthly_price_after_promo = None
+    kontant_price = None
     if product_link:
-        min_cost, monthly_price, monthly_price_after_promo = get_min_cost_from_page(page, product_link)
+        min_cost, monthly_price, monthly_price_after_promo, kontant_price = get_min_cost_from_page(page, product_link)
+
+    # the page's "Kontant" price is the authoritative upfront price. the api list
+    # price is the fallback, and anything above it is a discount
+    if kontant_price:
+        price_with_subscription = kontant_price
+    list_price = phone.get("priceInt")
+    discount = list_price - kontant_price if (list_price and kontant_price and list_price > kontant_price) else 0
 
     return {
         "link": product_link,
@@ -163,12 +143,12 @@ def build_entry(phone, page, date_time):
         "type": "phone",
         "signup_price": 0,
         "data_gb": 0,
-        "price_without_subscription": 0,
+        "price_without_subscription": 0,  # cbb only sells phones with a subscription
         "price_with_subscription": price_with_subscription,
         "subscription_price_monthly": monthly_price,
         "subscription_price_monthly_after_promo": monthly_price_after_promo,
         "min_cost_6_months": min_cost,
-        "discount_on_product": 0,
+        "discount_on_product": discount,
         "saved_at": date_time,
         "sold_out": sold_out
     }

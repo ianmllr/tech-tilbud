@@ -9,7 +9,7 @@ from difflib import SequenceMatcher
 from playwright.sync_api import ViewportSize, sync_playwright
 from playwright_stealth import Stealth
 from provider_sources import PROVIDER_SOURCES
-from scraper_utils import log, is_blacklisted
+from scraper_utils import log, is_blacklisted, apply_name_substitutions
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 VIEWPORT: ViewportSize = {"width": 1920, "height": 1080}
@@ -20,10 +20,14 @@ is_ci = os.environ.get('CI') == 'true'
 def clean_search_query(product_name):
     # remove color in parentheses e.g. "(obsidian)", "(sort)"
     name = re.sub(r'\(.*?\)', '', product_name)
+    # remove subscription suffix used by some providers
+    name = re.sub(r'\bmed\s+abonnement\b', '', name, flags=re.IGNORECASE)
     # remove generic words that hurt search results
     name = re.sub(r'\bsmartphone\b|\bLTE\b', '', name, flags=re.IGNORECASE)
+    # normalize separators left after removals
+    name = re.sub(r'\s+-\s+', ' - ', name)
     name = re.sub(r'\s+', ' ', name).strip()
-    return name
+    return name.strip(' -')
 
 
 def normalize(text):
@@ -36,7 +40,9 @@ def normalize(text):
 
 
 # tier words — if a candidate has one the query doesn't (or vice versa), it's a different product
-TIER_WORDS = {'ultra', 'aktiv støjreduktion', 'anc', 'plus', 'pro', 'max', 'mini', 'fe', 'fold', 'flip', 'lite', 'edge', 'air'}
+TIER_WORDS = {'ultra', 'aktiv støjreduktion', 'anc', 'plus', 'pro', 'max', 'mini', 'fe', 'fold', 'flip', 'lite', 'edge', 'air',
+              # variant qualifiers — "Edge 70" and "Edge 70 Fusion" are different phones
+              'fusion', 'power', 'neo', 'xl'}
 
 # accessory keywords — disqualify any candidate that is clearly not a device
 ACCESSORY_KEYWORDS = {
@@ -45,7 +51,16 @@ ACCESSORY_KEYWORDS = {
     'folie', 'glass', 'bumper', 'wallet', 'pung', 'holder', 'stand', 'dock',
     'batteri', 'battery', 'ear', 'stylus', 'pen',
     'loop', 'band', 'trail loop', 'alpine loop', 'milanese', 'sport loop',
+    # danish accessory names — straps and screen protectors outnumber the real
+    # watch listings, and a strap price passed as the watch's market price
+    'armbånd', 'metalarmbånd', 'urrem', 'rem til', 'skærmbeskytter',
+    'beskyttelsescover', 'opladerkabel', 'ladestation', 'taske',
 }
+
+ACCESSORY_PATTERN = re.compile(
+    r'\b(?:' + '|'.join(re.escape(kw) for kw in sorted(ACCESSORY_KEYWORDS, key=len, reverse=True)) + r')\b',
+    re.IGNORECASE,
+)
 
 
 def extract_storage(text):
@@ -91,19 +106,69 @@ def extract_model_number(text: str) -> str | None:
     for token in tokens:
         if token in noise:
             continue
+        # a release year is not a model number. "iPad Air (2026)" parsed as model
+        # "2026" and then failed to match the same product without the year
+        if re.fullmatch(r'(19|20)\d{2}', token):
+            continue
         # must contain at least one digit to qualify as a model number
         if re.search(r'\d', token):
             return token
     return None
 
 
+def extract_case_size(text: str) -> str | None:
+    # watch case size e.g. "44" from "Galaxy Watch9 44mm". written as a fused
+    # token, so the bare-digit check in score_match never sees it
+    match = re.search(r"\b(\d{2})\s*mm\b", text, flags=re.IGNORECASE)
+    return match.group(1) if match else None
+
+
+def has_cellular(tokens) -> bool:
+    # cellular/lte variant rather than wi-fi or bluetooth only. excludes "5g"/"4g",
+    # which appear on nearly every phone listing and carry no variant meaning
+    return bool(tokens & {"cellular", "esim", "lte"})
+
+
+def extract_chip(text: str) -> str | None:
+    # apple silicon designator e.g. "M3" in "iPad Air 13 M3"
+    match = re.search(r"\bm([1-9])\b", normalize(text))
+    return match.group(0) if match else None
+
+
+def infer_bare_model(text, other_model):
+    # bare numbers are treated as noise by extract_model_number, so "iPhone 16"
+    # yields None while "iPhone 16e" yields "16e". that asymmetry skipped the model
+    # check entirely, letting a base model match its variant
+    if not other_model:
+        return None
+    digits = ''.join(re.findall(r'\d+', other_model))
+    if not digits:
+        return None
+    return digits if digits in normalize(text).split() else None
+
+
+def is_accessory(text: str) -> bool:
+    # matched on word boundaries — as substrings these caught real devices, e.g.
+    # "cover" inside "Galaxy XCover" and "rem" inside "Premium"
+    return bool(ACCESSORY_PATTERN.search(text))
+
+
 def score_match(query, candidate):
     # returns a float 0–1, higher = better match
 
-    # disqualify accessories — cases, covers, cables, bands, etc.
-    candidate_lower = candidate.lower()
-    if any(kw in candidate_lower for kw in ACCESSORY_KEYWORDS):
+    # an accessory only matches an accessory. checking the candidate alone let a
+    # "Clear Cover" query match the phone itself and take its price
+    if is_accessory(candidate) != is_accessory(query):
         return 0.0
+
+    # a standalone "+" (as in "Wi-Fi + Cellular") tokenizes to "plus", which is a
+    # tier word and would wrongly disqualify. fused ones like "S25+" are kept
+    query = re.sub(r"\s+\+\s+", " ", query)
+    candidate = re.sub(r"\s+\+\s+", " ", candidate)
+
+    # "e-SIM" would otherwise tokenize to "e" + "sim" and be missed below
+    query = re.sub(r"\be[\s-]?sim\b", "esim", query, flags=re.IGNORECASE)
+    candidate = re.sub(r"\be[\s-]?sim\b", "esim", candidate, flags=re.IGNORECASE)
 
     q_tokens = split_fused_tokens(query)
     c_tokens = split_fused_tokens(candidate)
@@ -121,9 +186,32 @@ def score_match(query, candidate):
     if q_storage is not None and c_storage is not None and q_storage != c_storage:
         return 0.0
 
+    # disqualify if the apple silicon generation differs e.g. iPad Air M3 vs M4.
+    # extract_model_number picks the screen size here, so the chip is the only
+    # thing distinguishing the generations
+    q_chip = extract_chip(query)
+    c_chip = extract_chip(candidate)
+    if q_chip and c_chip and q_chip != c_chip:
+        return 0.0
+
+    # disqualify if the watch case size differs e.g. 40mm vs 44mm
+    q_size = extract_case_size(query)
+    c_size = extract_case_size(candidate)
+    if q_size and c_size and q_size != c_size:
+        return 0.0
+
+    # cellular and wi-fi/bluetooth-only are different skus at different prices
+    if has_cellular(q_tokens) != has_cellular(c_tokens):
+        return 0.0
+
     # disqualify if model numbers differ e.g. "iPhone 16" vs "iPhone 16e"
     q_model = extract_model_number(query)
     c_model = extract_model_number(candidate)
+    # one side may parse a model while the other's is a bare number treated as noise
+    if q_model and not c_model:
+        c_model = infer_bare_model(candidate, q_model)
+    elif c_model and not q_model:
+        q_model = infer_bare_model(query, c_model)
     if q_model is not None and c_model is not None and q_model != c_model:
         q_parts = set(re.findall(r"[a-z]+|\d+", q_model))
         c_parts = set(re.findall(r"[a-z]+|\d+", c_model))
@@ -142,10 +230,38 @@ def score_match(query, candidate):
         else:
             return 0.0
 
+    # disqualify if the candidate has extra bare numeric tokens the query doesn't have
+    # e.g. "Motorola Edge 60 12 512GB" has a bare "12" (unlabelled RAM) absent from the query
+    def _non_storage_digits(text, storage, model):
+        storage_str = str(storage) if storage else None
+        model_digits = set(re.findall(r'\d+', model)) if model else set()
+        result = set()
+        for tok in normalize(text).split():
+            if not tok.isdigit():
+                continue
+            if storage_str and tok == storage_str:
+                continue
+            if tok in model_digits:
+                continue
+            # a release year appears on one side only and is not a variant
+            if re.fullmatch(r'(19|20)\d{2}', tok):
+                continue
+            result.add(tok)
+        return result
+
+    if _non_storage_digits(candidate, c_storage, c_model) - _non_storage_digits(query, q_storage, q_model):
+        return 0.0
+
     return SequenceMatcher(None, normalize(query), normalize(candidate)).ratio()
 
 
 def get_market_price(page, product_name):
+
+    # a one-word name ("Signature") matches by chance across unrelated categories.
+    # skip rather than store a wrong price
+    if len(normalize(clean_search_query(product_name)).split()) < 2:
+        log("  -> Name too ambiguous to search, skipping")
+        return None, True
 
     query = clean_search_query(product_name).replace(' ', '+')
     url = (
@@ -245,6 +361,51 @@ def make_fresh_page(browser):
     return context, page
 
 
+OUTPUT_PATH = BASE_DIR / 'data' / 'prisjagt' / 'prisjagt_prices.json'
+
+# how often to flush results to disk during a long run
+SAVE_EVERY = 10
+
+# reuse a stored price rather than looking it up again if it is newer than this
+MAX_PRICE_AGE_DAYS = 3
+
+# bump when score_match changes, so stored results are re-looked-up instead of
+# leaving stale wrong prices behind
+MATCHER_VERSION = 6
+
+
+def save_results(results):
+    OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
+    tmp = OUTPUT_PATH.with_suffix('.json.tmp')
+    with tmp.open('w', encoding='utf-8') as f:
+        json.dump(results, f, ensure_ascii=False, indent=4)
+    tmp.replace(OUTPUT_PATH)  # atomic, so an interrupted write can't corrupt the file
+
+
+def load_existing_results():
+    if not OUTPUT_PATH.exists():
+        return {}
+    try:
+        with OUTPUT_PATH.open(encoding='utf-8') as f:
+            return json.load(f)
+    except Exception:
+        return {}
+
+
+def is_fresh(entry):
+    entry = entry or {}
+    if entry.get('matcher_version') != MATCHER_VERSION:
+        return False
+    stamp = entry.get('looked_up_at')
+    if not stamp:
+        return False
+    try:
+        looked_up = datetime.datetime.strptime(stamp, "%d-%m-%Y-%H:%M")
+    except ValueError:
+        return False
+    return datetime.datetime.now() - looked_up < datetime.timedelta(days=MAX_PRICE_AGE_DAYS)
+
+
 def scrape_prisjagt():
     (BASE_DIR / 'data' / 'prisjagt').mkdir(parents=True, exist_ok=True)
 
@@ -269,7 +430,25 @@ def scrape_prisjagt():
         log(f"Skipping {len(blacklisted)} blacklisted product(s)")
     products = [name for name in products if not is_blacklisted(name)]
 
-    results = {}
+    # resume: keep prices we already have and skip re-looking-up recent ones
+    results = load_existing_results()
+
+    # drop entries for products no longer offered. a stale key kept serving an old
+    # wrong price to the site because results are looked up by the raw offer name
+    stale = [key for key in results if key not in products]
+    if stale:
+        log(f"Dropping {len(stale)} stale entr(ies) for products no longer offered")
+        for key in stale:
+            del results[key]
+
+    total = len(products)
+    products = [name for name in products if not is_fresh(results.get(name))]
+    skipped = total - len(products)
+    if skipped:
+        log(f"Resuming: {skipped} product(s) already have a price newer than {MAX_PRICE_AGE_DAYS} days")
+    log(f"{len(products)} product(s) to look up")
+
+    done = 0
     date_time = datetime.datetime.now().strftime("%d-%m-%Y-%H:%M")
 
     failure_threshold = 3
@@ -287,36 +466,50 @@ def scrape_prisjagt():
         consecutive_failures = 0
 
         for product_name in products:
-            log(f"Looking up: {product_name}")
-            price, page_loaded = get_market_price(page, product_name)
+            # search under the tidied name, but store under the raw one — the site
+            # looks prices up by the product name exactly as the provider wrote it
+            search_name = apply_name_substitutions(product_name)
+            log(f"Looking up: {search_name}")
+            price, page_loaded = get_market_price(page, search_name)
 
             if not page_loaded:
                 consecutive_failures += 1
                 log(f"  [failure {consecutive_failures}/{failure_threshold}]")
 
                 if consecutive_failures >= failure_threshold:
-                    log(f"\n  !! {failure_threshold} consecutive failures — recycling browser context and pausing 10s...\n")
+                    log(f"\n  !! {failure_threshold} consecutive failures — recycling browser context and pausing 30s...\n")
                     context.close()
-                    time.sleep(10)
+                    time.sleep(30)
                     context, page = make_fresh_page(browser)
                     consecutive_failures = 0
 
-                    log(f"  Retrying: {product_name}")
-                    price, page_loaded = get_market_price(page, product_name)
+                    log(f"  Retrying: {search_name}")
+                    price, page_loaded = get_market_price(page, search_name)
+                else:
+                    # prisjagt throttles in bursts — back off before the next request
+                    # instead of spending the remaining attempts against a closed door
+                    time.sleep(5 * consecutive_failures)
             else:
                 consecutive_failures = 0
 
             results[product_name] = {
                 "market_price": price,
-                "looked_up_at": date_time
+                "looked_up_at": date_time,
+                "matcher_version": MATCHER_VERSION
             }
             log(f"  -> {price} kr.")
+
+            # a full run takes hours, so save as we go — an interrupted run keeps
+            # what it has and resumes from there
+            done += 1
+            if done % SAVE_EVERY == 0:
+                save_results(results)
+                log(f"  [saved {len(results)} results]")
 
         context.close()
         browser.close()
 
-    with (BASE_DIR / 'data' / 'prisjagt' / 'prisjagt_prices.json').open('w', encoding='utf-8') as f:
-        json.dump(results, f, ensure_ascii=False, indent=4)
+    save_results(results)
 
     log(f"\nLooked up {len(results)} products.")
 

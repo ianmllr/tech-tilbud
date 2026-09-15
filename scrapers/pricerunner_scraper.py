@@ -41,7 +41,9 @@ def normalize(text):
 
 
 # tier words — if a candidate has one the query doesn't (or vice versa), it's a different product
-TIER_WORDS = {'ultra', 'cellular', 'aktiv støjreduktion', 'anc', 'plus', 'pro', 'max', 'mini', 'fe', 'fold', 'flip', 'lite', 'edge', 'air'}
+TIER_WORDS = {'ultra', 'cellular', 'aktiv støjreduktion', 'anc', 'plus', 'pro', 'max', 'mini', 'fe', 'fold', 'flip', 'lite', 'edge', 'air',
+              # variant qualifiers — "Edge 70" and "Edge 70 Fusion" are different phones
+              'fusion', 'power', 'neo', 'xl'}
 
 # accessory keywords — disqualify any candidate that is clearly not a device
 ACCESSORY_KEYWORDS = {
@@ -50,7 +52,16 @@ ACCESSORY_KEYWORDS = {
     'folie', 'glass', 'bumper', 'wallet', 'pung', 'holder', 'stand', 'dock',
     'batteri', 'battery', 'ear', 'stylus', 'pen',
     'loop', 'band', 'trail loop', 'alpine loop', 'milanese', 'sport loop',
+    # danish accessory names — straps and screen protectors outnumber the real
+    # watch listings, and a strap price passed as the watch's market price
+    'armbånd', 'metalarmbånd', 'urrem', 'rem til', 'skærmbeskytter',
+    'beskyttelsescover', 'opladerkabel', 'ladestation', 'taske',
 }
+
+ACCESSORY_PATTERN = re.compile(
+    r'\b(?:' + '|'.join(re.escape(kw) for kw in sorted(ACCESSORY_KEYWORDS, key=len, reverse=True)) + r')\b',
+    re.IGNORECASE,
+)
 
 
 def extract_storage(text):
@@ -87,13 +98,15 @@ def extract_model_number(text):
              '5g', '4g', 'lte', 'dual', 'sim', 'sm', 'smartphone', 'wireless',
              'black', 'white', 'blue', 'green', 'grey', 'gray', 'silver', 'gold',
              'sort', 'grå', 'hvid', 'obsidian', 'coral', 'red', 'jetblack',
-             'dark', 'true', 'on', 'ear', 'tws', 'gen', 'space black', 'wifi',
-             # tablet screen sizes — not model numbers
-             '10', '11', '12', '13', '14', '15', '16', '17', '18', '20', '24', '27'}
+             'dark', 'true', 'on', 'ear', 'tws', 'gen', 'space black', 'wifi'}
     noise.update(TIER_WORDS)
     tokens = normalize(text).split()
     for token in tokens:
         if token in noise:
+            continue
+        # a release year is not a model number. "iPad Air (2026)" parsed as model
+        # "2026" and then failed to match the same product without the year
+        if re.fullmatch(r'(19|20)\d{2}', token):
             continue
         # must contain at least one digit to qualify as a model number
         if re.search(r'\d', token):
@@ -101,13 +114,59 @@ def extract_model_number(text):
     return None
 
 
+def extract_case_size(text):
+    # watch case size e.g. "44" from "Galaxy Watch9 44mm". written as a fused
+    # token, so the bare-digit check in score_match never sees it
+    match = re.search(r"\b(\d{2})\s*mm\b", text, flags=re.IGNORECASE)
+    return match.group(1) if match else None
+
+
+def has_cellular(tokens):
+    # cellular/lte variant rather than wi-fi or bluetooth only. excludes "5g"/"4g",
+    # which appear on nearly every phone listing and carry no variant meaning
+    return bool(tokens & {"cellular", "esim", "lte"})
+
+
+def infer_bare_model(text, other_model):
+    # bare numbers are treated as noise by extract_model_number, so "iPhone 16"
+    # yields None while "iPhone 16e" yields "16e". that asymmetry skipped the model
+    # check entirely, letting a base model match its variant
+    if not other_model:
+        return None
+    digits = ''.join(re.findall(r'\d+', other_model))
+    if not digits:
+        return None
+    return digits if digits in normalize(text).split() else None
+
+
+def extract_chip(text):
+    # apple silicon designator e.g. "M3" in "iPad Air 13 M3"
+    match = re.search(r'\bm([1-9])\b', normalize(text))
+    return match.group(0) if match else None
+
+
+def is_accessory(text: str) -> bool:
+    # matched on word boundaries — as substrings these caught real devices, e.g.
+    # "cover" inside "Galaxy XCover" and "rem" inside "Premium"
+    return bool(ACCESSORY_PATTERN.search(text))
+
+
 def score_match(query, candidate):
     # returns a float 0–1, higher = better match
 
-    # disqualify accessories — cases, covers, cables, bands, etc.
-    candidate_lower = candidate.lower()
-    if any(kw in candidate_lower for kw in ACCESSORY_KEYWORDS):
+    # an accessory only matches an accessory. checking the candidate alone let a
+    # "Clear Cover" query match the phone itself and take its price
+    if is_accessory(candidate) != is_accessory(query):
         return 0.0
+
+    # a standalone "+" (as in "Wi-Fi + Cellular") tokenizes to "plus", which is a
+    # tier word and would wrongly disqualify. fused ones like "S25+" are kept
+    query = re.sub(r"\s+\+\s+", " ", query)
+    candidate = re.sub(r"\s+\+\s+", " ", candidate)
+
+    # "e-SIM" would otherwise tokenize to "e" + "sim" and be missed below
+    query = re.sub(r"\be[\s-]?sim\b", "esim", query, flags=re.IGNORECASE)
+    candidate = re.sub(r"\be[\s-]?sim\b", "esim", candidate, flags=re.IGNORECASE)
 
     q_tokens = split_fused_tokens(query)
     c_tokens = split_fused_tokens(candidate)
@@ -125,9 +184,30 @@ def score_match(query, candidate):
     if q_storage is not None and c_storage is not None and q_storage != c_storage:
         return 0.0
 
+    # disqualify if the apple silicon generation differs e.g. iPad Air M3 vs M4
+    q_chip = extract_chip(query)
+    c_chip = extract_chip(candidate)
+    if q_chip and c_chip and q_chip != c_chip:
+        return 0.0
+
+    # disqualify if the watch case size differs e.g. 40mm vs 44mm
+    q_size = extract_case_size(query)
+    c_size = extract_case_size(candidate)
+    if q_size and c_size and q_size != c_size:
+        return 0.0
+
+    # cellular and wi-fi/bluetooth-only are different skus at different prices
+    if has_cellular(q_tokens) != has_cellular(c_tokens):
+        return 0.0
+
     # disqualify if model numbers differ e.g. "iPhone 16" vs "iPhone 16e"
     q_model = extract_model_number(query)
     c_model = extract_model_number(candidate)
+    # one side may parse a model while the other's is a bare number treated as noise
+    if q_model and not c_model:
+        c_model = infer_bare_model(candidate, q_model)
+    elif c_model and not q_model:
+        q_model = infer_bare_model(query, c_model)
     if q_model and c_model and q_model != c_model:
         q_parts = set(re.findall(r'[a-z]+|\d+', q_model))
         c_parts = set(re.findall(r'[a-z]+|\d+', c_model))
@@ -158,6 +238,9 @@ def score_match(query, candidate):
             if storage_str and tok == storage_str:
                 continue
             if tok in model_digits:
+                continue
+            # a release year appears on one side only and is not a variant
+            if re.fullmatch(r'(19|20)\d{2}', tok):
                 continue
             result.add(tok)
         return result
@@ -197,6 +280,35 @@ def parse_price_text(price_text):
     return prices[0]
 
 
+def extract_jsonld_low_price(page) -> int | None:
+    # the detail page embeds an AggregateOffer with the lowest price for new units.
+    # this is the most reliable source — structured and immune to layout changes
+    try:
+        blocks = page.eval_on_selector_all(
+            'script[type="application/ld+json"]',
+            "els => els.map(e => e.textContent)",
+        )
+    except Exception:
+        return None
+
+    for raw in blocks:
+        if not raw or 'lowPrice' not in raw:
+            continue
+        try:
+            data = json.loads(raw)
+        except Exception:
+            continue
+        offers = data.get('offers') if isinstance(data, dict) else None
+        low = (offers or {}).get('lowPrice')
+        if low is None:
+            continue
+        try:
+            return int(float(low))
+        except (TypeError, ValueError):
+            continue
+    return None
+
+
 def extract_laveste_pris(page) -> int | None:
     # Prefer the explicit "Laveste pris" section on the detail page.
     try:
@@ -214,42 +326,25 @@ def extract_laveste_pris(page) -> int | None:
     return int(hits[0].replace('.', ''))
 
 
-def extract_offer_row_prices(page) -> list[int]:
-    # Fallback: collect one-time product prices from offer rows only, excluding
-    # used, shipping and installment contexts.
+def extract_header_price(page) -> int | None:
+    # single-seller pages carry no AggregateOffer and no "Laveste pris" label,
+    # only a "Pris" heading above the amount
     try:
-        prices = page.evaluate("""() => {
-            const root = document.querySelector('main') || document.body;
-            const nodes = root.querySelectorAll('span, strong, p, div, a');
-            const out = [];
-            const priceRe = /^\s*\d{1,3}(?:\.\d{3})*\s*kr\.?\s*$/i;
-            const banned = ['brugt', 'brugte', 'used', 'fragt', 'levering', 'shipping', '/md', 'pr. md', 'pr md', 'måned', 'måneds', 'betalinger af', 'afdrag'];
-            for (const n of nodes) {
-                const t = (n.innerText || n.textContent || '').trim();
-                if (!priceRe.test(t)) continue;
-                let ctx = '';
-                let p = n;
-                for (let i = 0; i < 3 && p; i++) {
-                    ctx += ' ' + ((p.innerText || p.textContent || '').toLowerCase());
-                    p = p.parentElement;
-                }
-                if (banned.some(b => ctx.includes(b))) continue;
-                out.push(t);
-            }
-            return Array.from(new Set(out));
-        }""")
+        text = page.inner_text("body")
     except Exception:
-        return []
+        return None
 
-    parsed: list[int] = []
-    for t in prices:
-        p = parse_price_text(t)
-        if p is not None:
-            parsed.append(p)
-    return parsed
+    match = re.search(r'(?:^|\n)\s*Pris\s*\n\s*(\d{1,3}(?:\.\d{3})+|\d{3,})\s*kr', text, flags=re.IGNORECASE)
+    return int(match.group(1).replace('.', '')) if match else None
 
 
 def get_market_price(page, product_name):
+
+    # a one-word name ("Signature") matches by chance across unrelated categories —
+    # it found a RØDE microphone. skip rather than store a wrong price
+    if len(normalize(clean_search_query(product_name)).split()) < 2:
+        log("Name too ambiguous to search, skipping")
+        return None, True
 
     query = clean_search_query(product_name).replace(' ', '+')
     url = f"https://www.pricerunner.dk/results?q={query}&suggestionsActive=true&suggestionClicked=false&suggestionReverted=false"
@@ -276,22 +371,27 @@ def get_market_price(page, product_name):
         if not title:
             continue
 
-        # Collect multiple nearby price-like spans (array) instead of a single price.
+        # collect price-like text belonging to this card only. climbing a fixed
+        # number of ancestors used to escape the card and pick up neighbouring
+        # cards' prices, which then won as the cheapest candidate
         price_texts = []
         try:
             price_texts = link.evaluate("""el => {
+                // widen the scope while the ancestor still holds only this product link
+                let scope = el;
                 let node = el.parentElement;
-                const found = [];
                 for (let i = 0; i < 6; i++) {
                     if (!node) break;
-                    const spans = node.querySelectorAll('span, div, p, li');
-                    for (const s of spans) {
-                        const t = (s.innerText || s.textContent || '').trim();
-                        if (/\\d/.test(t) && t.toLowerCase().includes('kr') && t.length < 60 && !t.startsWith('-')) {
-                            found.push(t);
-                        }
-                    }
+                    if (node.querySelectorAll('a[href^="/pl/"]').length > 1) break;
+                    scope = node;
                     node = node.parentElement;
+                }
+                const found = [];
+                for (const s of scope.querySelectorAll('span, div, p, li')) {
+                    const t = (s.innerText || s.textContent || '').trim();
+                    if (/\\d/.test(t) && t.toLowerCase().includes('kr') && t.length < 60 && !t.startsWith('-')) {
+                        found.push(t);
+                    }
                 }
                 return Array.from(new Set(found));
             }""")
@@ -349,8 +449,15 @@ def get_market_price(page, product_name):
             page.wait_for_timeout(random.uniform(1000, 2000))
 
             laveste = extract_laveste_pris(page)
-            row_prices = extract_offer_row_prices(page)
-            detail_price = laveste if laveste is not None else (min(row_prices) if row_prices else None)
+            # structured data first, then the explicit "Laveste pris" label, then the
+            # "Pris" heading used on single-seller pages. the old min(offer rows)
+            # fallback picked up cross-sells and used listings — no price beats a
+            # wrong price
+            detail_price = extract_jsonld_low_price(page)
+            if detail_price is None:
+                detail_price = laveste
+            if detail_price is None:
+                detail_price = extract_header_price(page)
             detail_price_map[href] = {'price': detail_price}
         except Exception:
             # if a detail page fails, ignore and continue with card price
@@ -373,6 +480,11 @@ def get_market_price(page, product_name):
         if not priced_top:
             log("No parseable prices among top candidates")
             return None, True
+        # only compare prices among candidates that match about as well as the best one.
+        # sorting purely by price let a weaker, cheaper candidate win and drag the
+        # market price far below the real one
+        top_score = max(p[0] for p in priced_top)
+        priced_top = [p for p in priced_top if p[0] >= top_score - SCORE_TOLERANCE]
         priced_top.sort(key=lambda x: (x[3], -x[0]))
         best_score, best_title, best_href, best_price = priced_top[0]
     else:
@@ -400,6 +512,8 @@ def get_market_price(page, product_name):
         if not priced_group:
             log("No parseable prices in preferred storage group")
             return None, True
+        top_score = max(p[0] for p in priced_group)
+        priced_group = [p for p in priced_group if p[0] >= top_score - SCORE_TOLERANCE]
         priced_group.sort(key=lambda x: (x[3], -x[0]))
         best_score, best_title, best_href, best_price = priced_group[0]
 
@@ -452,6 +566,55 @@ def make_fresh_page(browser):
     return context, page
 
 
+OUTPUT_PATH = BASE_DIR / 'data' / 'pricerunner' / 'pricerunner_prices.json'
+
+# how often to flush results to disk during a long run
+SAVE_EVERY = 10
+
+# reuse a stored price rather than looking it up again if it is newer than this
+MAX_PRICE_AGE_DAYS = 3
+
+# bump when score_match or price extraction changes, so stored results are
+# re-looked-up instead of leaving stale wrong prices behind
+MATCHER_VERSION = 8
+
+# when several candidates match, only compare prices among those scoring within
+# this much of the best one
+SCORE_TOLERANCE = 0.05
+
+
+def save_results(results):
+    OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
+    tmp = OUTPUT_PATH.with_suffix('.json.tmp')
+    with tmp.open('w', encoding='utf-8') as f:
+        json.dump(results, f, ensure_ascii=False, indent=4)
+    tmp.replace(OUTPUT_PATH)  # atomic, so an interrupted write can't corrupt the file
+
+
+def load_existing_results():
+    if not OUTPUT_PATH.exists():
+        return {}
+    try:
+        with OUTPUT_PATH.open(encoding='utf-8') as f:
+            return json.load(f)
+    except Exception:
+        return {}
+
+
+def is_fresh(entry):
+    entry = entry or {}
+    if entry.get('matcher_version') != MATCHER_VERSION:
+        return False
+    stamp = entry.get('looked_up_at')
+    if not stamp:
+        return False
+    try:
+        looked_up = datetime.datetime.strptime(stamp, "%d-%m-%Y-%H:%M")
+    except ValueError:
+        return False
+    return datetime.datetime.now() - looked_up < datetime.timedelta(days=MAX_PRICE_AGE_DAYS)
+
+
 def scrape_pricerunner():
     (BASE_DIR / 'data' / 'pricerunner').mkdir(parents=True, exist_ok=True)
 
@@ -477,7 +640,25 @@ def scrape_pricerunner():
         log(f"Skipping {len(blacklisted)} blacklisted product(s)")
     products = [name for name in products if not is_blacklisted(name)]
 
-    results = {}
+    # resume: keep prices we already have and skip re-looking-up recent ones
+    results = load_existing_results()
+
+    # drop entries for products no longer offered. a stale key kept serving an old
+    # wrong price to the site because results are looked up by the raw offer name
+    stale = [key for key in results if key not in products]
+    if stale:
+        log(f"Dropping {len(stale)} stale entr(ies) for products no longer offered")
+        for key in stale:
+            del results[key]
+
+    total = len(products)
+    products = [name for name in products if not is_fresh(results.get(name))]
+    skipped = total - len(products)
+    if skipped:
+        log(f"Resuming: {skipped} product(s) already have a price newer than {MAX_PRICE_AGE_DAYS} days")
+    log(f"{len(products)} product(s) to look up")
+
+    done = 0
     date_time = datetime.datetime.now().strftime("%d-%m-%Y-%H:%M")
 
     failure_threshold = 3
@@ -495,9 +676,11 @@ def scrape_pricerunner():
         consecutive_failures = 0
 
         for product_name in products:
-            product_name = apply_name_substitutions(product_name) # back up check for name substitutions
-            log(f"Looking up: {product_name}")
-            price, page_loaded = get_market_price(page, product_name)
+            # search under the tidied name, but store under the raw one — the site
+            # looks prices up by the product name exactly as the provider wrote it
+            search_name = apply_name_substitutions(product_name)
+            log(f"Looking up: {search_name}")
+            price, page_loaded = get_market_price(page, search_name)
 
             if not page_loaded:
                 consecutive_failures += 1
@@ -511,22 +694,29 @@ def scrape_pricerunner():
                     context, page = make_fresh_page(browser)
                     consecutive_failures = 0
 
-                    log(f"  Retrying: {product_name}")
-                    price, page_loaded = get_market_price(page, product_name)
+                    log(f"  Retrying: {search_name}")
+                    price, page_loaded = get_market_price(page, search_name)
             else:
                 consecutive_failures = 0
 
             results[product_name] = {
                 "market_price": price,
-                "looked_up_at": date_time
+                "looked_up_at": date_time,
+                "matcher_version": MATCHER_VERSION
             }
             log(f"  -> {price} kr.")
+
+            # a full run takes hours, so save as we go — an interrupted run keeps
+            # what it has and resumes from there
+            done += 1
+            if done % SAVE_EVERY == 0:
+                save_results(results)
+                log(f"  [saved {len(results)} results]")
 
         context.close()
         browser.close()
 
-    with (BASE_DIR / 'data' / 'pricerunner' / 'pricerunner_prices.json').open('w', encoding='utf-8') as f:
-        json.dump(results, f, ensure_ascii=False, indent=4)
+    save_results(results)
 
     log(f"\nLooked up {len(results)} products.")
 

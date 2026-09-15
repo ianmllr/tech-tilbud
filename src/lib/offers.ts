@@ -1,11 +1,11 @@
-import telmore from '../../data/telmore/telmore_offers.json'
-import telmore_tilgift from '../../data/telmore/telmore_tilgift_offers.json'
-import oister from '../../data/oister/oister_offers.json'
+import telmore_raw from '../../data/telmore/telmore_offers.json'
+import telmore_tilgift_raw from '../../data/telmore/telmore_tilgift_offers.json'
+import oister_raw from '../../data/oister/oister_offers.json'
 import elgiganten_raw from '../../data/elgiganten/elgiganten_offers.json'
-import cbb from '../../data/cbb/cbb_offers.json'
-import three from '../../data/3/3_offers.json'
-import yousee from '../../data/yousee/yousee_offers.json'
-import norlys from '../../data/norlys/norlys_offers.json'
+import cbb_raw from '../../data/cbb/cbb_offers.json'
+import three_raw from '../../data/3/3_offers.json'
+import yousee_raw from '../../data/yousee/yousee_offers.json'
+import norlys_raw from '../../data/norlys/norlys_offers.json'
 import callme_raw from '../../data/callme/callme_offers.json'
 import prisjagt from '../../data/prisjagt/prisjagt_prices.json'
 import pricerunner from '../../data/pricerunner/pricerunner_prices.json'
@@ -38,18 +38,62 @@ type ProviderOffer = {
     subscription_price_monthly_after_promo?: number | null
 }
 
-const elgiganten = elgiganten_raw as ElgigantenOffer[]
-const callme = callme_raw as ProviderOffer[]
-const oisterTyped = oister as ProviderOffer[]
+/**
+ * Scraped JSON is external data whose shape TypeScript cannot verify. Going
+ * through `unknown` also keeps the build working when a scrape produces an
+ * empty file, which would otherwise be inferred as `never[]`.
+ */
+const asOffers = (data: unknown): ProviderOffer[] => data as ProviderOffer[]
+
+const telmore = asOffers(telmore_raw)
+const telmore_tilgift = asOffers(telmore_tilgift_raw)
+const oister = asOffers(oister_raw)
+const cbb = asOffers(cbb_raw)
+const three = asOffers(three_raw)
+const yousee = asOffers(yousee_raw)
+const norlys = asOffers(norlys_raw)
+const callme = asOffers(callme_raw)
+const elgiganten = elgiganten_raw as unknown as ElgigantenOffer[]
 
 const prisjagtLookup = prisjagt as Record<string, { market_price: number | null }>
 const pricerunnerLookup = pricerunner as Record<string, { market_price: number | null }>
 
+// providers spell names with different casing ("AirPods" vs "Airpods"), so index
+// case-insensitively and keep the cheapest when keys collide
+function buildPriceIndex(lookup: Record<string, { market_price: number | null }>) {
+    const index = new Map<string, number>()
+    for (const [name, entry] of Object.entries(lookup)) {
+        const price = entry?.market_price
+        if (price === null || price === undefined) continue
+        const key = name.toLowerCase()
+        const current = index.get(key)
+        index.set(key, current === undefined ? price : Math.min(current, price))
+    }
+    return index
+}
+
+const prisjagtIndex = buildPriceIndex(prisjagtLookup)
+const pricerunnerIndex = buildPriceIndex(pricerunnerLookup)
+
 function lowestMarketPrice(productName: string): number | null {
-    const a = prisjagtLookup[productName]?.market_price ?? null
-    const b = pricerunnerLookup[productName]?.market_price ?? null
+    const key = productName.toLowerCase()
+    const a = prisjagtIndex.get(key) ?? null
+    const b = pricerunnerIndex.get(key) ?? null
     if (a !== null && b !== null) return Math.min(a, b)
     return a ?? b
+}
+
+// a market price far below the provider's own cash price means the lookup matched
+// the wrong product — usually because the provider name is too vague to identify
+// (Telmore lists a phone as just "Signature"). drop it rather than advertise a
+// saving that isn't real; the offer is simply hidden instead
+const MIN_PLAUSIBLE_MARKET_RATIO = 0.5
+
+function plausibleMarketPrice(productName: string, cashPrice: number): number | null {
+    const market = lowestMarketPrice(productName)
+    if (market === null) return null
+    if (cashPrice > 0 && market < cashPrice * MIN_PLAUSIBLE_MARKET_RATIO) return null
+    return market
 }
 
 export const allOffers: Offer[] = [
@@ -58,7 +102,7 @@ export const allOffers: Offer[] = [
         product_name: o.product_name,
         image_url: o.image_url,
         provider: 'Telmore' as const,
-        type: (o as Record<string, unknown>).type as string ?? 'phone',
+        type: o.type ?? 'phone',
         price_with_subscription: o.price_with_subscription,
         price_without_subscription: o.price_without_subscription,
         discount_on_product: o.discount_on_product,
@@ -71,20 +115,20 @@ export const allOffers: Offer[] = [
         product_name: o.product_name,
         image_url: o.image_url,
         provider: 'Telmore' as const,
-        type: (o as Record<string, unknown>).type as string ?? 'phone',
+        type: o.type ?? 'phone',
         price_with_subscription: o.price_with_subscription,
         price_without_subscription: o.price_without_subscription,
         discount_on_product: o.discount_on_product,
         min_cost_6_months: o.min_cost_6_months,
         subscription_price_monthly: o.subscription_price_monthly,
-        subscription_price_monthly_after_promo: (o as Record<string, unknown>).subscription_price_monthly_after_promo as number | null ?? null,
+        subscription_price_monthly_after_promo: o.subscription_price_monthly_after_promo ?? null,
     })),
-    ...oisterTyped.map(o => ({
+    ...oister.map(o => ({
         link: o.link,
         product_name: o.product_name,
         image_url: o.image_url,
         provider: 'Oister' as const,
-        type: (o as Record<string, unknown>).type as string ?? 'phone',
+        type: o.type ?? 'phone',
         price_with_subscription: o.price_with_subscription,
         price_without_subscription: o.price_without_subscription,
         discount_on_product: o.discount_on_product,
@@ -110,20 +154,20 @@ export const allOffers: Offer[] = [
         product_name: o.product_name,
         image_url: o.image_url,
         provider: 'CBB' as const,
-        type: (o as Record<string, unknown>).type as string ?? 'phone',
+        type: o.type ?? 'phone',
         price_with_subscription: o.price_with_subscription,
         price_without_subscription: o.price_without_subscription,
         discount_on_product: o.discount_on_product,
         min_cost_6_months: o.min_cost_6_months,
         subscription_price_monthly: o.subscription_price_monthly,
-        subscription_price_monthly_after_promo: (o as Record<string, unknown>).subscription_price_monthly_after_promo as number | null ?? null,
+        subscription_price_monthly_after_promo: o.subscription_price_monthly_after_promo ?? null,
     })),
     ...three.map(o => ({
         link: o.link,
         product_name: o.product_name,
         image_url: o.image_url,
         provider: '3' as const,
-        type: (o as Record<string, unknown>).type as string ?? 'phone',
+        type: o.type ?? 'phone',
         price_with_subscription: o.price_with_subscription,
         price_without_subscription: o.price_without_subscription,
         discount_on_product: o.discount_on_product,
@@ -136,7 +180,7 @@ export const allOffers: Offer[] = [
         product_name: o.product_name,
         image_url: o.image_url,
         provider: 'YouSee' as const,
-        type: (o as Record<string, unknown>).type as string ?? 'phone',
+        type: o.type ?? 'phone',
         price_with_subscription: o.price_with_subscription,
         price_without_subscription: o.price_without_subscription,
         discount_on_product: o.discount_on_product,
@@ -149,7 +193,7 @@ export const allOffers: Offer[] = [
         product_name: o.product_name,
         image_url: o.image_url,
         provider: 'Norlys' as const,
-        type: (o as Record<string, unknown>).type as string ?? 'phone',
+        type: o.type ?? 'phone',
         price_with_subscription: o.price_with_subscription,
         price_without_subscription: o.price_without_subscription,
         discount_on_product: o.discount_on_product,
@@ -162,7 +206,7 @@ export const allOffers: Offer[] = [
         product_name: o.product_name,
         image_url: o.image_url,
         provider: 'CallMe' as const,
-        type: (o as Record<string, unknown>).type as string ?? 'phone',
+        type: o.type ?? 'phone',
         price_with_subscription: o.price_with_subscription,
         price_without_subscription: o.price_without_subscription,
         discount_on_product: o.discount_on_product,
@@ -173,7 +217,7 @@ export const allOffers: Offer[] = [
 
 ].map(offer => ({
     ...offer,
-    market_price: lowestMarketPrice(offer.product_name),
+    market_price: plausibleMarketPrice(offer.product_name, offer.price_without_subscription),
 }))
 
 export const PROVIDERS = ['Telmore', 'Oister', 'Elgiganten', 'CBB', '3', 'YouSee', 'Norlys', 'CallMe'] as const
