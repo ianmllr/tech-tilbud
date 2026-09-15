@@ -13,6 +13,16 @@ VIEWPORT: ViewportSize = {"width": 1920, "height": 1080}
 
 BASE_URL = "https://www.3.dk"
 
+# Adtraction deeplink prefix for 3 (destination URL is appended to &url=)
+AFFILIATE_PREFIX = "https://pin.3.dk/t/t?a=1888318380&as=2054240298&t=2&tk=1&url="
+
+
+def affiliate_link(url: str) -> str:
+    """Wrap a 3.dk product URL in the affiliate tracking deeplink."""
+    if not url or url.startswith(AFFILIATE_PREFIX):
+        return url
+    return AFFILIATE_PREFIX + url
+
 CATEGORY_URLS: dict[str, str] = {
     f"{BASE_URL}/shop/mobiler/": "phone",
     f"{BASE_URL}/shop/tablets/": "tablet",
@@ -178,7 +188,7 @@ def scrape_product_page(page, url: str, saved_at: str, product_type: str = "phon
     )
 
     return Offer(
-        link=url,
+        link=affiliate_link(url),
         product_name=full_name,
         image_url=local_image_path,
         type=product_type,
