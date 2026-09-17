@@ -406,7 +406,6 @@ def get_market_price(page, product_name):
         return None, True
 
     query_clean = clean_search_query(product_name)
-    q_has_storage = extract_storage(query_clean) is not None
 
     # score and sort candidates — highest score first
     # candidates: (title, href, price_texts)
@@ -463,59 +462,31 @@ def get_market_price(page, product_name):
             # if a detail page fails, ignore and continue with card price
             pass
 
-    if q_has_storage:
-        # for exact storage queries, choose the cheapest among top score matches
-        priced_top = []
-        verified_available = any((detail_price_map.get(href, {}) or {}).get('price') is not None for _, _, href, _, _ in top_candidates)
-        for score, title, href, price_texts, parsed_price in top_candidates:
-            parsed = (detail_price_map.get(href, {}) or {}).get('price')
-            if parsed is None and not verified_available:
-                parsed = parsed_price
-                if parsed is None and price_texts:
-                    parsed_vals = [parse_price_text(pt) for pt in price_texts if parse_price_text(pt) is not None]
-                    if parsed_vals:
-                        parsed = min(parsed_vals)
-            if parsed is not None and (not verified_available or (detail_price_map.get(href, {}) or {}).get('price') is not None):
-                priced_top.append((score, title, href, parsed))
-        if not priced_top:
-            log("No parseable prices among top candidates")
-            return None, True
-        # only compare prices among candidates that match about as well as the best one.
-        # sorting purely by price let a weaker, cheaper candidate win and drag the
-        # market price far below the real one
-        top_score = max(p[0] for p in priced_top)
-        priced_top = [p for p in priced_top if p[0] >= top_score - SCORE_TOLERANCE]
-        priced_top.sort(key=lambda x: (x[3], -x[0]))
-        best_score, best_title, best_href, best_price = priced_top[0]
-    else:
-        # no storage in query — among tied candidates, prefer the smallest storage size
-        def storage_sort_key(item):
-            s = extract_storage(item[1])
-            return s if s is not None else 9999
+    # resolve one price per candidate. the detail-page figure is the most reliable
+    # when it loads, but the search-card price is what a person actually sees when
+    # searching, so keep whichever is lower. the cheapest candidate wins — the base
+    # (smallest-storage) variant is the cheapest, and when the provider name omits
+    # storage this picks the right price instead of guessing a storage tier from a
+    # title that may not carry one.
+    priced = []
+    for score, title, href, price_texts, parsed_price in top_candidates:
+        detail = (detail_price_map.get(href, {}) or {}).get('price')
+        options = [p for p in (parsed_price, detail) if p is not None]
+        if not options:
+            options = [p for p in (parse_price_text(pt) for pt in price_texts) if p is not None]
+        if options:
+            priced.append((score, title, href, min(options)))
 
+    if not priced:
+        log("No parseable prices among top candidates")
+        return None, True
 
-        top_candidates.sort(key=storage_sort_key)
-        min_storage = storage_sort_key(top_candidates[0])
-        storage_group = [item for item in top_candidates if storage_sort_key(item) == min_storage]
-        priced_group = []
-        verified_available = any((detail_price_map.get(href, {}) or {}).get('price') is not None for _, _, href, _, _ in storage_group)
-        for score, title, href, price_texts, parsed_price in storage_group:
-            parsed = (detail_price_map.get(href, {}) or {}).get('price')
-            if parsed is None and not verified_available:
-                parsed = parsed_price
-                if parsed is None and price_texts:
-                    parsed_vals = [parse_price_text(pt) for pt in price_texts if parse_price_text(pt) is not None]
-                    if parsed_vals:
-                        parsed = min(parsed_vals)
-            if parsed is not None and (not verified_available or (detail_price_map.get(href, {}) or {}).get('price') is not None):
-                priced_group.append((score, title, href, parsed))
-        if not priced_group:
-            log("No parseable prices in preferred storage group")
-            return None, True
-        top_score = max(p[0] for p in priced_group)
-        priced_group = [p for p in priced_group if p[0] >= top_score - SCORE_TOLERANCE]
-        priced_group.sort(key=lambda x: (x[3], -x[0]))
-        best_score, best_title, best_href, best_price = priced_group[0]
+    # only compare candidates that match about as well as the best-scored one, so a
+    # much weaker but cheaper match can't drag the market price below the real one
+    top_score = max(p[0] for p in priced)
+    priced = [p for p in priced if p[0] >= top_score - SCORE_TOLERANCE]
+    priced.sort(key=lambda x: (x[3], -x[0]))
+    best_score, best_title, best_href, best_price = priced[0]
 
     log(f"Matched: '{best_title}' (score={best_score:.2f})")
 
@@ -576,7 +547,7 @@ MAX_PRICE_AGE_DAYS = 3
 
 # bump when score_match or price extraction changes, so stored results are
 # re-looked-up instead of leaving stale wrong prices behind
-MATCHER_VERSION = 8
+MATCHER_VERSION = 9
 
 # when several candidates match, only compare prices among those scoring within
 # this much of the best one

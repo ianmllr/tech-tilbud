@@ -298,7 +298,6 @@ def get_market_price(page, product_name):
         return None, True
 
     query_clean = clean_search_query(product_name)
-    q_has_storage = extract_storage(query_clean) is not None
 
     # score and sort candidates — highest score first
     scored = [(score_match(query_clean, title), title, price_el) for title, price_el in candidates]
@@ -318,25 +317,35 @@ def get_market_price(page, product_name):
     # keep candidates within 15% of the best score — wide enough for storage variants to all be included
     top_candidates = [s for s in scored if s[0] >= best_score * 0.85]
 
-    if q_has_storage:
-        best_score, best_title, best_price_el = top_candidates[0]
-    else:
-        # no storage in query — among tied candidates, prefer the smallest storage size
-        def storage_sort_key(item):
-            s = extract_storage(item[1])
-            return s if s is not None else 9999
+    # get number as int instead of danish number (eg 4.299 -> 4299)
+    def parse_card_price(price_el):
+        raw = price_el.inner_text().strip()
+        price_clean = re.sub(r'\.(?=\d{3}(\D|$))', '', raw)
+        price_clean = re.sub(r',\d+', '', price_clean)
+        digits = "".join(re.findall(r'\d+', price_clean))
+        return int(digits) if digits else None
 
-        top_candidates.sort(key=storage_sort_key)
-        best_score, best_title, best_price_el = top_candidates[0]
+    # the cheapest candidate wins — the base (smallest-storage) variant is the
+    # cheapest, and when the provider name omits storage this picks the right price
+    # instead of guessing a storage tier from a title that may not carry one.
+    priced = []
+    for score, title, price_el in top_candidates:
+        try:
+            p = parse_card_price(price_el)
+        except Exception:
+            p = None
+        if p is not None:
+            priced.append((score, title, p))
+
+    if not priced:
+        log("  -> No parseable prices among top candidates")
+        return None, True
+
+    priced.sort(key=lambda x: x[2])
+    best_score, best_title, best_price = priced[0]
 
     log(f"  -> Matched: '{best_title}' (score={best_score:.2f})")
-
-    # get number as int instead of danihs number (eg 4.299 -> 4299)
-    raw = best_price_el.inner_text().strip()
-    price_clean = re.sub(r'\.(?=\d{3}(\D|$))', '', raw)
-    price_clean = re.sub(r',\d+', '', price_clean)
-    digits = "".join(re.findall(r'\d+', price_clean))
-    return (int(digits) if digits else None), True
+    return best_price, True
 
 
 def make_fresh_page(browser):
@@ -371,7 +380,7 @@ MAX_PRICE_AGE_DAYS = 3
 
 # bump when score_match changes, so stored results are re-looked-up instead of
 # leaving stale wrong prices behind
-MATCHER_VERSION = 6
+MATCHER_VERSION = 7
 
 
 def save_results(results):
