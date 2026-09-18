@@ -1429,11 +1429,6 @@
         "looked_up_at": "17-09-2026-19:43",
         "matcher_version": 7
     },
-    "Samsung Galaxy A17": {
-        "market_price": null,
-        "looked_up_at": "17-09-2026-19:43",
-        "matcher_version": 7
-    },
     "Samsung Galaxy Buds4 Pro Sort med abonnement": {
         "market_price": null,
         "looked_up_at": "17-09-2026-19:43",
@@ -1550,11 +1545,6 @@
         "matcher_version": 7
     },
     "Google Pixel 11 Pro 256GB": {
-        "market_price": null,
-        "looked_up_at": "17-09-2026-19:43",
-        "matcher_version": 7
-    },
-    "Samsung Galaxy Watch9 44mm Graphite e-SIM": {
         "market_price": null,
         "looked_up_at": "17-09-2026-19:43",
         "matcher_version": 7
@@ -1739,11 +1729,6 @@
         "looked_up_at": "17-09-2026-19:43",
         "matcher_version": 7
     },
-    "Apple iPhone 11 Pro Max Silicone Case - Hvid": {
-        "market_price": null,
-        "looked_up_at": "17-09-2026-19:43",
-        "matcher_version": 7
-    },
     "JBL BOOMBOX3 Sort": {
         "market_price": null,
         "looked_up_at": "17-09-2026-19:43",
@@ -1764,11 +1749,6 @@
         "looked_up_at": "17-09-2026-19:43",
         "matcher_version": 7
     },
-    "Samsung Galaxy Watch8 44mm BT - Grafit": {
-        "market_price": 1790,
-        "looked_up_at": "17-09-2026-19:43",
-        "matcher_version": 7
-    },
     "iPhone 18 Pro": {
         "market_price": null,
         "looked_up_at": "17-09-2026-19:43",
@@ -1784,16 +1764,6 @@
         "looked_up_at": "17-09-2026-19:43",
         "matcher_version": 7
     },
-    "dbramante1928 Greenland Google Pixel 8 Pro": {
-        "market_price": null,
-        "looked_up_at": "17-09-2026-19:43",
-        "matcher_version": 7
-    },
-    "Samsung Galaxy Watch8 Classic eSim - Sort": {
-        "market_price": null,
-        "looked_up_at": "17-09-2026-19:43",
-        "matcher_version": 7
-    },
     "Apple iPhone 18 Pro Max 256GB Burgundy": {
         "market_price": 12290,
         "looked_up_at": "17-09-2026-19:43",
@@ -1804,17 +1774,7 @@
         "looked_up_at": "17-09-2026-19:43",
         "matcher_version": 7
     },
-    "Samsung Galaxy Watch Ultra (2025) Titanium Gray": {
-        "market_price": null,
-        "looked_up_at": "17-09-2026-19:43",
-        "matcher_version": 7
-    },
     "Apple Watch Series 12 GPS + Cellular 46mm Dark Bronze Aluminium Case with Olive Sport Band - M/L med abonnement": {
-        "market_price": null,
-        "looked_up_at": "17-09-2026-19:43",
-        "matcher_version": 7
-    },
-    "Samsung Galaxy Watch8 40mm LTE": {
         "market_price": null,
         "looked_up_at": "17-09-2026-19:43",
         "matcher_version": 7
@@ -1844,17 +1804,7 @@
         "looked_up_at": "17-09-2026-19:43",
         "matcher_version": 7
     },
-    "iPhone 18 Pro Max 256GB Black": {
-        "market_price": 12290,
-        "looked_up_at": "17-09-2026-19:43",
-        "matcher_version": 7
-    },
     "Apple AirPods 5": {
-        "market_price": null,
-        "looked_up_at": "17-09-2026-19:43",
-        "matcher_version": 7
-    },
-    "Samsung Galaxy Watch8 40mm BT - Grafit": {
         "market_price": null,
         "looked_up_at": "17-09-2026-19:43",
         "matcher_version": 7
@@ -1877,6 +1827,66 @@
     "Apple AirPods 5 med abonnement": {
         "market_price": null,
         "looked_up_at": "17-09-2026-19:43",
+        "matcher_version": 7
+    },
+    "iPhone 17 Pro Max 256GB": {
+        "market_price": 9999,
+        "looked_up_at": "18-09-2026-10:25",
+        "matcher_version": 7
+    },
+    "Wavell Junior - Caribbean Blue": {
+        "market_price": null,
+        "looked_up_at": "18-09-2026-10:25",
+        "matcher_version": 7
+    },
+    "Empower 35W Lader USB-C + USB-A": {
+        "market_price": null,
+        "looked_up_at": "18-09-2026-10:25",
+        "matcher_version": 7
+    },
+    "Empower 240W USB-C til USB-C Kabel 2M": {
+        "market_price": null,
+        "looked_up_at": "18-09-2026-10:25",
+        "matcher_version": 7
+    },
+    "Fri SMS/MMS": {
+        "market_price": null,
+        "looked_up_at": "18-09-2026-10:25",
+        "matcher_version": 7
+    },
+    "Empower 60W USB-C t Lightning Kabel 1.2M": {
+        "market_price": null,
+        "looked_up_at": "18-09-2026-10:25",
+        "matcher_version": 7
+    },
+    "PanzerGlass iPhone XR|11": {
+        "market_price": null,
+        "looked_up_at": "18-09-2026-10:25",
+        "matcher_version": 7
+    },
+    "PanzerGlass Galaxy S24+ 3i1 pakke": {
+        "market_price": null,
+        "looked_up_at": "18-09-2026-10:25",
+        "matcher_version": 7
+    },
+    "Empower 30W Lader Single USB-C": {
+        "market_price": null,
+        "looked_up_at": "18-09-2026-10:25",
+        "matcher_version": 7
+    },
+    "iPhone 18 Pro Max 1TB Black": {
+        "market_price": 18290,
+        "looked_up_at": "18-09-2026-10:25",
+        "matcher_version": 7
+    },
+    "Samsung Galaxy S25 Ultra 256GB": {
+        "market_price": null,
+        "looked_up_at": "18-09-2026-10:25",
+        "matcher_version": 7
+    },
+    "Empower 240W USB-C til USB-C Kabel 1.2M": {
+        "market_price": null,
+        "looked_up_at": "18-09-2026-10:25",
         "matcher_version": 7
     }
 }
