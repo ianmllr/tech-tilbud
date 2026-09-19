@@ -334,11 +334,6 @@
         "looked_up_at": "17-09-2026-19:43",
         "matcher_version": 7
     },
-    "Samsung Galaxy S25 128GB": {
-        "market_price": null,
-        "looked_up_at": "17-09-2026-19:43",
-        "matcher_version": 7
-    },
     "iPhone 15 128GB Sort": {
         "market_price": null,
         "looked_up_at": "17-09-2026-19:43",
@@ -410,11 +405,6 @@
         "matcher_version": 7
     },
     "Pixel 11 Pro XL": {
-        "market_price": null,
-        "looked_up_at": "17-09-2026-19:43",
-        "matcher_version": 7
-    },
-    "Samsung Galaxy Tab S11 Ultra WiFi 256GB": {
         "market_price": null,
         "looked_up_at": "17-09-2026-19:43",
         "matcher_version": 7
@@ -1684,11 +1674,6 @@
         "looked_up_at": "17-09-2026-19:43",
         "matcher_version": 7
     },
-    "Galaxy S25 128GB Silver": {
-        "market_price": null,
-        "looked_up_at": "17-09-2026-19:43",
-        "matcher_version": 7
-    },
     "Apple Watch Ultra 4 GPS + Cellular 49mm Black Titanium Case with Translucent Black Ocean Band med abonnement": {
         "market_price": null,
         "looked_up_at": "17-09-2026-19:43",
@@ -1834,42 +1819,7 @@
         "looked_up_at": "18-09-2026-10:25",
         "matcher_version": 7
     },
-    "Wavell Junior - Caribbean Blue": {
-        "market_price": null,
-        "looked_up_at": "18-09-2026-10:25",
-        "matcher_version": 7
-    },
-    "Empower 35W Lader USB-C + USB-A": {
-        "market_price": null,
-        "looked_up_at": "18-09-2026-10:25",
-        "matcher_version": 7
-    },
-    "Empower 240W USB-C til USB-C Kabel 2M": {
-        "market_price": null,
-        "looked_up_at": "18-09-2026-10:25",
-        "matcher_version": 7
-    },
     "Fri SMS/MMS": {
-        "market_price": null,
-        "looked_up_at": "18-09-2026-10:25",
-        "matcher_version": 7
-    },
-    "Empower 60W USB-C t Lightning Kabel 1.2M": {
-        "market_price": null,
-        "looked_up_at": "18-09-2026-10:25",
-        "matcher_version": 7
-    },
-    "PanzerGlass iPhone XR|11": {
-        "market_price": null,
-        "looked_up_at": "18-09-2026-10:25",
-        "matcher_version": 7
-    },
-    "PanzerGlass Galaxy S24+ 3i1 pakke": {
-        "market_price": null,
-        "looked_up_at": "18-09-2026-10:25",
-        "matcher_version": 7
-    },
-    "Empower 30W Lader Single USB-C": {
         "market_price": null,
         "looked_up_at": "18-09-2026-10:25",
         "matcher_version": 7
@@ -1879,14 +1829,49 @@
         "looked_up_at": "18-09-2026-10:25",
         "matcher_version": 7
     },
-    "Samsung Galaxy S25 Ultra 256GB": {
-        "market_price": null,
-        "looked_up_at": "18-09-2026-10:25",
+    "Galaxy S25 128GB sort": {
+        "market_price": 4304,
+        "looked_up_at": "19-09-2026-10:03",
         "matcher_version": 7
     },
-    "Empower 240W USB-C til USB-C Kabel 1.2M": {
+    "Samsung Galaxy Watch8 40mm BT - Grafit": {
         "market_price": null,
-        "looked_up_at": "18-09-2026-10:25",
+        "looked_up_at": "19-09-2026-10:03",
+        "matcher_version": 7
+    },
+    "Samsung Galaxy Watch8 Classic eSim - Sort": {
+        "market_price": null,
+        "looked_up_at": "19-09-2026-10:03",
+        "matcher_version": 7
+    },
+    "Apple iPhone 11 Pro Max Silicone Case - Hvid": {
+        "market_price": null,
+        "looked_up_at": "19-09-2026-10:03",
+        "matcher_version": 7
+    },
+    "Samsung Galaxy Watch9 44mm Graphite e-SIM": {
+        "market_price": null,
+        "looked_up_at": "19-09-2026-10:03",
+        "matcher_version": 7
+    },
+    "Samsung Galaxy Watch8 40mm LTE": {
+        "market_price": null,
+        "looked_up_at": "19-09-2026-10:03",
+        "matcher_version": 7
+    },
+    "dbramante1928 Greenland Google Pixel 8 Pro": {
+        "market_price": null,
+        "looked_up_at": "19-09-2026-10:03",
+        "matcher_version": 7
+    },
+    "Samsung Galaxy Watch8 44mm BT - Grafit": {
+        "market_price": null,
+        "looked_up_at": "19-09-2026-10:03",
+        "matcher_version": 7
+    },
+    "Samsung Galaxy Watch Ultra (2025) Titanium Gray": {
+        "market_price": null,
+        "looked_up_at": "19-09-2026-10:03",
         "matcher_version": 7
     }
 }
