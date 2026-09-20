@@ -9,11 +9,6 @@
         "looked_up_at": "17-09-2026-18:47",
         "matcher_version": 9
     },
-    "Motorola Moto G75": {
-        "market_price": 2534,
-        "looked_up_at": "17-09-2026-18:47",
-        "matcher_version": 9
-    },
     "Doro Aurora A21 Graphite w Qi charger": {
         "market_price": 153,
         "looked_up_at": "17-09-2026-18:47",
@@ -174,18 +169,8 @@
         "looked_up_at": "17-09-2026-18:47",
         "matcher_version": 9
     },
-    "Motorola Moto G77": {
-        "market_price": 2093,
-        "looked_up_at": "17-09-2026-18:47",
-        "matcher_version": 9
-    },
     "Samsung Galaxy Watch8 40mm LTE med abonnement": {
         "market_price": 1499,
-        "looked_up_at": "17-09-2026-18:47",
-        "matcher_version": 9
-    },
-    "Motorola Edge 70 Fusion Power": {
-        "market_price": 3274,
         "looked_up_at": "17-09-2026-18:47",
         "matcher_version": 9
     },
@@ -221,11 +206,6 @@
     },
     "Samsung Galaxy S25+": {
         "market_price": null,
-        "looked_up_at": "17-09-2026-18:47",
-        "matcher_version": 9
-    },
-    "Motorola Signature": {
-        "market_price": 5928,
         "looked_up_at": "17-09-2026-18:47",
         "matcher_version": 9
     },
@@ -666,11 +646,6 @@
     },
     "Sonos Roam 2 - Sort med abonnement": {
         "market_price": 1499,
-        "looked_up_at": "17-09-2026-18:47",
-        "matcher_version": 9
-    },
-    "Motorola Moto G86 Power": {
-        "market_price": 2799,
         "looked_up_at": "17-09-2026-18:47",
         "matcher_version": 9
     },
@@ -1274,11 +1249,6 @@
         "looked_up_at": "17-09-2026-18:47",
         "matcher_version": 9
     },
-    "Motorola Razr 60 Ultra": {
-        "market_price": 5799,
-        "looked_up_at": "17-09-2026-18:47",
-        "matcher_version": 9
-    },
     "Pixel 11 Pro Fold": {
         "market_price": null,
         "looked_up_at": "17-09-2026-18:47",
@@ -1684,11 +1654,6 @@
         "looked_up_at": "17-09-2026-18:47",
         "matcher_version": 9
     },
-    "Motorola Edge 60": {
-        "market_price": 3299,
-        "looked_up_at": "17-09-2026-18:47",
-        "matcher_version": 9
-    },
     "Apple iPhone 18 Pro Max 256GB Burgundy": {
         "market_price": 12290,
         "looked_up_at": "17-09-2026-18:47",
@@ -1872,6 +1837,41 @@
     "Apple iPhone 11 Pro Max Silicone Case - Hvid": {
         "market_price": null,
         "looked_up_at": "19-09-2026-10:01",
+        "matcher_version": 9
+    },
+    "Samsung Galaxy A36": {
+        "market_price": 3257,
+        "looked_up_at": "20-09-2026-10:23",
+        "matcher_version": 9
+    },
+    "Samsung Galaxy S25 Ultra": {
+        "market_price": 6499,
+        "looked_up_at": "20-09-2026-10:23",
+        "matcher_version": 9
+    },
+    "Samsung Galaxy S25": {
+        "market_price": 4284,
+        "looked_up_at": "20-09-2026-10:23",
+        "matcher_version": 9
+    },
+    "Samsung Galaxy Z Flip8": {
+        "market_price": 5975,
+        "looked_up_at": "20-09-2026-10:23",
+        "matcher_version": 9
+    },
+    "Samsung Galaxy S26": {
+        "market_price": 5795,
+        "looked_up_at": "20-09-2026-10:23",
+        "matcher_version": 9
+    },
+    "Samsung Galaxy S25 FE": {
+        "market_price": 6474,
+        "looked_up_at": "20-09-2026-10:23",
+        "matcher_version": 9
+    },
+    "Samsung Galaxy A37": {
+        "market_price": 1961,
+        "looked_up_at": "20-09-2026-10:23",
         "matcher_version": 9
     }
 }

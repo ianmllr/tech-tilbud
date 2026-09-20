@@ -169,11 +169,6 @@
         "looked_up_at": "17-09-2026-19:43",
         "matcher_version": 7
     },
-    "Motorola Edge 70 Fusion Power": {
-        "market_price": null,
-        "looked_up_at": "17-09-2026-19:43",
-        "matcher_version": 7
-    },
     "Samsung Galaxy Tab S11 Ultra": {
         "market_price": null,
         "looked_up_at": "17-09-2026-19:43",
@@ -491,11 +486,6 @@
     },
     "Garmin Fenix 8 Slate Grey": {
         "market_price": null,
-        "looked_up_at": "17-09-2026-19:43",
-        "matcher_version": 7
-    },
-    "Motorola Razr 60 Ultra": {
-        "market_price": 3279,
         "looked_up_at": "17-09-2026-19:43",
         "matcher_version": 7
     },
@@ -849,11 +839,6 @@
         "looked_up_at": "17-09-2026-19:43",
         "matcher_version": 7
     },
-    "Motorola Moto G77": {
-        "market_price": 2010,
-        "looked_up_at": "17-09-2026-19:43",
-        "matcher_version": 7
-    },
     "Nintendo Switch 2 inkl. Mario Kart World med abonnement": {
         "market_price": null,
         "looked_up_at": "17-09-2026-19:43",
@@ -1134,11 +1119,6 @@
         "looked_up_at": "17-09-2026-19:43",
         "matcher_version": 7
     },
-    "Motorola Moto G86 Power": {
-        "market_price": null,
-        "looked_up_at": "17-09-2026-19:43",
-        "matcher_version": 7
-    },
     "Galaxy A37": {
         "market_price": 2029,
         "looked_up_at": "17-09-2026-19:43",
@@ -1216,11 +1196,6 @@
     },
     "Google Pixel 11 Pro 256GB Obsidian": {
         "market_price": null,
-        "looked_up_at": "17-09-2026-19:43",
-        "matcher_version": 7
-    },
-    "Motorola Moto G75": {
-        "market_price": 2553,
         "looked_up_at": "17-09-2026-19:43",
         "matcher_version": 7
     },
@@ -1325,11 +1300,6 @@
         "matcher_version": 7
     },
     "Apple AirPods 4 med abonnement": {
-        "market_price": null,
-        "looked_up_at": "17-09-2026-19:43",
-        "matcher_version": 7
-    },
-    "Motorola Signature": {
         "market_price": null,
         "looked_up_at": "17-09-2026-19:43",
         "matcher_version": 7
@@ -1719,11 +1689,6 @@
         "looked_up_at": "17-09-2026-19:43",
         "matcher_version": 7
     },
-    "Motorola Edge 60": {
-        "market_price": 2562,
-        "looked_up_at": "17-09-2026-19:43",
-        "matcher_version": 7
-    },
     "iPhone 16e": {
         "market_price": 3799,
         "looked_up_at": "17-09-2026-19:43",
@@ -1872,6 +1837,41 @@
     "Samsung Galaxy Watch Ultra (2025) Titanium Gray": {
         "market_price": null,
         "looked_up_at": "19-09-2026-10:03",
+        "matcher_version": 7
+    },
+    "Samsung Galaxy S25": {
+        "market_price": 4284,
+        "looked_up_at": "20-09-2026-10:25",
+        "matcher_version": 7
+    },
+    "Samsung Galaxy S26": {
+        "market_price": null,
+        "looked_up_at": "20-09-2026-10:25",
+        "matcher_version": 7
+    },
+    "Samsung Galaxy A37": {
+        "market_price": null,
+        "looked_up_at": "20-09-2026-10:25",
+        "matcher_version": 7
+    },
+    "Samsung Galaxy S25 Ultra": {
+        "market_price": 6999,
+        "looked_up_at": "20-09-2026-10:25",
+        "matcher_version": 7
+    },
+    "Samsung Galaxy S25 FE": {
+        "market_price": null,
+        "looked_up_at": "20-09-2026-10:25",
+        "matcher_version": 7
+    },
+    "Samsung Galaxy Z Flip8": {
+        "market_price": null,
+        "looked_up_at": "20-09-2026-10:25",
+        "matcher_version": 7
+    },
+    "Samsung Galaxy A36": {
+        "market_price": 1910,
+        "looked_up_at": "20-09-2026-10:25",
         "matcher_version": 7
     }
 }
