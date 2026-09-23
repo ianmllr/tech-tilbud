@@ -1,19 +1,19 @@
 [
     {
-        "link": "https://www.cbb.dk/shop/mobiltelefoner/apple/iphone-18-pro/?variant=iPhone-18-Pro-256GB-Black_1",
-        "product_name": "iPhone 18 Pro 256GB Black",
-        "image_url": "/images/cbb/iphone_18_pro_256gb_black.webp",
+        "link": "https://www.cbb.dk/shop/mobiltelefoner/apple/iphone-18-pro/?variant=iPhone-18-Pro-512GB-Black_1",
+        "product_name": "iPhone 18 Pro 512GB Black",
+        "image_url": "/images/cbb/iphone_18_pro_512gb_black.webp",
         "provider": "CBB",
         "type": "phone",
         "signup_price": 0,
         "data_gb": 0,
         "price_without_subscription": 0,
-        "price_with_subscription": 9999,
+        "price_with_subscription": 11999,
         "subscription_price_monthly": null,
         "subscription_price_monthly_after_promo": null,
         "min_cost_6_months": null,
         "discount_on_product": 0,
-        "saved_at": "22-09-2026-10:30",
+        "saved_at": "23-09-2026-10:26",
         "sold_out": "false"
     },
     {
@@ -30,7 +30,7 @@
         "subscription_price_monthly_after_promo": null,
         "min_cost_6_months": null,
         "discount_on_product": 0,
-        "saved_at": "22-09-2026-10:30",
+        "saved_at": "23-09-2026-10:26",
         "sold_out": "false"
     },
     {
@@ -42,12 +42,12 @@
         "signup_price": 0,
         "data_gb": 0,
         "price_without_subscription": 0,
-        "price_with_subscription": 5999,
+        "price_with_subscription": 8999,
         "subscription_price_monthly": null,
         "subscription_price_monthly_after_promo": null,
         "min_cost_6_months": null,
         "discount_on_product": 0,
-        "saved_at": "22-09-2026-10:30",
+        "saved_at": "23-09-2026-10:26",
         "sold_out": "false"
     },
     {
@@ -59,12 +59,12 @@
         "signup_price": 0,
         "data_gb": 0,
         "price_without_subscription": 0,
-        "price_with_subscription": 5699,
+        "price_with_subscription": 7299,
         "subscription_price_monthly": null,
         "subscription_price_monthly_after_promo": null,
         "min_cost_6_months": null,
         "discount_on_product": 0,
-        "saved_at": "22-09-2026-10:30",
+        "saved_at": "23-09-2026-10:26",
         "sold_out": "false"
     },
     {
@@ -76,12 +76,12 @@
         "signup_price": 0,
         "data_gb": 0,
         "price_without_subscription": 0,
-        "price_with_subscription": 7499,
+        "price_with_subscription": 10299,
         "subscription_price_monthly": null,
         "subscription_price_monthly_after_promo": null,
         "min_cost_6_months": null,
         "discount_on_product": 0,
-        "saved_at": "22-09-2026-10:30",
+        "saved_at": "23-09-2026-10:26",
         "sold_out": "false"
     },
     {
@@ -93,12 +93,12 @@
         "signup_price": 0,
         "data_gb": 0,
         "price_without_subscription": 0,
-        "price_with_subscription": 12499,
+        "price_with_subscription": 14999,
         "subscription_price_monthly": null,
         "subscription_price_monthly_after_promo": null,
         "min_cost_6_months": null,
         "discount_on_product": 0,
-        "saved_at": "22-09-2026-10:30",
+        "saved_at": "23-09-2026-10:26",
         "sold_out": "false"
     },
     {
@@ -115,7 +115,7 @@
         "subscription_price_monthly_after_promo": null,
         "min_cost_6_months": null,
         "discount_on_product": 0,
-        "saved_at": "22-09-2026-10:30",
+        "saved_at": "23-09-2026-10:26",
         "sold_out": "false"
     },
     {
@@ -132,7 +132,7 @@
         "subscription_price_monthly_after_promo": null,
         "min_cost_6_months": null,
         "discount_on_product": 0,
-        "saved_at": "22-09-2026-10:30",
+        "saved_at": "23-09-2026-10:26",
         "sold_out": "false"
     },
     {
@@ -149,7 +149,7 @@
         "subscription_price_monthly_after_promo": null,
         "min_cost_6_months": null,
         "discount_on_product": 0,
-        "saved_at": "22-09-2026-10:30",
+        "saved_at": "23-09-2026-10:26",
         "sold_out": "false"
     },
     {
@@ -166,7 +166,7 @@
         "subscription_price_monthly_after_promo": null,
         "min_cost_6_months": null,
         "discount_on_product": 0,
-        "saved_at": "22-09-2026-10:30",
+        "saved_at": "23-09-2026-10:26",
         "sold_out": "false"
     },
     {
@@ -183,7 +183,24 @@
         "subscription_price_monthly_after_promo": null,
         "min_cost_6_months": null,
         "discount_on_product": 0,
-        "saved_at": "22-09-2026-10:30",
+        "saved_at": "23-09-2026-10:26",
+        "sold_out": "false"
+    },
+    {
+        "link": "https://www.cbb.dk/shop/mobiltelefoner/motorola/motorola-g77/?variant=Motorola-G77-128GB-Black_1",
+        "product_name": "Motorola G77 128GB Black",
+        "image_url": "/images/cbb/motorola_g77_128gb_black.webp",
+        "provider": "CBB",
+        "type": "phone",
+        "signup_price": 0,
+        "data_gb": 0,
+        "price_without_subscription": 0,
+        "price_with_subscription": 1499,
+        "subscription_price_monthly": null,
+        "subscription_price_monthly_after_promo": null,
+        "min_cost_6_months": null,
+        "discount_on_product": 0,
+        "saved_at": "23-09-2026-10:26",
         "sold_out": "false"
     },
     {
@@ -200,7 +217,7 @@
         "subscription_price_monthly_after_promo": null,
         "min_cost_6_months": null,
         "discount_on_product": 0,
-        "saved_at": "22-09-2026-10:30",
+        "saved_at": "23-09-2026-10:26",
         "sold_out": "false"
     },
     {
@@ -212,12 +229,12 @@
         "signup_price": 0,
         "data_gb": 0,
         "price_without_subscription": 0,
-        "price_with_subscription": 4999,
+        "price_with_subscription": 7999,
         "subscription_price_monthly": null,
         "subscription_price_monthly_after_promo": null,
         "min_cost_6_months": null,
         "discount_on_product": 0,
-        "saved_at": "22-09-2026-10:30",
+        "saved_at": "23-09-2026-10:26",
         "sold_out": "false"
     },
     {
@@ -234,7 +251,7 @@
         "subscription_price_monthly_after_promo": null,
         "min_cost_6_months": null,
         "discount_on_product": 0,
-        "saved_at": "22-09-2026-10:30",
+        "saved_at": "23-09-2026-10:26",
         "sold_out": "false"
     },
     {
@@ -251,7 +268,7 @@
         "subscription_price_monthly_after_promo": null,
         "min_cost_6_months": null,
         "discount_on_product": 0,
-        "saved_at": "22-09-2026-10:30",
+        "saved_at": "23-09-2026-10:26",
         "sold_out": "false"
     },
     {
@@ -268,7 +285,7 @@
         "subscription_price_monthly_after_promo": null,
         "min_cost_6_months": null,
         "discount_on_product": 0,
-        "saved_at": "22-09-2026-10:30",
+        "saved_at": "23-09-2026-10:26",
         "sold_out": "false"
     },
     {
@@ -285,7 +302,7 @@
         "subscription_price_monthly_after_promo": null,
         "min_cost_6_months": null,
         "discount_on_product": 0,
-        "saved_at": "22-09-2026-10:30",
+        "saved_at": "23-09-2026-10:26",
         "sold_out": "false"
     },
     {
@@ -297,12 +314,12 @@
         "signup_price": 0,
         "data_gb": 0,
         "price_without_subscription": 0,
-        "price_with_subscription": 6999,
+        "price_with_subscription": 4299,
         "subscription_price_monthly": null,
         "subscription_price_monthly_after_promo": null,
         "min_cost_6_months": null,
         "discount_on_product": 0,
-        "saved_at": "22-09-2026-10:30",
+        "saved_at": "23-09-2026-10:26",
         "sold_out": "false"
     },
     {
@@ -319,13 +336,13 @@
         "subscription_price_monthly_after_promo": null,
         "min_cost_6_months": null,
         "discount_on_product": 0,
-        "saved_at": "22-09-2026-10:30",
+        "saved_at": "23-09-2026-10:26",
         "sold_out": "false"
     },
     {
-        "link": "https://www.cbb.dk/shop/mobiltelefoner/apple/iphone-17-pro/?variant=Apple-iPhone-17-Pro-256-GB-Silver_1",
-        "product_name": "iPhone 17 Pro 256 GB Silver",
-        "image_url": "/images/cbb/iphone_17_pro_256_gb_silver.webp",
+        "link": "https://www.cbb.dk/shop/mobiltelefoner/apple/iphone-17-pro/?variant=Apple-iPhone-17-Pro-256-GB-Orange_1",
+        "product_name": "iPhone 17 Pro 256 GB Orange",
+        "image_url": "/images/cbb/iphone_17_pro_256_gb_orange.webp",
         "provider": "CBB",
         "type": "phone",
         "signup_price": 0,
@@ -336,13 +353,13 @@
         "subscription_price_monthly_after_promo": null,
         "min_cost_6_months": null,
         "discount_on_product": 0,
-        "saved_at": "22-09-2026-10:30",
+        "saved_at": "23-09-2026-10:26",
         "sold_out": "false"
     },
     {
-        "link": "https://www.cbb.dk/shop/mobiltelefoner/apple/iphone-17/?variant=Apple-iPhone-17-256-GB-Purple_1",
-        "product_name": "iPhone 17 256 GB Purple",
-        "image_url": "/images/cbb/iphone_17_256_gb_purple.webp",
+        "link": "https://www.cbb.dk/shop/mobiltelefoner/apple/iphone-17/?variant=Apple-iPhone-17-256-GB-Sort_1",
+        "product_name": "iPhone 17 256 GB Sort",
+        "image_url": "/images/cbb/iphone_17_256_gb_sort.webp",
         "provider": "CBB",
         "type": "phone",
         "signup_price": 0,
@@ -353,7 +370,7 @@
         "subscription_price_monthly_after_promo": null,
         "min_cost_6_months": null,
         "discount_on_product": 0,
-        "saved_at": "22-09-2026-10:30",
+        "saved_at": "23-09-2026-10:26",
         "sold_out": "false"
     },
     {
@@ -370,7 +387,7 @@
         "subscription_price_monthly_after_promo": null,
         "min_cost_6_months": null,
         "discount_on_product": 0,
-        "saved_at": "22-09-2026-10:30",
+        "saved_at": "23-09-2026-10:26",
         "sold_out": "false"
     },
     {
@@ -387,7 +404,7 @@
         "subscription_price_monthly_after_promo": null,
         "min_cost_6_months": null,
         "discount_on_product": 0,
-        "saved_at": "22-09-2026-10:30",
+        "saved_at": "23-09-2026-10:26",
         "sold_out": "false"
     },
     {
@@ -404,7 +421,7 @@
         "subscription_price_monthly_after_promo": null,
         "min_cost_6_months": null,
         "discount_on_product": 0,
-        "saved_at": "22-09-2026-10:30",
+        "saved_at": "23-09-2026-10:26",
         "sold_out": "false"
     },
     {
@@ -421,7 +438,7 @@
         "subscription_price_monthly_after_promo": null,
         "min_cost_6_months": null,
         "discount_on_product": 0,
-        "saved_at": "22-09-2026-10:30",
+        "saved_at": "23-09-2026-10:26",
         "sold_out": "false"
     },
     {
@@ -438,7 +455,7 @@
         "subscription_price_monthly_after_promo": null,
         "min_cost_6_months": null,
         "discount_on_product": 0,
-        "saved_at": "22-09-2026-10:30",
+        "saved_at": "23-09-2026-10:26",
         "sold_out": "true"
     },
     {
@@ -455,7 +472,7 @@
         "subscription_price_monthly_after_promo": null,
         "min_cost_6_months": null,
         "discount_on_product": 0,
-        "saved_at": "22-09-2026-10:30",
+        "saved_at": "23-09-2026-10:26",
         "sold_out": "true"
     },
     {
@@ -472,7 +489,7 @@
         "subscription_price_monthly_after_promo": null,
         "min_cost_6_months": null,
         "discount_on_product": 0,
-        "saved_at": "22-09-2026-10:30",
+        "saved_at": "23-09-2026-10:26",
         "sold_out": "true"
     },
     {
@@ -489,24 +506,7 @@
         "subscription_price_monthly_after_promo": null,
         "min_cost_6_months": null,
         "discount_on_product": 0,
-        "saved_at": "22-09-2026-10:30",
-        "sold_out": "true"
-    },
-    {
-        "link": "https://www.cbb.dk/shop/mobiltelefoner/motorola/motorola-g77/?variant=Motorola-G77-128GB-Black_1",
-        "product_name": "Motorola G77 128GB Black",
-        "image_url": "/images/cbb/motorola_g77_128gb_black.webp",
-        "provider": "CBB",
-        "type": "phone",
-        "signup_price": 0,
-        "data_gb": 0,
-        "price_without_subscription": 0,
-        "price_with_subscription": 999,
-        "subscription_price_monthly": null,
-        "subscription_price_monthly_after_promo": null,
-        "min_cost_6_months": null,
-        "discount_on_product": 0,
-        "saved_at": "22-09-2026-10:30",
+        "saved_at": "23-09-2026-10:26",
         "sold_out": "true"
     },
     {
@@ -523,7 +523,7 @@
         "subscription_price_monthly_after_promo": null,
         "min_cost_6_months": null,
         "discount_on_product": 0,
-        "saved_at": "22-09-2026-10:30",
+        "saved_at": "23-09-2026-10:26",
         "sold_out": "true"
     },
     {
@@ -540,7 +540,7 @@
         "subscription_price_monthly_after_promo": null,
         "min_cost_6_months": null,
         "discount_on_product": 0,
-        "saved_at": "22-09-2026-10:30",
+        "saved_at": "23-09-2026-10:26",
         "sold_out": "true"
     },
     {
@@ -557,7 +557,7 @@
         "subscription_price_monthly_after_promo": null,
         "min_cost_6_months": null,
         "discount_on_product": 0,
-        "saved_at": "22-09-2026-10:30",
+        "saved_at": "23-09-2026-10:26",
         "sold_out": "true"
     },
     {
@@ -569,12 +569,12 @@
         "signup_price": 0,
         "data_gb": 0,
         "price_without_subscription": 0,
-        "price_with_subscription": 9999,
+        "price_with_subscription": 7999,
         "subscription_price_monthly": null,
         "subscription_price_monthly_after_promo": null,
         "min_cost_6_months": null,
         "discount_on_product": 0,
-        "saved_at": "22-09-2026-10:30",
+        "saved_at": "23-09-2026-10:26",
         "sold_out": "true"
     },
     {
@@ -591,7 +591,7 @@
         "subscription_price_monthly_after_promo": null,
         "min_cost_6_months": null,
         "discount_on_product": 0,
-        "saved_at": "22-09-2026-10:30",
+        "saved_at": "23-09-2026-10:26",
         "sold_out": "true"
     },
     {
@@ -608,7 +608,7 @@
         "subscription_price_monthly_after_promo": null,
         "min_cost_6_months": null,
         "discount_on_product": 0,
-        "saved_at": "22-09-2026-10:30",
+        "saved_at": "23-09-2026-10:26",
         "sold_out": "true"
     },
     {
@@ -625,7 +625,7 @@
         "subscription_price_monthly_after_promo": null,
         "min_cost_6_months": null,
         "discount_on_product": 0,
-        "saved_at": "22-09-2026-10:30",
+        "saved_at": "23-09-2026-10:26",
         "sold_out": "true"
     },
     {
@@ -642,7 +642,7 @@
         "subscription_price_monthly_after_promo": null,
         "min_cost_6_months": null,
         "discount_on_product": 0,
-        "saved_at": "22-09-2026-10:30",
+        "saved_at": "23-09-2026-10:26",
         "sold_out": "true"
     },
     {
@@ -659,7 +659,7 @@
         "subscription_price_monthly_after_promo": null,
         "min_cost_6_months": null,
         "discount_on_product": 0,
-        "saved_at": "22-09-2026-10:30",
+        "saved_at": "23-09-2026-10:26",
         "sold_out": "true"
     },
     {
@@ -676,7 +676,7 @@
         "subscription_price_monthly_after_promo": null,
         "min_cost_6_months": null,
         "discount_on_product": 0,
-        "saved_at": "22-09-2026-10:30",
+        "saved_at": "23-09-2026-10:26",
         "sold_out": "true"
     },
     {
@@ -693,7 +693,7 @@
         "subscription_price_monthly_after_promo": null,
         "min_cost_6_months": null,
         "discount_on_product": 0,
-        "saved_at": "22-09-2026-10:30",
+        "saved_at": "23-09-2026-10:26",
         "sold_out": "true"
     },
     {
@@ -710,7 +710,7 @@
         "subscription_price_monthly_after_promo": null,
         "min_cost_6_months": null,
         "discount_on_product": 0,
-        "saved_at": "22-09-2026-10:30",
+        "saved_at": "23-09-2026-10:26",
         "sold_out": "true"
     },
     {
@@ -727,7 +727,7 @@
         "subscription_price_monthly_after_promo": null,
         "min_cost_6_months": null,
         "discount_on_product": 0,
-        "saved_at": "22-09-2026-10:30",
+        "saved_at": "23-09-2026-10:26",
         "sold_out": "true"
     },
     {
@@ -744,7 +744,7 @@
         "subscription_price_monthly_after_promo": null,
         "min_cost_6_months": null,
         "discount_on_product": 0,
-        "saved_at": "22-09-2026-10:30",
+        "saved_at": "23-09-2026-10:26",
         "sold_out": "true"
     }
 ]

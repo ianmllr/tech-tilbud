@@ -99,11 +99,6 @@
         "looked_up_at": "21-09-2026-12:25",
         "matcher_version": 7
     },
-    "iPhone 17 Pro 256 GB Silver": {
-        "market_price": null,
-        "looked_up_at": "21-09-2026-12:25",
-        "matcher_version": 7
-    },
     "iPad Air 13 M3 Wi-Fi Cellular 128GB": {
         "market_price": null,
         "looked_up_at": "21-09-2026-12:25",
@@ -161,11 +156,6 @@
     },
     "Motorola G77 128GB Black": {
         "market_price": 1888,
-        "looked_up_at": "21-09-2026-12:25",
-        "matcher_version": 7
-    },
-    "Samsung Galaxy Tab S11 Ultra": {
-        "market_price": null,
         "looked_up_at": "21-09-2026-12:25",
         "matcher_version": 7
     },
@@ -1589,11 +1579,6 @@
         "looked_up_at": "21-09-2026-12:25",
         "matcher_version": 7
     },
-    "Google Pixel 9 Pro Fold": {
-        "market_price": null,
-        "looked_up_at": "21-09-2026-12:25",
-        "matcher_version": 7
-    },
     "Saphe Saphe T": {
         "market_price": null,
         "looked_up_at": "21-09-2026-12:25",
@@ -1605,11 +1590,6 @@
         "matcher_version": 7
     },
     "JBL Charge 6": {
-        "market_price": null,
-        "looked_up_at": "21-09-2026-12:25",
-        "matcher_version": 7
-    },
-    "Samsung Galaxy S26+": {
         "market_price": null,
         "looked_up_at": "21-09-2026-12:25",
         "matcher_version": 7
@@ -1704,11 +1684,6 @@
         "looked_up_at": "21-09-2026-12:25",
         "matcher_version": 7
     },
-    "iPhone 18 Pro 256GB Black": {
-        "market_price": null,
-        "looked_up_at": "21-09-2026-12:25",
-        "matcher_version": 7
-    },
     "iPhone 18 Pro Max": {
         "market_price": null,
         "looked_up_at": "21-09-2026-12:25",
@@ -1735,11 +1710,6 @@
         "matcher_version": 7
     },
     "Apple AirPods 5 med abonnement": {
-        "market_price": null,
-        "looked_up_at": "21-09-2026-12:25",
-        "matcher_version": 7
-    },
-    "iPhone 17 Pro Max 256GB": {
         "market_price": null,
         "looked_up_at": "21-09-2026-12:25",
         "matcher_version": 7
@@ -1779,11 +1749,6 @@
         "looked_up_at": "21-09-2026-12:25",
         "matcher_version": 7
     },
-    "iPad Air 11 (2025) 128GB": {
-        "market_price": 7562,
-        "looked_up_at": "21-09-2026-12:25",
-        "matcher_version": 7
-    },
     "Motorola Moto G75": {
         "market_price": 1631,
         "looked_up_at": "21-09-2026-12:25",
@@ -1809,74 +1774,94 @@
         "looked_up_at": "21-09-2026-12:25",
         "matcher_version": 7
     },
-    "Empower 30W Lader Single USB-C": {
+    "Google Pixel 11 Pro XL": {
+        "market_price": 10899,
+        "looked_up_at": "23-09-2026-10:41",
+        "matcher_version": 7
+    },
+    "Google Pixel 11": {
         "market_price": null,
-        "looked_up_at": "22-09-2026-10:43",
+        "looked_up_at": "23-09-2026-10:41",
         "matcher_version": 7
     },
-    "iPhone 17 256 GB Purple": {
+    "Samsung Galaxy S26 FE": {
         "market_price": null,
-        "looked_up_at": "22-09-2026-10:43",
+        "looked_up_at": "23-09-2026-10:41",
         "matcher_version": 7
     },
-    "Empower 35W Lader USB-C + USB-A": {
+    "dbramante1928 Greenland Google Pixel 8 Pro": {
         "market_price": null,
-        "looked_up_at": "22-09-2026-10:43",
+        "looked_up_at": "23-09-2026-10:41",
         "matcher_version": 7
     },
-    "Empower 60W USB-C t Lightning Kabel 1.2M": {
+    "Samsung Galaxy S26 Ultra": {
         "market_price": null,
-        "looked_up_at": "22-09-2026-10:43",
+        "looked_up_at": "23-09-2026-10:41",
         "matcher_version": 7
     },
-    "PanzerGlass iPhone XR|11": {
+    "Samsung Galaxy Watch8 40mm BT - Grafit": {
         "market_price": null,
-        "looked_up_at": "22-09-2026-10:43",
+        "looked_up_at": "23-09-2026-10:41",
         "matcher_version": 7
     },
-    "Google Pixel 10a": {
-        "market_price": 3299,
-        "looked_up_at": "22-09-2026-10:43",
+    "iPhone 17 256 GB Sort": {
+        "market_price": 7777,
+        "looked_up_at": "23-09-2026-10:41",
         "matcher_version": 7
     },
-    "Empower Powerbank 10000 mAh": {
+    "Samsung Galaxy Watch8 Classic eSim - Sort": {
         "market_price": null,
-        "looked_up_at": "22-09-2026-10:43",
+        "looked_up_at": "23-09-2026-10:41",
         "matcher_version": 7
     },
-    "Empower 240W USB-C til USB-C Kabel 1.2M": {
+    "Samsung Galaxy Watch8 44mm BT - Grafit": {
         "market_price": null,
-        "looked_up_at": "22-09-2026-10:43",
+        "looked_up_at": "23-09-2026-10:41",
         "matcher_version": 7
     },
-    "PanzerGlass Galaxy S24+ 3i1 pakke": {
+    "iPhone 17 Pro 256 GB Orange": {
+        "market_price": 9199,
+        "looked_up_at": "23-09-2026-10:41",
+        "matcher_version": 7
+    },
+    "iPhone 18 Pro 512GB Black": {
         "market_price": null,
-        "looked_up_at": "22-09-2026-10:43",
+        "looked_up_at": "23-09-2026-10:41",
         "matcher_version": 7
     },
-    "Nokia 3210 4G": {
+    "Samsung Galaxy Watch Ultra (2025) Titanium Gray": {
         "market_price": null,
-        "looked_up_at": "22-09-2026-10:43",
+        "looked_up_at": "23-09-2026-10:41",
         "matcher_version": 7
     },
-    "Samsung Galaxy Z Flip8": {
+    "Google Pixel 11 Pro": {
+        "market_price": 9399,
+        "looked_up_at": "23-09-2026-10:41",
+        "matcher_version": 7
+    },
+    "Samsung Galaxy Watch9 40mm Beige BT": {
         "market_price": null,
-        "looked_up_at": "22-09-2026-10:43",
+        "looked_up_at": "23-09-2026-10:41",
         "matcher_version": 7
     },
-    "Samsung Galaxy A36": {
+    "Samsung Galaxy S25+": {
         "market_price": null,
-        "looked_up_at": "22-09-2026-10:43",
+        "looked_up_at": "23-09-2026-10:41",
         "matcher_version": 7
     },
-    "Empower 240W USB-C til USB-C Kabel 2M": {
+    "Samsung Galaxy Watch9 44mm Graphite e-SIM": {
+        "market_price": 2438,
+        "looked_up_at": "23-09-2026-10:41",
+        "matcher_version": 7
+    },
+    "Samsung Galaxy A17": {
         "market_price": null,
-        "looked_up_at": "22-09-2026-10:43",
+        "looked_up_at": "23-09-2026-10:41",
         "matcher_version": 7
     },
-    "Samsung Galaxy A37": {
-        "market_price": 2110,
-        "looked_up_at": "22-09-2026-10:43",
+    "Apple iPhone 11 Pro Max Silicone Case - Hvid": {
+        "market_price": null,
+        "looked_up_at": "23-09-2026-10:41",
         "matcher_version": 7
     }
 }
