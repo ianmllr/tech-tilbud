@@ -1789,11 +1789,6 @@
         "looked_up_at": "23-09-2026-10:41",
         "matcher_version": 7
     },
-    "dbramante1928 Greenland Google Pixel 8 Pro": {
-        "market_price": null,
-        "looked_up_at": "23-09-2026-10:41",
-        "matcher_version": 7
-    },
     "Samsung Galaxy S26 Ultra": {
         "market_price": null,
         "looked_up_at": "23-09-2026-10:41",
@@ -1801,11 +1796,6 @@
     },
     "Samsung Galaxy Watch8 40mm BT - Grafit": {
         "market_price": null,
-        "looked_up_at": "23-09-2026-10:41",
-        "matcher_version": 7
-    },
-    "iPhone 17 256 GB Sort": {
-        "market_price": 7777,
         "looked_up_at": "23-09-2026-10:41",
         "matcher_version": 7
     },
@@ -1859,9 +1849,29 @@
         "looked_up_at": "23-09-2026-10:41",
         "matcher_version": 7
     },
-    "Apple iPhone 11 Pro Max Silicone Case - Hvid": {
+    "iPad Air 11 (2025) 128GB": {
+        "market_price": 7475,
+        "looked_up_at": "24-09-2026-10:52",
+        "matcher_version": 7
+    },
+    "iPhone 17 256 GB Hvid": {
         "market_price": null,
-        "looked_up_at": "23-09-2026-10:41",
+        "looked_up_at": "24-09-2026-10:52",
+        "matcher_version": 7
+    },
+    "Samsung Galaxy Watch8 40mm LTE": {
+        "market_price": null,
+        "looked_up_at": "24-09-2026-10:52",
+        "matcher_version": 7
+    },
+    "JBL PartyBox Stage 320": {
+        "market_price": null,
+        "looked_up_at": "24-09-2026-10:52",
+        "matcher_version": 7
+    },
+    "iPhone 17 Pro Max 256GB": {
+        "market_price": null,
+        "looked_up_at": "24-09-2026-10:52",
         "matcher_version": 7
     }
 }

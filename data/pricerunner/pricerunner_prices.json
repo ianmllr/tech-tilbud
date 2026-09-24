@@ -1779,21 +1779,6 @@
         "looked_up_at": "23-09-2026-10:38",
         "matcher_version": 9
     },
-    "Apple iPhone 11 Pro Max Silicone Case - Hvid": {
-        "market_price": null,
-        "looked_up_at": "23-09-2026-10:38",
-        "matcher_version": 9
-    },
-    "iPhone 17 256 GB Sort": {
-        "market_price": 7677,
-        "looked_up_at": "23-09-2026-10:38",
-        "matcher_version": 9
-    },
-    "dbramante1928 Greenland Google Pixel 8 Pro": {
-        "market_price": null,
-        "looked_up_at": "23-09-2026-10:38",
-        "matcher_version": 9
-    },
     "Samsung Galaxy S26 FE": {
         "market_price": 4924,
         "looked_up_at": "23-09-2026-10:38",
@@ -1862,6 +1847,31 @@
     "Google Pixel 11 Pro XL": {
         "market_price": 10838,
         "looked_up_at": "23-09-2026-10:38",
+        "matcher_version": 9
+    },
+    "Samsung Galaxy Watch8 40mm LTE": {
+        "market_price": 1499,
+        "looked_up_at": "24-09-2026-10:51",
+        "matcher_version": 9
+    },
+    "iPhone 17 Pro Max 256GB": {
+        "market_price": 10336,
+        "looked_up_at": "24-09-2026-10:51",
+        "matcher_version": 9
+    },
+    "iPhone 17 256 GB Hvid": {
+        "market_price": 7598,
+        "looked_up_at": "24-09-2026-10:51",
+        "matcher_version": 9
+    },
+    "iPad Air 11 (2025) 128GB": {
+        "market_price": 5826,
+        "looked_up_at": "24-09-2026-10:51",
+        "matcher_version": 9
+    },
+    "JBL PartyBox Stage 320": {
+        "market_price": 3499,
+        "looked_up_at": "24-09-2026-10:51",
         "matcher_version": 9
     }
 }
