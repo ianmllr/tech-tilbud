@@ -624,11 +624,6 @@
         "looked_up_at": "25-09-2026-10:53",
         "matcher_version": 9
     },
-    "Samsung Galaxy Z Flip7 FE 128GB": {
-        "market_price": 4680,
-        "looked_up_at": "25-09-2026-10:53",
-        "matcher_version": 9
-    },
     "JBL Tune Buds 2 med abonnement - Hvid": {
         "market_price": 499,
         "looked_up_at": "25-09-2026-10:53",
@@ -1709,11 +1704,6 @@
         "looked_up_at": "25-09-2026-10:53",
         "matcher_version": 9
     },
-    "iPhone 18 Pro Max 1TB Black": {
-        "market_price": null,
-        "looked_up_at": "25-09-2026-10:53",
-        "matcher_version": 9
-    },
     "Fri SMS/MMS": {
         "market_price": null,
         "looked_up_at": "25-09-2026-10:53",
@@ -1721,11 +1711,6 @@
     },
     "Galaxy S25 128GB sort": {
         "market_price": 4354,
-        "looked_up_at": "25-09-2026-10:53",
-        "matcher_version": 9
-    },
-    "Samsung Galaxy A26 5G 128GB": {
-        "market_price": 1499,
         "looked_up_at": "25-09-2026-10:53",
         "matcher_version": 9
     },
@@ -1814,19 +1799,9 @@
         "looked_up_at": "23-09-2026-10:38",
         "matcher_version": 9
     },
-    "iPad Air 11 (2025) 128GB": {
-        "market_price": 5826,
-        "looked_up_at": "24-09-2026-10:51",
-        "matcher_version": 9
-    },
     "JBL PartyBox Stage 320": {
         "market_price": 3499,
         "looked_up_at": "24-09-2026-10:51",
-        "matcher_version": 9
-    },
-    "iPhone 17 256 GB Sort": {
-        "market_price": 6799,
-        "looked_up_at": "25-09-2026-10:53",
         "matcher_version": 9
     },
     "Google 45W USB-C Power Charger": {
@@ -1857,6 +1832,16 @@
     "Nudient Base iPhone 16 Soft Purple cover": {
         "market_price": 96,
         "looked_up_at": "25-09-2026-10:53",
+        "matcher_version": 9
+    },
+    "iPhone 18 Pro Max 256GB Black": {
+        "market_price": 12290,
+        "looked_up_at": "26-09-2026-10:37",
+        "matcher_version": 9
+    },
+    "iPhone 17 256 GB Hvid": {
+        "market_price": 7685,
+        "looked_up_at": "26-09-2026-10:37",
         "matcher_version": 9
     }
 }

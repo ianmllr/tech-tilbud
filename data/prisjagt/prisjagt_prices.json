@@ -479,11 +479,6 @@
         "looked_up_at": "25-09-2026-11:46",
         "matcher_version": 7
     },
-    "Samsung Galaxy Z Flip7 FE 128GB": {
-        "market_price": 4999,
-        "looked_up_at": "25-09-2026-11:46",
-        "matcher_version": 7
-    },
     "Samsung Galaxy A57": {
         "market_price": null,
         "looked_up_at": "25-09-2026-11:46",
@@ -1714,18 +1709,8 @@
         "looked_up_at": "25-09-2026-11:46",
         "matcher_version": 7
     },
-    "iPhone 18 Pro Max 1TB Black": {
-        "market_price": null,
-        "looked_up_at": "25-09-2026-11:46",
-        "matcher_version": 7
-    },
     "Galaxy S25 128GB sort": {
         "market_price": null,
-        "looked_up_at": "25-09-2026-11:46",
-        "matcher_version": 7
-    },
-    "Samsung Galaxy A26 5G 128GB": {
-        "market_price": 1899,
         "looked_up_at": "25-09-2026-11:46",
         "matcher_version": 7
     },
@@ -1814,22 +1799,12 @@
         "looked_up_at": "23-09-2026-10:41",
         "matcher_version": 7
     },
-    "iPad Air 11 (2025) 128GB": {
-        "market_price": 7475,
-        "looked_up_at": "24-09-2026-10:52",
-        "matcher_version": 7
-    },
     "JBL PartyBox Stage 320": {
         "market_price": null,
         "looked_up_at": "24-09-2026-10:52",
         "matcher_version": 7
     },
     "JBL Go 4 Black": {
-        "market_price": null,
-        "looked_up_at": "25-09-2026-11:46",
-        "matcher_version": 7
-    },
-    "iPhone 17 256 GB Sort": {
         "market_price": null,
         "looked_up_at": "25-09-2026-11:46",
         "matcher_version": 7
@@ -1857,6 +1832,16 @@
     "Google Pixel Watch 3 45mm LTE Obsidian": {
         "market_price": null,
         "looked_up_at": "25-09-2026-11:46",
+        "matcher_version": 7
+    },
+    "iPhone 17 256 GB Hvid": {
+        "market_price": 7777,
+        "looked_up_at": "26-09-2026-10:38",
+        "matcher_version": 7
+    },
+    "iPhone 18 Pro Max 256GB Black": {
+        "market_price": null,
+        "looked_up_at": "26-09-2026-10:38",
         "matcher_version": 7
     }
 }
