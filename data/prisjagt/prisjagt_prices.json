@@ -1756,60 +1756,55 @@
     },
     "Google Pixel 11 Pro XL": {
         "market_price": 10899,
-        "looked_up_at": "23-09-2026-10:41",
+        "looked_up_at": "27-09-2026-11:09",
         "matcher_version": 7
     },
     "Google Pixel 11": {
         "market_price": null,
-        "looked_up_at": "23-09-2026-10:41",
+        "looked_up_at": "27-09-2026-11:09",
         "matcher_version": 7
     },
     "Samsung Galaxy S26 FE": {
-        "market_price": null,
-        "looked_up_at": "23-09-2026-10:41",
+        "market_price": 4285,
+        "looked_up_at": "27-09-2026-11:09",
         "matcher_version": 7
     },
     "Samsung Galaxy S26 Ultra": {
         "market_price": null,
-        "looked_up_at": "23-09-2026-10:41",
+        "looked_up_at": "27-09-2026-11:09",
         "matcher_version": 7
     },
     "iPhone 17 Pro 256 GB Orange": {
         "market_price": 9199,
-        "looked_up_at": "23-09-2026-10:41",
+        "looked_up_at": "27-09-2026-11:09",
         "matcher_version": 7
     },
     "iPhone 18 Pro 512GB Black": {
         "market_price": null,
-        "looked_up_at": "23-09-2026-10:41",
+        "looked_up_at": "27-09-2026-11:09",
         "matcher_version": 7
     },
     "Google Pixel 11 Pro": {
-        "market_price": 9399,
-        "looked_up_at": "23-09-2026-10:41",
+        "market_price": null,
+        "looked_up_at": "27-09-2026-11:09",
         "matcher_version": 7
     },
     "Samsung Galaxy S25+": {
         "market_price": null,
-        "looked_up_at": "23-09-2026-10:41",
+        "looked_up_at": "27-09-2026-11:09",
         "matcher_version": 7
     },
     "Samsung Galaxy A17": {
-        "market_price": null,
-        "looked_up_at": "23-09-2026-10:41",
+        "market_price": 1385,
+        "looked_up_at": "27-09-2026-11:09",
         "matcher_version": 7
     },
     "JBL PartyBox Stage 320": {
         "market_price": null,
-        "looked_up_at": "24-09-2026-10:52",
+        "looked_up_at": "27-09-2026-11:09",
         "matcher_version": 7
     },
     "JBL Go 4 Black": {
-        "market_price": null,
-        "looked_up_at": "25-09-2026-11:46",
-        "matcher_version": 7
-    },
-    "Nudient Base iPhone 16 Soft Purple cover": {
         "market_price": null,
         "looked_up_at": "25-09-2026-11:46",
         "matcher_version": 7
@@ -1839,9 +1834,19 @@
         "looked_up_at": "26-09-2026-10:38",
         "matcher_version": 7
     },
-    "iPhone 18 Pro Max 256GB Black": {
+    "Samsung Galaxy Watch9 44mm Graphite e-SIM": {
         "market_price": null,
-        "looked_up_at": "26-09-2026-10:38",
+        "looked_up_at": "27-09-2026-11:09",
+        "matcher_version": 7
+    },
+    "Samsung Galaxy Watch9 40mm Beige BT": {
+        "market_price": null,
+        "looked_up_at": "27-09-2026-11:09",
+        "matcher_version": 7
+    },
+    "iPhone 18 Pro Max 1TB Black": {
+        "market_price": null,
+        "looked_up_at": "27-09-2026-11:09",
         "matcher_version": 7
     }
 }
