@@ -504,11 +504,6 @@
         "looked_up_at": "28-09-2026-12:21",
         "matcher_version": 9
     },
-    "Galaxy S25+": {
-        "market_price": 6130,
-        "looked_up_at": "28-09-2026-12:21",
-        "matcher_version": 9
-    },
     "Samsung Galaxy Z Flip8 256GB Graphite": {
         "market_price": 6190,
         "looked_up_at": "28-09-2026-12:21",
@@ -1399,11 +1394,6 @@
         "looked_up_at": "28-09-2026-12:21",
         "matcher_version": 9
     },
-    "Google Pixel 10a 128GB Obsidian": {
-        "market_price": 3233,
-        "looked_up_at": "28-09-2026-12:21",
-        "matcher_version": 9
-    },
     "Beyerdynamic Aventho 100 Black": {
         "market_price": 799,
         "looked_up_at": "28-09-2026-12:21",
@@ -1449,11 +1439,6 @@
         "looked_up_at": "28-09-2026-12:21",
         "matcher_version": 9
     },
-    "Google Pixel 11 Pro 256GB Obsidian": {
-        "market_price": null,
-        "looked_up_at": "28-09-2026-12:21",
-        "matcher_version": 9
-    },
     "Apple iPhone 17 Pro 256 GB Orange": {
         "market_price": 8764,
         "looked_up_at": "28-09-2026-12:21",
@@ -1479,16 +1464,6 @@
         "looked_up_at": "28-09-2026-12:21",
         "matcher_version": 9
     },
-    "Samsung Galaxy S25 FE 128GB Black": {
-        "market_price": 3949,
-        "looked_up_at": "28-09-2026-12:21",
-        "matcher_version": 9
-    },
-    "Apple iPhone Air 256 GB Sky Blue": {
-        "market_price": 7299,
-        "looked_up_at": "28-09-2026-12:21",
-        "matcher_version": 9
-    },
     "iPad Pro 11 M5 Wi-Fi Cellular 256GB Space Black": {
         "market_price": 3328,
         "looked_up_at": "28-09-2026-12:21",
@@ -1504,16 +1479,6 @@
         "looked_up_at": "28-09-2026-12:21",
         "matcher_version": 9
     },
-    "Wavell Junior Caribbean Blue": {
-        "market_price": null,
-        "looked_up_at": "28-09-2026-12:21",
-        "matcher_version": 9
-    },
-    "Samsung Galaxy S26 Ultra 256GB Cobalt violet": {
-        "market_price": 7650,
-        "looked_up_at": "28-09-2026-12:21",
-        "matcher_version": 9
-    },
     "Wavell 3 Pro": {
         "market_price": 899,
         "looked_up_at": "28-09-2026-12:21",
@@ -1526,11 +1491,6 @@
     },
     "Sonos Roam 2 Sort": {
         "market_price": 1499,
-        "looked_up_at": "28-09-2026-12:21",
-        "matcher_version": 9
-    },
-    "Google Pixel 11 Pro XL 256GB Obsidian": {
-        "market_price": 10838,
         "looked_up_at": "28-09-2026-12:21",
         "matcher_version": 9
     },
@@ -1764,11 +1724,6 @@
         "looked_up_at": "27-09-2026-11:06",
         "matcher_version": 9
     },
-    "iPhone 18 Pro 512GB Black": {
-        "market_price": 12990,
-        "looked_up_at": "27-09-2026-11:06",
-        "matcher_version": 9
-    },
     "Samsung Galaxy S25+": {
         "market_price": 6130,
         "looked_up_at": "27-09-2026-11:06",
@@ -1804,59 +1759,94 @@
         "looked_up_at": "28-09-2026-12:21",
         "matcher_version": 9
     },
-    "iPhone 17 256 GB Hvid": {
-        "market_price": 7685,
-        "looked_up_at": "26-09-2026-10:37",
-        "matcher_version": 9
-    },
-    "iPhone 18 Pro Max 1TB Black": {
-        "market_price": null,
-        "looked_up_at": "27-09-2026-11:06",
-        "matcher_version": 9
-    },
-    "Apple Watch Series 10 GPS 46mm Jet Black Aluminium Case med Black Sport Band - S/M": {
-        "market_price": 3949,
-        "looked_up_at": "28-09-2026-12:21",
-        "matcher_version": 9
-    },
-    "Apple Watch Series 10 GPS + Cellular 42mm Jet Black Aluminium Case med Black Sport Band - S/M": {
-        "market_price": 3039,
-        "looked_up_at": "28-09-2026-12:21",
-        "matcher_version": 9
-    },
-    "PanzerGlass iPhone 16 Plus Ultra wide fit": {
-        "market_price": null,
-        "looked_up_at": "28-09-2026-12:21",
-        "matcher_version": 9
-    },
     "Galaxy S26 FE": {
         "market_price": 4924,
         "looked_up_at": "28-09-2026-12:21",
         "matcher_version": 9
     },
-    "iPhone 17 Pro Max 512GB": {
-        "market_price": 11888,
-        "looked_up_at": "28-09-2026-12:21",
+    "Apple iPhone Air Bumper - Lysegrå": {
+        "market_price": 155,
+        "looked_up_at": "29-09-2026-11:53",
         "matcher_version": 9
     },
-    "Apple Watch Series 10 GPS + Cellular 46mm Jet Black Aluminium Case med Black Sport Band - S/M": {
-        "market_price": 2986,
-        "looked_up_at": "28-09-2026-12:21",
+    "OPPO Find X9 Pro 512GB Silk White": {
+        "market_price": 7999,
+        "looked_up_at": "29-09-2026-11:53",
         "matcher_version": 9
     },
-    "CARE Transparent Cover iPhone 14|13": {
-        "market_price": 149,
-        "looked_up_at": "28-09-2026-12:21",
+    "Apple iPhone 17 Pro Max TechWoven Case med MagSafe - Sort": {
+        "market_price": 470,
+        "looked_up_at": "29-09-2026-11:53",
         "matcher_version": 9
     },
-    "CARE Tango 2i1 Wallet iPhone 14": {
-        "market_price": 199,
-        "looked_up_at": "28-09-2026-12:21",
+    "Samsung Galaxy A26 5G 128GB": {
+        "market_price": 1499,
+        "looked_up_at": "29-09-2026-11:53",
         "matcher_version": 9
     },
-    "Apple Watch Ultra 2 GPS + Cellular 49mm Black Titanium Case med Black Ocean Band": {
-        "market_price": 5699,
-        "looked_up_at": "28-09-2026-12:21",
+    "iPhone 17 256 GB Sort": {
+        "market_price": 7698,
+        "looked_up_at": "29-09-2026-11:53",
+        "matcher_version": 9
+    },
+    "Galaxy S26": {
+        "market_price": 5449,
+        "looked_up_at": "29-09-2026-11:53",
+        "matcher_version": 9
+    },
+    "OPPO A6x 5G 128GB Ice Blue": {
+        "market_price": 1599,
+        "looked_up_at": "29-09-2026-11:53",
+        "matcher_version": 9
+    },
+    "Apple iPhone 17 Pro TechWoven Case med MagSafe - Sort": {
+        "market_price": 487,
+        "looked_up_at": "29-09-2026-11:53",
+        "matcher_version": 9
+    },
+    "iPhone 18 Pro Max 256GB Black": {
+        "market_price": 12290,
+        "looked_up_at": "29-09-2026-11:53",
+        "matcher_version": 9
+    },
+    "CARE Explorer Cover MagSafe Apple iPhone 17 Pro": {
+        "market_price": 164,
+        "looked_up_at": "29-09-2026-11:53",
+        "matcher_version": 9
+    },
+    "iPhone 18 Pro 256GB Black": {
+        "market_price": 10990,
+        "looked_up_at": "29-09-2026-11:53",
+        "matcher_version": 9
+    },
+    "Nudient Thin MagSafe Apple iPhone 17 Pro Pine Green": {
+        "market_price": 249,
+        "looked_up_at": "29-09-2026-11:53",
+        "matcher_version": 9
+    },
+    "Apple iPhone 17 Silicone Case med MagSafe - Sort": {
+        "market_price": 254,
+        "looked_up_at": "29-09-2026-11:53",
+        "matcher_version": 9
+    },
+    "Wavell 4 Plus": {
+        "market_price": 599,
+        "looked_up_at": "29-09-2026-11:53",
+        "matcher_version": 9
+    },
+    "Nudient Transparent MagSafe Apple iPhone 17 Pro Max": {
+        "market_price": 127,
+        "looked_up_at": "29-09-2026-11:53",
+        "matcher_version": 9
+    },
+    "Google Pixel 10 Pro 128GB Obsidian": {
+        "market_price": 4923,
+        "looked_up_at": "29-09-2026-11:53",
+        "matcher_version": 9
+    },
+    "CARE Explorer Cover MagSafe Apple iPhone Pro Max": {
+        "market_price": 209,
+        "looked_up_at": "29-09-2026-11:53",
         "matcher_version": 9
     }
 }

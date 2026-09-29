@@ -174,11 +174,6 @@
         "looked_up_at": "28-09-2026-13:17",
         "matcher_version": 7
     },
-    "Galaxy S25+": {
-        "market_price": 6130,
-        "looked_up_at": "28-09-2026-13:17",
-        "matcher_version": 7
-    },
     "Samsung Galaxy Watch8 44mm eSIM - Grafit med abonnement": {
         "market_price": null,
         "looked_up_at": "28-09-2026-13:17",
@@ -319,11 +314,6 @@
         "looked_up_at": "28-09-2026-13:17",
         "matcher_version": 7
     },
-    "Samsung Galaxy S26 Ultra 256GB Cobalt violet": {
-        "market_price": 7299,
-        "looked_up_at": "28-09-2026-13:17",
-        "matcher_version": 7
-    },
     "Garmin Venu 4 Slate": {
         "market_price": null,
         "looked_up_at": "28-09-2026-13:17",
@@ -380,11 +370,6 @@
         "matcher_version": 7
     },
     "Pixel 11 Pro XL": {
-        "market_price": null,
-        "looked_up_at": "28-09-2026-13:17",
-        "matcher_version": 7
-    },
-    "Samsung Galaxy S25 FE 128GB Black": {
         "market_price": null,
         "looked_up_at": "28-09-2026-13:17",
         "matcher_version": 7
@@ -580,11 +565,6 @@
         "matcher_version": 7
     },
     "Samsung Galaxy Tab A11 Plus 128GB": {
-        "market_price": null,
-        "looked_up_at": "28-09-2026-13:17",
-        "matcher_version": 7
-    },
-    "Apple iPhone Air 256 GB Sky Blue": {
         "market_price": null,
         "looked_up_at": "28-09-2026-13:17",
         "matcher_version": 7
@@ -844,11 +824,6 @@
         "looked_up_at": "28-09-2026-13:17",
         "matcher_version": 7
     },
-    "Wavell Junior Caribbean Blue": {
-        "market_price": 499,
-        "looked_up_at": "28-09-2026-13:17",
-        "matcher_version": 7
-    },
     "Harman Kardon Onyx Studio 9 Grå": {
         "market_price": null,
         "looked_up_at": "28-09-2026-13:17",
@@ -856,11 +831,6 @@
     },
     "Apple iPhone 17 Pro 256 GB": {
         "market_price": null,
-        "looked_up_at": "28-09-2026-13:17",
-        "matcher_version": 7
-    },
-    "Google Pixel 10a 128GB Obsidian": {
-        "market_price": 3479,
         "looked_up_at": "28-09-2026-13:17",
         "matcher_version": 7
     },
@@ -1084,11 +1054,6 @@
         "looked_up_at": "28-09-2026-13:17",
         "matcher_version": 7
     },
-    "Google Pixel 11 Pro XL 256GB Obsidian": {
-        "market_price": null,
-        "looked_up_at": "28-09-2026-13:17",
-        "matcher_version": 7
-    },
     "JBL Tune Buds 2 Hvid": {
         "market_price": 499,
         "looked_up_at": "28-09-2026-13:17",
@@ -1150,11 +1115,6 @@
         "matcher_version": 7
     },
     "Wavell 3 Pro med abonnement": {
-        "market_price": null,
-        "looked_up_at": "28-09-2026-13:17",
-        "matcher_version": 7
-    },
-    "Google Pixel 11 Pro 256GB Obsidian": {
         "market_price": null,
         "looked_up_at": "28-09-2026-13:17",
         "matcher_version": 7
@@ -1779,11 +1739,6 @@
         "looked_up_at": "27-09-2026-11:09",
         "matcher_version": 7
     },
-    "iPhone 18 Pro 512GB Black": {
-        "market_price": null,
-        "looked_up_at": "27-09-2026-11:09",
-        "matcher_version": 7
-    },
     "Google Pixel 11 Pro": {
         "market_price": null,
         "looked_up_at": "27-09-2026-11:09",
@@ -1804,59 +1759,94 @@
         "looked_up_at": "28-09-2026-13:17",
         "matcher_version": 7
     },
-    "iPhone 17 256 GB Hvid": {
-        "market_price": 7777,
-        "looked_up_at": "26-09-2026-10:38",
-        "matcher_version": 7
-    },
-    "iPhone 18 Pro Max 1TB Black": {
-        "market_price": null,
-        "looked_up_at": "27-09-2026-11:09",
-        "matcher_version": 7
-    },
-    "CARE Transparent Cover iPhone 14|13": {
-        "market_price": null,
-        "looked_up_at": "28-09-2026-13:17",
-        "matcher_version": 7
-    },
-    "Apple Watch Series 10 GPS + Cellular 42mm Jet Black Aluminium Case med Black Sport Band - S/M": {
-        "market_price": null,
-        "looked_up_at": "28-09-2026-13:17",
-        "matcher_version": 7
-    },
-    "Apple Watch Series 10 GPS + Cellular 46mm Jet Black Aluminium Case med Black Sport Band - S/M": {
-        "market_price": null,
-        "looked_up_at": "28-09-2026-13:17",
-        "matcher_version": 7
-    },
-    "Apple Watch Series 10 GPS 46mm Jet Black Aluminium Case med Black Sport Band - S/M": {
-        "market_price": null,
-        "looked_up_at": "28-09-2026-13:17",
-        "matcher_version": 7
-    },
-    "iPhone 17 Pro Max 512GB": {
-        "market_price": null,
-        "looked_up_at": "28-09-2026-13:17",
-        "matcher_version": 7
-    },
     "Galaxy S26 FE": {
         "market_price": null,
         "looked_up_at": "28-09-2026-13:17",
         "matcher_version": 7
     },
-    "CARE Tango 2i1 Wallet iPhone 14": {
-        "market_price": null,
-        "looked_up_at": "28-09-2026-13:17",
+    "Google Pixel 10 Pro 128GB Obsidian": {
+        "market_price": 5480,
+        "looked_up_at": "29-09-2026-11:56",
         "matcher_version": 7
     },
-    "Apple Watch Ultra 2 GPS + Cellular 49mm Black Titanium Case med Black Ocean Band": {
+    "Nudient Transparent MagSafe Apple iPhone 17 Pro Max": {
         "market_price": null,
-        "looked_up_at": "28-09-2026-13:17",
+        "looked_up_at": "29-09-2026-11:56",
         "matcher_version": 7
     },
-    "PanzerGlass iPhone 16 Plus Ultra wide fit": {
+    "Wavell 4 Plus": {
         "market_price": null,
-        "looked_up_at": "28-09-2026-13:17",
+        "looked_up_at": "29-09-2026-11:56",
+        "matcher_version": 7
+    },
+    "iPhone 17 256 GB Sort": {
+        "market_price": 7725,
+        "looked_up_at": "29-09-2026-11:56",
+        "matcher_version": 7
+    },
+    "Apple iPhone 17 Pro TechWoven Case med MagSafe - Sort": {
+        "market_price": null,
+        "looked_up_at": "29-09-2026-11:56",
+        "matcher_version": 7
+    },
+    "Nudient Thin MagSafe Apple iPhone 17 Pro Pine Green": {
+        "market_price": null,
+        "looked_up_at": "29-09-2026-11:56",
+        "matcher_version": 7
+    },
+    "CARE Explorer Cover MagSafe Apple iPhone 17 Pro": {
+        "market_price": null,
+        "looked_up_at": "29-09-2026-11:56",
+        "matcher_version": 7
+    },
+    "Apple iPhone Air Bumper - Lysegrå": {
+        "market_price": null,
+        "looked_up_at": "29-09-2026-11:56",
+        "matcher_version": 7
+    },
+    "Apple iPhone 17 Pro Max TechWoven Case med MagSafe - Sort": {
+        "market_price": null,
+        "looked_up_at": "29-09-2026-11:56",
+        "matcher_version": 7
+    },
+    "CARE Explorer Cover MagSafe Apple iPhone Pro Max": {
+        "market_price": null,
+        "looked_up_at": "29-09-2026-11:56",
+        "matcher_version": 7
+    },
+    "Samsung Galaxy A26 5G 128GB": {
+        "market_price": null,
+        "looked_up_at": "29-09-2026-11:56",
+        "matcher_version": 7
+    },
+    "OPPO A6x 5G 128GB Ice Blue": {
+        "market_price": null,
+        "looked_up_at": "29-09-2026-11:56",
+        "matcher_version": 7
+    },
+    "iPhone 18 Pro 256GB Black": {
+        "market_price": 10990,
+        "looked_up_at": "29-09-2026-11:56",
+        "matcher_version": 7
+    },
+    "iPhone 18 Pro Max 256GB Black": {
+        "market_price": null,
+        "looked_up_at": "29-09-2026-11:56",
+        "matcher_version": 7
+    },
+    "Apple iPhone 17 Silicone Case med MagSafe - Sort": {
+        "market_price": null,
+        "looked_up_at": "29-09-2026-11:56",
+        "matcher_version": 7
+    },
+    "OPPO Find X9 Pro 512GB Silk White": {
+        "market_price": 7999,
+        "looked_up_at": "29-09-2026-11:56",
+        "matcher_version": 7
+    },
+    "Galaxy S26": {
+        "market_price": null,
+        "looked_up_at": "29-09-2026-11:56",
         "matcher_version": 7
     }
 }
