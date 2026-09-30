@@ -49,11 +49,6 @@
         "looked_up_at": "28-09-2026-12:21",
         "matcher_version": 9
     },
-    "Samsung Galaxy A57": {
-        "market_price": 4117,
-        "looked_up_at": "28-09-2026-12:21",
-        "matcher_version": 9
-    },
     "JBL FLIP 7 med abonnement - Black": {
         "market_price": 738,
         "looked_up_at": "28-09-2026-12:21",
@@ -311,11 +306,6 @@
     },
     "Sony Playstation 5 Pro": {
         "market_price": 15529,
-        "looked_up_at": "28-09-2026-12:21",
-        "matcher_version": 9
-    },
-    "Samsung Galaxy Z Fold8": {
-        "market_price": 13897,
         "looked_up_at": "28-09-2026-12:21",
         "matcher_version": 9
     },
@@ -1184,11 +1174,6 @@
         "looked_up_at": "28-09-2026-12:21",
         "matcher_version": 9
     },
-    "Samsung Galaxy Z Fold8 Ultra": {
-        "market_price": 11797,
-        "looked_up_at": "28-09-2026-12:21",
-        "matcher_version": 9
-    },
     "Apple Watch SE 3 GPS + Cellular 44mm Starlight Aluminium Case with Starlight Sport Band - M/L med abonnement": {
         "market_price": 3863,
         "looked_up_at": "28-09-2026-12:21",
@@ -1714,44 +1699,29 @@
         "looked_up_at": "28-09-2026-12:21",
         "matcher_version": 9
     },
-    "Samsung Galaxy S26 Ultra": {
-        "market_price": 7298,
-        "looked_up_at": "27-09-2026-11:06",
-        "matcher_version": 9
-    },
     "Samsung Galaxy S26 FE": {
         "market_price": 4924,
-        "looked_up_at": "27-09-2026-11:06",
-        "matcher_version": 9
-    },
-    "Samsung Galaxy S25+": {
-        "market_price": 6130,
-        "looked_up_at": "27-09-2026-11:06",
+        "looked_up_at": "30-09-2026-11:43",
         "matcher_version": 9
     },
     "Google Pixel 11 Pro": {
-        "market_price": 13928,
-        "looked_up_at": "27-09-2026-11:06",
+        "market_price": 14424,
+        "looked_up_at": "30-09-2026-11:43",
         "matcher_version": 9
     },
     "Google Pixel 11": {
-        "market_price": 7190,
-        "looked_up_at": "27-09-2026-11:06",
+        "market_price": 7267,
+        "looked_up_at": "30-09-2026-11:43",
         "matcher_version": 9
     },
     "Samsung Galaxy A17": {
         "market_price": 1299,
-        "looked_up_at": "27-09-2026-11:06",
+        "looked_up_at": "30-09-2026-11:43",
         "matcher_version": 9
     },
     "iPhone 17 Pro 256 GB Orange": {
-        "market_price": 8772,
-        "looked_up_at": "27-09-2026-11:06",
-        "matcher_version": 9
-    },
-    "Google Pixel 11 Pro XL": {
-        "market_price": 10838,
-        "looked_up_at": "27-09-2026-11:06",
+        "market_price": 8748,
+        "looked_up_at": "30-09-2026-11:43",
         "matcher_version": 9
     },
     "Moto G77": {
@@ -1764,18 +1734,8 @@
         "looked_up_at": "28-09-2026-12:21",
         "matcher_version": 9
     },
-    "Apple iPhone Air Bumper - Lysegrå": {
-        "market_price": 155,
-        "looked_up_at": "29-09-2026-11:53",
-        "matcher_version": 9
-    },
     "OPPO Find X9 Pro 512GB Silk White": {
         "market_price": 7999,
-        "looked_up_at": "29-09-2026-11:53",
-        "matcher_version": 9
-    },
-    "Apple iPhone 17 Pro Max TechWoven Case med MagSafe - Sort": {
-        "market_price": 470,
         "looked_up_at": "29-09-2026-11:53",
         "matcher_version": 9
     },
@@ -1799,18 +1759,8 @@
         "looked_up_at": "29-09-2026-11:53",
         "matcher_version": 9
     },
-    "Apple iPhone 17 Pro TechWoven Case med MagSafe - Sort": {
-        "market_price": 487,
-        "looked_up_at": "29-09-2026-11:53",
-        "matcher_version": 9
-    },
     "iPhone 18 Pro Max 256GB Black": {
         "market_price": 12290,
-        "looked_up_at": "29-09-2026-11:53",
-        "matcher_version": 9
-    },
-    "CARE Explorer Cover MagSafe Apple iPhone 17 Pro": {
-        "market_price": 164,
         "looked_up_at": "29-09-2026-11:53",
         "matcher_version": 9
     },
@@ -1819,34 +1769,84 @@
         "looked_up_at": "29-09-2026-11:53",
         "matcher_version": 9
     },
-    "Nudient Thin MagSafe Apple iPhone 17 Pro Pine Green": {
-        "market_price": 249,
-        "looked_up_at": "29-09-2026-11:53",
-        "matcher_version": 9
-    },
-    "Apple iPhone 17 Silicone Case med MagSafe - Sort": {
-        "market_price": 254,
-        "looked_up_at": "29-09-2026-11:53",
-        "matcher_version": 9
-    },
-    "Wavell 4 Plus": {
-        "market_price": 599,
-        "looked_up_at": "29-09-2026-11:53",
-        "matcher_version": 9
-    },
-    "Nudient Transparent MagSafe Apple iPhone 17 Pro Max": {
-        "market_price": 127,
-        "looked_up_at": "29-09-2026-11:53",
-        "matcher_version": 9
-    },
     "Google Pixel 10 Pro 128GB Obsidian": {
         "market_price": 4923,
         "looked_up_at": "29-09-2026-11:53",
         "matcher_version": 9
     },
-    "CARE Explorer Cover MagSafe Apple iPhone Pro Max": {
-        "market_price": 209,
-        "looked_up_at": "29-09-2026-11:53",
+    "Samsung Galaxy Watch9 40mm Beige BT": {
+        "market_price": 2257,
+        "looked_up_at": "30-09-2026-11:43",
+        "matcher_version": 9
+    },
+    "Samsung Galaxy A37": {
+        "market_price": 2167,
+        "looked_up_at": "30-09-2026-11:43",
+        "matcher_version": 9
+    },
+    "Samsung Galaxy Watch9 44mm Graphite e-SIM": {
+        "market_price": 2900,
+        "looked_up_at": "30-09-2026-11:43",
+        "matcher_version": 9
+    },
+    "Samsung Galaxy Z Flip8": {
+        "market_price": 6010,
+        "looked_up_at": "30-09-2026-11:43",
+        "matcher_version": 9
+    },
+    "Samsung Galaxy Watch8 Classic eSim - Sort": {
+        "market_price": 1784,
+        "looked_up_at": "30-09-2026-11:43",
+        "matcher_version": 9
+    },
+    "OPPO A5 Pro": {
+        "market_price": null,
+        "looked_up_at": "30-09-2026-11:43",
+        "matcher_version": 9
+    },
+    "INFINITE USB-C to Lightning Cable MFI 1m": {
+        "market_price": 59,
+        "looked_up_at": "30-09-2026-11:43",
+        "matcher_version": 9
+    },
+    "Google Pixel 9 Pro Fold": {
+        "market_price": 11477,
+        "looked_up_at": "30-09-2026-11:43",
+        "matcher_version": 9
+    },
+    "INFINITE USB-C - A Cable 1m": {
+        "market_price": null,
+        "looked_up_at": "30-09-2026-11:43",
+        "matcher_version": 9
+    },
+    "INFINITE USB-C to Lightning Cable MFI 3m": {
+        "market_price": 145,
+        "looked_up_at": "30-09-2026-11:43",
+        "matcher_version": 9
+    },
+    "Wavell Junior Caribbean Blue": {
+        "market_price": null,
+        "looked_up_at": "30-09-2026-11:43",
+        "matcher_version": 9
+    },
+    "Samsung Galaxy Watch Ultra (2025) Titanium Gray": {
+        "market_price": 3900,
+        "looked_up_at": "30-09-2026-11:43",
+        "matcher_version": 9
+    },
+    "Samsung Galaxy S26+": {
+        "market_price": 7000,
+        "looked_up_at": "30-09-2026-11:43",
+        "matcher_version": 9
+    },
+    "OPPO Find X9 Pro": {
+        "market_price": 5658,
+        "looked_up_at": "30-09-2026-11:43",
+        "matcher_version": 9
+    },
+    "INFINITE USB-A to Lightning Cable MFI 1m": {
+        "market_price": null,
+        "looked_up_at": "30-09-2026-11:43",
         "matcher_version": 9
     }
 }
