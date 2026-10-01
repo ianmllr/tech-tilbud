@@ -1269,16 +1269,6 @@
         "looked_up_at": "28-09-2026-12:21",
         "matcher_version": 9
     },
-    "Apple Watch Ultra 3 GPS + Cellular 49mm Black Titanium Case with Black/Charcoal Trail Loop - M/L med abonnement": {
-        "market_price": 5499,
-        "looked_up_at": "28-09-2026-12:21",
-        "matcher_version": 9
-    },
-    "Samsung Galaxy Tab S11 128GB": {
-        "market_price": 6502,
-        "looked_up_at": "28-09-2026-12:21",
-        "matcher_version": 9
-    },
     "Sony Playstation 5 Standard Slim": {
         "market_price": 4999,
         "looked_up_at": "28-09-2026-12:21",
@@ -1649,11 +1639,6 @@
         "looked_up_at": "28-09-2026-12:21",
         "matcher_version": 9
     },
-    "Fri SMS/MMS": {
-        "market_price": null,
-        "looked_up_at": "28-09-2026-12:21",
-        "matcher_version": 9
-    },
     "Galaxy S25 128GB sort": {
         "market_price": 4222,
         "looked_up_at": "28-09-2026-12:21",
@@ -1759,11 +1744,6 @@
         "looked_up_at": "29-09-2026-11:53",
         "matcher_version": 9
     },
-    "iPhone 18 Pro Max 256GB Black": {
-        "market_price": 12290,
-        "looked_up_at": "29-09-2026-11:53",
-        "matcher_version": 9
-    },
     "iPhone 18 Pro 256GB Black": {
         "market_price": 10990,
         "looked_up_at": "29-09-2026-11:53",
@@ -1774,18 +1754,8 @@
         "looked_up_at": "29-09-2026-11:53",
         "matcher_version": 9
     },
-    "Samsung Galaxy Watch9 40mm Beige BT": {
-        "market_price": 2257,
-        "looked_up_at": "30-09-2026-11:43",
-        "matcher_version": 9
-    },
     "Samsung Galaxy A37": {
         "market_price": 2167,
-        "looked_up_at": "30-09-2026-11:43",
-        "matcher_version": 9
-    },
-    "Samsung Galaxy Watch9 44mm Graphite e-SIM": {
-        "market_price": 2900,
         "looked_up_at": "30-09-2026-11:43",
         "matcher_version": 9
     },
@@ -1794,18 +1764,8 @@
         "looked_up_at": "30-09-2026-11:43",
         "matcher_version": 9
     },
-    "Samsung Galaxy Watch8 Classic eSim - Sort": {
-        "market_price": 1784,
-        "looked_up_at": "30-09-2026-11:43",
-        "matcher_version": 9
-    },
     "OPPO A5 Pro": {
         "market_price": null,
-        "looked_up_at": "30-09-2026-11:43",
-        "matcher_version": 9
-    },
-    "INFINITE USB-C to Lightning Cable MFI 1m": {
-        "market_price": 59,
         "looked_up_at": "30-09-2026-11:43",
         "matcher_version": 9
     },
@@ -1814,23 +1774,8 @@
         "looked_up_at": "30-09-2026-11:43",
         "matcher_version": 9
     },
-    "INFINITE USB-C - A Cable 1m": {
-        "market_price": null,
-        "looked_up_at": "30-09-2026-11:43",
-        "matcher_version": 9
-    },
-    "INFINITE USB-C to Lightning Cable MFI 3m": {
-        "market_price": 145,
-        "looked_up_at": "30-09-2026-11:43",
-        "matcher_version": 9
-    },
     "Wavell Junior Caribbean Blue": {
         "market_price": null,
-        "looked_up_at": "30-09-2026-11:43",
-        "matcher_version": 9
-    },
-    "Samsung Galaxy Watch Ultra (2025) Titanium Gray": {
-        "market_price": 3900,
         "looked_up_at": "30-09-2026-11:43",
         "matcher_version": 9
     },
@@ -1844,9 +1789,64 @@
         "looked_up_at": "30-09-2026-11:43",
         "matcher_version": 9
     },
-    "INFINITE USB-A to Lightning Cable MFI 1m": {
+    "Samsung Galaxy S23 Silikone Grip - Sort": {
+        "market_price": 50,
+        "looked_up_at": "01-10-2026-12:10",
+        "matcher_version": 9
+    },
+    "Samsung Galaxy S23+ Clear View - Sort": {
         "market_price": null,
-        "looked_up_at": "30-09-2026-11:43",
+        "looked_up_at": "01-10-2026-12:10",
+        "matcher_version": 9
+    },
+    "iPhone 14 Plus Silicone Case med MagSafe - Chalk Pink": {
+        "market_price": 179,
+        "looked_up_at": "01-10-2026-12:10",
+        "matcher_version": 9
+    },
+    "Galaxy A17": {
+        "market_price": 1299,
+        "looked_up_at": "01-10-2026-12:10",
+        "matcher_version": 9
+    },
+    "Google Nest Wifi Pro (3 pack)": {
+        "market_price": 1890,
+        "looked_up_at": "01-10-2026-12:10",
+        "matcher_version": 9
+    },
+    "Samsung Galaxy S23 Silikone cover - Cream": {
+        "market_price": 103,
+        "looked_up_at": "01-10-2026-12:10",
+        "matcher_version": 9
+    },
+    "Galaxy Buds4 Pro": {
+        "market_price": 1245,
+        "looked_up_at": "01-10-2026-12:10",
+        "matcher_version": 9
+    },
+    "iPhone 18 Pro Max 256GB Blue": {
+        "market_price": 12290,
+        "looked_up_at": "01-10-2026-12:10",
+        "matcher_version": 9
+    },
+    "Apple iPhone 11 Pro Max Silicone Case - Hvid": {
+        "market_price": null,
+        "looked_up_at": "01-10-2026-12:10",
+        "matcher_version": 9
+    },
+    "Samsung Galaxy S23+ Silikone - Lilla": {
+        "market_price": null,
+        "looked_up_at": "01-10-2026-12:10",
+        "matcher_version": 9
+    },
+    "Samsung Galaxy Z Flip7 FE 128GB": {
+        "market_price": 4885,
+        "looked_up_at": "01-10-2026-12:10",
+        "matcher_version": 9
+    },
+    "Apple iPhone 11 Pro Max Leather Case - Midnight Blue": {
+        "market_price": null,
+        "looked_up_at": "01-10-2026-12:10",
         "matcher_version": 9
     }
 }

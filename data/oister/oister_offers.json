@@ -1,16 +1,29 @@
 [
     {
-        "link": "https://go.adt284.net/t/t?a=1666103641&as=2054240298&t=2&tk=1&url=https://www.oister.dk/mobilabonnement/tilbehor-til-abonnement/oister-mobil-fri-tale-fri-data-inkl-airpods-4/",
-        "product_name": "Fri SMS/MMS",
-        "image_url": "/images/oister/fri_sms_mms.webp",
+        "link": "https://go.adt284.net/t/t?a=1666103641&as=2054240298&t=2&tk=1&url=https://www.oister.dk/mobilabonnement/tilbehor-til-abonnement/oister-mobil-fri-tale-fri-data-inkl-samsung-galaxy-buds4-pro/",
+        "product_name": "Galaxy Buds4 Pro",
+        "image_url": "/images/oister/galaxy_buds4_pro.webp",
         "provider": "Oister",
-        "type": "phone",
+        "type": "sound",
+        "price_without_subscription": 2000,
+        "price_with_subscription": 0,
+        "min_cost_6_months": 1293,
+        "subscription_price_monthly": 199,
+        "discount_on_product": 2000,
+        "saved_at": "01-10-2026-11:59"
+    },
+    {
+        "link": "https://go.adt284.net/t/t?a=1666103641&as=2054240298&t=2&tk=1&url=https://www.oister.dk/mobilabonnement/tilbehor-til-abonnement/oister-mobil-fri-tale-fri-data-inkl-airpods-4/",
+        "product_name": "Apple AirPods 4",
+        "image_url": "/images/oister/apple_airpods_4.webp",
+        "provider": "Oister",
+        "type": "sound",
         "price_without_subscription": 1160,
         "price_with_subscription": 0,
-        "min_cost_6_months": 1233,
-        "subscription_price_monthly": 189,
+        "min_cost_6_months": 1293,
+        "subscription_price_monthly": 199,
         "discount_on_product": 1160,
-        "saved_at": "30-09-2026-11:30"
+        "saved_at": "01-10-2026-11:59"
     },
     {
         "link": "https://go.adt284.net/t/t?a=1666103641&as=2054240298&t=2&tk=1&url=https://www.oister.dk/mobilabonnement/tilbehor-til-abonnement/oister-mobil-fri-tale-fri-data-inkl-samsung-galaxy-tab-a11/",
@@ -23,7 +36,7 @@
         "min_cost_6_months": 1293,
         "subscription_price_monthly": 199,
         "discount_on_product": 1480,
-        "saved_at": "30-09-2026-11:30"
+        "saved_at": "01-10-2026-11:59"
     },
     {
         "link": "https://go.adt284.net/t/t?a=1666103641&as=2054240298&t=2&tk=1&url=https://www.oister.dk/mobilabonnement/tilbehor-til-abonnement/oister-mobil-fri-tale-fri-data-inkl-samsung-galaxy-buds3/",
@@ -36,7 +49,7 @@
         "min_cost_6_months": 1293,
         "subscription_price_monthly": 199,
         "discount_on_product": 1280,
-        "saved_at": "30-09-2026-11:30"
+        "saved_at": "01-10-2026-11:59"
     },
     {
         "link": "https://go.adt284.net/t/t?a=1666103641&as=2054240298&t=2&tk=1&url=https://www.oister.dk/mobilabonnement/tilbehor-til-abonnement/urbanista/fri-tale-fri-gb-data-inkl-urbanista-phoenix-desert-rose/",
@@ -49,7 +62,7 @@
         "min_cost_6_months": 1293,
         "subscription_price_monthly": 199,
         "discount_on_product": 1280,
-        "saved_at": "30-09-2026-11:30"
+        "saved_at": "01-10-2026-11:59"
     },
     {
         "link": "https://go.adt284.net/t/t?a=1666103641&as=2054240298&t=2&tk=1&url=https://www.oister.dk/mobilabonnement/tilbehor-til-abonnement/urbanista/fri-tale-fri-gb-data-inkl-urbanista-phoenix-midnight-black/",
@@ -62,7 +75,7 @@
         "min_cost_6_months": 1293,
         "subscription_price_monthly": 199,
         "discount_on_product": 1280,
-        "saved_at": "30-09-2026-11:30"
+        "saved_at": "01-10-2026-11:59"
     },
     {
         "link": "https://go.adt284.net/t/t?a=1666103641&as=2054240298&t=2&tk=1&url=https://www.oister.dk/mobilabonnement/tilbehor-til-abonnement/urbanista/fri-tale-fri-gb-data-inkl-urbanista-malibu-desert-grey/",
@@ -75,7 +88,7 @@
         "min_cost_6_months": 1293,
         "subscription_price_monthly": 199,
         "discount_on_product": 1280,
-        "saved_at": "30-09-2026-11:30"
+        "saved_at": "01-10-2026-11:59"
     },
     {
         "link": "https://go.adt284.net/t/t?a=1666103641&as=2054240298&t=2&tk=1&url=https://www.oister.dk/mobilabonnement/tilbehor-til-abonnement/urbanista/fri-tale-fri-gb-data-inkl-urbanista-malibu-midnight-black/",
@@ -88,6 +101,6 @@
         "min_cost_6_months": 1293,
         "subscription_price_monthly": 199,
         "discount_on_product": 1280,
-        "saved_at": "30-09-2026-11:30"
+        "saved_at": "01-10-2026-11:59"
     }
 ]
