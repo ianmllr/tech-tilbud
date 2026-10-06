@@ -650,13 +650,13 @@
         "matcher_version": 9
     },
     "iPhone 17 256 GB Sort": {
-        "market_price": 7724,
-        "looked_up_at": "03-10-2026-10:59",
+        "market_price": 7850,
+        "looked_up_at": "06-10-2026-12:34",
         "matcher_version": 9
     },
     "Galaxy S26": {
         "market_price": 5449,
-        "looked_up_at": "03-10-2026-10:59",
+        "looked_up_at": "06-10-2026-12:34",
         "matcher_version": 9
     },
     "Galaxy A17": {
@@ -677,11 +677,6 @@
     "iPhone 18 Pro Max 1TB Black": {
         "market_price": null,
         "looked_up_at": "05-10-2026-13:04",
-        "matcher_version": 9
-    },
-    "iPhone 18 Pro 512GB Black": {
-        "market_price": 12989,
-        "looked_up_at": "03-10-2026-10:59",
         "matcher_version": 9
     },
     "Apple AirPods 5 med abonnement": {
@@ -731,11 +726,6 @@
     },
     "Apple iPad 11\" (11. gen.) Wi-Fi + 5G": {
         "market_price": null,
-        "looked_up_at": "04-10-2026-11:37",
-        "matcher_version": 9
-    },
-    "OnePlus 9 Karbon Bumper Case Sort": {
-        "market_price": 99,
         "looked_up_at": "04-10-2026-11:37",
         "matcher_version": 9
     },
@@ -949,11 +939,6 @@
         "looked_up_at": "04-10-2026-11:37",
         "matcher_version": 9
     },
-    "JBL Tune Flex 2 Sort": {
-        "market_price": 572,
-        "looked_up_at": "04-10-2026-11:37",
-        "matcher_version": 9
-    },
     "Samsung Galaxy Buds4 Hvid": {
         "market_price": 1249,
         "looked_up_at": "04-10-2026-11:37",
@@ -961,11 +946,6 @@
     },
     "Samsung Galaxy A37 128GB": {
         "market_price": 2167,
-        "looked_up_at": "04-10-2026-11:37",
-        "matcher_version": 9
-    },
-    "iDeal Unity Wallet iPhone 12 Mini Woods": {
-        "market_price": 49,
         "looked_up_at": "04-10-2026-11:37",
         "matcher_version": 9
     },
@@ -1239,11 +1219,6 @@
         "looked_up_at": "04-10-2026-11:37",
         "matcher_version": 9
     },
-    "INFINITE USB-A to Lightning Cable MFI 1m": {
-        "market_price": null,
-        "looked_up_at": "04-10-2026-11:37",
-        "matcher_version": 9
-    },
     "Samsung Galaxy Watch9 44mm Graphite e-SIM med abonnement": {
         "market_price": 2892,
         "looked_up_at": "04-10-2026-11:37",
@@ -1251,11 +1226,6 @@
     },
     "Apple iPhone 17 Pro Max": {
         "market_price": 10398,
-        "looked_up_at": "04-10-2026-11:37",
-        "matcher_version": 9
-    },
-    "eSTUFF USB-CA kabel 2m hvid": {
-        "market_price": 42,
         "looked_up_at": "04-10-2026-11:37",
         "matcher_version": 9
     },
@@ -1309,11 +1279,6 @@
         "looked_up_at": "04-10-2026-11:37",
         "matcher_version": 9
     },
-    "eStuff HDMI 2.0  UHD Cable 2m": {
-        "market_price": 39,
-        "looked_up_at": "04-10-2026-11:37",
-        "matcher_version": 9
-    },
     "iPad Pro 11 M4 Wi-Fi Cellular 256GB": {
         "market_price": 3189,
         "looked_up_at": "04-10-2026-11:37",
@@ -1346,11 +1311,6 @@
     },
     "JBL FLIP 7 Black": {
         "market_price": 690,
-        "looked_up_at": "04-10-2026-11:37",
-        "matcher_version": 9
-    },
-    "INFINITE USB-C to Lightning Cable MFI 1m": {
-        "market_price": 99,
         "looked_up_at": "04-10-2026-11:37",
         "matcher_version": 9
     },
@@ -1479,11 +1439,6 @@
         "looked_up_at": "04-10-2026-11:37",
         "matcher_version": 9
     },
-    "PanzerGlass iPhone 13 Pro Max ClearCase sort": {
-        "market_price": 249,
-        "looked_up_at": "04-10-2026-11:37",
-        "matcher_version": 9
-    },
     "Wavell 3 Pro": {
         "market_price": 859,
         "looked_up_at": "04-10-2026-11:37",
@@ -1571,11 +1526,6 @@
     },
     "JBL Partybox Stage 320": {
         "market_price": 3499,
-        "looked_up_at": "04-10-2026-11:37",
-        "matcher_version": 9
-    },
-    "INFINITE USB-C - A Cable 1m": {
-        "market_price": 64,
         "looked_up_at": "04-10-2026-11:37",
         "matcher_version": 9
     },
@@ -1797,6 +1747,76 @@
     "Samsung Galaxy Tab S12 Plus 256GB": {
         "market_price": 8499,
         "looked_up_at": "05-10-2026-13:04",
+        "matcher_version": 9
+    },
+    "Samsung Galaxy Watch9 44mm Graphite e-SIM": {
+        "market_price": 2881,
+        "looked_up_at": "06-10-2026-12:34",
+        "matcher_version": 9
+    },
+    "Samsung Galaxy A26 5G 128GB": {
+        "market_price": 1499,
+        "looked_up_at": "06-10-2026-12:34",
+        "matcher_version": 9
+    },
+    "iPhone 17 Pro Max 256GB": {
+        "market_price": 10340,
+        "looked_up_at": "06-10-2026-12:34",
+        "matcher_version": 9
+    },
+    "Samsung Galaxy Watch8 40mm LTE": {
+        "market_price": 1499,
+        "looked_up_at": "06-10-2026-12:34",
+        "matcher_version": 9
+    },
+    "Wavell 4 Plus": {
+        "market_price": 599,
+        "looked_up_at": "06-10-2026-12:34",
+        "matcher_version": 9
+    },
+    "Samsung Galaxy Watch8 44mm BT - Grafit": {
+        "market_price": 1699,
+        "looked_up_at": "06-10-2026-12:34",
+        "matcher_version": 9
+    },
+    "Samsung Galaxy Watch Ultra2 Graphite e-SIM med abonnement": {
+        "market_price": null,
+        "looked_up_at": "06-10-2026-12:34",
+        "matcher_version": 9
+    },
+    "Samsung Galaxy Watch9 40mm Beige BT": {
+        "market_price": 2047,
+        "looked_up_at": "06-10-2026-12:34",
+        "matcher_version": 9
+    },
+    "iPhone 18 Pro 256GB Black": {
+        "market_price": 10990,
+        "looked_up_at": "06-10-2026-12:34",
+        "matcher_version": 9
+    },
+    "Samsung Galaxy Watch8 40mm BT - Grafit": {
+        "market_price": 1499,
+        "looked_up_at": "06-10-2026-12:34",
+        "matcher_version": 9
+    },
+    "Samsung Galaxy Watch Ultra (2025) Titanium Gray": {
+        "market_price": 3634,
+        "looked_up_at": "06-10-2026-12:34",
+        "matcher_version": 9
+    },
+    "Apple iPhone 11 Pro Max Leather Case - Midnight Blue": {
+        "market_price": null,
+        "looked_up_at": "06-10-2026-12:34",
+        "matcher_version": 9
+    },
+    "Samsung Galaxy Z Flip7 512GB": {
+        "market_price": 9290,
+        "looked_up_at": "06-10-2026-12:34",
+        "matcher_version": 9
+    },
+    "Samsung Galaxy Watch8 Classic eSim - Sort": {
+        "market_price": 1784,
+        "looked_up_at": "06-10-2026-12:34",
         "matcher_version": 9
     }
 }

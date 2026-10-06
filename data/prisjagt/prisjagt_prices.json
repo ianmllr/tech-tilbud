@@ -679,11 +679,6 @@
         "looked_up_at": "05-10-2026-13:25",
         "matcher_version": 7
     },
-    "iPhone 18 Pro 512GB Black": {
-        "market_price": 12990,
-        "looked_up_at": "03-10-2026-11:00",
-        "matcher_version": 7
-    },
     "Apple iPhone 18 Pro Max 256GB Burgundy": {
         "market_price": 12290,
         "looked_up_at": "04-10-2026-12:10",
@@ -696,11 +691,6 @@
     },
     "Apple iPhone 18 Pro 256GB": {
         "market_price": null,
-        "looked_up_at": "04-10-2026-12:10",
-        "matcher_version": 7
-    },
-    "PanzerGlass iPhone 13 Pro Max ClearCase sort": {
-        "market_price": 5999,
         "looked_up_at": "04-10-2026-12:10",
         "matcher_version": 7
     },
@@ -830,11 +820,6 @@
         "matcher_version": 7
     },
     "JBL Partybox Club 120 med abonnement": {
-        "market_price": null,
-        "looked_up_at": "04-10-2026-12:10",
-        "matcher_version": 7
-    },
-    "JBL Tune Flex 2 Sort": {
         "market_price": null,
         "looked_up_at": "04-10-2026-12:10",
         "matcher_version": 7
@@ -971,11 +956,6 @@
     },
     "Apple AirPods Max Midnight med abonnement": {
         "market_price": 3599,
-        "looked_up_at": "04-10-2026-12:10",
-        "matcher_version": 7
-    },
-    "iDeal Unity Wallet iPhone 12 Mini Woods": {
-        "market_price": null,
         "looked_up_at": "04-10-2026-12:10",
         "matcher_version": 7
     },
@@ -1164,11 +1144,6 @@
         "looked_up_at": "04-10-2026-12:10",
         "matcher_version": 7
     },
-    "INFINITE USB-C to Lightning Cable MFI 1m": {
-        "market_price": null,
-        "looked_up_at": "04-10-2026-12:10",
-        "matcher_version": 7
-    },
     "Google Pixel 11 256GB": {
         "market_price": 6620,
         "looked_up_at": "04-10-2026-12:10",
@@ -1349,11 +1324,6 @@
         "looked_up_at": "04-10-2026-12:10",
         "matcher_version": 7
     },
-    "eSTUFF USB-CA kabel 2m hvid": {
-        "market_price": null,
-        "looked_up_at": "04-10-2026-12:10",
-        "matcher_version": 7
-    },
     "OPPO Find X9 Ultra 512GB Canyon Orange": {
         "market_price": null,
         "looked_up_at": "04-10-2026-12:10",
@@ -1380,11 +1350,6 @@
         "matcher_version": 7
     },
     "iPad Air 11 M3 Wi-Fi Cellular 128GB": {
-        "market_price": null,
-        "looked_up_at": "04-10-2026-12:10",
-        "matcher_version": 7
-    },
-    "INFINITE USB-C - A Cable 1m": {
         "market_price": null,
         "looked_up_at": "04-10-2026-12:10",
         "matcher_version": 7
@@ -1664,11 +1629,6 @@
         "looked_up_at": "04-10-2026-12:10",
         "matcher_version": 7
     },
-    "OnePlus 9 Karbon Bumper Case Sort": {
-        "market_price": null,
-        "looked_up_at": "04-10-2026-12:10",
-        "matcher_version": 7
-    },
     "Samsung Galaxy Buds4 Pro Sort": {
         "market_price": null,
         "looked_up_at": "04-10-2026-12:10",
@@ -1719,11 +1679,6 @@
         "looked_up_at": "04-10-2026-12:10",
         "matcher_version": 7
     },
-    "eStuff HDMI 2.0  UHD Cable 2m": {
-        "market_price": null,
-        "looked_up_at": "04-10-2026-12:10",
-        "matcher_version": 7
-    },
     "JBL Wave Beam med abonnement Sort": {
         "market_price": null,
         "looked_up_at": "04-10-2026-12:10",
@@ -1736,11 +1691,6 @@
     },
     "Samsung Galaxy S24 5G 128GB": {
         "market_price": 5686,
-        "looked_up_at": "04-10-2026-12:10",
-        "matcher_version": 7
-    },
-    "INFINITE USB-A to Lightning Cable MFI 1m": {
-        "market_price": null,
         "looked_up_at": "04-10-2026-12:10",
         "matcher_version": 7
     },
@@ -1797,6 +1747,76 @@
     "Samsung Galaxy Tab S12 Plus 256GB": {
         "market_price": null,
         "looked_up_at": "05-10-2026-13:25",
+        "matcher_version": 7
+    },
+    "Samsung Galaxy Watch8 Classic eSim - Sort": {
+        "market_price": 2541,
+        "looked_up_at": "06-10-2026-12:37",
+        "matcher_version": 7
+    },
+    "Samsung Galaxy Watch9 44mm Graphite e-SIM": {
+        "market_price": null,
+        "looked_up_at": "06-10-2026-12:37",
+        "matcher_version": 7
+    },
+    "Samsung Galaxy Watch8 44mm BT - Grafit": {
+        "market_price": null,
+        "looked_up_at": "06-10-2026-12:37",
+        "matcher_version": 7
+    },
+    "Wavell 4 Plus": {
+        "market_price": 599,
+        "looked_up_at": "06-10-2026-12:37",
+        "matcher_version": 7
+    },
+    "Samsung Galaxy Watch Ultra2 Graphite e-SIM med abonnement": {
+        "market_price": null,
+        "looked_up_at": "06-10-2026-12:37",
+        "matcher_version": 7
+    },
+    "Samsung Galaxy Watch8 40mm BT - Grafit": {
+        "market_price": null,
+        "looked_up_at": "06-10-2026-12:37",
+        "matcher_version": 7
+    },
+    "Apple iPhone 11 Pro Max Leather Case - Midnight Blue": {
+        "market_price": null,
+        "looked_up_at": "06-10-2026-12:37",
+        "matcher_version": 7
+    },
+    "iPhone 17 Pro Max 256GB": {
+        "market_price": null,
+        "looked_up_at": "06-10-2026-12:37",
+        "matcher_version": 7
+    },
+    "iPhone 18 Pro 256GB Black": {
+        "market_price": null,
+        "looked_up_at": "06-10-2026-12:37",
+        "matcher_version": 7
+    },
+    "Samsung Galaxy Z Flip7 512GB": {
+        "market_price": 7455,
+        "looked_up_at": "06-10-2026-12:37",
+        "matcher_version": 7
+    },
+    "Samsung Galaxy Watch8 40mm LTE": {
+        "market_price": null,
+        "looked_up_at": "06-10-2026-12:37",
+        "matcher_version": 7
+    },
+    "Samsung Galaxy Watch9 40mm Beige BT": {
+        "market_price": null,
+        "looked_up_at": "06-10-2026-12:37",
+        "matcher_version": 7
+    },
+    "Samsung Galaxy A26 5G 128GB": {
+        "market_price": 1899,
+        "looked_up_at": "06-10-2026-12:37",
+        "matcher_version": 7
+    },
+    "Samsung Galaxy Watch Ultra (2025) Titanium Gray": {
+        "market_price": null,
+        "looked_up_at": "06-10-2026-12:37",
         "matcher_version": 7
     }
 }
