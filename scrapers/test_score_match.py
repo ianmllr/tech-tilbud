@@ -43,6 +43,15 @@ MUST_REJECT = [
     # a bare model number was treated as a tablet screen size, so the model check
     # was skipped and the base model matched a different one
     ("Google Pixel 11 256GB Black", "Google Pixel 10a 256GB Obsidian"),
+    # a spare screen passed every other check and set the price of the phone
+    ("Razr 60 Ultra", "Motorola Razr 60 Ultra Skærm Grå"),
+    ("moto G86 Power", "Moto G86 Power Skærmbeskyttelsesglas"),
+    ("Apple AirPods 4 Aktiv støjreduktion", "Apple Høretelefon Airpods 4 Aktiv Støjreduktion"),
+    # unlabelled ram was read as the storage
+    ("Lenovo Idea Tab WiFi 128GB", "Lenovo Idea Tab 8GB 256GB Wi-Fi Grey"),
+    # a screen protector still counts as an accessory next to the iPad exception
+    ("iPhone 17 Pro", "Apple iPhone 17 Pro Tempered Glass"),
+    ("iPad Pro 11 M5 Wi-Fi Cellular 256GB", "Apple iPad Pro M5, 13-inch, Wi-Fi + Cellular, 256GB, Standard Glass, Space Black"),
 ]
 
 # same product — must score above 0
@@ -69,6 +78,20 @@ MUST_ACCEPT = [
     ("Samsung Galaxy XCover 7 128GB", "Samsung Galaxy XCover 7 5G 128GB Black"),
     ("Garmin Venu 4 Slate", "Garmin Venu 4 41mm Black Smartwatch"),
     ("Google Pixel 11 256GB Black", "Google Pixel 11 256GB Frost"),
+    # storage and case size written with a space left a bare "1" or "47" that was
+    # taken for an unlabelled variant
+    ("Apple iPhone 18 Pro", "Apple iPhone 18 Pro 1 TB - Bordeaux"),
+    ("Apple iPhone 18 Pro", "Apple iPhone 18 Pro 2 TB 5G - Sølv"),
+    ("Garmin Fenix 8 Silver", "Garmin Fenix 8 AMOLED 47 mm Sapphire - Carbon Gray DLC Titanium/Black Pebble"),
+    ("Lenovo Idea Tab WiFi 256GB", "Lenovo Idea Tab 8GB 256GB Wi-Fi Grey"),
+    # a case size is not a model number
+    ("Samsung Galaxy Watch Ultra Titanium Gray", "Samsung Galaxy Watch Ultra 47mm Titanium Gray"),
+    # the chip came before the screen size and was taken for the model number, and
+    # "Standard Glass" (the display) was taken for a screen protector — the real
+    # M5 listings were rejected and a 1st-generation iPad Pro set the price
+    ("iPad Pro 11 M5 Wi-Fi Cellular 256GB", "Apple iPad Pro M5, 11-inch, Wi-Fi + Cellular, 256GB, Standard Glass, Silver"),
+    ("iPad Pro 13 M5 Wi-Fi Cellular 256GB", "Apple iPad Pro M5, 13-inch, Wi-Fi + Cellular, 256GB, Standard Glass, Space Black"),
+    ("iPad Pro 11 M5 Wi-Fi Cellular 256GB", "Apple iPad Pro 11-inch M5 Wi-Fi + Cellular 256 GB Nano-texture Glass"),
 ]
 
 

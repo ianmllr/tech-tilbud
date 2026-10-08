@@ -10,6 +10,7 @@ from playwright.sync_api import ViewportSize, sync_playwright
 from playwright_stealth import Stealth
 from provider_sources import PROVIDER_SOURCES
 from scraper_utils import log, is_blacklisted, apply_name_substitutions
+from price_selection import select_market_price, log_report
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 VIEWPORT: ViewportSize = {"width": 1920, "height": 1080}
@@ -55,6 +56,11 @@ ACCESSORY_KEYWORDS = {
     # watch listings, and a strap price passed as the watch's market price
     'armbånd', 'metalarmbånd', 'urrem', 'rem til', 'skærmbeskytter',
     'beskyttelsescover', 'opladerkabel', 'ladestation', 'taske',
+    # marketplace listings in german/danish that pass every other check
+    'displayschutz', 'schutzhülle', 'hülle', 'mobilcover', 'skal', 'rejsesag',
+    'travel case', 'ørepuder', 'udskiftningsørepuder', 'skærm', 'skærmbeskyttelsesglas',
+    # a single replacement earbud
+    'høretelefon', 'venstre', 'højre',
 }
 
 ACCESSORY_PATTERN = re.compile(
@@ -70,10 +76,9 @@ def extract_storage(text):
     m = re.search(r'(\d+)\s*TB', cleaned, re.IGNORECASE)
     if m:
         return int(m.group(1)) * 1024
-    m = re.search(r'(\d+)\s*GB', cleaned, re.IGNORECASE)
-    if m:
-        return int(m.group(1))
-    return None
+    # unlabelled ram comes first and is smaller: "8GB 256GB" is 256GB of storage
+    sizes = [int(n) for n in re.findall(r'(\d+)\s*GB', cleaned, re.IGNORECASE)]
+    return max(sizes) if sizes else None
 
 
 def split_fused_tokens(text):
@@ -92,6 +97,8 @@ def extract_model_number(text: str) -> str | None:
     # extract the primary model number for exact-match comparison e.g. "16e", "a36", "s25"
     text = re.sub(r'\d+\s*GB\s*RAM', '', text, flags=re.IGNORECASE)
     text = re.sub(r'\d+\s*(GB|TB)', '', text, flags=re.IGNORECASE)
+    # a watch case size is not a model number
+    text = re.sub(r'\b\d{2}\s*mm\b', '', text, flags=re.IGNORECASE)
     noise = {'samsung', 'apple', 'google', 'motorola', 'oneplus', 'nothing', 'urbanista',
              'galaxy', 'iphone', 'pixel', 'moto', 'nord', 'razr', 'leva',
              '5g', '4g', 'lte', 'dual', 'sim', 'sm', 'smartphone', 'wireless',
@@ -109,6 +116,10 @@ def extract_model_number(text: str) -> str | None:
         # a release year is not a model number. "iPad Air (2026)" parsed as model
         # "2026" and then failed to match the same product without the year
         if re.fullmatch(r'(19|20)\d{2}', token):
+            continue
+        # the apple chip is compared by extract_chip. as a model number it beat the
+        # screen size, so "iPad Pro M5, 11-inch" failed to match "iPad Pro 11 M5"
+        if re.fullmatch(r'm[1-9]', token):
             continue
         # must contain at least one digit to qualify as a model number
         if re.search(r'\d', token):
@@ -150,6 +161,9 @@ def infer_bare_model(text, other_model):
 def is_accessory(text: str) -> bool:
     # matched on word boundaries — as substrings these caught real devices, e.g.
     # "cover" inside "Galaxy XCover" and "rem" inside "Premium"
+    # "Standard Glass" / "Nano-texture Glass" is the display of an iPad Pro, not a
+    # screen protector
+    text = re.sub(r'\b(?:standard|nano[\s-]?texture)\s+glass\b', ' ', text, flags=re.IGNORECASE)
     return bool(ACCESSORY_PATTERN.search(text))
 
 
@@ -223,7 +237,9 @@ def score_match(query, candidate):
             pass
         elif q_digits == c_digits and (not q_alpha or not c_alpha):
             extra_alpha = q_alpha or c_alpha
-            if extra_alpha.issubset(TIER_WORDS):
+            # "Watch8" against "Watch 8": the letters are a word on the other side
+            other_tokens = c_tokens if q_alpha else q_tokens
+            if extra_alpha.issubset(TIER_WORDS) or extra_alpha <= other_tokens:
                 pass
             else:
                 return 0.0
@@ -235,6 +251,10 @@ def score_match(query, candidate):
     def _non_storage_digits(text, storage, model):
         storage_str = str(storage) if storage else None
         model_digits = set(re.findall(r'\d+', model)) if model else set()
+        # storage and case size written with a space ("1 TB", "47 mm") leave a bare
+        # number behind that is not an unlabelled variant
+        text = re.sub(r'\d+\s*(GB|TB)\b', ' ', text, flags=re.IGNORECASE)
+        text = re.sub(r'\b\d{2}\s*mm\b', ' ', text, flags=re.IGNORECASE)
         result = set()
         for tok in normalize(text).split():
             if not tok.isdigit():
@@ -281,71 +301,36 @@ def get_market_price(page, product_name):
     if not cards:
         return None, True
 
-    # collect (title, price_element) for every card that has both
+    # a card whose price element is missing or unreadable keeps price None, so the
+    # selection can tell it might have been the cheapest
     candidates = []
     for card in cards:
         title_el = card.query_selector('[class*="product"]')
         title = title_el.inner_text().strip() if title_el else ""
+        if not title:
+            continue
 
         price_el = card.query_selector(
             '[data-sentry-element="Component"][data-sentry-component="Text"].font-heaviest'
         )
-
-        if title and price_el:
-            candidates.append((title, price_el))
-
-    if not candidates:
-        return None, True
-
-    query_clean = clean_search_query(product_name)
-
-    # score and sort candidates — highest score first
-    scored = [(score_match(query_clean, title), title, price_el) for title, price_el in candidates]
-    scored = [s for s in scored if s[0] > 0.0]
-
-    if not scored:
-        log(f"  -> All candidates disqualified")
-        return None, True
-
-    scored.sort(key=lambda x: x[0], reverse=True)
-    best_score = scored[0][0]
-
-    if best_score < 0.4:
-        log(f"  -> Best score {best_score:.2f} below threshold, skipping")
-        return None, True
-
-    # keep candidates within 15% of the best score — wide enough for storage variants to all be included
-    top_candidates = [s for s in scored if s[0] >= best_score * 0.85]
-
-    # get number as int instead of danish number (eg 4.299 -> 4299)
-    def parse_card_price(price_el):
-        raw = price_el.inner_text().strip()
-        price_clean = re.sub(r'\.(?=\d{3}(\D|$))', '', raw)
-        price_clean = re.sub(r',\d+', '', price_clean)
-        digits = "".join(re.findall(r'\d+', price_clean))
-        return int(digits) if digits else None
-
-    # the cheapest candidate wins — the base (smallest-storage) variant is the
-    # cheapest, and when the provider name omits storage this picks the right price
-    # instead of guessing a storage tier from a title that may not carry one.
-    priced = []
-    for score, title, price_el in top_candidates:
         try:
-            p = parse_card_price(price_el)
+            price = parse_card_price(price_el.inner_text()) if price_el else None
         except Exception:
-            p = None
-        if p is not None:
-            priced.append((score, title, p))
+            price = None
+        candidates.append({'title': title, 'href': None, 'price': price})
 
-    if not priced:
-        log("  -> No parseable prices among top candidates")
-        return None, True
+    price, report = select_market_price(clean_search_query(product_name), candidates, score_match)
+    log_report(['  -> ' + line if not line.startswith('  ') else line for line in report])
+    return price, True
 
-    priced.sort(key=lambda x: x[2])
-    best_score, best_title, best_price = priced[0]
 
-    log(f"  -> Matched: '{best_title}' (score={best_score:.2f})")
-    return best_price, True
+def parse_card_price(raw):
+    # get number as int instead of danish number (eg 4.299 -> 4299)
+    raw = raw.strip()
+    price_clean = re.sub(r'\.(?=\d{3}(\D|$))', '', raw)
+    price_clean = re.sub(r',\d+', '', price_clean)
+    digits = "".join(re.findall(r'\d+', price_clean))
+    return int(digits) if digits else None
 
 
 def make_fresh_page(browser):
@@ -380,7 +365,7 @@ MAX_PRICE_AGE_DAYS = 3
 
 # bump when score_match changes, so stored results are re-looked-up instead of
 # leaving stale wrong prices behind
-MATCHER_VERSION = 7
+MATCHER_VERSION = 8
 
 
 def save_results(results):
@@ -500,6 +485,12 @@ def scrape_prisjagt():
                     time.sleep(5 * consecutive_failures)
             else:
                 consecutive_failures = 0
+
+            if not page_loaded:
+                # a page that didn't load says nothing about the price. keep the
+                # previous entry; it isn't fresh, so the next run looks it up again
+                log("  -> lookup failed, keeping previous entry")
+                continue
 
             results[product_name] = {
                 "market_price": price,
