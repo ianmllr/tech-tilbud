@@ -1629,11 +1629,6 @@
         "looked_up_at": "09-10-2026-12:23",
         "matcher_version": 10
     },
-    "iPhone 18 Pro 256GB Black": {
-        "market_price": 10990,
-        "looked_up_at": "09-10-2026-12:23",
-        "matcher_version": 10
-    },
     "Samsung Galaxy Z Flip7 512GB": {
         "market_price": 7455,
         "looked_up_at": "09-10-2026-12:23",
@@ -1646,11 +1641,6 @@
     },
     "iPhone 17e 256GB Black": {
         "market_price": 5699,
-        "looked_up_at": "09-10-2026-12:23",
-        "matcher_version": 10
-    },
-    "iPhone 18 Pro Max 256GB Red": {
-        "market_price": 12290,
         "looked_up_at": "09-10-2026-12:23",
         "matcher_version": 10
     },
@@ -1706,11 +1696,6 @@
     },
     "PanzerGlass Hoops iPhone 13 / 13 Mini": {
         "market_price": 38,
-        "looked_up_at": "09-10-2026-12:23",
-        "matcher_version": 10
-    },
-    "iPad Air 11 (2025) 128GB": {
-        "market_price": 5141,
         "looked_up_at": "09-10-2026-12:23",
         "matcher_version": 10
     },
@@ -1822,6 +1807,16 @@
     "iPhone 16e 128GB": {
         "market_price": 4998,
         "looked_up_at": "09-10-2026-12:23",
+        "matcher_version": 10
+    },
+    "iPhone 18 Pro 256GB Silver": {
+        "market_price": 10990,
+        "looked_up_at": "10-10-2026-11:41",
+        "matcher_version": 10
+    },
+    "iPhone 18 Pro Max 1TB Black": {
+        "market_price": 18290,
+        "looked_up_at": "10-10-2026-11:41",
         "matcher_version": 10
     }
 }
