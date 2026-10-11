@@ -1784,11 +1784,6 @@
         "looked_up_at": "09-10-2026-12:23",
         "matcher_version": 10
     },
-    "iPhone 17 Pro Max 256GB": {
-        "market_price": 10298,
-        "looked_up_at": "09-10-2026-12:23",
-        "matcher_version": 10
-    },
     "Oppo Watch X3 Sort med abonnement": {
         "market_price": 3299,
         "looked_up_at": "09-10-2026-12:23",
@@ -1817,6 +1812,11 @@
     "iPhone 18 Pro Max 1TB Black": {
         "market_price": 18290,
         "looked_up_at": "10-10-2026-11:41",
+        "matcher_version": 10
+    },
+    "Samsung Galaxy A26 5G 128GB": {
+        "market_price": 1499,
+        "looked_up_at": "11-10-2026-11:56",
         "matcher_version": 10
     }
 }
