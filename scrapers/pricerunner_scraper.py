@@ -44,7 +44,10 @@ def normalize(text):
 # tier words — if a candidate has one the query doesn't (or vice versa), it's a different product
 TIER_WORDS = {'ultra', 'cellular', 'aktiv støjreduktion', 'anc', 'plus', 'pro', 'max', 'mini', 'fe', 'fold', 'flip', 'lite', 'edge', 'air',
               # variant qualifiers — "Edge 70" and "Edge 70 Fusion" are different phones
-              'fusion', 'power', 'neo', 'xl'}
+              'fusion', 'power', 'neo', 'xl',
+              # garmin editions — "Fenix 8 Saph Solar" costs thousands more than "Fenix 8".
+              # not "solar": the Urbanista Malibu is a solar speaker
+              'sapphire', 'inreach'}
 
 # accessory keywords — disqualify any candidate that is clearly not a device
 ACCESSORY_KEYWORDS = {
@@ -181,6 +184,16 @@ def score_match(query, candidate):
     # "e-SIM" would otherwise tokenize to "e" + "sim" and be missed below
     query = re.sub(r"\be[\s-]?sim\b", "esim", query, flags=re.IGNORECASE)
     candidate = re.sub(r"\be[\s-]?sim\b", "esim", candidate, flags=re.IGNORECASE)
+
+    # pricerunner shortens "Sapphire" to "Saph"
+    query = re.sub(r"\bsaph\b", "sapphire", query, flags=re.IGNORECASE)
+    candidate = re.sub(r"\bsaph\b", "sapphire", candidate, flags=re.IGNORECASE)
+
+    # "aktiv støjreduktion" is two words and never matched as a tier word, so plain
+    # AirPods 4 at 873 passed for AirPods 4 with ANC at 1.183
+    anc = r"\b(?:aktiv\s+støjreduktion|active\s+noise\s+cancell?(?:ation|ing))\b"
+    query = re.sub(anc, "anc", query, flags=re.IGNORECASE)
+    candidate = re.sub(anc, "anc", candidate, flags=re.IGNORECASE)
 
     q_tokens = split_fused_tokens(query)
     c_tokens = split_fused_tokens(candidate)
@@ -527,7 +540,7 @@ MAX_PRICE_AGE_DAYS = 3
 
 # bump when score_match or price extraction changes, so stored results are
 # re-looked-up instead of leaving stale wrong prices behind
-MATCHER_VERSION = 10
+MATCHER_VERSION = 11
 
 def save_results(results):
     OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)

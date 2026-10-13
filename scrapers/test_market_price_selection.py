@@ -171,6 +171,69 @@ def test_used_listing_does_not_compete():
     assert pick('Apple iPhone 18 Pro', cards) == 10990
 
 
+# fixtures captured 13-10-2026 for prices Ian confirmed wrong in TECH-8
+
+def test_outlier_sold_by_few_shops_does_not_set_the_price():
+    # "Apple iPhone 15 5G Smartphone 128GB Pink" at 3.745 from two shops, while
+    # the 128GB listings sold by nine shops start at 5.149
+    query, cards = load_cards('pricerunner_apple_iphone_15_128gb.json')
+    assert pick(query, cards) == 5149
+
+
+def test_listing_without_storage_does_not_compete_when_query_names_it():
+    # "iPad Pro 11 Inch M5 Wi-Fi Cellular Tablet" has no storage and cost 14.249
+    query, cards = load_cards('pricerunner_ipad_pro_11_m5_wi_fi_cellular_256gb_space_black.json')
+    assert pick(query, cards) == 12000
+
+
+def test_word_order_and_marketing_colours_do_not_push_listings_out():
+    # "Apple 11-inch iPad Air ... (M4)", "Tundra Umber" and "Awesome White" scored
+    # a lower core similarity, so a single-shop listing was the only one compared
+    query, cards = load_cards('pricerunner_ipad_air_11_m4_wi_fi_cellular_128gb_space_grey.json')
+    assert pick(query, cards) == 6999
+    query, cards = load_cards('pricerunner_oppo_find_x9_ultra_512gb.json')
+    assert pick(query, cards) == 10999
+    # no storage in the name, so the cheapest variant: 128GB, not 256GB at 3.484
+    query, cards = load_cards('pricerunner_galaxy_a36.json')
+    assert pick(query, cards) == 2199
+
+
+def test_garmin_edition_does_not_set_the_price():
+    # only "Saph Solar" (9.300) and Sapphire editions were listed. no price beats
+    # a price 3.000 kr. too high
+    query, cards = load_cards('pricerunner_garmin_fenix_8_silver.json')
+    assert pick(query, cards) is None
+
+
+def test_full_name_listing_counts_despite_a_low_score():
+    # with the inReach edition rejected, only long titles were left, all below
+    # MIN_BEST_SCORE although they carry the whole name
+    query, cards = load_cards('pricerunner_garmin_fenix_9.json')
+    assert pick(query, cards) == 6999
+
+
+def test_page_without_the_product_gives_no_price():
+    # graphite pencils and markers for "Doro Leva L11s Graphite"; a 20 kr. pencil
+    # was stored as the phone's market price
+    query, cards = load_cards('pricerunner_doro_leva_l11s_graphite.json')
+    assert pick(query, cards) is None
+
+
+def test_regressions_seen_while_fixing_tech_8():
+    # the game alone (529) once read like the bundle when word order was ignored
+    query, cards = load_cards('pricerunner_nintendo_switch_2_mario_kart_world.json')
+    assert pick(query, cards) == 4199
+    # a one-shop 2TB listing at 14.969 set the core bar above the six-shop one
+    query, cards = load_cards('pricerunner_sony_playstation_5_pro.json')
+    assert pick(query, cards) == 11999
+    # plain AirPods 4 (873) is not AirPods 4 with ANC
+    query, cards = load_cards('pricerunner_apple_airpods_4_anc.json')
+    assert pick(query, cards) == 1183
+    # "solar" is a garmin edition but also how the Malibu speaker is charged
+    query, cards = load_cards('pricerunner_urbanista_malibu.json')
+    assert pick(query, cards) == 739
+
+
 def test_variant_words_do_not_change_core_similarity():
     base = core_similarity('Apple iPhone 18 Pro', 'Apple iPhone 18 Pro 256GB Sort')
     for title in ['Apple iPhone 18 Pro 2TB Blå', 'Apple iPhone 18 Pro 256 GB - Gletsjerblå',

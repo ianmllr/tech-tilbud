@@ -30,7 +30,8 @@ jobs:
       - run: python scrapers/norlys_scraper.py
       - run: python scrapers/callme_scraper.py
       - run: python scrapers/pricerunner_scraper.py
-      - run: python scrapers/prisjagt_scraper.py
+      # prisjagt disabled for now (TECH-8): market prices come from pricerunner only
+      # - run: python scrapers/prisjagt_scraper.py
       - name: Commit updated data
         run: |
           git config user.name "github-actions"

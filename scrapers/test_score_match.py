@@ -52,6 +52,13 @@ MUST_REJECT = [
     # a screen protector still counts as an accessory next to the iPad exception
     ("iPhone 17 Pro", "Apple iPhone 17 Pro Tempered Glass"),
     ("iPad Pro 11 M5 Wi-Fi Cellular 256GB", "Apple iPad Pro M5, 13-inch, Wi-Fi + Cellular, 256GB, Standard Glass, Space Black"),
+    # garmin editions cost thousands more; "Saph Solar" at 9.300 was stored as the
+    # market price of a plain Fenix 8 sold for 6.249 (TECH-8)
+    ("Garmin Fenix 8 Silver", "Garmin Fenix 8 Saph Solar"),
+    ("Garmin Fenix 8 Silver", "Garmin Fenix 8 AMOLED 47 mm Sapphire - Carbon Gray DLC Titanium/Black Pebble"),
+    ("Garmin Fenix 9", "Garmin Fenix 9 Pro – inReach"),
+    # "aktiv støjreduktion" is two words and never counted as a tier word
+    ("Apple AirPods 4 med Aktiv støjreduktion", "Apple AirPods 4 - White"),
 ]
 
 # same product — must score above 0
@@ -82,7 +89,7 @@ MUST_ACCEPT = [
     # taken for an unlabelled variant
     ("Apple iPhone 18 Pro", "Apple iPhone 18 Pro 1 TB - Bordeaux"),
     ("Apple iPhone 18 Pro", "Apple iPhone 18 Pro 2 TB 5G - Sølv"),
-    ("Garmin Fenix 8 Silver", "Garmin Fenix 8 AMOLED 47 mm Sapphire - Carbon Gray DLC Titanium/Black Pebble"),
+    ("Garmin Fenix 8 Silver", "Garmin Fenix 8 AMOLED 47 mm - Silver/Black"),
     ("Lenovo Idea Tab WiFi 256GB", "Lenovo Idea Tab 8GB 256GB Wi-Fi Grey"),
     # a case size is not a model number
     ("Samsung Galaxy Watch Ultra Titanium Gray", "Samsung Galaxy Watch Ultra 47mm Titanium Gray"),
@@ -92,6 +99,10 @@ MUST_ACCEPT = [
     ("iPad Pro 11 M5 Wi-Fi Cellular 256GB", "Apple iPad Pro M5, 11-inch, Wi-Fi + Cellular, 256GB, Standard Glass, Silver"),
     ("iPad Pro 13 M5 Wi-Fi Cellular 256GB", "Apple iPad Pro M5, 13-inch, Wi-Fi + Cellular, 256GB, Standard Glass, Space Black"),
     ("iPad Pro 11 M5 Wi-Fi Cellular 256GB", "Apple iPad Pro 11-inch M5 Wi-Fi + Cellular 256 GB Nano-texture Glass"),
+    # an edition on both sides is the same watch, however it is spelled
+    ("Garmin Fenix 8 Sapphire Solar", "Garmin Fenix 8 Saph Solar"),
+    ("Apple AirPods 4 med Aktiv støjreduktion", "Apple AirPods 4 with Active Noise Cancellation White"),
+    ("Urbanista Malibu", "Urbanista Malibu Portable Solar Charged"),
 ]
 
 

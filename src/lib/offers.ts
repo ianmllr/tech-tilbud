@@ -7,7 +7,8 @@ import three_raw from '../../data/3/3_offers.json'
 import yousee_raw from '../../data/yousee/yousee_offers.json'
 import norlys_raw from '../../data/norlys/norlys_offers.json'
 import callme_raw from '../../data/callme/callme_offers.json'
-import prisjagt from '../../data/prisjagt/prisjagt_prices.json'
+// prisjagt is disabled for now: its matches were too often wrong (TECH-8), so market prices come from pricerunner only
+// import prisjagt from '../../data/prisjagt/prisjagt_prices.json'
 import pricerunner from '../../data/pricerunner/pricerunner_prices.json'
 import type { Offer } from '@/types/offer'
 
@@ -55,7 +56,7 @@ const norlys = asOffers(norlys_raw)
 const callme = asOffers(callme_raw)
 const elgiganten = elgiganten_raw as unknown as ElgigantenOffer[]
 
-const prisjagtLookup = prisjagt as Record<string, { market_price: number | null }>
+// const prisjagtLookup = prisjagt as Record<string, { market_price: number | null }>
 const pricerunnerLookup = pricerunner as Record<string, { market_price: number | null }>
 
 // providers spell names with different casing ("AirPods" vs "Airpods"), so index
@@ -72,15 +73,16 @@ function buildPriceIndex(lookup: Record<string, { market_price: number | null }>
     return index
 }
 
-const prisjagtIndex = buildPriceIndex(prisjagtLookup)
+// const prisjagtIndex = buildPriceIndex(prisjagtLookup)
 const pricerunnerIndex = buildPriceIndex(pricerunnerLookup)
 
 function lowestMarketPrice(productName: string): number | null {
     const key = productName.toLowerCase()
-    const a = prisjagtIndex.get(key) ?? null
-    const b = pricerunnerIndex.get(key) ?? null
-    if (a !== null && b !== null) return Math.min(a, b)
-    return a ?? b
+    // const a = prisjagtIndex.get(key) ?? null
+    // const b = pricerunnerIndex.get(key) ?? null
+    // if (a !== null && b !== null) return Math.min(a, b)
+    // return a ?? b
+    return pricerunnerIndex.get(key) ?? null
 }
 
 // a market price far below the provider's own cash price means the lookup matched
