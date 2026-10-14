@@ -32,6 +32,9 @@ CATEGORY_URLS: dict[str, str] = {
 # Cookie-consent button selector (same across yousee.dk)
 COOKIE_ACCEPT_SELECTOR = 'button[id*="accept"]'
 
+# All product cards carry the taProductCard marker class
+CARD_SELECTOR = 'div[class*="taProductCard"]'
+
 
 @dataclasses.dataclass
 class Offer:
@@ -60,6 +63,17 @@ def parse_price(text: str) -> int | None:
 def download_image(image_url: str, product_name: str) -> str:
     # download image if it doesn't exist
     return download_image_cached(image_url, product_name, IMAGE_DIR, "/images/yousee")
+
+
+def goto(page, url: str, ready_selector: str | None = None) -> None:
+    # load on domcontentloaded; networkidle alone can hang when background requests never settle (TECH-10)
+    page.goto(url, wait_until="domcontentloaded", timeout=60000)
+    try:
+        page.wait_for_load_state("networkidle", timeout=15000)
+    except Exception:
+        log(f"  {url} did not reach network idle, continuing")
+    if ready_selector:
+        page.wait_for_selector(ready_selector, timeout=30000)
 
 
 def accept_cookies(page) -> None:
@@ -158,7 +172,7 @@ def scrape_listing_page(page, cat_url: str, product_type: str, saved_at: str, se
     log(f"\nScraping category: {cat_url} (type={product_type})")
 
     try:
-        page.goto(cat_url, wait_until="networkidle", timeout=30000)
+        goto(page, cat_url, CARD_SELECTOR)
         page.wait_for_timeout(2500)
     except Exception as e:
         log(f"  Could not load {cat_url}: {e}")
@@ -173,8 +187,7 @@ def scrape_listing_page(page, cat_url: str, product_type: str, saved_at: str, se
     page.evaluate("window.scrollTo(0, 0)")
     page.wait_for_timeout(500)
 
-    # All product cards carry the taProductCard marker class
-    cards = page.query_selector_all('div[class*="taProductCard"]')
+    cards = page.query_selector_all(CARD_SELECTOR)
     log(f"  Found {len(cards)} product cards")
 
     for card in cards:
@@ -208,9 +221,13 @@ def scrape_yousee():
 
         # Accept cookies once on the homepage so the banner doesn't reappear
         log("Accepting cookies on homepage...")
-        page.goto(BASE_URL, wait_until="networkidle", timeout=30000)
-        page.wait_for_timeout(2000)
-        accept_cookies(page)
+        try:
+            goto(page, BASE_URL)
+            page.wait_for_timeout(2000)
+            accept_cookies(page)
+        except Exception as e:
+            # not fatal: scrape_listing_page dismisses the banner on every category page too
+            log(f"  Could not load homepage: {e}")
 
         # scrape phone listing pages once per storage size
         for cat_url, storage_label in PHONE_STORAGE_URLS.items():
