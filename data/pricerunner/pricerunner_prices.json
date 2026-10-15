@@ -219,11 +219,6 @@
         "looked_up_at": "14-10-2026-10:58",
         "matcher_version": 11
     },
-    "iPhone 17 Pro Max 256 GB Silver": {
-        "market_price": 10248,
-        "looked_up_at": "14-10-2026-10:58",
-        "matcher_version": 11
-    },
     "Apple Airpods 4": {
         "market_price": 865,
         "looked_up_at": "14-10-2026-10:58",
@@ -1449,11 +1444,6 @@
         "looked_up_at": "14-10-2026-10:58",
         "matcher_version": 11
     },
-    "Google Pixel Watch 3 41mm BT Obsidian med abonnement": {
-        "market_price": 2699,
-        "looked_up_at": "14-10-2026-10:58",
-        "matcher_version": 11
-    },
     "Garmin Venu X1 Moss": {
         "market_price": 4162,
         "looked_up_at": "14-10-2026-10:58",
@@ -1689,11 +1679,6 @@
         "looked_up_at": "14-10-2026-10:58",
         "matcher_version": 11
     },
-    "Samsung Galaxy Z Flip7 FE 128GB": {
-        "market_price": 4800,
-        "looked_up_at": "14-10-2026-10:58",
-        "matcher_version": 11
-    },
     "iPhone Air 256GB": {
         "market_price": 7299,
         "looked_up_at": "14-10-2026-10:58",
@@ -1724,38 +1709,8 @@
         "looked_up_at": "14-10-2026-10:58",
         "matcher_version": 11
     },
-    "JBL Tune Flex 2 Sort": {
-        "market_price": 599,
-        "looked_up_at": "14-10-2026-10:58",
-        "matcher_version": 11
-    },
     "iPhone 18 Pro 256GB Black": {
         "market_price": 10990,
-        "looked_up_at": "14-10-2026-10:58",
-        "matcher_version": 11
-    },
-    "Apple MagSafe-oplader (1 m)": {
-        "market_price": 195,
-        "looked_up_at": "14-10-2026-10:58",
-        "matcher_version": 11
-    },
-    "Sandberg Airpods cleaning kit": {
-        "market_price": 132,
-        "looked_up_at": "14-10-2026-10:58",
-        "matcher_version": 11
-    },
-    "Xbox Trådløs controller - Sort": {
-        "market_price": 675,
-        "looked_up_at": "14-10-2026-10:58",
-        "matcher_version": 11
-    },
-    "Apple iPhone 11 Pro Max Silicone Case - Hvid": {
-        "market_price": 96,
-        "looked_up_at": "14-10-2026-10:58",
-        "matcher_version": 11
-    },
-    "Apple iPhone 11 Pro Max Leather Case - Midnight Blue": {
-        "market_price": 48,
         "looked_up_at": "14-10-2026-10:58",
         "matcher_version": 11
     },
@@ -1764,24 +1719,59 @@
         "looked_up_at": "14-10-2026-10:58",
         "matcher_version": 11
     },
-    "Vonmählen allroundo C hvid": {
-        "market_price": null,
-        "looked_up_at": "14-10-2026-10:58",
-        "matcher_version": 11
-    },
-    "Panzerglass 3i1 iPhone 18 Pro/17 Pro": {
-        "market_price": null,
-        "looked_up_at": "14-10-2026-10:58",
-        "matcher_version": 11
-    },
-    "CARE Cover iPhone 18 Pro/17 Pro Clear": {
-        "market_price": 389,
-        "looked_up_at": "14-10-2026-10:58",
-        "matcher_version": 11
-    },
     "Samsung Galaxy S25 5G 128GB": {
         "market_price": 4172,
         "looked_up_at": "14-10-2026-10:58",
+        "matcher_version": 11
+    },
+    "Wavell Junior Caribbean Blue": {
+        "market_price": null,
+        "looked_up_at": "15-10-2026-10:41",
+        "matcher_version": 11
+    },
+    "Apple Watch Series 12 GPS 42mm Black Aluminium Case with Black Sport Band - S/M": {
+        "market_price": 3499,
+        "looked_up_at": "15-10-2026-10:41",
+        "matcher_version": 11
+    },
+    "Apple Pencil 2nd Gen.": {
+        "market_price": 560,
+        "looked_up_at": "15-10-2026-10:41",
+        "matcher_version": 11
+    },
+    "Empower 240W USB-C til USB-C Kabel 2M": {
+        "market_price": 116,
+        "looked_up_at": "15-10-2026-10:41",
+        "matcher_version": 11
+    },
+    "PanzerGlass Galaxy S24+ 3i1 pakke": {
+        "market_price": 48,
+        "looked_up_at": "15-10-2026-10:41",
+        "matcher_version": 11
+    },
+    "iPhone 15 Clear case": {
+        "market_price": 179,
+        "looked_up_at": "15-10-2026-10:41",
+        "matcher_version": 11
+    },
+    "iPhone 17 Pro Max 256 GB Orange": {
+        "market_price": 10152,
+        "looked_up_at": "15-10-2026-10:41",
+        "matcher_version": 11
+    },
+    "iPhone 17 Pro Max 256GB": {
+        "market_price": 10152,
+        "looked_up_at": "15-10-2026-10:41",
+        "matcher_version": 11
+    },
+    "Google Pixel Watch 2 USB-C Cable": {
+        "market_price": null,
+        "looked_up_at": "15-10-2026-10:41",
+        "matcher_version": 11
+    },
+    "Empower 60W USB-C t Lightning Kabel 1.2M": {
+        "market_price": 82,
+        "looked_up_at": "15-10-2026-10:41",
         "matcher_version": 11
     }
 }
