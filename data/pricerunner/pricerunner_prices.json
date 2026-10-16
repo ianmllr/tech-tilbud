@@ -1314,11 +1314,6 @@
         "looked_up_at": "14-10-2026-10:58",
         "matcher_version": 11
     },
-    "JBL Tune Buds 2 Hvid": {
-        "market_price": 557,
-        "looked_up_at": "14-10-2026-10:58",
-        "matcher_version": 11
-    },
     "Apple iPhone Air 256 GB": {
         "market_price": 7299,
         "looked_up_at": "14-10-2026-10:58",
@@ -1729,49 +1724,59 @@
         "looked_up_at": "15-10-2026-10:41",
         "matcher_version": 11
     },
-    "Apple Watch Series 12 GPS 42mm Black Aluminium Case with Black Sport Band - S/M": {
-        "market_price": 3499,
-        "looked_up_at": "15-10-2026-10:41",
+    "Google Nest Wifi Pro (3 pack)": {
+        "market_price": 1890,
+        "looked_up_at": "16-10-2026-10:26",
         "matcher_version": 11
     },
-    "Apple Pencil 2nd Gen.": {
-        "market_price": 560,
-        "looked_up_at": "15-10-2026-10:41",
-        "matcher_version": 11
-    },
-    "Empower 240W USB-C til USB-C Kabel 2M": {
-        "market_price": 116,
-        "looked_up_at": "15-10-2026-10:41",
-        "matcher_version": 11
-    },
-    "PanzerGlass Galaxy S24+ 3i1 pakke": {
-        "market_price": 48,
-        "looked_up_at": "15-10-2026-10:41",
-        "matcher_version": 11
-    },
-    "iPhone 15 Clear case": {
-        "market_price": 179,
-        "looked_up_at": "15-10-2026-10:41",
-        "matcher_version": 11
-    },
-    "iPhone 17 Pro Max 256 GB Orange": {
-        "market_price": 10152,
-        "looked_up_at": "15-10-2026-10:41",
-        "matcher_version": 11
-    },
-    "iPhone 17 Pro Max 256GB": {
-        "market_price": 10152,
-        "looked_up_at": "15-10-2026-10:41",
-        "matcher_version": 11
-    },
-    "Google Pixel Watch 2 USB-C Cable": {
+    "Samsung Galaxy S23+ Silikone - Lilla": {
         "market_price": null,
-        "looked_up_at": "15-10-2026-10:41",
+        "looked_up_at": "16-10-2026-10:26",
         "matcher_version": 11
     },
-    "Empower 60W USB-C t Lightning Kabel 1.2M": {
-        "market_price": 82,
-        "looked_up_at": "15-10-2026-10:41",
+    "Samsung Galaxy S23+ Læder cover - Sort": {
+        "market_price": 49,
+        "looked_up_at": "16-10-2026-10:26",
+        "matcher_version": 11
+    },
+    "Wavell 4 Plus": {
+        "market_price": 599,
+        "looked_up_at": "16-10-2026-10:26",
+        "matcher_version": 11
+    },
+    "iPhone 17 Pro Max 256 GB Silver": {
+        "market_price": 10135,
+        "looked_up_at": "16-10-2026-10:26",
+        "matcher_version": 11
+    },
+    "Samsung Galaxy S23+ Silikone Grip - Sort": {
+        "market_price": null,
+        "looked_up_at": "16-10-2026-10:26",
+        "matcher_version": 11
+    },
+    "iPad Air 11 (2025) 128GB": {
+        "market_price": 6049,
+        "looked_up_at": "16-10-2026-10:26",
+        "matcher_version": 11
+    },
+    "dbramante1928 Greenland Galaxy S23 Ultra Clear": {
+        "market_price": 120,
+        "looked_up_at": "16-10-2026-10:26",
+        "matcher_version": 11
+    },
+    "Samsung Galaxy S23 Silikone cover - Cream": {
+        "market_price": 103,
+        "looked_up_at": "16-10-2026-10:26",
+        "matcher_version": 11
+    },
+    "Samsung Galaxy S23+ Clear View - Sort": {
+        "market_price": null,
+        "looked_up_at": "16-10-2026-10:26",
+        "matcher_version": 11
+    },
+    "dbramante1928 Greenland Galaxy S23+ Clear": {
+        "market_price": 21,
+        "looked_up_at": "16-10-2026-10:26",
         "matcher_version": 11
     }
 }
