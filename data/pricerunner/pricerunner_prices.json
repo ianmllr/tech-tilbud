@@ -589,11 +589,6 @@
         "looked_up_at": "18-10-2026-10:12",
         "matcher_version": 11
     },
-    "Apple iPhone 17 Pro 256 GB Orange": {
-        "market_price": 8979,
-        "looked_up_at": "18-10-2026-10:12",
-        "matcher_version": 11
-    },
     "Nintendo Switch 2 inkl. Mario Kart World med abonnement": {
         "market_price": 4199,
         "looked_up_at": "18-10-2026-10:12",
@@ -1711,17 +1706,17 @@
     },
     "Wavell Junior Caribbean Blue": {
         "market_price": null,
-        "looked_up_at": "15-10-2026-10:41",
+        "looked_up_at": "19-10-2026-11:35",
         "matcher_version": 11
     },
     "Wavell 4 Plus": {
         "market_price": 599,
-        "looked_up_at": "16-10-2026-10:26",
+        "looked_up_at": "19-10-2026-11:35",
         "matcher_version": 11
     },
     "iPhone 17 Pro Max 256 GB Silver": {
-        "market_price": 10135,
-        "looked_up_at": "16-10-2026-10:26",
+        "market_price": 10133,
+        "looked_up_at": "19-10-2026-11:35",
         "matcher_version": 11
     },
     "iPhone 15 128GB": {
@@ -1769,11 +1764,6 @@
         "looked_up_at": "18-10-2026-10:12",
         "matcher_version": 11
     },
-    "Google Nest Wifi Pro (3 pack)": {
-        "market_price": 1890,
-        "looked_up_at": "18-10-2026-10:12",
-        "matcher_version": 11
-    },
     "Samsung Galaxy S23+ Clear View - Sort": {
         "market_price": null,
         "looked_up_at": "18-10-2026-10:12",
@@ -1787,6 +1777,31 @@
     "Samsung Galaxy S23+ Læder cover - Sort": {
         "market_price": null,
         "looked_up_at": "18-10-2026-10:12",
+        "matcher_version": 11
+    },
+    "OPPO A7 Pro 5G 128GB": {
+        "market_price": 2999,
+        "looked_up_at": "19-10-2026-11:35",
+        "matcher_version": 11
+    },
+    "iPad Air 11 (2025) 128GB": {
+        "market_price": 5992,
+        "looked_up_at": "19-10-2026-11:35",
+        "matcher_version": 11
+    },
+    "OPPO A7 Pro 5G 128GB Titanium": {
+        "market_price": 2999,
+        "looked_up_at": "19-10-2026-11:35",
+        "matcher_version": 11
+    },
+    "iPhone 17 Pro Max 256GB": {
+        "market_price": 10133,
+        "looked_up_at": "19-10-2026-11:35",
+        "matcher_version": 11
+    },
+    "Samsung Galaxy S23 Ultra Frame cover - Sort": {
+        "market_price": 139,
+        "looked_up_at": "19-10-2026-11:35",
         "matcher_version": 11
     }
 }
