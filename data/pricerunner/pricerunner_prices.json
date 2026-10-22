@@ -1764,11 +1764,6 @@
         "looked_up_at": "21-10-2026-10:55",
         "matcher_version": 11
     },
-    "iPad Air 11 (2025) 128GB": {
-        "market_price": 5966,
-        "looked_up_at": "21-10-2026-10:55",
-        "matcher_version": 11
-    },
     "Apple iPhone SE Silicone Case Pink Sand": {
         "market_price": 230,
         "looked_up_at": "21-10-2026-10:55",
@@ -1781,11 +1776,6 @@
     },
     "Samsung Galaxy S20 Clear Cover Transparent": {
         "market_price": 79,
-        "looked_up_at": "21-10-2026-10:55",
-        "matcher_version": 11
-    },
-    "JBL Tune Flex 2 Sort": {
-        "market_price": 599,
         "looked_up_at": "21-10-2026-10:55",
         "matcher_version": 11
     },
@@ -1807,6 +1797,16 @@
     "Apple iPhone 11 Pro Max Leather Case - Midnight Blue": {
         "market_price": 48,
         "looked_up_at": "21-10-2026-10:55",
+        "matcher_version": 11
+    },
+    "OPPO Find X10 Pro Max 512GB": {
+        "market_price": null,
+        "looked_up_at": "22-10-2026-11:00",
+        "matcher_version": 11
+    },
+    "Wavell Junior Caribbean Blue": {
+        "market_price": null,
+        "looked_up_at": "22-10-2026-11:00",
         "matcher_version": 11
     }
 }
