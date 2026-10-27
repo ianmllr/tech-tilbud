@@ -224,11 +224,6 @@
         "looked_up_at": "25-10-2026-10:26",
         "matcher_version": 11
     },
-    "Galaxy A26": {
-        "market_price": 2111,
-        "looked_up_at": "25-10-2026-10:26",
-        "matcher_version": 11
-    },
     "Samsung Galaxy Z Fold8 256GB Graphite": {
         "market_price": 10907,
         "looked_up_at": "25-10-2026-10:26",
@@ -1644,11 +1639,6 @@
         "looked_up_at": "25-10-2026-10:26",
         "matcher_version": 11
     },
-    "iPhone 15 128GB": {
-        "market_price": 5133,
-        "looked_up_at": "26-10-2026-12:04",
-        "matcher_version": 11
-    },
     "Apple iPhone Duo": {
         "market_price": 17990,
         "looked_up_at": "26-10-2026-12:04",
@@ -1719,11 +1709,6 @@
         "looked_up_at": "26-10-2026-12:04",
         "matcher_version": 11
     },
-    "Wavell Junior Caribbean Blue": {
-        "market_price": null,
-        "looked_up_at": "26-10-2026-12:04",
-        "matcher_version": 11
-    },
     "iPhone 17 Pro Max 256 GB Silver": {
         "market_price": 10097,
         "looked_up_at": "26-10-2026-12:04",
@@ -1759,18 +1744,8 @@
         "looked_up_at": "25-10-2026-10:26",
         "matcher_version": 11
     },
-    "PanzerGlass iPhone 16 Plus Ultra wide fit": {
-        "market_price": null,
-        "looked_up_at": "26-10-2026-12:04",
-        "matcher_version": 11
-    },
     "Samsung Galaxy Watch9 44mm Graphite e-SIM": {
         "market_price": 2422,
-        "looked_up_at": "26-10-2026-12:04",
-        "matcher_version": 11
-    },
-    "Apple Watch SE 3 GPS 40mm Starlight Aluminium Case with Starlight Sport Band - S/M": {
-        "market_price": 2095,
         "looked_up_at": "26-10-2026-12:04",
         "matcher_version": 11
     },
@@ -1784,14 +1759,34 @@
         "looked_up_at": "26-10-2026-12:04",
         "matcher_version": 11
     },
-    "PS5 DualSense Wireless Controller": {
-        "market_price": 470,
-        "looked_up_at": "26-10-2026-12:04",
+    "iPhone 15 Plus Silicone case sort": {
+        "market_price": 136,
+        "looked_up_at": "27-10-2026-11:20",
         "matcher_version": 11
     },
-    "Samsung Galaxy S25 Ultra Silikone cover sort": {
-        "market_price": 150,
-        "looked_up_at": "26-10-2026-12:04",
+    "JBL Flip Essential 3 SE med abonnement": {
+        "market_price": 959,
+        "looked_up_at": "27-10-2026-11:20",
+        "matcher_version": 11
+    },
+    "Nudient Thin iPhone 15 - Pink": {
+        "market_price": 92,
+        "looked_up_at": "27-10-2026-11:20",
+        "matcher_version": 11
+    },
+    "iPhone 15 Plus Clear case": {
+        "market_price": 69,
+        "looked_up_at": "27-10-2026-11:20",
+        "matcher_version": 11
+    },
+    "PanzerGlass iPhone 15 3i1 pakke": {
+        "market_price": 359,
+        "looked_up_at": "27-10-2026-11:20",
+        "matcher_version": 11
+    },
+    "Samsung Galaxy Watch8 44mm BT - Grafit": {
+        "market_price": 2207,
+        "looked_up_at": "27-10-2026-11:20",
         "matcher_version": 11
     }
 }
