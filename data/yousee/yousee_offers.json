@@ -1,19 +1,5 @@
 [
     {
-        "link": "https://yousee.dk/shop/mobiltelefoner/apple/iphone-duo",
-        "product_name": "Apple iPhone Duo",
-        "image_url": "/images/yousee/apple_iphone_duo.webp",
-        "provider": "YouSee",
-        "type": "phone",
-        "data_gb": "",
-        "price_without_subscription": 17999,
-        "price_with_subscription": 14899,
-        "discount_on_product": 3100,
-        "min_cost_6_months": 16693,
-        "subscription_price_monthly": 299,
-        "saved_at": "27-10-2026-11:16"
-    },
-    {
         "link": "https://yousee.dk/shop/mobiltelefoner/samsung/galaxy-s26-fe",
         "product_name": "Samsung Galaxy S26 FE",
         "image_url": "/images/yousee/samsung_galaxy_s26_fe.webp",
@@ -25,7 +11,7 @@
         "discount_on_product": 3800,
         "min_cost_6_months": 3813,
         "subscription_price_monthly": 219,
-        "saved_at": "27-10-2026-11:16"
+        "saved_at": "28-10-2026-11:51"
     },
     {
         "link": "https://yousee.dk/shop/mobiltelefoner/apple/iphone-18-pro",
@@ -39,7 +25,7 @@
         "discount_on_product": 1900,
         "min_cost_6_months": 10893,
         "subscription_price_monthly": 299,
-        "saved_at": "27-10-2026-11:16"
+        "saved_at": "28-10-2026-11:51"
     },
     {
         "link": "https://yousee.dk/shop/mobiltelefoner/apple/iphone-18-pro-max",
@@ -53,7 +39,7 @@
         "discount_on_product": 2000,
         "min_cost_6_months": 12093,
         "subscription_price_monthly": 299,
-        "saved_at": "27-10-2026-11:16"
+        "saved_at": "28-10-2026-11:51"
     },
     {
         "link": "https://yousee.dk/shop/mobiltelefoner/samsung/galaxy-a17",
@@ -67,7 +53,21 @@
         "discount_on_product": 2300,
         "min_cost_6_months": 1413,
         "subscription_price_monthly": 219,
-        "saved_at": "27-10-2026-11:16"
+        "saved_at": "28-10-2026-11:51"
+    },
+    {
+        "link": "https://yousee.dk/shop/mobiltelefoner/apple/iphone-duo",
+        "product_name": "Apple iPhone Duo",
+        "image_url": "/images/yousee/apple_iphone_duo.webp",
+        "provider": "YouSee",
+        "type": "phone",
+        "data_gb": "",
+        "price_without_subscription": 17999,
+        "price_with_subscription": 14899,
+        "discount_on_product": 3100,
+        "min_cost_6_months": 16693,
+        "subscription_price_monthly": 299,
+        "saved_at": "28-10-2026-11:51"
     },
     {
         "link": "https://yousee.dk/shop/mobiltelefoner/oppo/a5-pro",
@@ -81,147 +81,7 @@
         "discount_on_product": 1500,
         "min_cost_6_months": 1713,
         "subscription_price_monthly": 219,
-        "saved_at": "27-10-2026-11:16"
-    },
-    {
-        "link": "https://yousee.dk/shop/mobiltelefoner/oppo/find-x10",
-        "product_name": "OPPO Find X10",
-        "image_url": "/images/yousee/oppo_find_x10.webp",
-        "provider": "YouSee",
-        "type": "phone",
-        "data_gb": "",
-        "price_without_subscription": 10999,
-        "price_with_subscription": 6999,
-        "discount_on_product": 4000,
-        "min_cost_6_months": 8313,
-        "subscription_price_monthly": 219,
-        "saved_at": "27-10-2026-11:16"
-    },
-    {
-        "link": "https://yousee.dk/shop/mobiltelefoner/oppo/find-x10-pro-max",
-        "product_name": "OPPO Find X10 Pro Max",
-        "image_url": "/images/yousee/oppo_find_x10_pro_max.webp",
-        "provider": "YouSee",
-        "type": "phone",
-        "data_gb": "",
-        "price_without_subscription": 13499,
-        "price_with_subscription": 8999,
-        "discount_on_product": 4500,
-        "min_cost_6_months": 10313,
-        "subscription_price_monthly": 219,
-        "saved_at": "27-10-2026-11:16"
-    },
-    {
-        "link": "https://yousee.dk/shop/mobiltelefoner/oppo/find-x9-pro",
-        "product_name": "OPPO Find X9 Pro",
-        "image_url": "/images/yousee/oppo_find_x9_pro.webp",
-        "provider": "YouSee",
-        "type": "phone",
-        "data_gb": "",
-        "price_without_subscription": 9999,
-        "price_with_subscription": 6999,
-        "discount_on_product": 3000,
-        "min_cost_6_months": 8313,
-        "subscription_price_monthly": 219,
-        "saved_at": "27-10-2026-11:16"
-    },
-    {
-        "link": "https://yousee.dk/shop/mobiltelefoner/motorola/edge-70-fusion-power",
-        "product_name": "Motorola Edge 70 Fusion Power",
-        "image_url": "/images/yousee/motorola_edge_70_fusion_power.webp",
-        "provider": "YouSee",
-        "type": "phone",
-        "data_gb": "",
-        "price_without_subscription": 3399,
-        "price_with_subscription": 999,
-        "discount_on_product": 2400,
-        "min_cost_6_months": 2313,
-        "subscription_price_monthly": 219,
-        "saved_at": "27-10-2026-11:16"
-    },
-    {
-        "link": "https://yousee.dk/shop/mobiltelefoner/apple/apple-iphone-17e",
-        "product_name": "Apple iPhone 17e",
-        "image_url": "/images/yousee/apple_iphone_17e.webp",
-        "provider": "YouSee",
-        "type": "phone",
-        "data_gb": "",
-        "price_without_subscription": 6499,
-        "price_with_subscription": 5299,
-        "discount_on_product": 1200,
-        "min_cost_6_months": 6613,
-        "subscription_price_monthly": 219,
-        "saved_at": "27-10-2026-11:16"
-    },
-    {
-        "link": "https://yousee.dk/shop/mobiltelefoner/apple/apple-iphone-17-pro",
-        "product_name": "Apple iPhone 17 Pro",
-        "image_url": "/images/yousee/apple_iphone_17_pro.webp",
-        "provider": "YouSee",
-        "type": "phone",
-        "data_gb": "",
-        "price_without_subscription": 9999,
-        "price_with_subscription": 7999,
-        "discount_on_product": 2000,
-        "min_cost_6_months": 9313,
-        "subscription_price_monthly": 219,
-        "saved_at": "27-10-2026-11:16"
-    },
-    {
-        "link": "https://yousee.dk/shop/mobiltelefoner/apple/apple-iphone-air",
-        "product_name": "Apple iPhone Air",
-        "image_url": "/images/yousee/apple_iphone_air.webp",
-        "provider": "YouSee",
-        "type": "phone",
-        "data_gb": "",
-        "price_without_subscription": 10999,
-        "price_with_subscription": 6899,
-        "discount_on_product": 4100,
-        "min_cost_6_months": 8693,
-        "subscription_price_monthly": 299,
-        "saved_at": "27-10-2026-11:16"
-    },
-    {
-        "link": "https://yousee.dk/shop/mobiltelefoner/apple/apple-iphone-17",
-        "product_name": "Apple iPhone 17",
-        "image_url": "/images/yousee/apple_iphone_17.webp",
-        "provider": "YouSee",
-        "type": "phone",
-        "data_gb": "",
-        "price_without_subscription": 8499,
-        "price_with_subscription": 6799,
-        "discount_on_product": 1700,
-        "min_cost_6_months": 8593,
-        "subscription_price_monthly": 299,
-        "saved_at": "27-10-2026-11:16"
-    },
-    {
-        "link": "https://yousee.dk/shop/mobiltelefoner/samsung/samsung-galaxy-a37",
-        "product_name": "Samsung Galaxy A37",
-        "image_url": "/images/yousee/samsung_galaxy_a37.webp",
-        "provider": "YouSee",
-        "type": "phone",
-        "data_gb": "",
-        "price_without_subscription": 3299,
-        "price_with_subscription": 799,
-        "discount_on_product": 2500,
-        "min_cost_6_months": 2113,
-        "subscription_price_monthly": 219,
-        "saved_at": "27-10-2026-11:16"
-    },
-    {
-        "link": "https://yousee.dk/shop/mobiltelefoner/samsung/galaxy-z-flip8",
-        "product_name": "Samsung Galaxy Z Flip8",
-        "image_url": "/images/yousee/samsung_galaxy_z_flip8.webp",
-        "provider": "YouSee",
-        "type": "phone",
-        "data_gb": "",
-        "price_without_subscription": 10499,
-        "price_with_subscription": 5999,
-        "discount_on_product": 4500,
-        "min_cost_6_months": 7313,
-        "subscription_price_monthly": 219,
-        "saved_at": "27-10-2026-11:16"
+        "saved_at": "28-10-2026-11:51"
     },
     {
         "link": "https://yousee.dk/shop/mobiltelefoner/motorola/motorola-moto-g77",
@@ -235,7 +95,147 @@
         "discount_on_product": 2200,
         "min_cost_6_months": 1513,
         "subscription_price_monthly": 219,
-        "saved_at": "27-10-2026-11:16"
+        "saved_at": "28-10-2026-11:51"
+    },
+    {
+        "link": "https://yousee.dk/shop/mobiltelefoner/oppo/find-x10",
+        "product_name": "OPPO Find X10",
+        "image_url": "/images/yousee/oppo_find_x10.webp",
+        "provider": "YouSee",
+        "type": "phone",
+        "data_gb": "",
+        "price_without_subscription": 10999,
+        "price_with_subscription": 6999,
+        "discount_on_product": 4000,
+        "min_cost_6_months": 8313,
+        "subscription_price_monthly": 219,
+        "saved_at": "28-10-2026-11:51"
+    },
+    {
+        "link": "https://yousee.dk/shop/mobiltelefoner/oppo/find-x10-pro-max",
+        "product_name": "OPPO Find X10 Pro Max",
+        "image_url": "/images/yousee/oppo_find_x10_pro_max.webp",
+        "provider": "YouSee",
+        "type": "phone",
+        "data_gb": "",
+        "price_without_subscription": 13499,
+        "price_with_subscription": 8999,
+        "discount_on_product": 4500,
+        "min_cost_6_months": 10313,
+        "subscription_price_monthly": 219,
+        "saved_at": "28-10-2026-11:51"
+    },
+    {
+        "link": "https://yousee.dk/shop/mobiltelefoner/oppo/find-x9-pro",
+        "product_name": "OPPO Find X9 Pro",
+        "image_url": "/images/yousee/oppo_find_x9_pro.webp",
+        "provider": "YouSee",
+        "type": "phone",
+        "data_gb": "",
+        "price_without_subscription": 9999,
+        "price_with_subscription": 6999,
+        "discount_on_product": 3000,
+        "min_cost_6_months": 8313,
+        "subscription_price_monthly": 219,
+        "saved_at": "28-10-2026-11:51"
+    },
+    {
+        "link": "https://yousee.dk/shop/mobiltelefoner/motorola/edge-70-fusion-power",
+        "product_name": "Motorola Edge 70 Fusion Power",
+        "image_url": "/images/yousee/motorola_edge_70_fusion_power.webp",
+        "provider": "YouSee",
+        "type": "phone",
+        "data_gb": "",
+        "price_without_subscription": 3399,
+        "price_with_subscription": 999,
+        "discount_on_product": 2400,
+        "min_cost_6_months": 2313,
+        "subscription_price_monthly": 219,
+        "saved_at": "28-10-2026-11:51"
+    },
+    {
+        "link": "https://yousee.dk/shop/mobiltelefoner/apple/apple-iphone-17e",
+        "product_name": "Apple iPhone 17e",
+        "image_url": "/images/yousee/apple_iphone_17e.webp",
+        "provider": "YouSee",
+        "type": "phone",
+        "data_gb": "",
+        "price_without_subscription": 6499,
+        "price_with_subscription": 5299,
+        "discount_on_product": 1200,
+        "min_cost_6_months": 6613,
+        "subscription_price_monthly": 219,
+        "saved_at": "28-10-2026-11:51"
+    },
+    {
+        "link": "https://yousee.dk/shop/mobiltelefoner/apple/apple-iphone-17-pro",
+        "product_name": "Apple iPhone 17 Pro",
+        "image_url": "/images/yousee/apple_iphone_17_pro.webp",
+        "provider": "YouSee",
+        "type": "phone",
+        "data_gb": "",
+        "price_without_subscription": 9999,
+        "price_with_subscription": 7999,
+        "discount_on_product": 2000,
+        "min_cost_6_months": 9313,
+        "subscription_price_monthly": 219,
+        "saved_at": "28-10-2026-11:51"
+    },
+    {
+        "link": "https://yousee.dk/shop/mobiltelefoner/apple/apple-iphone-air",
+        "product_name": "Apple iPhone Air",
+        "image_url": "/images/yousee/apple_iphone_air.webp",
+        "provider": "YouSee",
+        "type": "phone",
+        "data_gb": "",
+        "price_without_subscription": 10999,
+        "price_with_subscription": 6899,
+        "discount_on_product": 4100,
+        "min_cost_6_months": 8693,
+        "subscription_price_monthly": 299,
+        "saved_at": "28-10-2026-11:51"
+    },
+    {
+        "link": "https://yousee.dk/shop/mobiltelefoner/apple/apple-iphone-17",
+        "product_name": "Apple iPhone 17",
+        "image_url": "/images/yousee/apple_iphone_17.webp",
+        "provider": "YouSee",
+        "type": "phone",
+        "data_gb": "",
+        "price_without_subscription": 8499,
+        "price_with_subscription": 6799,
+        "discount_on_product": 1700,
+        "min_cost_6_months": 8593,
+        "subscription_price_monthly": 299,
+        "saved_at": "28-10-2026-11:51"
+    },
+    {
+        "link": "https://yousee.dk/shop/mobiltelefoner/samsung/samsung-galaxy-a37",
+        "product_name": "Samsung Galaxy A37",
+        "image_url": "/images/yousee/samsung_galaxy_a37.webp",
+        "provider": "YouSee",
+        "type": "phone",
+        "data_gb": "",
+        "price_without_subscription": 3299,
+        "price_with_subscription": 799,
+        "discount_on_product": 2500,
+        "min_cost_6_months": 2113,
+        "subscription_price_monthly": 219,
+        "saved_at": "28-10-2026-11:51"
+    },
+    {
+        "link": "https://yousee.dk/shop/mobiltelefoner/samsung/galaxy-z-flip8",
+        "product_name": "Samsung Galaxy Z Flip8",
+        "image_url": "/images/yousee/samsung_galaxy_z_flip8.webp",
+        "provider": "YouSee",
+        "type": "phone",
+        "data_gb": "",
+        "price_without_subscription": 10499,
+        "price_with_subscription": 5999,
+        "discount_on_product": 4500,
+        "min_cost_6_months": 7313,
+        "subscription_price_monthly": 219,
+        "saved_at": "28-10-2026-11:51"
     },
     {
         "link": "https://yousee.dk/shop/mobiltelefoner/motorola/signature-pantone",
@@ -249,7 +249,7 @@
         "discount_on_product": 6000,
         "min_cost_6_months": 6313,
         "subscription_price_monthly": 219,
-        "saved_at": "27-10-2026-11:16"
+        "saved_at": "28-10-2026-11:51"
     },
     {
         "link": "https://yousee.dk/shop/mobiltelefoner/google/pixel-11-pro-xl",
@@ -263,7 +263,7 @@
         "discount_on_product": 4900,
         "min_cost_6_months": 7313,
         "subscription_price_monthly": 219,
-        "saved_at": "27-10-2026-11:16"
+        "saved_at": "28-10-2026-11:51"
     },
     {
         "link": "https://yousee.dk/shop/mobiltelefoner/google/pixel-11",
@@ -277,7 +277,7 @@
         "discount_on_product": 3800,
         "min_cost_6_months": 5313,
         "subscription_price_monthly": 219,
-        "saved_at": "27-10-2026-11:16"
+        "saved_at": "28-10-2026-11:51"
     },
     {
         "link": "https://yousee.dk/shop/mobiltelefoner/apple/apple-iphone-17-pro-max",
@@ -291,7 +291,7 @@
         "discount_on_product": 2500,
         "min_cost_6_months": 10293,
         "subscription_price_monthly": 299,
-        "saved_at": "27-10-2026-11:16"
+        "saved_at": "28-10-2026-11:51"
     },
     {
         "link": "https://yousee.dk/shop/mobiltelefoner/apple/apple-iphone-16e",
@@ -305,7 +305,7 @@
         "discount_on_product": 2000,
         "min_cost_6_months": 5313,
         "subscription_price_monthly": 219,
-        "saved_at": "27-10-2026-11:16"
+        "saved_at": "28-10-2026-11:51"
     },
     {
         "link": "https://yousee.dk/shop/mobiltelefoner/apple/apple-iphone-16",
@@ -319,7 +319,7 @@
         "discount_on_product": 1700,
         "min_cost_6_months": 7593,
         "subscription_price_monthly": 299,
-        "saved_at": "27-10-2026-11:16"
+        "saved_at": "28-10-2026-11:51"
     },
     {
         "link": "https://yousee.dk/shop/mobiltelefoner/samsung/samsung-galaxy-a26",
@@ -333,21 +333,7 @@
         "discount_on_product": 1700,
         "min_cost_6_months": 1913,
         "subscription_price_monthly": 219,
-        "saved_at": "27-10-2026-11:16"
-    },
-    {
-        "link": "https://yousee.dk/shop/mobiltelefoner/motorola/edge-60",
-        "product_name": "Motorola Edge 60",
-        "image_url": "/images/yousee/motorola_edge_60.webp",
-        "provider": "YouSee",
-        "type": "phone",
-        "data_gb": "",
-        "price_without_subscription": 3599,
-        "price_with_subscription": 299,
-        "discount_on_product": 3300,
-        "min_cost_6_months": 2093,
-        "subscription_price_monthly": 299,
-        "saved_at": "27-10-2026-11:16"
+        "saved_at": "28-10-2026-11:51"
     },
     {
         "link": "https://yousee.dk/shop/mobiltelefoner/samsung/galaxy-z-flip7",
@@ -361,7 +347,7 @@
         "discount_on_product": 4700,
         "min_cost_6_months": 6593,
         "subscription_price_monthly": 299,
-        "saved_at": "27-10-2026-11:16"
+        "saved_at": "28-10-2026-11:51"
     },
     {
         "link": "https://yousee.dk/shop/mobiltelefoner/samsung/galaxy-z-fold7",
@@ -375,7 +361,7 @@
         "discount_on_product": 7500,
         "min_cost_6_months": 10793,
         "subscription_price_monthly": 299,
-        "saved_at": "27-10-2026-11:16"
+        "saved_at": "28-10-2026-11:51"
     },
     {
         "link": "https://yousee.dk/shop/mobiltelefoner/google/pixel-10-pro-xl",
@@ -389,7 +375,7 @@
         "discount_on_product": 4900,
         "min_cost_6_months": 7093,
         "subscription_price_monthly": 299,
-        "saved_at": "27-10-2026-11:16"
+        "saved_at": "28-10-2026-11:51"
     },
     {
         "link": "https://yousee.dk/shop/mobiltelefoner/motorola/razr-60-ultra",
@@ -403,7 +389,7 @@
         "discount_on_product": 5400,
         "min_cost_6_months": 6393,
         "subscription_price_monthly": 299,
-        "saved_at": "27-10-2026-11:16"
+        "saved_at": "28-10-2026-11:51"
     },
     {
         "link": "https://yousee.dk/shop/mobiltelefoner/google/pixel-9-pro-fold",
@@ -417,7 +403,21 @@
         "discount_on_product": 5200,
         "min_cost_6_months": 11393,
         "subscription_price_monthly": 299,
-        "saved_at": "27-10-2026-11:16"
+        "saved_at": "28-10-2026-11:51"
+    },
+    {
+        "link": "https://yousee.dk/shop/mobiltelefoner/samsung/galaxy-s26",
+        "product_name": "Samsung Galaxy S26",
+        "image_url": "/images/yousee/samsung_galaxy_s26.webp",
+        "provider": "YouSee",
+        "type": "phone",
+        "data_gb": "",
+        "price_without_subscription": 7999,
+        "price_with_subscription": 7399,
+        "discount_on_product": 600,
+        "min_cost_6_months": 8713,
+        "subscription_price_monthly": 219,
+        "saved_at": "28-10-2026-11:51"
     },
     {
         "link": "https://yousee.dk/shop/tablets/samsung/galaxy-tab-a11plus-5g",
@@ -431,7 +431,7 @@
         "discount_on_product": 2300,
         "min_cost_6_months": 1613,
         "subscription_price_monthly": 219,
-        "saved_at": "27-10-2026-11:16"
+        "saved_at": "28-10-2026-11:51"
     },
     {
         "link": "https://yousee.dk/shop/tablets/samsung/galaxy-tab-a11plus-wifi",
@@ -445,49 +445,7 @@
         "discount_on_product": 2200,
         "min_cost_6_months": 1893,
         "subscription_price_monthly": 299,
-        "saved_at": "27-10-2026-11:16"
-    },
-    {
-        "link": "https://yousee.dk/shop/tablets/samsung/galaxy-tab-s12-ultra",
-        "product_name": "Samsung Galaxy Tab S12 Ultra 5G",
-        "image_url": "/images/yousee/samsung_galaxy_tab_s12_ultra_5g.webp",
-        "provider": "YouSee",
-        "type": "tablet",
-        "data_gb": "",
-        "price_without_subscription": 12999,
-        "price_with_subscription": 5999,
-        "discount_on_product": 7000,
-        "min_cost_6_months": 7313,
-        "subscription_price_monthly": 219,
-        "saved_at": "27-10-2026-11:16"
-    },
-    {
-        "link": "https://yousee.dk/shop/tablets/apple/ipad-11th-11",
-        "product_name": "Apple iPad 11\" (11. gen.) Wi-Fi + 5G",
-        "image_url": "/images/yousee/apple_ipad_11___11__gen___wi_fi___5g.webp",
-        "provider": "YouSee",
-        "type": "tablet",
-        "data_gb": "",
-        "price_without_subscription": 5299,
-        "price_with_subscription": 4199,
-        "discount_on_product": 1100,
-        "min_cost_6_months": 5513,
-        "subscription_price_monthly": 219,
-        "saved_at": "27-10-2026-11:16"
-    },
-    {
-        "link": "https://yousee.dk/shop/tablets/apple/ipad-11th-11-wifi",
-        "product_name": "Apple iPad 11\" (11. gen.) Wi-Fi",
-        "image_url": "/images/yousee/apple_ipad_11___11__gen___wi_fi.webp",
-        "provider": "YouSee",
-        "type": "tablet",
-        "data_gb": "",
-        "price_without_subscription": 3799,
-        "price_with_subscription": 2799,
-        "discount_on_product": 1000,
-        "min_cost_6_months": 4113,
-        "subscription_price_monthly": 219,
-        "saved_at": "27-10-2026-11:16"
+        "saved_at": "28-10-2026-11:51"
     },
     {
         "link": "https://yousee.dk/shop/tablets/samsung/galaxy-tab-s11",
@@ -501,49 +459,49 @@
         "discount_on_product": 7000,
         "min_cost_6_months": 3313,
         "subscription_price_monthly": 219,
-        "saved_at": "27-10-2026-11:16"
+        "saved_at": "28-10-2026-11:51"
     },
     {
-        "link": "https://yousee.dk/shop/watches/apple/watch-ultra-4-gps-cellular",
-        "product_name": "Apple Watch Ultra 4 GPS + Cellular",
-        "image_url": "/images/yousee/apple_watch_ultra_4_gps___cellular.webp",
+        "link": "https://yousee.dk/shop/tablets/samsung/galaxy-tab-s12-ultra",
+        "product_name": "Samsung Galaxy Tab S12 Ultra 5G",
+        "image_url": "/images/yousee/samsung_galaxy_tab_s12_ultra_5g.webp",
         "provider": "YouSee",
-        "type": "watch",
+        "type": "tablet",
         "data_gb": "",
-        "price_without_subscription": 6999,
-        "price_with_subscription": 5299,
-        "discount_on_product": 1700,
-        "min_cost_6_months": 6613,
+        "price_without_subscription": 12999,
+        "price_with_subscription": 5999,
+        "discount_on_product": 7000,
+        "min_cost_6_months": 7313,
         "subscription_price_monthly": 219,
-        "saved_at": "27-10-2026-11:16"
+        "saved_at": "28-10-2026-11:51"
     },
     {
-        "link": "https://yousee.dk/shop/watches/apple/watch-12-gps-cellular",
-        "product_name": "Apple Watch Series 12 GPS + Cellular",
-        "image_url": "/images/yousee/apple_watch_series_12_gps___cellular.webp",
+        "link": "https://yousee.dk/shop/tablets/apple/ipad-11th-11",
+        "product_name": "Apple iPad 11\" (11. gen.) Wi-Fi + 5G",
+        "image_url": "/images/yousee/apple_ipad_11___11__gen___wi_fi___5g.webp",
         "provider": "YouSee",
-        "type": "watch",
+        "type": "tablet",
         "data_gb": "",
-        "price_without_subscription": 4849,
-        "price_with_subscription": 3799,
-        "discount_on_product": 1050,
-        "min_cost_6_months": 5113,
+        "price_without_subscription": 5299,
+        "price_with_subscription": 4199,
+        "discount_on_product": 1100,
+        "min_cost_6_months": 5513,
         "subscription_price_monthly": 219,
-        "saved_at": "27-10-2026-11:16"
+        "saved_at": "28-10-2026-11:51"
     },
     {
-        "link": "https://yousee.dk/shop/watches/garmin/vivoactive-6-slate",
-        "product_name": "Garmin Vivoactive 6 Slate",
-        "image_url": "/images/yousee/garmin_vivoactive_6_slate.webp",
+        "link": "https://yousee.dk/shop/tablets/apple/ipad-11th-11-wifi",
+        "product_name": "Apple iPad 11\" (11. gen.) Wi-Fi",
+        "image_url": "/images/yousee/apple_ipad_11___11__gen___wi_fi.webp",
         "provider": "YouSee",
-        "type": "watch",
+        "type": "tablet",
         "data_gb": "",
-        "price_without_subscription": 2329,
-        "price_with_subscription": 999,
-        "discount_on_product": 1330,
-        "min_cost_6_months": 2313,
+        "price_without_subscription": 3799,
+        "price_with_subscription": 2799,
+        "discount_on_product": 1000,
+        "min_cost_6_months": 4113,
         "subscription_price_monthly": 219,
-        "saved_at": "27-10-2026-11:16"
+        "saved_at": "28-10-2026-11:51"
     },
     {
         "link": "https://yousee.dk/shop/watches/samsung/galaxy-watch-ultra-2",
@@ -557,7 +515,7 @@
         "discount_on_product": 3800,
         "min_cost_6_months": 2813,
         "subscription_price_monthly": 219,
-        "saved_at": "27-10-2026-11:16"
+        "saved_at": "28-10-2026-11:51"
     },
     {
         "link": "https://yousee.dk/shop/watches/samsung/galaxy-watch9",
@@ -571,77 +529,49 @@
         "discount_on_product": 3000,
         "min_cost_6_months": 1613,
         "subscription_price_monthly": 219,
-        "saved_at": "27-10-2026-11:16"
+        "saved_at": "28-10-2026-11:51"
     },
     {
-        "link": "https://yousee.dk/shop/watches/garmin/cirqa-smart-band",
-        "product_name": "Garmin CIRQA Smart Band",
-        "image_url": "/images/yousee/garmin_cirqa_smart_band.webp",
+        "link": "https://yousee.dk/shop/watches/garmin/vivoactive-6-slate",
+        "product_name": "Garmin Vivoactive 6 Slate",
+        "image_url": "/images/yousee/garmin_vivoactive_6_slate.webp",
         "provider": "YouSee",
         "type": "watch",
         "data_gb": "",
-        "price_without_subscription": 1559,
-        "price_with_subscription": 599,
-        "discount_on_product": 960,
-        "min_cost_6_months": 1913,
+        "price_without_subscription": 2329,
+        "price_with_subscription": 999,
+        "discount_on_product": 1330,
+        "min_cost_6_months": 2313,
         "subscription_price_monthly": 219,
-        "saved_at": "27-10-2026-11:16"
+        "saved_at": "28-10-2026-11:51"
     },
     {
-        "link": "https://yousee.dk/shop/watches/garmin/venu-4-slate",
-        "product_name": "Garmin Venu 4 Slate",
-        "image_url": "/images/yousee/garmin_venu_4_slate.webp",
+        "link": "https://yousee.dk/shop/watches/apple/watch-ultra-4-gps-cellular",
+        "product_name": "Apple Watch Ultra 4 GPS + Cellular",
+        "image_url": "/images/yousee/apple_watch_ultra_4_gps___cellular.webp",
         "provider": "YouSee",
         "type": "watch",
         "data_gb": "",
-        "price_without_subscription": 3899,
-        "price_with_subscription": 2299,
-        "discount_on_product": 1600,
-        "min_cost_6_months": 3613,
+        "price_without_subscription": 6999,
+        "price_with_subscription": 5299,
+        "discount_on_product": 1700,
+        "min_cost_6_months": 6613,
         "subscription_price_monthly": 219,
-        "saved_at": "27-10-2026-11:16"
+        "saved_at": "28-10-2026-11:51"
     },
     {
-        "link": "https://yousee.dk/shop/watches/garmin/fenix-9",
-        "product_name": "Garmin Fenix 9",
-        "image_url": "/images/yousee/garmin_fenix_9.webp",
+        "link": "https://yousee.dk/shop/watches/apple/watch-12-gps-cellular",
+        "product_name": "Apple Watch Series 12 GPS + Cellular",
+        "image_url": "/images/yousee/apple_watch_series_12_gps___cellular.webp",
         "provider": "YouSee",
         "type": "watch",
         "data_gb": "",
-        "price_without_subscription": 7799,
-        "price_with_subscription": 5199,
-        "discount_on_product": 2600,
-        "min_cost_6_months": 6513,
+        "price_without_subscription": 4849,
+        "price_with_subscription": 3799,
+        "discount_on_product": 1050,
+        "min_cost_6_months": 5113,
         "subscription_price_monthly": 219,
-        "saved_at": "27-10-2026-11:16"
-    },
-    {
-        "link": "https://yousee.dk/shop/watches/garmin/fenix-9-pro-inreach",
-        "product_name": "Garmin Fenix 9 Pro – inReach",
-        "image_url": "/images/yousee/garmin_fenix_9_pro___inreach.webp",
-        "provider": "YouSee",
-        "type": "watch",
-        "data_gb": "",
-        "price_without_subscription": 9349,
-        "price_with_subscription": 6399,
-        "discount_on_product": 2950,
-        "min_cost_6_months": 7713,
-        "subscription_price_monthly": 219,
-        "saved_at": "27-10-2026-11:16"
-    },
-    {
-        "link": "https://yousee.dk/shop/watches/garmin/fenix-8-silver",
-        "product_name": "Garmin Fenix 8 Silver",
-        "image_url": "/images/yousee/garmin_fenix_8_silver.webp",
-        "provider": "YouSee",
-        "type": "watch",
-        "data_gb": "",
-        "price_without_subscription": 6249,
-        "price_with_subscription": 3999,
-        "discount_on_product": 2250,
-        "min_cost_6_months": 5313,
-        "subscription_price_monthly": 219,
-        "saved_at": "27-10-2026-11:16"
+        "saved_at": "28-10-2026-11:51"
     },
     {
         "link": "https://yousee.dk/shop/watches/garmin/vivoactive-6-lunar-gold",
@@ -655,7 +585,63 @@
         "discount_on_product": 1330,
         "min_cost_6_months": 2313,
         "subscription_price_monthly": 219,
-        "saved_at": "27-10-2026-11:16"
+        "saved_at": "28-10-2026-11:51"
+    },
+    {
+        "link": "https://yousee.dk/shop/watches/garmin/cirqa-smart-band",
+        "product_name": "Garmin CIRQA Smart Band",
+        "image_url": "/images/yousee/garmin_cirqa_smart_band.webp",
+        "provider": "YouSee",
+        "type": "watch",
+        "data_gb": "",
+        "price_without_subscription": 1559,
+        "price_with_subscription": 599,
+        "discount_on_product": 960,
+        "min_cost_6_months": 1913,
+        "subscription_price_monthly": 219,
+        "saved_at": "28-10-2026-11:51"
+    },
+    {
+        "link": "https://yousee.dk/shop/watches/garmin/fenix-9",
+        "product_name": "Garmin Fenix 9",
+        "image_url": "/images/yousee/garmin_fenix_9.webp",
+        "provider": "YouSee",
+        "type": "watch",
+        "data_gb": "",
+        "price_without_subscription": 7799,
+        "price_with_subscription": 5199,
+        "discount_on_product": 2600,
+        "min_cost_6_months": 6513,
+        "subscription_price_monthly": 219,
+        "saved_at": "28-10-2026-11:51"
+    },
+    {
+        "link": "https://yousee.dk/shop/watches/garmin/fenix-9-pro-inreach",
+        "product_name": "Garmin Fenix 9 Pro – inReach",
+        "image_url": "/images/yousee/garmin_fenix_9_pro___inreach.webp",
+        "provider": "YouSee",
+        "type": "watch",
+        "data_gb": "",
+        "price_without_subscription": 9349,
+        "price_with_subscription": 6399,
+        "discount_on_product": 2950,
+        "min_cost_6_months": 7713,
+        "subscription_price_monthly": 219,
+        "saved_at": "28-10-2026-11:51"
+    },
+    {
+        "link": "https://yousee.dk/shop/watches/garmin/venu-4-slate",
+        "product_name": "Garmin Venu 4 Slate",
+        "image_url": "/images/yousee/garmin_venu_4_slate.webp",
+        "provider": "YouSee",
+        "type": "watch",
+        "data_gb": "",
+        "price_without_subscription": 3899,
+        "price_with_subscription": 2299,
+        "discount_on_product": 1600,
+        "min_cost_6_months": 3613,
+        "subscription_price_monthly": 219,
+        "saved_at": "28-10-2026-11:51"
     },
     {
         "link": "https://yousee.dk/shop/watches/garmin/venu-4-lunar-gold",
@@ -669,7 +655,7 @@
         "discount_on_product": 1600,
         "min_cost_6_months": 3613,
         "subscription_price_monthly": 219,
-        "saved_at": "27-10-2026-11:16"
+        "saved_at": "28-10-2026-11:51"
     },
     {
         "link": "https://yousee.dk/shop/watches/garmin/venu-4-silver",
@@ -683,7 +669,21 @@
         "discount_on_product": 1600,
         "min_cost_6_months": 3613,
         "subscription_price_monthly": 219,
-        "saved_at": "27-10-2026-11:16"
+        "saved_at": "28-10-2026-11:51"
+    },
+    {
+        "link": "https://yousee.dk/shop/watches/garmin/fenix-8-silver",
+        "product_name": "Garmin Fenix 8 Silver",
+        "image_url": "/images/yousee/garmin_fenix_8_silver.webp",
+        "provider": "YouSee",
+        "type": "watch",
+        "data_gb": "",
+        "price_without_subscription": 6249,
+        "price_with_subscription": 3999,
+        "discount_on_product": 2250,
+        "min_cost_6_months": 5313,
+        "subscription_price_monthly": 219,
+        "saved_at": "28-10-2026-11:51"
     },
     {
         "link": "https://yousee.dk/shop/watches/garmin/fenix-8-slate-grey",
@@ -697,7 +697,7 @@
         "discount_on_product": 2250,
         "min_cost_6_months": 5313,
         "subscription_price_monthly": 219,
-        "saved_at": "27-10-2026-11:16"
+        "saved_at": "28-10-2026-11:51"
     },
     {
         "link": "https://yousee.dk/shop/watches/garmin/venu-x1-moss",
@@ -711,7 +711,7 @@
         "discount_on_product": 1950,
         "min_cost_6_months": 4813,
         "subscription_price_monthly": 219,
-        "saved_at": "27-10-2026-11:16"
+        "saved_at": "28-10-2026-11:51"
     },
     {
         "link": "https://yousee.dk/shop/watches/garmin/venu-x1-slate",
@@ -725,7 +725,7 @@
         "discount_on_product": 1950,
         "min_cost_6_months": 4813,
         "subscription_price_monthly": 219,
-        "saved_at": "27-10-2026-11:16"
+        "saved_at": "28-10-2026-11:51"
     },
     {
         "link": "https://yousee.dk/shop/watches/garmin/venu-x1-soft-gold",
@@ -739,7 +739,7 @@
         "discount_on_product": 1950,
         "min_cost_6_months": 4813,
         "subscription_price_monthly": 219,
-        "saved_at": "27-10-2026-11:16"
+        "saved_at": "28-10-2026-11:51"
     },
     {
         "link": "https://yousee.dk/shop/watches/apple/apple-watch-se-3",
@@ -753,7 +753,7 @@
         "discount_on_product": 900,
         "min_cost_6_months": 2913,
         "subscription_price_monthly": 219,
-        "saved_at": "27-10-2026-11:16"
+        "saved_at": "28-10-2026-11:51"
     },
     {
         "link": "https://yousee.dk/shop/watches/apple/apple-watch-s11",
@@ -762,12 +762,12 @@
         "provider": "YouSee",
         "type": "watch",
         "data_gb": "",
-        "price_without_subscription": 4399,
-        "price_with_subscription": 2999,
-        "discount_on_product": 1400,
-        "min_cost_6_months": 4313,
+        "price_without_subscription": 4699,
+        "price_with_subscription": 3499,
+        "discount_on_product": 1200,
+        "min_cost_6_months": 4813,
         "subscription_price_monthly": 219,
-        "saved_at": "27-10-2026-11:16"
+        "saved_at": "28-10-2026-11:51"
     },
     {
         "link": "https://yousee.dk/shop/watches/apple/apple-watch-ultra-3",
@@ -781,7 +781,7 @@
         "discount_on_product": 2000,
         "min_cost_6_months": 6313,
         "subscription_price_monthly": 219,
-        "saved_at": "27-10-2026-11:16"
+        "saved_at": "28-10-2026-11:51"
     },
     {
         "link": "https://yousee.dk/shop/watches/tcl/tcl-kids-watch",
@@ -795,6 +795,6 @@
         "discount_on_product": 500,
         "min_cost_6_months": null,
         "subscription_price_monthly": null,
-        "saved_at": "27-10-2026-11:16"
+        "saved_at": "28-10-2026-11:51"
     }
 ]
