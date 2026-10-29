@@ -4,11 +4,6 @@
         "looked_up_at": "28-10-2026-11:55",
         "matcher_version": 11
     },
-    "Galaxy Z Flip7": {
-        "market_price": 6404,
-        "looked_up_at": "28-10-2026-11:55",
-        "matcher_version": 11
-    },
     "Google Pixel 11 Pro Fold 256GB Black": {
         "market_price": 15399,
         "looked_up_at": "28-10-2026-11:55",
@@ -241,11 +236,6 @@
     },
     "Pixel 11": {
         "market_price": 6615,
-        "looked_up_at": "28-10-2026-11:55",
-        "matcher_version": 11
-    },
-    "Pixel 10 Pro": {
-        "market_price": 5480,
         "looked_up_at": "28-10-2026-11:55",
         "matcher_version": 11
     },
@@ -554,11 +544,6 @@
         "looked_up_at": "28-10-2026-11:55",
         "matcher_version": 11
     },
-    "iPad 11 A16 Wi-Fi 128GB": {
-        "market_price": 3999,
-        "looked_up_at": "28-10-2026-11:55",
-        "matcher_version": 11
-    },
     "iPad Air 11 M3 Wi-Fi 128GB": {
         "market_price": 5321,
         "looked_up_at": "28-10-2026-11:55",
@@ -844,11 +829,6 @@
         "looked_up_at": "28-10-2026-11:55",
         "matcher_version": 11
     },
-    "Apple iPhone 17 Pro Max 256 GB": {
-        "market_price": 9999,
-        "looked_up_at": "28-10-2026-11:55",
-        "matcher_version": 11
-    },
     "Apple AirPods 5 with Wireless Charging Case": {
         "market_price": 481,
         "looked_up_at": "28-10-2026-11:55",
@@ -1051,11 +1031,6 @@
     },
     "iPad Air 11 M4 Wi-Fi 128GB": {
         "market_price": 5992,
-        "looked_up_at": "28-10-2026-11:55",
-        "matcher_version": 11
-    },
-    "Beyerdynamic Aventho 100 Black": {
-        "market_price": 999,
         "looked_up_at": "28-10-2026-11:55",
         "matcher_version": 11
     },
@@ -1724,24 +1699,9 @@
         "looked_up_at": "26-10-2026-12:04",
         "matcher_version": 11
     },
-    "Samsung Galaxy Tab S12 Ultra WiFi 256GB Gray": {
-        "market_price": 11143,
-        "looked_up_at": "28-10-2026-11:55",
-        "matcher_version": 11
-    },
     "iPad Air 11 (2025) 128GB": {
         "market_price": 6143,
         "looked_up_at": "28-10-2026-11:55",
-        "matcher_version": 11
-    },
-    "Samsung Galaxy Watch9 44mm Graphite e-SIM": {
-        "market_price": 2422,
-        "looked_up_at": "26-10-2026-12:04",
-        "matcher_version": 11
-    },
-    "Samsung Galaxy Watch9 40mm Beige BT": {
-        "market_price": 2024,
-        "looked_up_at": "26-10-2026-12:04",
         "matcher_version": 11
     },
     "JBL Flip Essential 3 SE med abonnement": {
@@ -1749,49 +1709,69 @@
         "looked_up_at": "27-10-2026-11:20",
         "matcher_version": 11
     },
-    "Samsung Galaxy Watch8 44mm BT - Grafit": {
-        "market_price": 2207,
-        "looked_up_at": "27-10-2026-11:20",
-        "matcher_version": 11
-    },
-    "Sony Playstation 5 Slim vertikal stand": {
-        "market_price": null,
-        "looked_up_at": "28-10-2026-11:55",
-        "matcher_version": 11
-    },
-    "Sony Playstation Portal - Midnight": {
-        "market_price": 1769,
-        "looked_up_at": "28-10-2026-11:55",
-        "matcher_version": 11
-    },
-    "Wavell 4 Plus": {
-        "market_price": 599,
-        "looked_up_at": "28-10-2026-11:55",
-        "matcher_version": 11
-    },
-    "Samsung Galaxy S23 FE Smart View sort": {
-        "market_price": 200,
-        "looked_up_at": "28-10-2026-11:55",
-        "matcher_version": 11
-    },
-    "PanzerGlass Hoops iPhone 13 / 13 Mini": {
-        "market_price": 74,
-        "looked_up_at": "28-10-2026-11:55",
-        "matcher_version": 11
-    },
     "Samsung Galaxy S26": {
         "market_price": 5732,
         "looked_up_at": "28-10-2026-11:55",
         "matcher_version": 11
     },
-    "Xbox Trådløs controller - Sort": {
-        "market_price": 675,
-        "looked_up_at": "28-10-2026-11:55",
+    "Pela Eco Cover iPhone 12/12 Pro Grøn": {
+        "market_price": 49,
+        "looked_up_at": "29-10-2026-12:03",
         "matcher_version": 11
     },
-    "Wavell Junior Caribbean Blue": {
+    "PanzerGlass Galaxy S21+ ClearCase": {
+        "market_price": 393,
+        "looked_up_at": "29-10-2026-12:03",
+        "matcher_version": 11
+    },
+    "Pela Eco Cover iPhone 12 Pro Max Sort Frame": {
+        "market_price": 49,
+        "looked_up_at": "29-10-2026-12:03",
+        "matcher_version": 11
+    },
+    "Pela Eco Cover iPhone 12 Pro Max Sort": {
+        "market_price": 49,
+        "looked_up_at": "29-10-2026-12:03",
+        "matcher_version": 11
+    },
+    "JBL Tune Buds 2 Hvid": {
+        "market_price": 595,
+        "looked_up_at": "29-10-2026-12:03",
+        "matcher_version": 11
+    },
+    "Apple AirTag 1-pak": {
+        "market_price": 239,
+        "looked_up_at": "29-10-2026-12:03",
+        "matcher_version": 11
+    },
+    "JBL Tune Flex 2 Sort": {
+        "market_price": 599,
+        "looked_up_at": "29-10-2026-12:03",
+        "matcher_version": 11
+    },
+    "Apple iPad 11\" A16 (2025) WiFi 256GB": {
+        "market_price": 4903,
+        "looked_up_at": "29-10-2026-12:03",
+        "matcher_version": 11
+    },
+    "Apple iPhone 17 Pro Max 1 TB": {
+        "market_price": 13342,
+        "looked_up_at": "29-10-2026-12:03",
+        "matcher_version": 11
+    },
+    "Pela Eco Slim iPhone 8/SE Blue": {
         "market_price": null,
-        "looked_up_at": "28-10-2026-11:55",
+        "looked_up_at": "29-10-2026-12:03",
+        "matcher_version": 11
+    },
+    "Samsung Type-C Earphones Sort": {
+        "market_price": 88,
+        "looked_up_at": "29-10-2026-12:03",
+        "matcher_version": 11
+    },
+    "Apple AirPods Max - Midnight": {
+        "market_price": 3250,
+        "looked_up_at": "29-10-2026-12:03",
         "matcher_version": 11
     }
 }
