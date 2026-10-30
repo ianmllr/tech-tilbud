@@ -1611,42 +1611,42 @@
     },
     "Apple iPhone Duo": {
         "market_price": 17990,
-        "looked_up_at": "26-10-2026-12:04",
+        "looked_up_at": "30-10-2026-12:02",
         "matcher_version": 11
     },
     "iPhone Duo 256GB": {
         "market_price": 17990,
-        "looked_up_at": "26-10-2026-12:04",
+        "looked_up_at": "30-10-2026-12:02",
         "matcher_version": 11
     },
     "iPhone Duo": {
         "market_price": 17990,
-        "looked_up_at": "26-10-2026-12:04",
+        "looked_up_at": "30-10-2026-12:02",
         "matcher_version": 11
     },
     "Apple iPhone Duo 256GB": {
         "market_price": 17990,
-        "looked_up_at": "26-10-2026-12:04",
+        "looked_up_at": "30-10-2026-12:02",
         "matcher_version": 11
     },
     "OPPO A7 Pro 5G 128GB": {
         "market_price": 2999,
-        "looked_up_at": "26-10-2026-12:04",
+        "looked_up_at": "30-10-2026-12:02",
         "matcher_version": 11
     },
     "OPPO A7 Pro 5G 128GB Titanium": {
         "market_price": 2999,
-        "looked_up_at": "26-10-2026-12:04",
+        "looked_up_at": "30-10-2026-12:02",
         "matcher_version": 11
     },
     "Google Pixel Watch 3 45mm BT Obsidian med abonnement": {
-        "market_price": 3269,
-        "looked_up_at": "26-10-2026-12:04",
+        "market_price": 2867,
+        "looked_up_at": "30-10-2026-12:02",
         "matcher_version": 11
     },
     "Apple Watch Series 11 GPS 46mm Space Grey Aluminium Case with Black Sport Band - M/L med abonnement": {
         "market_price": 3949,
-        "looked_up_at": "26-10-2026-12:04",
+        "looked_up_at": "30-10-2026-12:02",
         "matcher_version": 11
     },
     "Samsung Galaxy Z Flip7 FE 128GB": {
@@ -1671,32 +1671,32 @@
     },
     "OPPO Find X10 Pro Max 512GB": {
         "market_price": 11999,
-        "looked_up_at": "26-10-2026-12:04",
+        "looked_up_at": "30-10-2026-12:02",
         "matcher_version": 11
     },
     "iPhone 17 Pro Max 256 GB Silver": {
-        "market_price": 10097,
-        "looked_up_at": "26-10-2026-12:04",
+        "market_price": 9999,
+        "looked_up_at": "30-10-2026-12:02",
         "matcher_version": 11
     },
     "iPhone 16 256 GB Sort": {
         "market_price": 7666,
-        "looked_up_at": "26-10-2026-12:04",
+        "looked_up_at": "30-10-2026-12:02",
         "matcher_version": 11
     },
     "iPhone 18 Pro Max 256GB Black": {
         "market_price": 12289,
-        "looked_up_at": "26-10-2026-12:04",
+        "looked_up_at": "30-10-2026-12:02",
         "matcher_version": 11
     },
     "iPhone 17 Pro 256 GB Silver": {
-        "market_price": 8979,
-        "looked_up_at": "26-10-2026-12:04",
+        "market_price": 9140,
+        "looked_up_at": "30-10-2026-12:02",
         "matcher_version": 11
     },
     "iPhone 18 Pro 256GB Black": {
-        "market_price": 10798,
-        "looked_up_at": "26-10-2026-12:04",
+        "market_price": 10799,
+        "looked_up_at": "30-10-2026-12:02",
         "matcher_version": 11
     },
     "iPad Air 11 (2025) 128GB": {
@@ -1706,7 +1706,7 @@
     },
     "JBL Flip Essential 3 SE med abonnement": {
         "market_price": 959,
-        "looked_up_at": "27-10-2026-11:20",
+        "looked_up_at": "30-10-2026-12:02",
         "matcher_version": 11
     },
     "Samsung Galaxy S26": {
@@ -1744,11 +1744,6 @@
         "looked_up_at": "29-10-2026-12:03",
         "matcher_version": 11
     },
-    "JBL Tune Flex 2 Sort": {
-        "market_price": 599,
-        "looked_up_at": "29-10-2026-12:03",
-        "matcher_version": 11
-    },
     "Apple iPad 11\" A16 (2025) WiFi 256GB": {
         "market_price": 4903,
         "looked_up_at": "29-10-2026-12:03",
@@ -1764,14 +1759,29 @@
         "looked_up_at": "29-10-2026-12:03",
         "matcher_version": 11
     },
-    "Samsung Type-C Earphones Sort": {
-        "market_price": 88,
-        "looked_up_at": "29-10-2026-12:03",
-        "matcher_version": 11
-    },
     "Apple AirPods Max - Midnight": {
         "market_price": 3250,
         "looked_up_at": "29-10-2026-12:03",
+        "matcher_version": 11
+    },
+    "iPhone 15 128GB": {
+        "market_price": 5149,
+        "looked_up_at": "30-10-2026-12:02",
+        "matcher_version": 11
+    },
+    "Wavell 4 Plus": {
+        "market_price": 599,
+        "looked_up_at": "30-10-2026-12:02",
+        "matcher_version": 11
+    },
+    "iDeal Unity Wallet iPhone 12 Mini Woods": {
+        "market_price": 49,
+        "looked_up_at": "30-10-2026-12:02",
+        "matcher_version": 11
+    },
+    "Samsung Galaxy A26 5G 128GB": {
+        "market_price": 2111,
+        "looked_up_at": "30-10-2026-12:02",
         "matcher_version": 11
     }
 }
