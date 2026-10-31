@@ -1564,11 +1564,6 @@
         "looked_up_at": "28-10-2026-11:55",
         "matcher_version": 11
     },
-    "Samsung Galaxy A27 5G 128GB": {
-        "market_price": 1900,
-        "looked_up_at": "28-10-2026-11:55",
-        "matcher_version": 11
-    },
     "iPhone 17e 256GB": {
         "market_price": 5948,
         "looked_up_at": "28-10-2026-11:55",
@@ -1734,11 +1729,6 @@
         "looked_up_at": "29-10-2026-12:03",
         "matcher_version": 11
     },
-    "JBL Tune Buds 2 Hvid": {
-        "market_price": 595,
-        "looked_up_at": "29-10-2026-12:03",
-        "matcher_version": 11
-    },
     "Apple AirTag 1-pak": {
         "market_price": 239,
         "looked_up_at": "29-10-2026-12:03",
@@ -1764,24 +1754,29 @@
         "looked_up_at": "29-10-2026-12:03",
         "matcher_version": 11
     },
-    "iPhone 15 128GB": {
-        "market_price": 5149,
-        "looked_up_at": "30-10-2026-12:02",
-        "matcher_version": 11
-    },
-    "Wavell 4 Plus": {
-        "market_price": 599,
-        "looked_up_at": "30-10-2026-12:02",
-        "matcher_version": 11
-    },
     "iDeal Unity Wallet iPhone 12 Mini Woods": {
         "market_price": 49,
         "looked_up_at": "30-10-2026-12:02",
         "matcher_version": 11
     },
-    "Samsung Galaxy A26 5G 128GB": {
-        "market_price": 2111,
-        "looked_up_at": "30-10-2026-12:02",
+    "JBL Tune Flex 2 Sort": {
+        "market_price": 599,
+        "looked_up_at": "31-10-2026-11:30",
+        "matcher_version": 11
+    },
+    "Samsung Galaxy Tab S12 Ultra WiFi 256GB Gray": {
+        "market_price": 11143,
+        "looked_up_at": "31-10-2026-11:30",
+        "matcher_version": 11
+    },
+    "Wavell Junior Caribbean Blue": {
+        "market_price": null,
+        "looked_up_at": "31-10-2026-11:30",
+        "matcher_version": 11
+    },
+    "Nintendo Switch 2 med abonnement": {
+        "market_price": 273,
+        "looked_up_at": "31-10-2026-11:30",
         "matcher_version": 11
     }
 }
