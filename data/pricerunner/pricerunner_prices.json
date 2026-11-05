@@ -1644,11 +1644,6 @@
         "looked_up_at": "02-11-2026-14:10",
         "matcher_version": 11
     },
-    "JBL Tune Flex 2 Sort": {
-        "market_price": 599,
-        "looked_up_at": "02-11-2026-14:10",
-        "matcher_version": 11
-    },
     "Samsung Galaxy S26 Ultra 256GB Cobalt violet": {
         "market_price": 7849,
         "looked_up_at": "03-11-2026-13:17",
@@ -1699,16 +1694,6 @@
         "looked_up_at": "03-11-2026-13:17",
         "matcher_version": 11
     },
-    "iPad Air 11 (2025) 128GB": {
-        "market_price": 6047,
-        "looked_up_at": "04-11-2026-13:33",
-        "matcher_version": 11
-    },
-    "CARE Tango 2i1 Samsung Galaxy S25 sort": {
-        "market_price": null,
-        "looked_up_at": "04-11-2026-13:33",
-        "matcher_version": 11
-    },
     "Google Pixel 11 Pro": {
         "market_price": 8328,
         "looked_up_at": "04-11-2026-13:33",
@@ -1729,26 +1714,6 @@
         "looked_up_at": "04-11-2026-13:33",
         "matcher_version": 11
     },
-    "CARE Transparent Cover Samsung Galaxy S25": {
-        "market_price": 185,
-        "looked_up_at": "04-11-2026-13:33",
-        "matcher_version": 11
-    },
-    "Samsung Galaxy S25 Rugged cover sort": {
-        "market_price": 166,
-        "looked_up_at": "04-11-2026-13:33",
-        "matcher_version": 11
-    },
-    "Samsung Galaxy S25+ Kindsuit cover sort": {
-        "market_price": null,
-        "looked_up_at": "04-11-2026-13:33",
-        "matcher_version": 11
-    },
-    "Samsung Galaxy S25 Ultra Silikone cover sort": {
-        "market_price": 119,
-        "looked_up_at": "04-11-2026-13:33",
-        "matcher_version": 11
-    },
     "Google Pixel Watch 5": {
         "market_price": 2920,
         "looked_up_at": "04-11-2026-13:33",
@@ -1764,18 +1729,8 @@
         "looked_up_at": "04-11-2026-13:33",
         "matcher_version": 11
     },
-    "Samsung Galaxy S25+ Silikone cover sort": {
-        "market_price": 9,
-        "looked_up_at": "04-11-2026-13:33",
-        "matcher_version": 11
-    },
     "Google Fitbit Air": {
         "market_price": null,
-        "looked_up_at": "04-11-2026-13:33",
-        "matcher_version": 11
-    },
-    "Samsung Galaxy S25 Ultra Kindsuit cover sort": {
-        "market_price": 239,
         "looked_up_at": "04-11-2026-13:33",
         "matcher_version": 11
     },
@@ -1799,9 +1754,54 @@
         "looked_up_at": "04-11-2026-13:33",
         "matcher_version": 11
     },
-    "CARE Transparent Cover Samsung Galaxy S25+": {
-        "market_price": 153,
-        "looked_up_at": "04-11-2026-13:33",
+    "Samsung Galaxy A17 128GB": {
+        "market_price": 1355,
+        "looked_up_at": "05-11-2026-13:46",
+        "matcher_version": 11
+    },
+    "OnePlus SUPERVOOC 80W Dual GaN Power Adaptor": {
+        "market_price": null,
+        "looked_up_at": "05-11-2026-13:46",
+        "matcher_version": 11
+    },
+    "Samsung Galaxy Watch8 44mm BT - Grafit": {
+        "market_price": 2045,
+        "looked_up_at": "05-11-2026-13:46",
+        "matcher_version": 11
+    },
+    "Samsung Galaxy Watch Ultra (2025) Titanium Gray": {
+        "market_price": 3653,
+        "looked_up_at": "05-11-2026-13:46",
+        "matcher_version": 11
+    },
+    "JBL PartyBox Stage 320": {
+        "market_price": 3423,
+        "looked_up_at": "05-11-2026-13:46",
+        "matcher_version": 11
+    },
+    "Samsung Galaxy Watch9 44mm Graphite e-SIM": {
+        "market_price": 2422,
+        "looked_up_at": "05-11-2026-13:46",
+        "matcher_version": 11
+    },
+    "Wavell Junior Caribbean Blue": {
+        "market_price": null,
+        "looked_up_at": "05-11-2026-13:46",
+        "matcher_version": 11
+    },
+    "Samsung Galaxy Watch9 40mm Beige BT": {
+        "market_price": 1905,
+        "looked_up_at": "05-11-2026-13:46",
+        "matcher_version": 11
+    },
+    "Panzerglass Lenovo Tab M10 (3rd. Gen)": {
+        "market_price": 85,
+        "looked_up_at": "05-11-2026-13:46",
+        "matcher_version": 11
+    },
+    "INFINITE Car Charger 38W": {
+        "market_price": null,
+        "looked_up_at": "05-11-2026-13:46",
         "matcher_version": 11
     }
 }
