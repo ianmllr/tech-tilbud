@@ -98,6 +98,52 @@ function plausibleMarketPrice(productName: string, cashPrice: number): number | 
     return market
 }
 
+// scrapers copy hrefs straight from provider pages, so only let through https links
+// to hosts we expect (provider sites and their affiliate redirectors). subdomains are
+// allowed on a dot boundary, so "evil-telmore.dk" and "telmore.dk.evil.com" are not
+const ALLOWED_LINK_HOSTS = [
+    'telmore.dk',
+    'oister.dk',
+    'cbb.dk',
+    '3.dk', // includes the pin.3.dk affiliate redirector
+    'yousee.dk',
+    'norlys.dk',
+    'callme.dk',
+    'elgiganten.dk',
+    'go.adt284.net', // adtraction affiliate redirector (oister)
+]
+
+export function isAllowedLink(link: unknown): boolean {
+    if (typeof link !== 'string') return false
+    let url: URL
+    try {
+        url = new URL(link)
+    } catch {
+        return false
+    }
+    if (url.protocol !== 'https:') return false
+    const host = url.hostname.toLowerCase()
+    return ALLOWED_LINK_HOSTS.some(allowed => host === allowed || host.endsWith('.' + allowed))
+}
+
+const warnedLinkHosts = new Set<string>()
+
+function hasAllowedLink(offer: { link?: string, product_name: string }): boolean {
+    if (isAllowedLink(offer.link)) return true
+    let host: string
+    try {
+        const url = new URL(String(offer.link))
+        host = `${url.protocol}//${url.host}`
+    } catch {
+        host = `invalid url: ${String(offer.link)}`
+    }
+    if (!warnedLinkHosts.has(host)) {
+        warnedLinkHosts.add(host)
+        console.warn(`[offers] dropping offers with disallowed link: ${host} (e.g. "${offer.product_name}")`)
+    }
+    return false
+}
+
 export const allOffers: Offer[] = [
     ...telmore.map(o => ({
         link: o.link,
@@ -217,7 +263,7 @@ export const allOffers: Offer[] = [
         subscription_price_monthly_after_promo: null,
     })),
 
-].map(offer => ({
+].filter(hasAllowedLink).map(offer => ({
     ...offer,
     market_price: plausibleMarketPrice(offer.product_name, offer.price_without_subscription),
 }))

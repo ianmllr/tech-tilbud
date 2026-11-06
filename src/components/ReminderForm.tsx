@@ -30,11 +30,18 @@ export default function ReminderForm() {
         const daysBefore = sendEarlier ? daysCount : 0
 
         try {
-            await fetch('/api/reminders', {
+            const res = await fetch('/api/reminders', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ email, daysBefore }),
             })
+
+            if (!res.ok) {
+                const data = await res.json().catch(() => null)
+                setStatus('error')
+                setErrorMsg(data?.error ?? 'Noget gik galt. Prøv igen senere.')
+                return
+            }
 
             setStatus('success')
             setEmail('')

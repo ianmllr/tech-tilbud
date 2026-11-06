@@ -1,4 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server'
+import { getClientIp } from '@/lib/clientIp'
 
 const WINDOW_MS = 60_000
 const MAX_REQUESTS = 60
@@ -23,8 +24,7 @@ export function proxy(request: NextRequest) {
     const now = Date.now()
     cleanup(now)
 
-    const forwarded = request.headers.get('x-forwarded-for')
-    const ip = forwarded ? forwarded.split(',')[0].trim() : (request.headers.get('x-real-ip') ?? 'unknown')
+    const ip = getClientIp(request.headers)
 
     const timestamps = (ipRequests.get(ip) ?? []).filter(t => now - t < WINDOW_MS)
 
