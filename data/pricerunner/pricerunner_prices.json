@@ -1808,5 +1808,10 @@
         "market_price": 2449,
         "looked_up_at": "06-11-2026-13:30",
         "matcher_version": 11
+    },
+    "iPhone 15 128GB": {
+        "market_price": 5027,
+        "looked_up_at": "07-11-2026-12:10",
+        "matcher_version": 11
     }
 }
