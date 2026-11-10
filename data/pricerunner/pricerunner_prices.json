@@ -249,11 +249,6 @@
         "looked_up_at": "08-11-2026-12:28",
         "matcher_version": 11
     },
-    "Apple AirPods 4": {
-        "market_price": 813,
-        "looked_up_at": "08-11-2026-12:28",
-        "matcher_version": 11
-    },
     "Motorola Edge 60 Pro 512GB Grey": {
         "market_price": 3933,
         "looked_up_at": "08-11-2026-12:28",
@@ -586,11 +581,6 @@
     },
     "BACKBONE One PlayStation USB-C": {
         "market_price": 749,
-        "looked_up_at": "08-11-2026-12:28",
-        "matcher_version": 11
-    },
-    "Apple iPhone 17 Pro 256 GB": {
-        "market_price": 9199,
         "looked_up_at": "08-11-2026-12:28",
         "matcher_version": 11
     },
@@ -1669,11 +1659,6 @@
         "looked_up_at": "09-11-2026-14:41",
         "matcher_version": 11
     },
-    "Apple iPhone 17 Pro 256 GB Orange": {
-        "market_price": 8399,
-        "looked_up_at": "09-11-2026-14:41",
-        "matcher_version": 11
-    },
     "JBL Flip Essential 3 SE": {
         "market_price": 899,
         "looked_up_at": "09-11-2026-14:41",
@@ -1744,28 +1729,8 @@
         "looked_up_at": "09-11-2026-14:41",
         "matcher_version": 11
     },
-    "Wavell Junior Caribbean Blue": {
-        "market_price": null,
-        "looked_up_at": "09-11-2026-14:41",
-        "matcher_version": 11
-    },
-    "estuff Magnetic Wireless Car Charger": {
-        "market_price": 259,
-        "looked_up_at": "09-11-2026-14:41",
-        "matcher_version": 11
-    },
-    "Sony WH-1000XM5 Sort": {
-        "market_price": 1604,
-        "looked_up_at": "09-11-2026-14:41",
-        "matcher_version": 11
-    },
     "Samsung Galaxy Tab S12 Ultra WiFi 256GB Gray": {
         "market_price": 10739,
-        "looked_up_at": "09-11-2026-14:41",
-        "matcher_version": 11
-    },
-    "Samsung Galaxy Z Flip4 Silikone cover - Sort": {
-        "market_price": 79,
         "looked_up_at": "09-11-2026-14:41",
         "matcher_version": 11
     },
@@ -1774,29 +1739,64 @@
         "looked_up_at": "09-11-2026-14:41",
         "matcher_version": 11
     },
-    "PanzerGlass Galaxy A32": {
+    "PanzerGlass Samsung Watch4 Classic 42mm": {
+        "market_price": 41,
+        "looked_up_at": "10-11-2026-14:05",
+        "matcher_version": 11
+    },
+    "Samsung Galaxy A36 5G 128GB": {
+        "market_price": 2499,
+        "looked_up_at": "10-11-2026-14:05",
+        "matcher_version": 11
+    },
+    "Apple iPhone 18 Pro 256GB Glacier": {
+        "market_price": 10938,
+        "looked_up_at": "10-11-2026-14:05",
+        "matcher_version": 11
+    },
+    "PanzerGlass Apple Watch S7 41mm ClearCase sort": {
         "market_price": null,
-        "looked_up_at": "09-11-2026-14:41",
+        "looked_up_at": "10-11-2026-14:05",
         "matcher_version": 11
     },
-    "estuff 3i1 desktop charger - flat": {
-        "market_price": null,
-        "looked_up_at": "09-11-2026-14:41",
-        "matcher_version": 11
-    },
-    "dbramante1928 Greenland iPhone 14 Pro Max": {
-        "market_price": 69,
-        "looked_up_at": "09-11-2026-14:41",
-        "matcher_version": 11
-    },
-    "dbramante1928 Lynge iPhone 14 Plus - Sort": {
-        "market_price": null,
-        "looked_up_at": "09-11-2026-14:41",
-        "matcher_version": 11
-    },
-    "PanzerGlass iPhone 14 Pro Max ClearCase sort": {
+    "Samsung Galaxy S21 FE Premium Clear Cover - Transparent": {
         "market_price": 79,
-        "looked_up_at": "09-11-2026-14:41",
+        "looked_up_at": "10-11-2026-14:05",
+        "matcher_version": 11
+    },
+    "PanzerGlass Motorola E40": {
+        "market_price": null,
+        "looked_up_at": "10-11-2026-14:05",
+        "matcher_version": 11
+    },
+    "Wavell 4 Plus": {
+        "market_price": 599,
+        "looked_up_at": "10-11-2026-14:05",
+        "matcher_version": 11
+    },
+    "iDeal of Sweden Fashion Case iPhone 13 Pro Port Laurent Marble": {
+        "market_price": 49,
+        "looked_up_at": "10-11-2026-14:05",
+        "matcher_version": 11
+    },
+    "PanzerGlass iPad Pro 12,9” ClearCase sort": {
+        "market_price": null,
+        "looked_up_at": "10-11-2026-14:05",
+        "matcher_version": 11
+    },
+    "iPad Air 11 (2025) 128GB": {
+        "market_price": 5974,
+        "looked_up_at": "10-11-2026-14:05",
+        "matcher_version": 11
+    },
+    "iDeal of Sweden Fashion Case iPhone 11 Pro/XS/X Honey Satin": {
+        "market_price": 25,
+        "looked_up_at": "10-11-2026-14:05",
+        "matcher_version": 11
+    },
+    "PanzerGlass iPhone 13|13 mini Camera Lens Protector": {
+        "market_price": 73,
+        "looked_up_at": "10-11-2026-14:05",
         "matcher_version": 11
     }
 }
