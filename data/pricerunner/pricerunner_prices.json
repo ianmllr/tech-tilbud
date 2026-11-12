@@ -1109,11 +1109,6 @@
         "looked_up_at": "11-11-2026-13:14",
         "matcher_version": 11
     },
-    "Apple iPhone 15 128GB": {
-        "market_price": 5149,
-        "looked_up_at": "11-11-2026-13:14",
-        "matcher_version": 11
-    },
     "Garmin Vivoactive 6 Lunar Gold": {
         "market_price": 1899,
         "looked_up_at": "11-11-2026-13:14",
@@ -1739,59 +1734,59 @@
         "looked_up_at": "10-11-2026-14:05",
         "matcher_version": 11
     },
-    "Wavell Junior Caribbean Blue": {
-        "market_price": null,
-        "looked_up_at": "11-11-2026-13:14",
-        "matcher_version": 11
-    },
     "JBL Tune Flex 2 Sort": {
         "market_price": 599,
-        "looked_up_at": "11-11-2026-13:14",
-        "matcher_version": 11
-    },
-    "dbramante1928 Greenland Galaxy S22+ - Transparent": {
-        "market_price": 48,
-        "looked_up_at": "11-11-2026-13:14",
-        "matcher_version": 11
-    },
-    "iDeal of Sweden Fashion Case iPhone 13 mini Carrara Gold": {
-        "market_price": 49,
-        "looked_up_at": "11-11-2026-13:14",
-        "matcher_version": 11
-    },
-    "dbramante1928 Greenland OnePlus CE 2 - Gennemsigtig": {
-        "market_price": null,
-        "looked_up_at": "11-11-2026-13:14",
-        "matcher_version": 11
-    },
-    "eStuff Lightning Cable MFI 1,5 m. Steel": {
-        "market_price": 179,
-        "looked_up_at": "11-11-2026-13:14",
-        "matcher_version": 11
-    },
-    "Samsung Galaxy S22+ Silikone Cover - Sort": {
-        "market_price": 166,
-        "looked_up_at": "11-11-2026-13:14",
-        "matcher_version": 11
-    },
-    "Samsung Galaxy S22+ Smart Clear View Cover - Sort": {
-        "market_price": null,
-        "looked_up_at": "11-11-2026-13:14",
-        "matcher_version": 11
-    },
-    "dbramante1928 Greenland iPhone SE/8/7 - Transparent": {
-        "market_price": null,
-        "looked_up_at": "11-11-2026-13:14",
-        "matcher_version": 11
-    },
-    "Samsung Galaxy S22 Clear Cover": {
-        "market_price": 79,
         "looked_up_at": "11-11-2026-13:14",
         "matcher_version": 11
     },
     "Motorola G67 128GB Arctic seal": {
         "market_price": 1299,
         "looked_up_at": "11-11-2026-13:14",
+        "matcher_version": 11
+    },
+    "Samsung Galaxy S24+ Clear case": {
+        "market_price": null,
+        "looked_up_at": "12-11-2026-14:17",
+        "matcher_version": 11
+    },
+    "KeyBudz AirCare rensesæt til Airpods": {
+        "market_price": 139,
+        "looked_up_at": "12-11-2026-14:17",
+        "matcher_version": 11
+    },
+    "eSTUFF INFINITE Powerbank 10.000 mAh": {
+        "market_price": 225,
+        "looked_up_at": "12-11-2026-14:17",
+        "matcher_version": 11
+    },
+    "Samsung Galaxy S24 Ultra Læder cover Sort": {
+        "market_price": 168,
+        "looked_up_at": "12-11-2026-14:17",
+        "matcher_version": 11
+    },
+    "OnePlus Watch 2 Black Steel": {
+        "market_price": 965,
+        "looked_up_at": "12-11-2026-14:17",
+        "matcher_version": 11
+    },
+    "Samsung SmartTag2": {
+        "market_price": 100,
+        "looked_up_at": "12-11-2026-14:17",
+        "matcher_version": 11
+    },
+    "JBL PartyBox Stage 320": {
+        "market_price": 3408,
+        "looked_up_at": "12-11-2026-14:17",
+        "matcher_version": 11
+    },
+    "Wavell 4 Plus": {
+        "market_price": 599,
+        "looked_up_at": "12-11-2026-14:17",
+        "matcher_version": 11
+    },
+    "Google Home Speaker Porcelain med abonnement": {
+        "market_price": 858,
+        "looked_up_at": "12-11-2026-14:17",
         "matcher_version": 11
     }
 }
