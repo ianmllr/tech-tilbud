@@ -1725,13 +1725,13 @@
         "matcher_version": 11
     },
     "Samsung Galaxy A36 5G 128GB": {
-        "market_price": 2499,
-        "looked_up_at": "10-11-2026-14:05",
+        "market_price": 2299,
+        "looked_up_at": "14-11-2026-12:48",
         "matcher_version": 11
     },
     "Apple iPhone 18 Pro 256GB Glacier": {
-        "market_price": 10938,
-        "looked_up_at": "10-11-2026-14:05",
+        "market_price": 10199,
+        "looked_up_at": "14-11-2026-12:48",
         "matcher_version": 11
     },
     "JBL Tune Flex 2 Sort": {
@@ -1749,44 +1749,54 @@
         "looked_up_at": "12-11-2026-14:17",
         "matcher_version": 11
     },
-    "JBL Partylight Beam Projektor": {
-        "market_price": 12083,
-        "looked_up_at": "13-11-2026-13:42",
-        "matcher_version": 11
-    },
-    "CARE Urban Combat iPhone 16 Plus med sort": {
-        "market_price": null,
-        "looked_up_at": "13-11-2026-13:42",
-        "matcher_version": 11
-    },
-    "JBL Junior 470NC Hvid": {
-        "market_price": 554,
-        "looked_up_at": "13-11-2026-13:42",
-        "matcher_version": 11
-    },
-    "CARE Urban Combat iPhone 16 Pro Max med sort": {
-        "market_price": 249,
-        "looked_up_at": "13-11-2026-13:42",
-        "matcher_version": 11
-    },
-    "Samsung Galaxy Watch9 40mm Beige BT": {
-        "market_price": 1870,
-        "looked_up_at": "13-11-2026-13:42",
-        "matcher_version": 11
-    },
-    "Samsung Galaxy Watch9 44mm Graphite e-SIM": {
-        "market_price": 2422,
-        "looked_up_at": "13-11-2026-13:42",
-        "matcher_version": 11
-    },
-    "JBL Junior 320BT Blå": {
-        "market_price": 279,
-        "looked_up_at": "13-11-2026-13:42",
-        "matcher_version": 11
-    },
     "Wavell Junior Caribbean Blue": {
         "market_price": null,
         "looked_up_at": "13-11-2026-13:42",
+        "matcher_version": 11
+    },
+    "Samsung Galaxy S20 Clear Cover Transparent": {
+        "market_price": 79,
+        "looked_up_at": "14-11-2026-12:48",
+        "matcher_version": 11
+    },
+    "Empower 240W USB-C til USB-C Kabel 1.2M": {
+        "market_price": 61,
+        "looked_up_at": "14-11-2026-12:48",
+        "matcher_version": 11
+    },
+    "Empower 35W Lader USB-C + USB-A": {
+        "market_price": 89,
+        "looked_up_at": "14-11-2026-12:48",
+        "matcher_version": 11
+    },
+    "Empower 240W USB-C til USB-C Kabel 2M": {
+        "market_price": null,
+        "looked_up_at": "14-11-2026-12:48",
+        "matcher_version": 11
+    },
+    "Apple iPhone 11 Pro Max Leather Case - Midnight Blue": {
+        "market_price": 48,
+        "looked_up_at": "14-11-2026-12:48",
+        "matcher_version": 11
+    },
+    "Empower 60W USB-C t Lightning Kabel 1.2M": {
+        "market_price": 89,
+        "looked_up_at": "14-11-2026-12:48",
+        "matcher_version": 11
+    },
+    "Samsung Galaxy Tab S12 Ultra WiFi 256GB Gray": {
+        "market_price": 10449,
+        "looked_up_at": "14-11-2026-12:48",
+        "matcher_version": 11
+    },
+    "Apple iPhone 11 Pro Max Silicone Case - Hvid": {
+        "market_price": 96,
+        "looked_up_at": "14-11-2026-12:48",
+        "matcher_version": 11
+    },
+    "PanzerGlass Galaxy S24+ 3i1 pakke": {
+        "market_price": 57,
+        "looked_up_at": "14-11-2026-12:48",
         "matcher_version": 11
     }
 }
