@@ -554,11 +554,6 @@
         "looked_up_at": "15-11-2026-13:12",
         "matcher_version": 11
     },
-    "iPad Air 13 M3 Wi-Fi 128GB": {
-        "market_price": 7874,
-        "looked_up_at": "15-11-2026-13:12",
-        "matcher_version": 11
-    },
     "Google Pixel 10a 128GB": {
         "market_price": 3733,
         "looked_up_at": "15-11-2026-13:12",
@@ -1709,19 +1704,9 @@
         "looked_up_at": "16-11-2026-14:18",
         "matcher_version": 11
     },
-    "Samsung Galaxy A36 5G 128GB": {
-        "market_price": 2299,
-        "looked_up_at": "14-11-2026-12:48",
-        "matcher_version": 11
-    },
     "Apple iPhone 18 Pro 256GB Glacier": {
         "market_price": 10199,
-        "looked_up_at": "14-11-2026-12:48",
-        "matcher_version": 11
-    },
-    "JBL Tune Flex 2 Sort": {
-        "market_price": 599,
-        "looked_up_at": "15-11-2026-13:12",
+        "looked_up_at": "17-11-2026-15:10",
         "matcher_version": 11
     },
     "Motorola G67 128GB Arctic seal": {
@@ -1735,17 +1720,12 @@
         "matcher_version": 11
     },
     "Samsung Galaxy Tab S12 Ultra WiFi 256GB Gray": {
-        "market_price": 10449,
-        "looked_up_at": "14-11-2026-12:48",
+        "market_price": 10378,
+        "looked_up_at": "17-11-2026-15:10",
         "matcher_version": 11
     },
     "Google Pixel 10 Pro 128GB Obsidian": {
         "market_price": 5497,
-        "looked_up_at": "16-11-2026-14:18",
-        "matcher_version": 11
-    },
-    "Samsung Galaxy S24+ Clear case": {
-        "market_price": null,
         "looked_up_at": "16-11-2026-14:18",
         "matcher_version": 11
     },
@@ -1759,49 +1739,59 @@
         "looked_up_at": "16-11-2026-14:18",
         "matcher_version": 11
     },
-    "Samsung Galaxy S24 Ultra Clear case": {
-        "market_price": 64,
-        "looked_up_at": "16-11-2026-14:18",
-        "matcher_version": 11
-    },
-    "iPad Air 11 (2025) 128GB": {
-        "market_price": 6079,
-        "looked_up_at": "16-11-2026-14:18",
-        "matcher_version": 11
-    },
-    "KeyBudz AirCare rensesæt til Airpods": {
-        "market_price": 139,
-        "looked_up_at": "16-11-2026-14:18",
-        "matcher_version": 11
-    },
-    "Samsung SmartTag2": {
-        "market_price": 100,
-        "looked_up_at": "16-11-2026-14:18",
-        "matcher_version": 11
-    },
     "Motorola Signature 27 512GB": {
         "market_price": 7868,
         "looked_up_at": "16-11-2026-14:18",
         "matcher_version": 11
     },
-    "Apple Pencil (USB-C)": {
-        "market_price": 469,
-        "looked_up_at": "16-11-2026-14:18",
-        "matcher_version": 11
-    },
-    "Samsung Galaxy S24 Ultra Læder cover Sort": {
-        "market_price": 167,
-        "looked_up_at": "16-11-2026-14:18",
-        "matcher_version": 11
-    },
-    "Samsung Galaxy S24+ Læder cover Sort": {
+    "Wavell Junior Caribbean Blue": {
         "market_price": null,
-        "looked_up_at": "16-11-2026-14:18",
+        "looked_up_at": "17-11-2026-15:10",
         "matcher_version": 11
     },
-    "Samsung 25W GaN Travel Adapter sort": {
-        "market_price": 74,
-        "looked_up_at": "16-11-2026-14:18",
+    "PanzerGlass iPhone 11 Pro Max ClearCase": {
+        "market_price": 79,
+        "looked_up_at": "17-11-2026-15:10",
+        "matcher_version": 11
+    },
+    "Apple Magic Keyboard 11\" iPad Pro 2nd gen. / Air 11\"": {
+        "market_price": null,
+        "looked_up_at": "17-11-2026-15:10",
+        "matcher_version": 11
+    },
+    "PanzerGlass iPhone 12|12 Pro": {
+        "market_price": 79,
+        "looked_up_at": "17-11-2026-15:10",
+        "matcher_version": 11
+    },
+    "iDeal of SwedenFashion Case Samsung Galaxy S20 Plus Carrara Gold": {
+        "market_price": 39,
+        "looked_up_at": "17-11-2026-15:10",
+        "matcher_version": 11
+    },
+    "Apple iPhone SE Silicone Case Pink Sand": {
+        "market_price": 230,
+        "looked_up_at": "17-11-2026-15:10",
+        "matcher_version": 11
+    },
+    "eStuff MicroUSB Cable 1m hvid": {
+        "market_price": 45,
+        "looked_up_at": "17-11-2026-15:10",
+        "matcher_version": 11
+    },
+    "eStuff Lightning Cable MFI 1,5 m. Steel": {
+        "market_price": 179,
+        "looked_up_at": "17-11-2026-15:10",
+        "matcher_version": 11
+    },
+    "PanzerGlass iPhone 12 Pro Max ClearCase": {
+        "market_price": 79,
+        "looked_up_at": "17-11-2026-15:10",
+        "matcher_version": 11
+    },
+    "Samsung Galaxy Tab S12 Ultra 5G 256GB": {
+        "market_price": 10378,
+        "looked_up_at": "17-11-2026-15:10",
         "matcher_version": 11
     }
 }
