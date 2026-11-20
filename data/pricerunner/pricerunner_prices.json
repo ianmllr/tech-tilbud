@@ -499,11 +499,6 @@
         "looked_up_at": "18-11-2026-14:53",
         "matcher_version": 11
     },
-    "Galaxy A17": {
-        "market_price": 280,
-        "looked_up_at": "18-11-2026-14:53",
-        "matcher_version": 11
-    },
     "Apple AirPods 5 med abonnement": {
         "market_price": 998,
         "looked_up_at": "18-11-2026-14:53",
@@ -1559,11 +1554,6 @@
         "looked_up_at": "19-11-2026-14:58",
         "matcher_version": 11
     },
-    "Samsung Galaxy S26 Ultra 256GB Cobalt violet": {
-        "market_price": 7399,
-        "looked_up_at": "19-11-2026-14:58",
-        "matcher_version": 11
-    },
     "OPPO Find X10 Pro Max 512GB Titanium": {
         "market_price": 12985,
         "looked_up_at": "19-11-2026-14:58",
@@ -1747,6 +1737,71 @@
     "Panzerglass Apple iPhone 17 Pro Privacy": {
         "market_price": 79,
         "looked_up_at": "19-11-2026-14:58",
+        "matcher_version": 11
+    },
+    "JBL Tune Buds 2 Hvid": {
+        "market_price": 260,
+        "looked_up_at": "20-11-2026-14:40",
+        "matcher_version": 11
+    },
+    "Samsung Galaxy S26 Ultra 256GB Black": {
+        "market_price": 1186,
+        "looked_up_at": "20-11-2026-14:40",
+        "matcher_version": 11
+    },
+    "JBL Partybox Stage 320": {
+        "market_price": 700,
+        "looked_up_at": "20-11-2026-14:40",
+        "matcher_version": 11
+    },
+    "JBL FLIP 7 Black": {
+        "market_price": 673,
+        "looked_up_at": "20-11-2026-14:40",
+        "matcher_version": 11
+    },
+    "Harman Kardon Luna Grå": {
+        "market_price": 1299,
+        "looked_up_at": "20-11-2026-14:40",
+        "matcher_version": 11
+    },
+    "JBL BOOMBOX3 Sort": {
+        "market_price": 252,
+        "looked_up_at": "20-11-2026-14:40",
+        "matcher_version": 11
+    },
+    "Wavell 4 Plus": {
+        "market_price": 150,
+        "looked_up_at": "20-11-2026-14:40",
+        "matcher_version": 11
+    },
+    "JBL Flip Essential 3 SE": {
+        "market_price": 899,
+        "looked_up_at": "20-11-2026-14:40",
+        "matcher_version": 11
+    },
+    "Sonos Era 100 SL Hvid": {
+        "market_price": 300,
+        "looked_up_at": "20-11-2026-14:40",
+        "matcher_version": 11
+    },
+    "Harman Kardon Onyx Studio 9 Grå": {
+        "market_price": 1455,
+        "looked_up_at": "20-11-2026-14:40",
+        "matcher_version": 11
+    },
+    "Wavell 4 Pro med abonnement": {
+        "market_price": 350,
+        "looked_up_at": "20-11-2026-14:40",
+        "matcher_version": 11
+    },
+    "JBL Partybox Club 120": {
+        "market_price": 491,
+        "looked_up_at": "20-11-2026-14:40",
+        "matcher_version": 11
+    },
+    "Sonos Roam 2 Sort": {
+        "market_price": 245,
+        "looked_up_at": "20-11-2026-14:40",
         "matcher_version": 11
     }
 }
