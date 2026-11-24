@@ -404,11 +404,6 @@
         "looked_up_at": "22-11-2026-13:54",
         "matcher_version": 11
     },
-    "iPad Air 11 M3 Wi-Fi Cellular 128GB Space Grey": {
-        "market_price": null,
-        "looked_up_at": "22-11-2026-13:54",
-        "matcher_version": 11
-    },
     "iPad 11 A16 Wi-Fi Cellular 128GB Silver": {
         "market_price": 5387,
         "looked_up_at": "22-11-2026-13:54",
@@ -976,7 +971,7 @@
     },
     "Apple iPhone 18 Pro 256GB Glacier": {
         "market_price": 10199,
-        "looked_up_at": "21-11-2026-13:59",
+        "looked_up_at": "24-11-2026-16:47",
         "matcher_version": 11
     },
     "Motorola G67 128GB Arctic seal": {
@@ -1010,8 +1005,8 @@
         "matcher_version": 11
     },
     "Galaxy A17": {
-        "market_price": 325,
-        "looked_up_at": "21-11-2026-13:59",
+        "market_price": 320,
+        "looked_up_at": "24-11-2026-16:47",
         "matcher_version": 11
     },
     "Samsung Galaxy Buds4 Hvid med abonnement": {
@@ -1201,11 +1196,6 @@
     },
     "JBL Partybox Stage 320": {
         "market_price": 725,
-        "looked_up_at": "22-11-2026-13:54",
-        "matcher_version": 11
-    },
-    "JBL Tune Buds 2 Hvid": {
-        "market_price": 256,
         "looked_up_at": "22-11-2026-13:54",
         "matcher_version": 11
     },
@@ -1482,6 +1472,366 @@
     "Samsung Galaxy A04s Clear Case": {
         "market_price": 75,
         "looked_up_at": "23-11-2026-16:52",
+        "matcher_version": 11
+    },
+    "Samsung Galaxy S26FE 128GB": {
+        "market_price": null,
+        "looked_up_at": "24-11-2026-16:47",
+        "matcher_version": 11
+    },
+    "Samsung Galaxy Tab S10FE 5G 128GB": {
+        "market_price": null,
+        "looked_up_at": "24-11-2026-16:47",
+        "matcher_version": 11
+    },
+    "Samsung Galaxy A17 5G 128GB": {
+        "market_price": 320,
+        "looked_up_at": "24-11-2026-16:47",
+        "matcher_version": 11
+    },
+    "Samsung Galaxy Tab A11+ WiFi 128GB": {
+        "market_price": 537,
+        "looked_up_at": "24-11-2026-16:47",
+        "matcher_version": 11
+    },
+    "Apple iPhone 17 Pro Max 1 TB": {
+        "market_price": 3588,
+        "looked_up_at": "24-11-2026-16:47",
+        "matcher_version": 11
+    },
+    "Google Pixel 10 Pro 128GB": {
+        "market_price": 5497,
+        "looked_up_at": "24-11-2026-16:47",
+        "matcher_version": 11
+    },
+    "Samsung Galaxy Tab S11 Ultra 256GB": {
+        "market_price": 9379,
+        "looked_up_at": "24-11-2026-16:47",
+        "matcher_version": 11
+    },
+    "Wavell 3 Pro": {
+        "market_price": 859,
+        "looked_up_at": "24-11-2026-16:47",
+        "matcher_version": 11
+    },
+    "Google Pixel 11 Pro 256GB": {
+        "market_price": 1570,
+        "looked_up_at": "24-11-2026-16:47",
+        "matcher_version": 11
+    },
+    "Samsung Galaxy S24 5G 128GB": {
+        "market_price": 1631,
+        "looked_up_at": "24-11-2026-16:47",
+        "matcher_version": 11
+    },
+    "Motorola G86 Power 5G 512GB": {
+        "market_price": 3457,
+        "looked_up_at": "24-11-2026-16:47",
+        "matcher_version": 11
+    },
+    "Wavell Junior Caribbean Blue": {
+        "market_price": null,
+        "looked_up_at": "24-11-2026-16:47",
+        "matcher_version": 11
+    },
+    "OPPO Find X10 Pro Max 512GB": {
+        "market_price": 12882,
+        "looked_up_at": "24-11-2026-16:47",
+        "matcher_version": 11
+    },
+    "iPad Air 13 M4 Wi-Fi 128GB": {
+        "market_price": 7299,
+        "looked_up_at": "24-11-2026-16:47",
+        "matcher_version": 11
+    },
+    "OPPO A6x 5G 128GB": {
+        "market_price": 486,
+        "looked_up_at": "24-11-2026-16:47",
+        "matcher_version": 11
+    },
+    "Samsung Galaxy S24 FE 5G 128GB": {
+        "market_price": 662,
+        "looked_up_at": "24-11-2026-16:47",
+        "matcher_version": 11
+    },
+    "Google Pixel 9 Pro XL 5G 128GB": {
+        "market_price": 2130,
+        "looked_up_at": "24-11-2026-16:47",
+        "matcher_version": 11
+    },
+    "Samsung Galaxy Tab Active5 5G 128GB": {
+        "market_price": 4199,
+        "looked_up_at": "24-11-2026-16:47",
+        "matcher_version": 11
+    },
+    "Apple iPhone 18 Pro 256GB": {
+        "market_price": 10199,
+        "looked_up_at": "24-11-2026-16:47",
+        "matcher_version": 11
+    },
+    "iPad Air 13 M4 Wi-Fi Cellular 128GB": {
+        "market_price": 8498,
+        "looked_up_at": "24-11-2026-16:47",
+        "matcher_version": 11
+    },
+    "OPPO Find X10 256GB": {
+        "market_price": 10040,
+        "looked_up_at": "24-11-2026-16:47",
+        "matcher_version": 11
+    },
+    "Samsung Galaxy Tab S12 Ultra 5G 256GB": {
+        "market_price": 1505,
+        "looked_up_at": "24-11-2026-16:47",
+        "matcher_version": 11
+    },
+    "Samsung Galaxy S25 FE 128GB": {
+        "market_price": 3978,
+        "looked_up_at": "24-11-2026-16:47",
+        "matcher_version": 11
+    },
+    "Google Pixel 10 Pro XL 256GB": {
+        "market_price": 1025,
+        "looked_up_at": "24-11-2026-16:47",
+        "matcher_version": 11
+    },
+    "A5 Pro": {
+        "market_price": 167,
+        "looked_up_at": "24-11-2026-16:47",
+        "matcher_version": 11
+    },
+    "Samsung Galaxy Tab S11 128GB": {
+        "market_price": 450,
+        "looked_up_at": "24-11-2026-16:47",
+        "matcher_version": 11
+    },
+    "Doro Leva L31s Graphite White": {
+        "market_price": null,
+        "looked_up_at": "24-11-2026-16:47",
+        "matcher_version": 11
+    },
+    "Nokia 3210 4G Black": {
+        "market_price": 558,
+        "looked_up_at": "24-11-2026-16:47",
+        "matcher_version": 11
+    },
+    "iPad Pro 11 M4 Wi-Fi Cellular 256GB": {
+        "market_price": 4232,
+        "looked_up_at": "24-11-2026-16:47",
+        "matcher_version": 11
+    },
+    "Wavell 4 Plus": {
+        "market_price": 150,
+        "looked_up_at": "24-11-2026-16:47",
+        "matcher_version": 11
+    },
+    "iPad 11 A16 Wi-Fi Cellular 128GB": {
+        "market_price": 5387,
+        "looked_up_at": "24-11-2026-16:47",
+        "matcher_version": 11
+    },
+    "Apple iPhone Duo 256GB": {
+        "market_price": 17990,
+        "looked_up_at": "24-11-2026-16:47",
+        "matcher_version": 11
+    },
+    "Doro Aurora A21 Graphite w Qi charger": {
+        "market_price": null,
+        "looked_up_at": "24-11-2026-16:47",
+        "matcher_version": 11
+    },
+    "Find X9 Pro": {
+        "market_price": 1605,
+        "looked_up_at": "24-11-2026-16:47",
+        "matcher_version": 11
+    },
+    "Google Pixel 10 Pro Fold 256GB": {
+        "market_price": 10199,
+        "looked_up_at": "24-11-2026-16:47",
+        "matcher_version": 11
+    },
+    "Apple iPad 11\" A16 (2025) WiFi 256GB": {
+        "market_price": null,
+        "looked_up_at": "24-11-2026-16:47",
+        "matcher_version": 11
+    },
+    "Apple iPhone 18 Pro Max 256GB": {
+        "market_price": 1290,
+        "looked_up_at": "24-11-2026-16:47",
+        "matcher_version": 11
+    },
+    "Apple iPhone 16 128GB": {
+        "market_price": 701,
+        "looked_up_at": "24-11-2026-16:47",
+        "matcher_version": 11
+    },
+    "iPad Air 11 M4 Wi-Fi 128GB": {
+        "market_price": 7269,
+        "looked_up_at": "24-11-2026-16:47",
+        "matcher_version": 11
+    },
+    "Samsung Galaxy A57 128GB": {
+        "market_price": 310,
+        "looked_up_at": "24-11-2026-16:47",
+        "matcher_version": 11
+    },
+    "Lenovo Idea Tab WiFi 256GB": {
+        "market_price": 1975,
+        "looked_up_at": "24-11-2026-16:47",
+        "matcher_version": 11
+    },
+    "Apple iPhone 16 Plus 128GB": {
+        "market_price": 750,
+        "looked_up_at": "24-11-2026-16:47",
+        "matcher_version": 11
+    },
+    "Vovsa.": {
+        "market_price": null,
+        "looked_up_at": "24-11-2026-16:47",
+        "matcher_version": 11
+    },
+    "iPad Air 13 M3 Wi-Fi Cellular 128GB": {
+        "market_price": 8175,
+        "looked_up_at": "24-11-2026-16:47",
+        "matcher_version": 11
+    },
+    "Google Pixel 10 128GB": {
+        "market_price": 4530,
+        "looked_up_at": "24-11-2026-16:47",
+        "matcher_version": 11
+    },
+    "OPPO Find X9 Ultra 512GB": {
+        "market_price": 3094,
+        "looked_up_at": "24-11-2026-16:47",
+        "matcher_version": 11
+    },
+    "Samsung Galaxy Z Flip7 512GB": {
+        "market_price": 6622,
+        "looked_up_at": "24-11-2026-16:47",
+        "matcher_version": 11
+    },
+    "Samsung Galaxy S26+ 256GB": {
+        "market_price": 6899,
+        "looked_up_at": "24-11-2026-16:47",
+        "matcher_version": 11
+    },
+    "Motorola Edge 60 5G 512GB": {
+        "market_price": 3226,
+        "looked_up_at": "24-11-2026-16:47",
+        "matcher_version": 11
+    },
+    "OnePlus 15 256 GB": {
+        "market_price": 5728,
+        "looked_up_at": "24-11-2026-16:47",
+        "matcher_version": 11
+    },
+    "Google Pixel 10a 128GB": {
+        "market_price": 456,
+        "looked_up_at": "24-11-2026-16:47",
+        "matcher_version": 11
+    },
+    "Motorola Signature 27 512GB": {
+        "market_price": 8737,
+        "looked_up_at": "24-11-2026-16:47",
+        "matcher_version": 11
+    },
+    "OPPO Find X9 Pro 512GB": {
+        "market_price": 1605,
+        "looked_up_at": "24-11-2026-16:47",
+        "matcher_version": 11
+    },
+    "Google Pixel 11 Pro Fold 256GB": {
+        "market_price": 4744,
+        "looked_up_at": "24-11-2026-16:47",
+        "matcher_version": 11
+    },
+    "Doro Leva L11s Graphite": {
+        "market_price": null,
+        "looked_up_at": "24-11-2026-16:47",
+        "matcher_version": 11
+    },
+    "Samsung Galaxy A37 128GB": {
+        "market_price": 2209,
+        "looked_up_at": "24-11-2026-16:47",
+        "matcher_version": 11
+    },
+    "iPad Pro 11 M5 Wi-Fi Cellular 256GB": {
+        "market_price": 11221,
+        "looked_up_at": "24-11-2026-16:47",
+        "matcher_version": 11
+    },
+    "Samsung Galaxy S25 5G 128GB": {
+        "market_price": 610,
+        "looked_up_at": "24-11-2026-16:47",
+        "matcher_version": 11
+    },
+    "Apple iPhone Air 256 GB": {
+        "market_price": 7061,
+        "looked_up_at": "24-11-2026-16:47",
+        "matcher_version": 11
+    },
+    "Motorola Edge 70 5G 512GB": {
+        "market_price": 3313,
+        "looked_up_at": "24-11-2026-16:47",
+        "matcher_version": 11
+    },
+    "Apple iPhone 17e 256GB": {
+        "market_price": 5444,
+        "looked_up_at": "24-11-2026-16:47",
+        "matcher_version": 11
+    },
+    "iPad Air 11 M3 Wi-Fi 128GB": {
+        "market_price": 974,
+        "looked_up_at": "24-11-2026-16:47",
+        "matcher_version": 11
+    },
+    "Samsung Galaxy Tab S12 Ultra WiFi 256GB": {
+        "market_price": 1505,
+        "looked_up_at": "24-11-2026-16:47",
+        "matcher_version": 11
+    },
+    "Google Pixel 11 256GB": {
+        "market_price": null,
+        "looked_up_at": "24-11-2026-16:47",
+        "matcher_version": 11
+    },
+    "JBL Tune 770NC Sort": {
+        "market_price": 596,
+        "looked_up_at": "24-11-2026-16:47",
+        "matcher_version": 11
+    },
+    "OPPO A7 Pro 5G 128GB": {
+        "market_price": 3862,
+        "looked_up_at": "24-11-2026-16:47",
+        "matcher_version": 11
+    },
+    "Apple iPhone 17 256 GB": {
+        "market_price": 1437,
+        "looked_up_at": "24-11-2026-16:47",
+        "matcher_version": 11
+    },
+    "Google Pixel 11 Pro XL 256GB": {
+        "market_price": 2531,
+        "looked_up_at": "24-11-2026-16:47",
+        "matcher_version": 11
+    },
+    "Samsung Galaxy Z Flip7 FE 128GB": {
+        "market_price": 528,
+        "looked_up_at": "24-11-2026-16:47",
+        "matcher_version": 11
+    },
+    "iPad Air 11 M4 Wi-Fi Cellular 128GB": {
+        "market_price": 7413,
+        "looked_up_at": "24-11-2026-16:47",
+        "matcher_version": 11
+    },
+    "Apple iPhone 16e 128GB": {
+        "market_price": 784,
+        "looked_up_at": "24-11-2026-16:47",
+        "matcher_version": 11
+    },
+    "iPad Pro 13 M5 Wi-Fi Cellular 256GB": {
+        "market_price": 14840,
+        "looked_up_at": "24-11-2026-16:47",
         "matcher_version": 11
     }
 }
