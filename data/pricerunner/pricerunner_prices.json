@@ -689,11 +689,6 @@
         "looked_up_at": "25-11-2026-16:29",
         "matcher_version": 11
     },
-    "Apple AirPods 4 med Aktiv støjreduktion": {
-        "market_price": 313,
-        "looked_up_at": "25-11-2026-16:29",
-        "matcher_version": 11
-    },
     "Samsung Galaxy Tab S11": {
         "market_price": 450,
         "looked_up_at": "25-11-2026-16:29",
@@ -1394,11 +1389,6 @@
         "looked_up_at": "23-11-2026-16:52",
         "matcher_version": 11
     },
-    "iPad Air 11 (2025) 128GB": {
-        "market_price": 5983,
-        "looked_up_at": "23-11-2026-16:52",
-        "matcher_version": 11
-    },
     "Samsung Galaxy S25 FE": {
         "market_price": 3978,
         "looked_up_at": "23-11-2026-16:52",
@@ -1481,11 +1471,6 @@
     },
     "Motorola G86 Power 5G 512GB": {
         "market_price": 3457,
-        "looked_up_at": "24-11-2026-16:47",
-        "matcher_version": 11
-    },
-    "Wavell Junior Caribbean Blue": {
-        "market_price": null,
         "looked_up_at": "24-11-2026-16:47",
         "matcher_version": 11
     },
@@ -1739,11 +1724,6 @@
         "looked_up_at": "24-11-2026-16:47",
         "matcher_version": 11
     },
-    "JBL Tune 770NC Sort": {
-        "market_price": 596,
-        "looked_up_at": "24-11-2026-16:47",
-        "matcher_version": 11
-    },
     "OPPO A7 Pro 5G 128GB": {
         "market_price": 3862,
         "looked_up_at": "24-11-2026-16:47",
@@ -1779,38 +1759,8 @@
         "looked_up_at": "24-11-2026-16:47",
         "matcher_version": 11
     },
-    "dbramante1928 Greenland iPhone SE/8/7 - Transparent": {
-        "market_price": null,
-        "looked_up_at": "25-11-2026-16:29",
-        "matcher_version": 11
-    },
-    "Empower 240W USB-C til USB-C Kabel 2M": {
-        "market_price": null,
-        "looked_up_at": "25-11-2026-16:29",
-        "matcher_version": 11
-    },
-    "iDeal of SwedenFashion Case Samsung Galaxy S20 Plus Carrara Gold": {
-        "market_price": 49,
-        "looked_up_at": "25-11-2026-16:29",
-        "matcher_version": 11
-    },
-    "Samsung Galaxy S26 Cover Sort": {
-        "market_price": 113,
-        "looked_up_at": "25-11-2026-16:29",
-        "matcher_version": 11
-    },
     "JBL Tune Buds 2 Hvid": {
         "market_price": 256,
-        "looked_up_at": "25-11-2026-16:29",
-        "matcher_version": 11
-    },
-    "eStuff Lightning Cable MFI 1,5 m. Steel": {
-        "market_price": 27,
-        "looked_up_at": "25-11-2026-16:29",
-        "matcher_version": 11
-    },
-    "Sony WH-1000XM5 Sort": {
-        "market_price": 1708,
         "looked_up_at": "25-11-2026-16:29",
         "matcher_version": 11
     },
@@ -1819,9 +1769,49 @@
         "looked_up_at": "25-11-2026-16:29",
         "matcher_version": 11
     },
-    "Empower 60W USB-C t Lightning Kabel 1.2M": {
-        "market_price": 89,
-        "looked_up_at": "25-11-2026-16:29",
+    "Apple iPhone 11 Pro Max Leather Case - Midnight Blue": {
+        "market_price": 48,
+        "looked_up_at": "26-11-2026-16:06",
+        "matcher_version": 11
+    },
+    "CARE Tango 2i1 Wallet iPhone 16": {
+        "market_price": 50,
+        "looked_up_at": "26-11-2026-16:06",
+        "matcher_version": 11
+    },
+    "Sandberg Airpods cleaning kit": {
+        "market_price": 166,
+        "looked_up_at": "26-11-2026-16:06",
+        "matcher_version": 11
+    },
+    "Panzerglass Apple iPhone 17": {
+        "market_price": null,
+        "looked_up_at": "26-11-2026-16:06",
+        "matcher_version": 11
+    },
+    "JBL Tune Flex 2 Sort": {
+        "market_price": 300,
+        "looked_up_at": "26-11-2026-16:06",
+        "matcher_version": 11
+    },
+    "Apple Watch SE (2024) GPS 44mm Midnight Aluminium Case med Midnight Sport Band i S/M": {
+        "market_price": 1999,
+        "looked_up_at": "26-11-2026-16:06",
+        "matcher_version": 11
+    },
+    "Panzerglass Apple iPhone 17 Pro Max Privacy": {
+        "market_price": 239,
+        "looked_up_at": "26-11-2026-16:06",
+        "matcher_version": 11
+    },
+    "Panzerglass Samsung Galaxy S25FE": {
+        "market_price": null,
+        "looked_up_at": "26-11-2026-16:06",
+        "matcher_version": 11
+    },
+    "Wavell 4 Plus": {
+        "market_price": 150,
+        "looked_up_at": "26-11-2026-16:06",
         "matcher_version": 11
     }
 }
